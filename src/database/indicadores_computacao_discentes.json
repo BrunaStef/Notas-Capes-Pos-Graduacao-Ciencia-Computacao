@@ -1,0 +1,6052 @@
+{
+  "metadata": {
+    "total_registros_computacao": 81654,
+    "anos_analisados": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "anos_disponiveis_esperados": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "conceitos": [
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "escopo": {
+      "areas": [
+        "CIÊNCIA DA COMPUTAÇÃO",
+        "COMPUTAÇÃO",
+        "ENGENHARIA DA COMPUTAÇÃO"
+      ],
+      "conceitos_filtro": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "periodo": [
+        2017,
+        2024
+      ]
+    }
+  },
+  "geral": {
+    "distribuicao_grau_academico": [
+      {
+        "CD_CONCEITO_PROGRAMA": 3,
+        "DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO",
+        "TOTAL_DISCENTES": 3,
+        "PERCENTUAL": 0.02
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 3,
+        "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+        "TOTAL_DISCENTES": 8755,
+        "PERCENTUAL": 68.38
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 3,
+        "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO PROFISSIONAL",
+        "TOTAL_DISCENTES": 4046,
+        "PERCENTUAL": 31.6
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 4,
+        "DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO",
+        "TOTAL_DISCENTES": 6995,
+        "PERCENTUAL": 28.11
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 4,
+        "DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO PROFISSIONAL",
+        "TOTAL_DISCENTES": 338,
+        "PERCENTUAL": 1.36
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 4,
+        "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+        "TOTAL_DISCENTES": 14755,
+        "PERCENTUAL": 59.29
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 4,
+        "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO PROFISSIONAL",
+        "TOTAL_DISCENTES": 2798,
+        "PERCENTUAL": 11.24
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 5,
+        "DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO",
+        "TOTAL_DISCENTES": 5992,
+        "PERCENTUAL": 45.25
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 5,
+        "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+        "TOTAL_DISCENTES": 7250,
+        "PERCENTUAL": 54.75
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 6,
+        "DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO",
+        "TOTAL_DISCENTES": 2925,
+        "PERCENTUAL": 40.36
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 6,
+        "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+        "TOTAL_DISCENTES": 4323,
+        "PERCENTUAL": 59.64
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 7,
+        "DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO",
+        "TOTAL_DISCENTES": 10867,
+        "PERCENTUAL": 46.29
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 7,
+        "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+        "TOTAL_DISCENTES": 12607,
+        "PERCENTUAL": 53.71
+      }
+    ],
+    "situacao_academica": [
+      {
+        "CD_CONCEITO_PROGRAMA": 3,
+        "NM_SITUACAO_DISCENTE": "ABANDONOU",
+        "TOTAL_DISCENTES": 327,
+        "PERCENTUAL": 2.55
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 3,
+        "NM_SITUACAO_DISCENTE": "DESLIGADO",
+        "TOTAL_DISCENTES": 999,
+        "PERCENTUAL": 7.8
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 3,
+        "NM_SITUACAO_DISCENTE": "MATRICULADO",
+        "TOTAL_DISCENTES": 8892,
+        "PERCENTUAL": 69.45
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 3,
+        "NM_SITUACAO_DISCENTE": "TITULADO",
+        "TOTAL_DISCENTES": 2586,
+        "PERCENTUAL": 20.2
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 4,
+        "NM_SITUACAO_DISCENTE": "ABANDONOU",
+        "TOTAL_DISCENTES": 533,
+        "PERCENTUAL": 2.14
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 4,
+        "NM_SITUACAO_DISCENTE": "DESLIGADO",
+        "TOTAL_DISCENTES": 1536,
+        "PERCENTUAL": 6.17
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 4,
+        "NM_SITUACAO_DISCENTE": "MATRICULADO",
+        "TOTAL_DISCENTES": 18676,
+        "PERCENTUAL": 75.05
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 4,
+        "NM_SITUACAO_DISCENTE": "MUDANCA DE NÍVEL SEM DEFESA",
+        "TOTAL_DISCENTES": 4,
+        "PERCENTUAL": 0.02
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 4,
+        "NM_SITUACAO_DISCENTE": "MUDANÇA DE NÍVEL SEM DEFESA",
+        "TOTAL_DISCENTES": 7,
+        "PERCENTUAL": 0.03
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 4,
+        "NM_SITUACAO_DISCENTE": "TITULADO",
+        "TOTAL_DISCENTES": 4130,
+        "PERCENTUAL": 16.6
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 5,
+        "NM_SITUACAO_DISCENTE": "ABANDONOU",
+        "TOTAL_DISCENTES": 299,
+        "PERCENTUAL": 2.26
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 5,
+        "NM_SITUACAO_DISCENTE": "DESLIGADO",
+        "TOTAL_DISCENTES": 748,
+        "PERCENTUAL": 5.65
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 5,
+        "NM_SITUACAO_DISCENTE": "MATRICULADO",
+        "TOTAL_DISCENTES": 10188,
+        "PERCENTUAL": 76.94
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 5,
+        "NM_SITUACAO_DISCENTE": "MUDANCA DE NÍVEL SEM DEFESA",
+        "TOTAL_DISCENTES": 2,
+        "PERCENTUAL": 0.02
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 5,
+        "NM_SITUACAO_DISCENTE": "MUDANÇA DE NÍVEL SEM DEFESA",
+        "TOTAL_DISCENTES": 3,
+        "PERCENTUAL": 0.02
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 5,
+        "NM_SITUACAO_DISCENTE": "TITULADO",
+        "TOTAL_DISCENTES": 2002,
+        "PERCENTUAL": 15.12
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 6,
+        "NM_SITUACAO_DISCENTE": "ABANDONOU",
+        "TOTAL_DISCENTES": 162,
+        "PERCENTUAL": 2.24
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 6,
+        "NM_SITUACAO_DISCENTE": "DESLIGADO",
+        "TOTAL_DISCENTES": 487,
+        "PERCENTUAL": 6.72
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 6,
+        "NM_SITUACAO_DISCENTE": "MATRICULADO",
+        "TOTAL_DISCENTES": 5533,
+        "PERCENTUAL": 76.34
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 6,
+        "NM_SITUACAO_DISCENTE": "MUDANÇA DE NÍVEL SEM DEFESA",
+        "TOTAL_DISCENTES": 2,
+        "PERCENTUAL": 0.03
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 6,
+        "NM_SITUACAO_DISCENTE": "TITULADO",
+        "TOTAL_DISCENTES": 1064,
+        "PERCENTUAL": 14.68
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 7,
+        "NM_SITUACAO_DISCENTE": "ABANDONOU",
+        "TOTAL_DISCENTES": 251,
+        "PERCENTUAL": 1.07
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 7,
+        "NM_SITUACAO_DISCENTE": "DESLIGADO",
+        "TOTAL_DISCENTES": 1131,
+        "PERCENTUAL": 4.82
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 7,
+        "NM_SITUACAO_DISCENTE": "MATRICULADO",
+        "TOTAL_DISCENTES": 18395,
+        "PERCENTUAL": 78.36
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 7,
+        "NM_SITUACAO_DISCENTE": "MUDANCA DE NÍVEL SEM DEFESA",
+        "TOTAL_DISCENTES": 10,
+        "PERCENTUAL": 0.04
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 7,
+        "NM_SITUACAO_DISCENTE": "MUDANÇA DE NÍVEL SEM DEFESA",
+        "TOTAL_DISCENTES": 18,
+        "PERCENTUAL": 0.08
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 7,
+        "NM_SITUACAO_DISCENTE": "TITULADO",
+        "TOTAL_DISCENTES": 3669,
+        "PERCENTUAL": 15.63
+      }
+    ],
+    "internacionalizacao_nacionalidade": [
+      {
+        "CD_CONCEITO_PROGRAMA": 3,
+        "DS_TIPO_NACIONALIDADE_DISCENTE": "BRASILEIRO",
+        "TOTAL_DISCENTES": 12756,
+        "PERCENTUAL": 99.63
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 3,
+        "DS_TIPO_NACIONALIDADE_DISCENTE": "ESTRANGEIRO",
+        "TOTAL_DISCENTES": 48,
+        "PERCENTUAL": 0.37
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 4,
+        "DS_TIPO_NACIONALIDADE_DISCENTE": "BRASILEIRO",
+        "TOTAL_DISCENTES": 24696,
+        "PERCENTUAL": 99.24
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 4,
+        "DS_TIPO_NACIONALIDADE_DISCENTE": "ESTRANGEIRO",
+        "TOTAL_DISCENTES": 190,
+        "PERCENTUAL": 0.76
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 5,
+        "DS_TIPO_NACIONALIDADE_DISCENTE": "BRASILEIRO",
+        "TOTAL_DISCENTES": 13106,
+        "PERCENTUAL": 98.97
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 5,
+        "DS_TIPO_NACIONALIDADE_DISCENTE": "ESTRANGEIRO",
+        "TOTAL_DISCENTES": 136,
+        "PERCENTUAL": 1.03
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 6,
+        "DS_TIPO_NACIONALIDADE_DISCENTE": "BRASILEIRO",
+        "TOTAL_DISCENTES": 7095,
+        "PERCENTUAL": 97.89
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 6,
+        "DS_TIPO_NACIONALIDADE_DISCENTE": "ESTRANGEIRO",
+        "TOTAL_DISCENTES": 153,
+        "PERCENTUAL": 2.11
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 7,
+        "DS_TIPO_NACIONALIDADE_DISCENTE": "BRASILEIRO",
+        "TOTAL_DISCENTES": 22645,
+        "PERCENTUAL": 96.47
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 7,
+        "DS_TIPO_NACIONALIDADE_DISCENTE": "ESTRANGEIRO",
+        "TOTAL_DISCENTES": 829,
+        "PERCENTUAL": 3.53
+      }
+    ],
+    "tempo_medio_titulacao": [
+      {
+        "CD_CONCEITO_PROGRAMA": 3,
+        "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+        "MEDIA_MESES_TITULACAO": 29.3
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 3,
+        "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO PROFISSIONAL",
+        "MEDIA_MESES_TITULACAO": 29.1
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 4,
+        "DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO",
+        "MEDIA_MESES_TITULACAO": 55.7
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 4,
+        "DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO PROFISSIONAL",
+        "MEDIA_MESES_TITULACAO": 45.2
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 4,
+        "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+        "MEDIA_MESES_TITULACAO": 30.6
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 4,
+        "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO PROFISSIONAL",
+        "MEDIA_MESES_TITULACAO": 29.7
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 5,
+        "DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO",
+        "MEDIA_MESES_TITULACAO": 57.7
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 5,
+        "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+        "MEDIA_MESES_TITULACAO": 31.2
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 6,
+        "DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO",
+        "MEDIA_MESES_TITULACAO": 60.0
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 6,
+        "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+        "MEDIA_MESES_TITULACAO": 34.7
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 7,
+        "DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO",
+        "MEDIA_MESES_TITULACAO": 59.9
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 7,
+        "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+        "MEDIA_MESES_TITULACAO": 31.2
+      }
+    ],
+    "tamanho_medio_programa": [
+      {
+        "CD_CONCEITO_PROGRAMA": 3,
+        "MEDIA_DISCENTES_POR_PROGRAMA": 56.2
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 4,
+        "MEDIA_DISCENTES_POR_PROGRAMA": 100.8
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 5,
+        "MEDIA_DISCENTES_POR_PROGRAMA": 165.5
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 6,
+        "MEDIA_DISCENTES_POR_PROGRAMA": 258.9
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 7,
+        "MEDIA_DISCENTES_POR_PROGRAMA": 391.2
+      }
+    ],
+    "faixa_etaria": [
+      {
+        "CD_CONCEITO_PROGRAMA": 3,
+        "DS_FAIXA_ETARIA": "20 A 24 ANOS",
+        "TOTAL_DISCENTES": 1392,
+        "PERCENTUAL": 10.87
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 3,
+        "DS_FAIXA_ETARIA": "25 A 29 ANOS",
+        "TOTAL_DISCENTES": 4303,
+        "PERCENTUAL": 33.61
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 3,
+        "DS_FAIXA_ETARIA": "30 A 34 ANOS",
+        "TOTAL_DISCENTES": 2786,
+        "PERCENTUAL": 21.76
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 3,
+        "DS_FAIXA_ETARIA": "35 A 39 ANOS",
+        "TOTAL_DISCENTES": 2047,
+        "PERCENTUAL": 15.99
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 3,
+        "DS_FAIXA_ETARIA": "40 A 44 ANOS",
+        "TOTAL_DISCENTES": 1221,
+        "PERCENTUAL": 9.54
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 3,
+        "DS_FAIXA_ETARIA": "45 A 49 ANOS",
+        "TOTAL_DISCENTES": 622,
+        "PERCENTUAL": 4.86
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 3,
+        "DS_FAIXA_ETARIA": "50 A 54 ANOS",
+        "TOTAL_DISCENTES": 272,
+        "PERCENTUAL": 2.12
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 3,
+        "DS_FAIXA_ETARIA": "55 A 59 ANOS",
+        "TOTAL_DISCENTES": 116,
+        "PERCENTUAL": 0.91
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 3,
+        "DS_FAIXA_ETARIA": "60 A 64 ANOS",
+        "TOTAL_DISCENTES": 34,
+        "PERCENTUAL": 0.27
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 3,
+        "DS_FAIXA_ETARIA": "65 A 69 ANOS",
+        "TOTAL_DISCENTES": 8,
+        "PERCENTUAL": 0.06
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 3,
+        "DS_FAIXA_ETARIA": "70 OU MAIS",
+        "TOTAL_DISCENTES": 3,
+        "PERCENTUAL": 0.02
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 4,
+        "DS_FAIXA_ETARIA": "20 A 24 ANOS",
+        "TOTAL_DISCENTES": 2386,
+        "PERCENTUAL": 9.59
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 4,
+        "DS_FAIXA_ETARIA": "25 A 29 ANOS",
+        "TOTAL_DISCENTES": 8006,
+        "PERCENTUAL": 32.17
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 4,
+        "DS_FAIXA_ETARIA": "30 A 34 ANOS",
+        "TOTAL_DISCENTES": 5576,
+        "PERCENTUAL": 22.41
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 4,
+        "DS_FAIXA_ETARIA": "35 A 39 ANOS",
+        "TOTAL_DISCENTES": 3921,
+        "PERCENTUAL": 15.76
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 4,
+        "DS_FAIXA_ETARIA": "40 A 44 ANOS",
+        "TOTAL_DISCENTES": 2491,
+        "PERCENTUAL": 10.01
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 4,
+        "DS_FAIXA_ETARIA": "45 A 49 ANOS",
+        "TOTAL_DISCENTES": 1365,
+        "PERCENTUAL": 5.49
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 4,
+        "DS_FAIXA_ETARIA": "50 A 54 ANOS",
+        "TOTAL_DISCENTES": 699,
+        "PERCENTUAL": 2.81
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 4,
+        "DS_FAIXA_ETARIA": "55 A 59 ANOS",
+        "TOTAL_DISCENTES": 297,
+        "PERCENTUAL": 1.19
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 4,
+        "DS_FAIXA_ETARIA": "60 A 64 ANOS",
+        "TOTAL_DISCENTES": 111,
+        "PERCENTUAL": 0.45
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 4,
+        "DS_FAIXA_ETARIA": "65 A 69 ANOS",
+        "TOTAL_DISCENTES": 27,
+        "PERCENTUAL": 0.11
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 4,
+        "DS_FAIXA_ETARIA": "70 OU MAIS",
+        "TOTAL_DISCENTES": 7,
+        "PERCENTUAL": 0.03
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 5,
+        "DS_FAIXA_ETARIA": "20 A 24 ANOS",
+        "TOTAL_DISCENTES": 1348,
+        "PERCENTUAL": 10.18
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 5,
+        "DS_FAIXA_ETARIA": "25 A 29 ANOS",
+        "TOTAL_DISCENTES": 4336,
+        "PERCENTUAL": 32.74
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 5,
+        "DS_FAIXA_ETARIA": "30 A 34 ANOS",
+        "TOTAL_DISCENTES": 3039,
+        "PERCENTUAL": 22.95
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 5,
+        "DS_FAIXA_ETARIA": "35 A 39 ANOS",
+        "TOTAL_DISCENTES": 2035,
+        "PERCENTUAL": 15.37
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 5,
+        "DS_FAIXA_ETARIA": "40 A 44 ANOS",
+        "TOTAL_DISCENTES": 1313,
+        "PERCENTUAL": 9.92
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 5,
+        "DS_FAIXA_ETARIA": "45 A 49 ANOS",
+        "TOTAL_DISCENTES": 700,
+        "PERCENTUAL": 5.29
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 5,
+        "DS_FAIXA_ETARIA": "50 A 54 ANOS",
+        "TOTAL_DISCENTES": 285,
+        "PERCENTUAL": 2.15
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 5,
+        "DS_FAIXA_ETARIA": "55 A 59 ANOS",
+        "TOTAL_DISCENTES": 121,
+        "PERCENTUAL": 0.91
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 5,
+        "DS_FAIXA_ETARIA": "60 A 64 ANOS",
+        "TOTAL_DISCENTES": 47,
+        "PERCENTUAL": 0.35
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 5,
+        "DS_FAIXA_ETARIA": "65 A 69 ANOS",
+        "TOTAL_DISCENTES": 15,
+        "PERCENTUAL": 0.11
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 5,
+        "DS_FAIXA_ETARIA": "70 OU MAIS",
+        "TOTAL_DISCENTES": 3,
+        "PERCENTUAL": 0.02
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 6,
+        "DS_FAIXA_ETARIA": "19 OU MENOS",
+        "TOTAL_DISCENTES": 1,
+        "PERCENTUAL": 0.01
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 6,
+        "DS_FAIXA_ETARIA": "20 A 24 ANOS",
+        "TOTAL_DISCENTES": 665,
+        "PERCENTUAL": 9.17
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 6,
+        "DS_FAIXA_ETARIA": "25 A 29 ANOS",
+        "TOTAL_DISCENTES": 2612,
+        "PERCENTUAL": 36.04
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 6,
+        "DS_FAIXA_ETARIA": "30 A 34 ANOS",
+        "TOTAL_DISCENTES": 1811,
+        "PERCENTUAL": 24.99
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 6,
+        "DS_FAIXA_ETARIA": "35 A 39 ANOS",
+        "TOTAL_DISCENTES": 1026,
+        "PERCENTUAL": 14.16
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 6,
+        "DS_FAIXA_ETARIA": "40 A 44 ANOS",
+        "TOTAL_DISCENTES": 581,
+        "PERCENTUAL": 8.02
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 6,
+        "DS_FAIXA_ETARIA": "45 A 49 ANOS",
+        "TOTAL_DISCENTES": 282,
+        "PERCENTUAL": 3.89
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 6,
+        "DS_FAIXA_ETARIA": "50 A 54 ANOS",
+        "TOTAL_DISCENTES": 157,
+        "PERCENTUAL": 2.17
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 6,
+        "DS_FAIXA_ETARIA": "55 A 59 ANOS",
+        "TOTAL_DISCENTES": 76,
+        "PERCENTUAL": 1.05
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 6,
+        "DS_FAIXA_ETARIA": "60 A 64 ANOS",
+        "TOTAL_DISCENTES": 32,
+        "PERCENTUAL": 0.44
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 6,
+        "DS_FAIXA_ETARIA": "65 A 69 ANOS",
+        "TOTAL_DISCENTES": 4,
+        "PERCENTUAL": 0.06
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 6,
+        "DS_FAIXA_ETARIA": "70 OU MAIS",
+        "TOTAL_DISCENTES": 1,
+        "PERCENTUAL": 0.01
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 7,
+        "DS_FAIXA_ETARIA": "19 OU MENOS",
+        "TOTAL_DISCENTES": 1,
+        "PERCENTUAL": 0.0
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 7,
+        "DS_FAIXA_ETARIA": "20 A 24 ANOS",
+        "TOTAL_DISCENTES": 2680,
+        "PERCENTUAL": 11.42
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 7,
+        "DS_FAIXA_ETARIA": "25 A 29 ANOS",
+        "TOTAL_DISCENTES": 9683,
+        "PERCENTUAL": 41.25
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 7,
+        "DS_FAIXA_ETARIA": "30 A 34 ANOS",
+        "TOTAL_DISCENTES": 5790,
+        "PERCENTUAL": 24.67
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 7,
+        "DS_FAIXA_ETARIA": "35 A 39 ANOS",
+        "TOTAL_DISCENTES": 2868,
+        "PERCENTUAL": 12.22
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 7,
+        "DS_FAIXA_ETARIA": "40 A 44 ANOS",
+        "TOTAL_DISCENTES": 1367,
+        "PERCENTUAL": 5.82
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 7,
+        "DS_FAIXA_ETARIA": "45 A 49 ANOS",
+        "TOTAL_DISCENTES": 613,
+        "PERCENTUAL": 2.61
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 7,
+        "DS_FAIXA_ETARIA": "50 A 54 ANOS",
+        "TOTAL_DISCENTES": 267,
+        "PERCENTUAL": 1.14
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 7,
+        "DS_FAIXA_ETARIA": "55 A 59 ANOS",
+        "TOTAL_DISCENTES": 145,
+        "PERCENTUAL": 0.62
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 7,
+        "DS_FAIXA_ETARIA": "60 A 64 ANOS",
+        "TOTAL_DISCENTES": 43,
+        "PERCENTUAL": 0.18
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 7,
+        "DS_FAIXA_ETARIA": "65 A 69 ANOS",
+        "TOTAL_DISCENTES": 11,
+        "PERCENTUAL": 0.05
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 7,
+        "DS_FAIXA_ETARIA": "70 OU MAIS",
+        "TOTAL_DISCENTES": 6,
+        "PERCENTUAL": 0.03
+      }
+    ]
+  },
+  "por_ano": {
+    "2017": {
+      "distribuicao_grau_academico": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+          "TOTAL_DISCENTES": 1220,
+          "PERCENTUAL": 73.41
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO PROFISSIONAL",
+          "TOTAL_DISCENTES": 442,
+          "PERCENTUAL": 26.59
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO",
+          "TOTAL_DISCENTES": 739,
+          "PERCENTUAL": 24.71
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+          "TOTAL_DISCENTES": 2016,
+          "PERCENTUAL": 67.4
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO PROFISSIONAL",
+          "TOTAL_DISCENTES": 236,
+          "PERCENTUAL": 7.89
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO",
+          "TOTAL_DISCENTES": 525,
+          "PERCENTUAL": 44.68
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+          "TOTAL_DISCENTES": 650,
+          "PERCENTUAL": 55.32
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO",
+          "TOTAL_DISCENTES": 313,
+          "PERCENTUAL": 41.84
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+          "TOTAL_DISCENTES": 435,
+          "PERCENTUAL": 58.16
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO",
+          "TOTAL_DISCENTES": 1457,
+          "PERCENTUAL": 50.98
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+          "TOTAL_DISCENTES": 1401,
+          "PERCENTUAL": 49.02
+        }
+      ],
+      "situacao_academica": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "NM_SITUACAO_DISCENTE": "ABANDONOU",
+          "TOTAL_DISCENTES": 38,
+          "PERCENTUAL": 2.29
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "NM_SITUACAO_DISCENTE": "DESLIGADO",
+          "TOTAL_DISCENTES": 111,
+          "PERCENTUAL": 6.68
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "NM_SITUACAO_DISCENTE": "MATRICULADO",
+          "TOTAL_DISCENTES": 1132,
+          "PERCENTUAL": 68.11
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "NM_SITUACAO_DISCENTE": "TITULADO",
+          "TOTAL_DISCENTES": 381,
+          "PERCENTUAL": 22.92
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "NM_SITUACAO_DISCENTE": "ABANDONOU",
+          "TOTAL_DISCENTES": 57,
+          "PERCENTUAL": 1.91
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "NM_SITUACAO_DISCENTE": "DESLIGADO",
+          "TOTAL_DISCENTES": 182,
+          "PERCENTUAL": 6.08
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "NM_SITUACAO_DISCENTE": "MATRICULADO",
+          "TOTAL_DISCENTES": 2118,
+          "PERCENTUAL": 70.81
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "NM_SITUACAO_DISCENTE": "MUDANCA DE NÍVEL SEM DEFESA",
+          "TOTAL_DISCENTES": 1,
+          "PERCENTUAL": 0.03
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "NM_SITUACAO_DISCENTE": "TITULADO",
+          "TOTAL_DISCENTES": 633,
+          "PERCENTUAL": 21.16
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "NM_SITUACAO_DISCENTE": "ABANDONOU",
+          "TOTAL_DISCENTES": 31,
+          "PERCENTUAL": 2.64
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "NM_SITUACAO_DISCENTE": "DESLIGADO",
+          "TOTAL_DISCENTES": 46,
+          "PERCENTUAL": 3.91
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "NM_SITUACAO_DISCENTE": "MATRICULADO",
+          "TOTAL_DISCENTES": 894,
+          "PERCENTUAL": 76.09
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "NM_SITUACAO_DISCENTE": "TITULADO",
+          "TOTAL_DISCENTES": 204,
+          "PERCENTUAL": 17.36
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "NM_SITUACAO_DISCENTE": "ABANDONOU",
+          "TOTAL_DISCENTES": 14,
+          "PERCENTUAL": 1.87
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "NM_SITUACAO_DISCENTE": "DESLIGADO",
+          "TOTAL_DISCENTES": 42,
+          "PERCENTUAL": 5.61
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "NM_SITUACAO_DISCENTE": "MATRICULADO",
+          "TOTAL_DISCENTES": 543,
+          "PERCENTUAL": 72.59
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "NM_SITUACAO_DISCENTE": "TITULADO",
+          "TOTAL_DISCENTES": 149,
+          "PERCENTUAL": 19.92
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "NM_SITUACAO_DISCENTE": "ABANDONOU",
+          "TOTAL_DISCENTES": 28,
+          "PERCENTUAL": 0.98
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "NM_SITUACAO_DISCENTE": "DESLIGADO",
+          "TOTAL_DISCENTES": 142,
+          "PERCENTUAL": 4.97
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "NM_SITUACAO_DISCENTE": "MATRICULADO",
+          "TOTAL_DISCENTES": 2154,
+          "PERCENTUAL": 75.37
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "NM_SITUACAO_DISCENTE": "MUDANCA DE NÍVEL SEM DEFESA",
+          "TOTAL_DISCENTES": 6,
+          "PERCENTUAL": 0.21
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "NM_SITUACAO_DISCENTE": "TITULADO",
+          "TOTAL_DISCENTES": 528,
+          "PERCENTUAL": 18.47
+        }
+      ],
+      "internacionalizacao_nacionalidade": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_TIPO_NACIONALIDADE_DISCENTE": "BRASILEIRO",
+          "TOTAL_DISCENTES": 1659,
+          "PERCENTUAL": 99.82
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_TIPO_NACIONALIDADE_DISCENTE": "ESTRANGEIRO",
+          "TOTAL_DISCENTES": 3,
+          "PERCENTUAL": 0.18
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_TIPO_NACIONALIDADE_DISCENTE": "BRASILEIRO",
+          "TOTAL_DISCENTES": 2968,
+          "PERCENTUAL": 99.23
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_TIPO_NACIONALIDADE_DISCENTE": "ESTRANGEIRO",
+          "TOTAL_DISCENTES": 23,
+          "PERCENTUAL": 0.77
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_TIPO_NACIONALIDADE_DISCENTE": "BRASILEIRO",
+          "TOTAL_DISCENTES": 1167,
+          "PERCENTUAL": 99.32
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_TIPO_NACIONALIDADE_DISCENTE": "ESTRANGEIRO",
+          "TOTAL_DISCENTES": 8,
+          "PERCENTUAL": 0.68
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_TIPO_NACIONALIDADE_DISCENTE": "BRASILEIRO",
+          "TOTAL_DISCENTES": 737,
+          "PERCENTUAL": 98.53
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_TIPO_NACIONALIDADE_DISCENTE": "ESTRANGEIRO",
+          "TOTAL_DISCENTES": 11,
+          "PERCENTUAL": 1.47
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_TIPO_NACIONALIDADE_DISCENTE": "BRASILEIRO",
+          "TOTAL_DISCENTES": 2730,
+          "PERCENTUAL": 95.52
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_TIPO_NACIONALIDADE_DISCENTE": "ESTRANGEIRO",
+          "TOTAL_DISCENTES": 128,
+          "PERCENTUAL": 4.48
+        }
+      ],
+      "tempo_medio_titulacao": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+          "MEDIA_MESES_TITULACAO": 28.6
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO PROFISSIONAL",
+          "MEDIA_MESES_TITULACAO": 27.8
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO",
+          "MEDIA_MESES_TITULACAO": 54.8
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+          "MEDIA_MESES_TITULACAO": 29.7
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO PROFISSIONAL",
+          "MEDIA_MESES_TITULACAO": 31.5
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO",
+          "MEDIA_MESES_TITULACAO": 54.1
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+          "MEDIA_MESES_TITULACAO": 28.2
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO",
+          "MEDIA_MESES_TITULACAO": 59.0
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+          "MEDIA_MESES_TITULACAO": 31.8
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO",
+          "MEDIA_MESES_TITULACAO": 58.5
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+          "MEDIA_MESES_TITULACAO": 30.3
+        }
+      ],
+      "tamanho_medio_programa": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "MEDIA_DISCENTES_POR_PROGRAMA": 51.9
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "MEDIA_DISCENTES_POR_PROGRAMA": 106.8
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "MEDIA_DISCENTES_POR_PROGRAMA": 167.9
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "MEDIA_DISCENTES_POR_PROGRAMA": 249.3
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "MEDIA_DISCENTES_POR_PROGRAMA": 408.3
+        }
+      ],
+      "faixa_etaria": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_FAIXA_ETARIA": "20 A 24 ANOS",
+          "TOTAL_DISCENTES": 239,
+          "PERCENTUAL": 14.38
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_FAIXA_ETARIA": "25 A 29 ANOS",
+          "TOTAL_DISCENTES": 610,
+          "PERCENTUAL": 36.7
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_FAIXA_ETARIA": "30 A 34 ANOS",
+          "TOTAL_DISCENTES": 353,
+          "PERCENTUAL": 21.24
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_FAIXA_ETARIA": "35 A 39 ANOS",
+          "TOTAL_DISCENTES": 239,
+          "PERCENTUAL": 14.38
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_FAIXA_ETARIA": "40 A 44 ANOS",
+          "TOTAL_DISCENTES": 106,
+          "PERCENTUAL": 6.38
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_FAIXA_ETARIA": "45 A 49 ANOS",
+          "TOTAL_DISCENTES": 67,
+          "PERCENTUAL": 4.03
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_FAIXA_ETARIA": "50 A 54 ANOS",
+          "TOTAL_DISCENTES": 31,
+          "PERCENTUAL": 1.87
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_FAIXA_ETARIA": "55 A 59 ANOS",
+          "TOTAL_DISCENTES": 12,
+          "PERCENTUAL": 0.72
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_FAIXA_ETARIA": "60 A 64 ANOS",
+          "TOTAL_DISCENTES": 5,
+          "PERCENTUAL": 0.3
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_FAIXA_ETARIA": "20 A 24 ANOS",
+          "TOTAL_DISCENTES": 332,
+          "PERCENTUAL": 11.1
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_FAIXA_ETARIA": "25 A 29 ANOS",
+          "TOTAL_DISCENTES": 1153,
+          "PERCENTUAL": 38.55
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_FAIXA_ETARIA": "30 A 34 ANOS",
+          "TOTAL_DISCENTES": 709,
+          "PERCENTUAL": 23.7
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_FAIXA_ETARIA": "35 A 39 ANOS",
+          "TOTAL_DISCENTES": 405,
+          "PERCENTUAL": 13.54
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_FAIXA_ETARIA": "40 A 44 ANOS",
+          "TOTAL_DISCENTES": 199,
+          "PERCENTUAL": 6.65
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_FAIXA_ETARIA": "45 A 49 ANOS",
+          "TOTAL_DISCENTES": 111,
+          "PERCENTUAL": 3.71
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_FAIXA_ETARIA": "50 A 54 ANOS",
+          "TOTAL_DISCENTES": 49,
+          "PERCENTUAL": 1.64
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_FAIXA_ETARIA": "55 A 59 ANOS",
+          "TOTAL_DISCENTES": 26,
+          "PERCENTUAL": 0.87
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_FAIXA_ETARIA": "60 A 64 ANOS",
+          "TOTAL_DISCENTES": 6,
+          "PERCENTUAL": 0.2
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_FAIXA_ETARIA": "65 A 69 ANOS",
+          "TOTAL_DISCENTES": 1,
+          "PERCENTUAL": 0.03
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_FAIXA_ETARIA": "20 A 24 ANOS",
+          "TOTAL_DISCENTES": 151,
+          "PERCENTUAL": 12.85
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_FAIXA_ETARIA": "25 A 29 ANOS",
+          "TOTAL_DISCENTES": 455,
+          "PERCENTUAL": 38.72
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_FAIXA_ETARIA": "30 A 34 ANOS",
+          "TOTAL_DISCENTES": 264,
+          "PERCENTUAL": 22.47
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_FAIXA_ETARIA": "35 A 39 ANOS",
+          "TOTAL_DISCENTES": 156,
+          "PERCENTUAL": 13.28
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_FAIXA_ETARIA": "40 A 44 ANOS",
+          "TOTAL_DISCENTES": 84,
+          "PERCENTUAL": 7.15
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_FAIXA_ETARIA": "45 A 49 ANOS",
+          "TOTAL_DISCENTES": 43,
+          "PERCENTUAL": 3.66
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_FAIXA_ETARIA": "50 A 54 ANOS",
+          "TOTAL_DISCENTES": 13,
+          "PERCENTUAL": 1.11
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_FAIXA_ETARIA": "55 A 59 ANOS",
+          "TOTAL_DISCENTES": 8,
+          "PERCENTUAL": 0.68
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_FAIXA_ETARIA": "60 A 64 ANOS",
+          "TOTAL_DISCENTES": 1,
+          "PERCENTUAL": 0.09
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_FAIXA_ETARIA": "20 A 24 ANOS",
+          "TOTAL_DISCENTES": 81,
+          "PERCENTUAL": 10.83
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_FAIXA_ETARIA": "25 A 29 ANOS",
+          "TOTAL_DISCENTES": 294,
+          "PERCENTUAL": 39.3
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_FAIXA_ETARIA": "30 A 34 ANOS",
+          "TOTAL_DISCENTES": 197,
+          "PERCENTUAL": 26.34
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_FAIXA_ETARIA": "35 A 39 ANOS",
+          "TOTAL_DISCENTES": 103,
+          "PERCENTUAL": 13.77
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_FAIXA_ETARIA": "40 A 44 ANOS",
+          "TOTAL_DISCENTES": 43,
+          "PERCENTUAL": 5.75
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_FAIXA_ETARIA": "45 A 49 ANOS",
+          "TOTAL_DISCENTES": 20,
+          "PERCENTUAL": 2.67
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_FAIXA_ETARIA": "50 A 54 ANOS",
+          "TOTAL_DISCENTES": 7,
+          "PERCENTUAL": 0.94
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_FAIXA_ETARIA": "55 A 59 ANOS",
+          "TOTAL_DISCENTES": 3,
+          "PERCENTUAL": 0.4
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_FAIXA_ETARIA": "20 A 24 ANOS",
+          "TOTAL_DISCENTES": 336,
+          "PERCENTUAL": 11.76
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_FAIXA_ETARIA": "25 A 29 ANOS",
+          "TOTAL_DISCENTES": 1277,
+          "PERCENTUAL": 44.68
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_FAIXA_ETARIA": "30 A 34 ANOS",
+          "TOTAL_DISCENTES": 720,
+          "PERCENTUAL": 25.19
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_FAIXA_ETARIA": "35 A 39 ANOS",
+          "TOTAL_DISCENTES": 296,
+          "PERCENTUAL": 10.36
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_FAIXA_ETARIA": "40 A 44 ANOS",
+          "TOTAL_DISCENTES": 129,
+          "PERCENTUAL": 4.51
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_FAIXA_ETARIA": "45 A 49 ANOS",
+          "TOTAL_DISCENTES": 52,
+          "PERCENTUAL": 1.82
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_FAIXA_ETARIA": "50 A 54 ANOS",
+          "TOTAL_DISCENTES": 24,
+          "PERCENTUAL": 0.84
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_FAIXA_ETARIA": "55 A 59 ANOS",
+          "TOTAL_DISCENTES": 19,
+          "PERCENTUAL": 0.66
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_FAIXA_ETARIA": "60 A 64 ANOS",
+          "TOTAL_DISCENTES": 3,
+          "PERCENTUAL": 0.1
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_FAIXA_ETARIA": "65 A 69 ANOS",
+          "TOTAL_DISCENTES": 1,
+          "PERCENTUAL": 0.03
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_FAIXA_ETARIA": "70 OU MAIS",
+          "TOTAL_DISCENTES": 1,
+          "PERCENTUAL": 0.03
+        }
+      ]
+    },
+    "2018": {
+      "distribuicao_grau_academico": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+          "TOTAL_DISCENTES": 1312,
+          "PERCENTUAL": 74.84
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO PROFISSIONAL",
+          "TOTAL_DISCENTES": 441,
+          "PERCENTUAL": 25.16
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO",
+          "TOTAL_DISCENTES": 824,
+          "PERCENTUAL": 27.25
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+          "TOTAL_DISCENTES": 2021,
+          "PERCENTUAL": 66.83
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO PROFISSIONAL",
+          "TOTAL_DISCENTES": 179,
+          "PERCENTUAL": 5.92
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO",
+          "TOTAL_DISCENTES": 542,
+          "PERCENTUAL": 45.17
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+          "TOTAL_DISCENTES": 658,
+          "PERCENTUAL": 54.83
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO",
+          "TOTAL_DISCENTES": 291,
+          "PERCENTUAL": 39.81
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+          "TOTAL_DISCENTES": 440,
+          "PERCENTUAL": 60.19
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO",
+          "TOTAL_DISCENTES": 1386,
+          "PERCENTUAL": 48.77
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+          "TOTAL_DISCENTES": 1456,
+          "PERCENTUAL": 51.23
+        }
+      ],
+      "situacao_academica": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "NM_SITUACAO_DISCENTE": "ABANDONOU",
+          "TOTAL_DISCENTES": 36,
+          "PERCENTUAL": 2.05
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "NM_SITUACAO_DISCENTE": "DESLIGADO",
+          "TOTAL_DISCENTES": 112,
+          "PERCENTUAL": 6.39
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "NM_SITUACAO_DISCENTE": "MATRICULADO",
+          "TOTAL_DISCENTES": 1182,
+          "PERCENTUAL": 67.43
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "NM_SITUACAO_DISCENTE": "TITULADO",
+          "TOTAL_DISCENTES": 423,
+          "PERCENTUAL": 24.13
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "NM_SITUACAO_DISCENTE": "ABANDONOU",
+          "TOTAL_DISCENTES": 61,
+          "PERCENTUAL": 2.02
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "NM_SITUACAO_DISCENTE": "DESLIGADO",
+          "TOTAL_DISCENTES": 213,
+          "PERCENTUAL": 7.04
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "NM_SITUACAO_DISCENTE": "MATRICULADO",
+          "TOTAL_DISCENTES": 2205,
+          "PERCENTUAL": 72.92
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "NM_SITUACAO_DISCENTE": "TITULADO",
+          "TOTAL_DISCENTES": 545,
+          "PERCENTUAL": 18.02
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "NM_SITUACAO_DISCENTE": "ABANDONOU",
+          "TOTAL_DISCENTES": 21,
+          "PERCENTUAL": 1.75
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "NM_SITUACAO_DISCENTE": "DESLIGADO",
+          "TOTAL_DISCENTES": 64,
+          "PERCENTUAL": 5.33
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "NM_SITUACAO_DISCENTE": "MATRICULADO",
+          "TOTAL_DISCENTES": 911,
+          "PERCENTUAL": 75.92
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "NM_SITUACAO_DISCENTE": "TITULADO",
+          "TOTAL_DISCENTES": 204,
+          "PERCENTUAL": 17.0
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "NM_SITUACAO_DISCENTE": "ABANDONOU",
+          "TOTAL_DISCENTES": 10,
+          "PERCENTUAL": 1.37
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "NM_SITUACAO_DISCENTE": "DESLIGADO",
+          "TOTAL_DISCENTES": 66,
+          "PERCENTUAL": 9.03
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "NM_SITUACAO_DISCENTE": "MATRICULADO",
+          "TOTAL_DISCENTES": 523,
+          "PERCENTUAL": 71.55
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "NM_SITUACAO_DISCENTE": "TITULADO",
+          "TOTAL_DISCENTES": 132,
+          "PERCENTUAL": 18.06
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "NM_SITUACAO_DISCENTE": "ABANDONOU",
+          "TOTAL_DISCENTES": 30,
+          "PERCENTUAL": 1.06
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "NM_SITUACAO_DISCENTE": "DESLIGADO",
+          "TOTAL_DISCENTES": 163,
+          "PERCENTUAL": 5.74
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "NM_SITUACAO_DISCENTE": "MATRICULADO",
+          "TOTAL_DISCENTES": 2175,
+          "PERCENTUAL": 76.53
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "NM_SITUACAO_DISCENTE": "MUDANCA DE NÍVEL SEM DEFESA",
+          "TOTAL_DISCENTES": 3,
+          "PERCENTUAL": 0.11
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "NM_SITUACAO_DISCENTE": "TITULADO",
+          "TOTAL_DISCENTES": 471,
+          "PERCENTUAL": 16.57
+        }
+      ],
+      "internacionalizacao_nacionalidade": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_TIPO_NACIONALIDADE_DISCENTE": "BRASILEIRO",
+          "TOTAL_DISCENTES": 1746,
+          "PERCENTUAL": 99.6
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_TIPO_NACIONALIDADE_DISCENTE": "ESTRANGEIRO",
+          "TOTAL_DISCENTES": 7,
+          "PERCENTUAL": 0.4
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_TIPO_NACIONALIDADE_DISCENTE": "BRASILEIRO",
+          "TOTAL_DISCENTES": 3004,
+          "PERCENTUAL": 99.34
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_TIPO_NACIONALIDADE_DISCENTE": "ESTRANGEIRO",
+          "TOTAL_DISCENTES": 20,
+          "PERCENTUAL": 0.66
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_TIPO_NACIONALIDADE_DISCENTE": "BRASILEIRO",
+          "TOTAL_DISCENTES": 1193,
+          "PERCENTUAL": 99.42
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_TIPO_NACIONALIDADE_DISCENTE": "ESTRANGEIRO",
+          "TOTAL_DISCENTES": 7,
+          "PERCENTUAL": 0.58
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_TIPO_NACIONALIDADE_DISCENTE": "BRASILEIRO",
+          "TOTAL_DISCENTES": 719,
+          "PERCENTUAL": 98.36
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_TIPO_NACIONALIDADE_DISCENTE": "ESTRANGEIRO",
+          "TOTAL_DISCENTES": 12,
+          "PERCENTUAL": 1.64
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_TIPO_NACIONALIDADE_DISCENTE": "BRASILEIRO",
+          "TOTAL_DISCENTES": 2722,
+          "PERCENTUAL": 95.78
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_TIPO_NACIONALIDADE_DISCENTE": "ESTRANGEIRO",
+          "TOTAL_DISCENTES": 120,
+          "PERCENTUAL": 4.22
+        }
+      ],
+      "tempo_medio_titulacao": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+          "MEDIA_MESES_TITULACAO": 27.6
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO PROFISSIONAL",
+          "MEDIA_MESES_TITULACAO": 27.8
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO",
+          "MEDIA_MESES_TITULACAO": 56.3
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+          "MEDIA_MESES_TITULACAO": 29.9
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO PROFISSIONAL",
+          "MEDIA_MESES_TITULACAO": 29.1
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO",
+          "MEDIA_MESES_TITULACAO": 56.6
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+          "MEDIA_MESES_TITULACAO": 28.9
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO",
+          "MEDIA_MESES_TITULACAO": 59.6
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+          "MEDIA_MESES_TITULACAO": 30.9
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO",
+          "MEDIA_MESES_TITULACAO": 57.9
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+          "MEDIA_MESES_TITULACAO": 29.6
+        }
+      ],
+      "tamanho_medio_programa": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "MEDIA_DISCENTES_POR_PROGRAMA": 56.5
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "MEDIA_DISCENTES_POR_PROGRAMA": 108.0
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "MEDIA_DISCENTES_POR_PROGRAMA": 171.4
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "MEDIA_DISCENTES_POR_PROGRAMA": 243.7
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "MEDIA_DISCENTES_POR_PROGRAMA": 406.0
+        }
+      ],
+      "faixa_etaria": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_FAIXA_ETARIA": "20 A 24 ANOS",
+          "TOTAL_DISCENTES": 250,
+          "PERCENTUAL": 14.26
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_FAIXA_ETARIA": "25 A 29 ANOS",
+          "TOTAL_DISCENTES": 647,
+          "PERCENTUAL": 36.91
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_FAIXA_ETARIA": "30 A 34 ANOS",
+          "TOTAL_DISCENTES": 364,
+          "PERCENTUAL": 20.76
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_FAIXA_ETARIA": "35 A 39 ANOS",
+          "TOTAL_DISCENTES": 254,
+          "PERCENTUAL": 14.49
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_FAIXA_ETARIA": "40 A 44 ANOS",
+          "TOTAL_DISCENTES": 116,
+          "PERCENTUAL": 6.62
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_FAIXA_ETARIA": "45 A 49 ANOS",
+          "TOTAL_DISCENTES": 77,
+          "PERCENTUAL": 4.39
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_FAIXA_ETARIA": "50 A 54 ANOS",
+          "TOTAL_DISCENTES": 28,
+          "PERCENTUAL": 1.6
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_FAIXA_ETARIA": "55 A 59 ANOS",
+          "TOTAL_DISCENTES": 11,
+          "PERCENTUAL": 0.63
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_FAIXA_ETARIA": "60 A 64 ANOS",
+          "TOTAL_DISCENTES": 4,
+          "PERCENTUAL": 0.23
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_FAIXA_ETARIA": "65 A 69 ANOS",
+          "TOTAL_DISCENTES": 2,
+          "PERCENTUAL": 0.11
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_FAIXA_ETARIA": "20 A 24 ANOS",
+          "TOTAL_DISCENTES": 331,
+          "PERCENTUAL": 10.95
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_FAIXA_ETARIA": "25 A 29 ANOS",
+          "TOTAL_DISCENTES": 1092,
+          "PERCENTUAL": 36.11
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_FAIXA_ETARIA": "30 A 34 ANOS",
+          "TOTAL_DISCENTES": 724,
+          "PERCENTUAL": 23.94
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_FAIXA_ETARIA": "35 A 39 ANOS",
+          "TOTAL_DISCENTES": 436,
+          "PERCENTUAL": 14.42
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_FAIXA_ETARIA": "40 A 44 ANOS",
+          "TOTAL_DISCENTES": 226,
+          "PERCENTUAL": 7.47
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_FAIXA_ETARIA": "45 A 49 ANOS",
+          "TOTAL_DISCENTES": 117,
+          "PERCENTUAL": 3.87
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_FAIXA_ETARIA": "50 A 54 ANOS",
+          "TOTAL_DISCENTES": 54,
+          "PERCENTUAL": 1.79
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_FAIXA_ETARIA": "55 A 59 ANOS",
+          "TOTAL_DISCENTES": 28,
+          "PERCENTUAL": 0.93
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_FAIXA_ETARIA": "60 A 64 ANOS",
+          "TOTAL_DISCENTES": 13,
+          "PERCENTUAL": 0.43
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_FAIXA_ETARIA": "65 A 69 ANOS",
+          "TOTAL_DISCENTES": 2,
+          "PERCENTUAL": 0.07
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_FAIXA_ETARIA": "70 OU MAIS",
+          "TOTAL_DISCENTES": 1,
+          "PERCENTUAL": 0.03
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_FAIXA_ETARIA": "20 A 24 ANOS",
+          "TOTAL_DISCENTES": 173,
+          "PERCENTUAL": 14.42
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_FAIXA_ETARIA": "25 A 29 ANOS",
+          "TOTAL_DISCENTES": 461,
+          "PERCENTUAL": 38.42
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_FAIXA_ETARIA": "30 A 34 ANOS",
+          "TOTAL_DISCENTES": 253,
+          "PERCENTUAL": 21.08
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_FAIXA_ETARIA": "35 A 39 ANOS",
+          "TOTAL_DISCENTES": 165,
+          "PERCENTUAL": 13.75
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_FAIXA_ETARIA": "40 A 44 ANOS",
+          "TOTAL_DISCENTES": 83,
+          "PERCENTUAL": 6.92
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_FAIXA_ETARIA": "45 A 49 ANOS",
+          "TOTAL_DISCENTES": 43,
+          "PERCENTUAL": 3.58
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_FAIXA_ETARIA": "50 A 54 ANOS",
+          "TOTAL_DISCENTES": 14,
+          "PERCENTUAL": 1.17
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_FAIXA_ETARIA": "55 A 59 ANOS",
+          "TOTAL_DISCENTES": 7,
+          "PERCENTUAL": 0.58
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_FAIXA_ETARIA": "60 A 64 ANOS",
+          "TOTAL_DISCENTES": 1,
+          "PERCENTUAL": 0.08
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_FAIXA_ETARIA": "20 A 24 ANOS",
+          "TOTAL_DISCENTES": 92,
+          "PERCENTUAL": 12.59
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_FAIXA_ETARIA": "25 A 29 ANOS",
+          "TOTAL_DISCENTES": 272,
+          "PERCENTUAL": 37.21
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_FAIXA_ETARIA": "30 A 34 ANOS",
+          "TOTAL_DISCENTES": 188,
+          "PERCENTUAL": 25.72
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_FAIXA_ETARIA": "35 A 39 ANOS",
+          "TOTAL_DISCENTES": 101,
+          "PERCENTUAL": 13.82
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_FAIXA_ETARIA": "40 A 44 ANOS",
+          "TOTAL_DISCENTES": 39,
+          "PERCENTUAL": 5.34
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_FAIXA_ETARIA": "45 A 49 ANOS",
+          "TOTAL_DISCENTES": 21,
+          "PERCENTUAL": 2.87
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_FAIXA_ETARIA": "50 A 54 ANOS",
+          "TOTAL_DISCENTES": 12,
+          "PERCENTUAL": 1.64
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_FAIXA_ETARIA": "55 A 59 ANOS",
+          "TOTAL_DISCENTES": 6,
+          "PERCENTUAL": 0.82
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_FAIXA_ETARIA": "20 A 24 ANOS",
+          "TOTAL_DISCENTES": 369,
+          "PERCENTUAL": 12.98
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_FAIXA_ETARIA": "25 A 29 ANOS",
+          "TOTAL_DISCENTES": 1238,
+          "PERCENTUAL": 43.56
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_FAIXA_ETARIA": "30 A 34 ANOS",
+          "TOTAL_DISCENTES": 684,
+          "PERCENTUAL": 24.07
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_FAIXA_ETARIA": "35 A 39 ANOS",
+          "TOTAL_DISCENTES": 328,
+          "PERCENTUAL": 11.54
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_FAIXA_ETARIA": "40 A 44 ANOS",
+          "TOTAL_DISCENTES": 134,
+          "PERCENTUAL": 4.71
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_FAIXA_ETARIA": "45 A 49 ANOS",
+          "TOTAL_DISCENTES": 50,
+          "PERCENTUAL": 1.76
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_FAIXA_ETARIA": "50 A 54 ANOS",
+          "TOTAL_DISCENTES": 21,
+          "PERCENTUAL": 0.74
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_FAIXA_ETARIA": "55 A 59 ANOS",
+          "TOTAL_DISCENTES": 14,
+          "PERCENTUAL": 0.49
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_FAIXA_ETARIA": "60 A 64 ANOS",
+          "TOTAL_DISCENTES": 4,
+          "PERCENTUAL": 0.14
+        }
+      ]
+    },
+    "2019": {
+      "distribuicao_grau_academico": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+          "TOTAL_DISCENTES": 1316,
+          "PERCENTUAL": 73.44
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO PROFISSIONAL",
+          "TOTAL_DISCENTES": 476,
+          "PERCENTUAL": 26.56
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO",
+          "TOTAL_DISCENTES": 1004,
+          "PERCENTUAL": 32.12
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+          "TOTAL_DISCENTES": 1921,
+          "PERCENTUAL": 61.45
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO PROFISSIONAL",
+          "TOTAL_DISCENTES": 201,
+          "PERCENTUAL": 6.43
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO",
+          "TOTAL_DISCENTES": 603,
+          "PERCENTUAL": 48.36
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+          "TOTAL_DISCENTES": 644,
+          "PERCENTUAL": 51.64
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO",
+          "TOTAL_DISCENTES": 275,
+          "PERCENTUAL": 37.06
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+          "TOTAL_DISCENTES": 467,
+          "PERCENTUAL": 62.94
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO",
+          "TOTAL_DISCENTES": 1362,
+          "PERCENTUAL": 47.91
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+          "TOTAL_DISCENTES": 1481,
+          "PERCENTUAL": 52.09
+        }
+      ],
+      "situacao_academica": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "NM_SITUACAO_DISCENTE": "ABANDONOU",
+          "TOTAL_DISCENTES": 33,
+          "PERCENTUAL": 1.84
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "NM_SITUACAO_DISCENTE": "DESLIGADO",
+          "TOTAL_DISCENTES": 140,
+          "PERCENTUAL": 7.81
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "NM_SITUACAO_DISCENTE": "MATRICULADO",
+          "TOTAL_DISCENTES": 1184,
+          "PERCENTUAL": 66.07
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "NM_SITUACAO_DISCENTE": "TITULADO",
+          "TOTAL_DISCENTES": 435,
+          "PERCENTUAL": 24.27
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "NM_SITUACAO_DISCENTE": "ABANDONOU",
+          "TOTAL_DISCENTES": 46,
+          "PERCENTUAL": 1.47
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "NM_SITUACAO_DISCENTE": "DESLIGADO",
+          "TOTAL_DISCENTES": 230,
+          "PERCENTUAL": 7.36
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "NM_SITUACAO_DISCENTE": "MATRICULADO",
+          "TOTAL_DISCENTES": 2338,
+          "PERCENTUAL": 74.79
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "NM_SITUACAO_DISCENTE": "TITULADO",
+          "TOTAL_DISCENTES": 512,
+          "PERCENTUAL": 16.38
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "NM_SITUACAO_DISCENTE": "ABANDONOU",
+          "TOTAL_DISCENTES": 25,
+          "PERCENTUAL": 2.0
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "NM_SITUACAO_DISCENTE": "DESLIGADO",
+          "TOTAL_DISCENTES": 75,
+          "PERCENTUAL": 6.01
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "NM_SITUACAO_DISCENTE": "MATRICULADO",
+          "TOTAL_DISCENTES": 910,
+          "PERCENTUAL": 72.98
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "NM_SITUACAO_DISCENTE": "MUDANCA DE NÍVEL SEM DEFESA",
+          "TOTAL_DISCENTES": 1,
+          "PERCENTUAL": 0.08
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "NM_SITUACAO_DISCENTE": "TITULADO",
+          "TOTAL_DISCENTES": 236,
+          "PERCENTUAL": 18.93
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "NM_SITUACAO_DISCENTE": "ABANDONOU",
+          "TOTAL_DISCENTES": 32,
+          "PERCENTUAL": 4.31
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "NM_SITUACAO_DISCENTE": "DESLIGADO",
+          "TOTAL_DISCENTES": 55,
+          "PERCENTUAL": 7.41
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "NM_SITUACAO_DISCENTE": "MATRICULADO",
+          "TOTAL_DISCENTES": 526,
+          "PERCENTUAL": 70.89
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "NM_SITUACAO_DISCENTE": "TITULADO",
+          "TOTAL_DISCENTES": 129,
+          "PERCENTUAL": 17.39
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "NM_SITUACAO_DISCENTE": "ABANDONOU",
+          "TOTAL_DISCENTES": 41,
+          "PERCENTUAL": 1.44
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "NM_SITUACAO_DISCENTE": "DESLIGADO",
+          "TOTAL_DISCENTES": 145,
+          "PERCENTUAL": 5.1
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "NM_SITUACAO_DISCENTE": "MATRICULADO",
+          "TOTAL_DISCENTES": 2165,
+          "PERCENTUAL": 76.15
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "NM_SITUACAO_DISCENTE": "MUDANCA DE NÍVEL SEM DEFESA",
+          "TOTAL_DISCENTES": 1,
+          "PERCENTUAL": 0.04
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "NM_SITUACAO_DISCENTE": "TITULADO",
+          "TOTAL_DISCENTES": 491,
+          "PERCENTUAL": 17.27
+        }
+      ],
+      "internacionalizacao_nacionalidade": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_TIPO_NACIONALIDADE_DISCENTE": "BRASILEIRO",
+          "TOTAL_DISCENTES": 1781,
+          "PERCENTUAL": 99.39
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_TIPO_NACIONALIDADE_DISCENTE": "ESTRANGEIRO",
+          "TOTAL_DISCENTES": 11,
+          "PERCENTUAL": 0.61
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_TIPO_NACIONALIDADE_DISCENTE": "BRASILEIRO",
+          "TOTAL_DISCENTES": 3101,
+          "PERCENTUAL": 99.2
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_TIPO_NACIONALIDADE_DISCENTE": "ESTRANGEIRO",
+          "TOTAL_DISCENTES": 25,
+          "PERCENTUAL": 0.8
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_TIPO_NACIONALIDADE_DISCENTE": "BRASILEIRO",
+          "TOTAL_DISCENTES": 1240,
+          "PERCENTUAL": 99.44
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_TIPO_NACIONALIDADE_DISCENTE": "ESTRANGEIRO",
+          "TOTAL_DISCENTES": 7,
+          "PERCENTUAL": 0.56
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_TIPO_NACIONALIDADE_DISCENTE": "BRASILEIRO",
+          "TOTAL_DISCENTES": 731,
+          "PERCENTUAL": 98.52
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_TIPO_NACIONALIDADE_DISCENTE": "ESTRANGEIRO",
+          "TOTAL_DISCENTES": 11,
+          "PERCENTUAL": 1.48
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_TIPO_NACIONALIDADE_DISCENTE": "BRASILEIRO",
+          "TOTAL_DISCENTES": 2726,
+          "PERCENTUAL": 95.88
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_TIPO_NACIONALIDADE_DISCENTE": "ESTRANGEIRO",
+          "TOTAL_DISCENTES": 117,
+          "PERCENTUAL": 4.12
+        }
+      ],
+      "tempo_medio_titulacao": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+          "MEDIA_MESES_TITULACAO": 27.8
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO PROFISSIONAL",
+          "MEDIA_MESES_TITULACAO": 26.8
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO",
+          "MEDIA_MESES_TITULACAO": 52.7
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+          "MEDIA_MESES_TITULACAO": 29.6
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO PROFISSIONAL",
+          "MEDIA_MESES_TITULACAO": 26.5
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO",
+          "MEDIA_MESES_TITULACAO": 56.6
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+          "MEDIA_MESES_TITULACAO": 28.8
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO",
+          "MEDIA_MESES_TITULACAO": 52.6
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+          "MEDIA_MESES_TITULACAO": 31.5
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO",
+          "MEDIA_MESES_TITULACAO": 56.1
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+          "MEDIA_MESES_TITULACAO": 29.1
+        }
+      ],
+      "tamanho_medio_programa": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "MEDIA_DISCENTES_POR_PROGRAMA": 57.8
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "MEDIA_DISCENTES_POR_PROGRAMA": 111.6
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "MEDIA_DISCENTES_POR_PROGRAMA": 178.1
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "MEDIA_DISCENTES_POR_PROGRAMA": 247.3
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "MEDIA_DISCENTES_POR_PROGRAMA": 406.1
+        }
+      ],
+      "faixa_etaria": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_FAIXA_ETARIA": "20 A 24 ANOS",
+          "TOTAL_DISCENTES": 253,
+          "PERCENTUAL": 14.12
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_FAIXA_ETARIA": "25 A 29 ANOS",
+          "TOTAL_DISCENTES": 664,
+          "PERCENTUAL": 37.05
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_FAIXA_ETARIA": "30 A 34 ANOS",
+          "TOTAL_DISCENTES": 372,
+          "PERCENTUAL": 20.76
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_FAIXA_ETARIA": "35 A 39 ANOS",
+          "TOTAL_DISCENTES": 250,
+          "PERCENTUAL": 13.95
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_FAIXA_ETARIA": "40 A 44 ANOS",
+          "TOTAL_DISCENTES": 134,
+          "PERCENTUAL": 7.48
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_FAIXA_ETARIA": "45 A 49 ANOS",
+          "TOTAL_DISCENTES": 73,
+          "PERCENTUAL": 4.07
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_FAIXA_ETARIA": "50 A 54 ANOS",
+          "TOTAL_DISCENTES": 27,
+          "PERCENTUAL": 1.51
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_FAIXA_ETARIA": "55 A 59 ANOS",
+          "TOTAL_DISCENTES": 14,
+          "PERCENTUAL": 0.78
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_FAIXA_ETARIA": "60 A 64 ANOS",
+          "TOTAL_DISCENTES": 4,
+          "PERCENTUAL": 0.22
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_FAIXA_ETARIA": "65 A 69 ANOS",
+          "TOTAL_DISCENTES": 1,
+          "PERCENTUAL": 0.06
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_FAIXA_ETARIA": "20 A 24 ANOS",
+          "TOTAL_DISCENTES": 344,
+          "PERCENTUAL": 11.0
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_FAIXA_ETARIA": "25 A 29 ANOS",
+          "TOTAL_DISCENTES": 1056,
+          "PERCENTUAL": 33.78
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_FAIXA_ETARIA": "30 A 34 ANOS",
+          "TOTAL_DISCENTES": 760,
+          "PERCENTUAL": 24.31
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_FAIXA_ETARIA": "35 A 39 ANOS",
+          "TOTAL_DISCENTES": 464,
+          "PERCENTUAL": 14.84
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_FAIXA_ETARIA": "40 A 44 ANOS",
+          "TOTAL_DISCENTES": 264,
+          "PERCENTUAL": 8.45
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_FAIXA_ETARIA": "45 A 49 ANOS",
+          "TOTAL_DISCENTES": 130,
+          "PERCENTUAL": 4.16
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_FAIXA_ETARIA": "50 A 54 ANOS",
+          "TOTAL_DISCENTES": 67,
+          "PERCENTUAL": 2.14
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_FAIXA_ETARIA": "55 A 59 ANOS",
+          "TOTAL_DISCENTES": 27,
+          "PERCENTUAL": 0.86
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_FAIXA_ETARIA": "60 A 64 ANOS",
+          "TOTAL_DISCENTES": 12,
+          "PERCENTUAL": 0.38
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_FAIXA_ETARIA": "65 A 69 ANOS",
+          "TOTAL_DISCENTES": 1,
+          "PERCENTUAL": 0.03
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_FAIXA_ETARIA": "70 OU MAIS",
+          "TOTAL_DISCENTES": 1,
+          "PERCENTUAL": 0.03
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_FAIXA_ETARIA": "20 A 24 ANOS",
+          "TOTAL_DISCENTES": 188,
+          "PERCENTUAL": 15.08
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_FAIXA_ETARIA": "25 A 29 ANOS",
+          "TOTAL_DISCENTES": 461,
+          "PERCENTUAL": 36.97
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_FAIXA_ETARIA": "30 A 34 ANOS",
+          "TOTAL_DISCENTES": 259,
+          "PERCENTUAL": 20.77
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_FAIXA_ETARIA": "35 A 39 ANOS",
+          "TOTAL_DISCENTES": 170,
+          "PERCENTUAL": 13.63
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_FAIXA_ETARIA": "40 A 44 ANOS",
+          "TOTAL_DISCENTES": 96,
+          "PERCENTUAL": 7.7
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_FAIXA_ETARIA": "45 A 49 ANOS",
+          "TOTAL_DISCENTES": 39,
+          "PERCENTUAL": 3.13
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_FAIXA_ETARIA": "50 A 54 ANOS",
+          "TOTAL_DISCENTES": 24,
+          "PERCENTUAL": 1.92
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_FAIXA_ETARIA": "55 A 59 ANOS",
+          "TOTAL_DISCENTES": 6,
+          "PERCENTUAL": 0.48
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_FAIXA_ETARIA": "60 A 64 ANOS",
+          "TOTAL_DISCENTES": 4,
+          "PERCENTUAL": 0.32
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_FAIXA_ETARIA": "19 OU MENOS",
+          "TOTAL_DISCENTES": 1,
+          "PERCENTUAL": 0.13
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_FAIXA_ETARIA": "20 A 24 ANOS",
+          "TOTAL_DISCENTES": 101,
+          "PERCENTUAL": 13.61
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_FAIXA_ETARIA": "25 A 29 ANOS",
+          "TOTAL_DISCENTES": 286,
+          "PERCENTUAL": 38.54
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_FAIXA_ETARIA": "30 A 34 ANOS",
+          "TOTAL_DISCENTES": 182,
+          "PERCENTUAL": 24.53
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_FAIXA_ETARIA": "35 A 39 ANOS",
+          "TOTAL_DISCENTES": 91,
+          "PERCENTUAL": 12.26
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_FAIXA_ETARIA": "40 A 44 ANOS",
+          "TOTAL_DISCENTES": 42,
+          "PERCENTUAL": 5.66
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_FAIXA_ETARIA": "45 A 49 ANOS",
+          "TOTAL_DISCENTES": 24,
+          "PERCENTUAL": 3.23
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_FAIXA_ETARIA": "50 A 54 ANOS",
+          "TOTAL_DISCENTES": 7,
+          "PERCENTUAL": 0.94
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_FAIXA_ETARIA": "55 A 59 ANOS",
+          "TOTAL_DISCENTES": 7,
+          "PERCENTUAL": 0.94
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_FAIXA_ETARIA": "65 A 69 ANOS",
+          "TOTAL_DISCENTES": 1,
+          "PERCENTUAL": 0.13
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_FAIXA_ETARIA": "20 A 24 ANOS",
+          "TOTAL_DISCENTES": 381,
+          "PERCENTUAL": 13.4
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_FAIXA_ETARIA": "25 A 29 ANOS",
+          "TOTAL_DISCENTES": 1197,
+          "PERCENTUAL": 42.1
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_FAIXA_ETARIA": "30 A 34 ANOS",
+          "TOTAL_DISCENTES": 684,
+          "PERCENTUAL": 24.06
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_FAIXA_ETARIA": "35 A 39 ANOS",
+          "TOTAL_DISCENTES": 334,
+          "PERCENTUAL": 11.75
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_FAIXA_ETARIA": "40 A 44 ANOS",
+          "TOTAL_DISCENTES": 151,
+          "PERCENTUAL": 5.31
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_FAIXA_ETARIA": "45 A 49 ANOS",
+          "TOTAL_DISCENTES": 53,
+          "PERCENTUAL": 1.86
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_FAIXA_ETARIA": "50 A 54 ANOS",
+          "TOTAL_DISCENTES": 25,
+          "PERCENTUAL": 0.88
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_FAIXA_ETARIA": "55 A 59 ANOS",
+          "TOTAL_DISCENTES": 12,
+          "PERCENTUAL": 0.42
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_FAIXA_ETARIA": "60 A 64 ANOS",
+          "TOTAL_DISCENTES": 6,
+          "PERCENTUAL": 0.21
+        }
+      ]
+    },
+    "2020": {
+      "distribuicao_grau_academico": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+          "TOTAL_DISCENTES": 1249,
+          "PERCENTUAL": 71.7
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO PROFISSIONAL",
+          "TOTAL_DISCENTES": 493,
+          "PERCENTUAL": 28.3
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO",
+          "TOTAL_DISCENTES": 1083,
+          "PERCENTUAL": 33.96
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO PROFISSIONAL",
+          "TOTAL_DISCENTES": 32,
+          "PERCENTUAL": 1.0
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+          "TOTAL_DISCENTES": 1867,
+          "PERCENTUAL": 58.54
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO PROFISSIONAL",
+          "TOTAL_DISCENTES": 207,
+          "PERCENTUAL": 6.49
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO",
+          "TOTAL_DISCENTES": 621,
+          "PERCENTUAL": 51.24
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+          "TOTAL_DISCENTES": 591,
+          "PERCENTUAL": 48.76
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO",
+          "TOTAL_DISCENTES": 285,
+          "PERCENTUAL": 38.78
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+          "TOTAL_DISCENTES": 450,
+          "PERCENTUAL": 61.22
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO",
+          "TOTAL_DISCENTES": 1337,
+          "PERCENTUAL": 48.04
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+          "TOTAL_DISCENTES": 1446,
+          "PERCENTUAL": 51.96
+        }
+      ],
+      "situacao_academica": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "NM_SITUACAO_DISCENTE": "ABANDONOU",
+          "TOTAL_DISCENTES": 28,
+          "PERCENTUAL": 1.61
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "NM_SITUACAO_DISCENTE": "DESLIGADO",
+          "TOTAL_DISCENTES": 102,
+          "PERCENTUAL": 5.86
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "NM_SITUACAO_DISCENTE": "MATRICULADO",
+          "TOTAL_DISCENTES": 1246,
+          "PERCENTUAL": 71.53
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "NM_SITUACAO_DISCENTE": "TITULADO",
+          "TOTAL_DISCENTES": 366,
+          "PERCENTUAL": 21.01
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "NM_SITUACAO_DISCENTE": "ABANDONOU",
+          "TOTAL_DISCENTES": 36,
+          "PERCENTUAL": 1.13
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "NM_SITUACAO_DISCENTE": "DESLIGADO",
+          "TOTAL_DISCENTES": 105,
+          "PERCENTUAL": 3.29
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "NM_SITUACAO_DISCENTE": "MATRICULADO",
+          "TOTAL_DISCENTES": 2496,
+          "PERCENTUAL": 78.27
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "NM_SITUACAO_DISCENTE": "MUDANCA DE NÍVEL SEM DEFESA",
+          "TOTAL_DISCENTES": 3,
+          "PERCENTUAL": 0.09
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "NM_SITUACAO_DISCENTE": "TITULADO",
+          "TOTAL_DISCENTES": 549,
+          "PERCENTUAL": 17.22
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "NM_SITUACAO_DISCENTE": "ABANDONOU",
+          "TOTAL_DISCENTES": 27,
+          "PERCENTUAL": 2.23
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "NM_SITUACAO_DISCENTE": "DESLIGADO",
+          "TOTAL_DISCENTES": 36,
+          "PERCENTUAL": 2.97
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "NM_SITUACAO_DISCENTE": "MATRICULADO",
+          "TOTAL_DISCENTES": 971,
+          "PERCENTUAL": 80.12
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "NM_SITUACAO_DISCENTE": "MUDANCA DE NÍVEL SEM DEFESA",
+          "TOTAL_DISCENTES": 1,
+          "PERCENTUAL": 0.08
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "NM_SITUACAO_DISCENTE": "TITULADO",
+          "TOTAL_DISCENTES": 177,
+          "PERCENTUAL": 14.6
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "NM_SITUACAO_DISCENTE": "ABANDONOU",
+          "TOTAL_DISCENTES": 4,
+          "PERCENTUAL": 0.54
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "NM_SITUACAO_DISCENTE": "DESLIGADO",
+          "TOTAL_DISCENTES": 43,
+          "PERCENTUAL": 5.85
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "NM_SITUACAO_DISCENTE": "MATRICULADO",
+          "TOTAL_DISCENTES": 592,
+          "PERCENTUAL": 80.54
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "NM_SITUACAO_DISCENTE": "TITULADO",
+          "TOTAL_DISCENTES": 96,
+          "PERCENTUAL": 13.06
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "NM_SITUACAO_DISCENTE": "ABANDONOU",
+          "TOTAL_DISCENTES": 35,
+          "PERCENTUAL": 1.26
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "NM_SITUACAO_DISCENTE": "DESLIGADO",
+          "TOTAL_DISCENTES": 67,
+          "PERCENTUAL": 2.41
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "NM_SITUACAO_DISCENTE": "MATRICULADO",
+          "TOTAL_DISCENTES": 2248,
+          "PERCENTUAL": 80.78
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "NM_SITUACAO_DISCENTE": "TITULADO",
+          "TOTAL_DISCENTES": 433,
+          "PERCENTUAL": 15.56
+        }
+      ],
+      "internacionalizacao_nacionalidade": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_TIPO_NACIONALIDADE_DISCENTE": "BRASILEIRO",
+          "TOTAL_DISCENTES": 1733,
+          "PERCENTUAL": 99.48
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_TIPO_NACIONALIDADE_DISCENTE": "ESTRANGEIRO",
+          "TOTAL_DISCENTES": 9,
+          "PERCENTUAL": 0.52
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_TIPO_NACIONALIDADE_DISCENTE": "BRASILEIRO",
+          "TOTAL_DISCENTES": 3168,
+          "PERCENTUAL": 99.34
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_TIPO_NACIONALIDADE_DISCENTE": "ESTRANGEIRO",
+          "TOTAL_DISCENTES": 21,
+          "PERCENTUAL": 0.66
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_TIPO_NACIONALIDADE_DISCENTE": "BRASILEIRO",
+          "TOTAL_DISCENTES": 1205,
+          "PERCENTUAL": 99.42
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_TIPO_NACIONALIDADE_DISCENTE": "ESTRANGEIRO",
+          "TOTAL_DISCENTES": 7,
+          "PERCENTUAL": 0.58
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_TIPO_NACIONALIDADE_DISCENTE": "BRASILEIRO",
+          "TOTAL_DISCENTES": 719,
+          "PERCENTUAL": 97.82
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_TIPO_NACIONALIDADE_DISCENTE": "ESTRANGEIRO",
+          "TOTAL_DISCENTES": 16,
+          "PERCENTUAL": 2.18
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_TIPO_NACIONALIDADE_DISCENTE": "BRASILEIRO",
+          "TOTAL_DISCENTES": 2680,
+          "PERCENTUAL": 96.3
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_TIPO_NACIONALIDADE_DISCENTE": "ESTRANGEIRO",
+          "TOTAL_DISCENTES": 103,
+          "PERCENTUAL": 3.7
+        }
+      ],
+      "tempo_medio_titulacao": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+          "MEDIA_MESES_TITULACAO": 29.0
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO PROFISSIONAL",
+          "MEDIA_MESES_TITULACAO": 28.2
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO",
+          "MEDIA_MESES_TITULACAO": 55.0
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+          "MEDIA_MESES_TITULACAO": 30.5
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO PROFISSIONAL",
+          "MEDIA_MESES_TITULACAO": 25.9
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO",
+          "MEDIA_MESES_TITULACAO": 55.8
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+          "MEDIA_MESES_TITULACAO": 28.1
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO",
+          "MEDIA_MESES_TITULACAO": 56.7
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+          "MEDIA_MESES_TITULACAO": 30.1
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO",
+          "MEDIA_MESES_TITULACAO": 56.5
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+          "MEDIA_MESES_TITULACAO": 30.1
+        }
+      ],
+      "tamanho_medio_programa": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "MEDIA_DISCENTES_POR_PROGRAMA": 56.2
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "MEDIA_DISCENTES_POR_PROGRAMA": 113.9
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "MEDIA_DISCENTES_POR_PROGRAMA": 173.1
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "MEDIA_DISCENTES_POR_PROGRAMA": 245.0
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "MEDIA_DISCENTES_POR_PROGRAMA": 397.6
+        }
+      ],
+      "faixa_etaria": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_FAIXA_ETARIA": "20 A 24 ANOS",
+          "TOTAL_DISCENTES": 199,
+          "PERCENTUAL": 11.42
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_FAIXA_ETARIA": "25 A 29 ANOS",
+          "TOTAL_DISCENTES": 656,
+          "PERCENTUAL": 37.66
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_FAIXA_ETARIA": "30 A 34 ANOS",
+          "TOTAL_DISCENTES": 337,
+          "PERCENTUAL": 19.35
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_FAIXA_ETARIA": "35 A 39 ANOS",
+          "TOTAL_DISCENTES": 268,
+          "PERCENTUAL": 15.38
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_FAIXA_ETARIA": "40 A 44 ANOS",
+          "TOTAL_DISCENTES": 159,
+          "PERCENTUAL": 9.13
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_FAIXA_ETARIA": "45 A 49 ANOS",
+          "TOTAL_DISCENTES": 75,
+          "PERCENTUAL": 4.31
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_FAIXA_ETARIA": "50 A 54 ANOS",
+          "TOTAL_DISCENTES": 33,
+          "PERCENTUAL": 1.89
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_FAIXA_ETARIA": "55 A 59 ANOS",
+          "TOTAL_DISCENTES": 13,
+          "PERCENTUAL": 0.75
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_FAIXA_ETARIA": "60 A 64 ANOS",
+          "TOTAL_DISCENTES": 1,
+          "PERCENTUAL": 0.06
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_FAIXA_ETARIA": "65 A 69 ANOS",
+          "TOTAL_DISCENTES": 1,
+          "PERCENTUAL": 0.06
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_FAIXA_ETARIA": "20 A 24 ANOS",
+          "TOTAL_DISCENTES": 298,
+          "PERCENTUAL": 9.34
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_FAIXA_ETARIA": "25 A 29 ANOS",
+          "TOTAL_DISCENTES": 1036,
+          "PERCENTUAL": 32.49
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_FAIXA_ETARIA": "30 A 34 ANOS",
+          "TOTAL_DISCENTES": 740,
+          "PERCENTUAL": 23.2
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_FAIXA_ETARIA": "35 A 39 ANOS",
+          "TOTAL_DISCENTES": 526,
+          "PERCENTUAL": 16.49
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_FAIXA_ETARIA": "40 A 44 ANOS",
+          "TOTAL_DISCENTES": 306,
+          "PERCENTUAL": 9.6
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_FAIXA_ETARIA": "45 A 49 ANOS",
+          "TOTAL_DISCENTES": 158,
+          "PERCENTUAL": 4.95
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_FAIXA_ETARIA": "50 A 54 ANOS",
+          "TOTAL_DISCENTES": 76,
+          "PERCENTUAL": 2.38
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_FAIXA_ETARIA": "55 A 59 ANOS",
+          "TOTAL_DISCENTES": 31,
+          "PERCENTUAL": 0.97
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_FAIXA_ETARIA": "60 A 64 ANOS",
+          "TOTAL_DISCENTES": 14,
+          "PERCENTUAL": 0.44
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_FAIXA_ETARIA": "65 A 69 ANOS",
+          "TOTAL_DISCENTES": 3,
+          "PERCENTUAL": 0.09
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_FAIXA_ETARIA": "70 OU MAIS",
+          "TOTAL_DISCENTES": 1,
+          "PERCENTUAL": 0.03
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_FAIXA_ETARIA": "20 A 24 ANOS",
+          "TOTAL_DISCENTES": 158,
+          "PERCENTUAL": 13.04
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_FAIXA_ETARIA": "25 A 29 ANOS",
+          "TOTAL_DISCENTES": 457,
+          "PERCENTUAL": 37.71
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_FAIXA_ETARIA": "30 A 34 ANOS",
+          "TOTAL_DISCENTES": 262,
+          "PERCENTUAL": 21.62
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_FAIXA_ETARIA": "35 A 39 ANOS",
+          "TOTAL_DISCENTES": 166,
+          "PERCENTUAL": 13.7
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_FAIXA_ETARIA": "40 A 44 ANOS",
+          "TOTAL_DISCENTES": 88,
+          "PERCENTUAL": 7.26
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_FAIXA_ETARIA": "45 A 49 ANOS",
+          "TOTAL_DISCENTES": 46,
+          "PERCENTUAL": 3.8
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_FAIXA_ETARIA": "50 A 54 ANOS",
+          "TOTAL_DISCENTES": 22,
+          "PERCENTUAL": 1.82
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_FAIXA_ETARIA": "55 A 59 ANOS",
+          "TOTAL_DISCENTES": 7,
+          "PERCENTUAL": 0.58
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_FAIXA_ETARIA": "60 A 64 ANOS",
+          "TOTAL_DISCENTES": 5,
+          "PERCENTUAL": 0.41
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_FAIXA_ETARIA": "65 A 69 ANOS",
+          "TOTAL_DISCENTES": 1,
+          "PERCENTUAL": 0.08
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_FAIXA_ETARIA": "20 A 24 ANOS",
+          "TOTAL_DISCENTES": 79,
+          "PERCENTUAL": 10.75
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_FAIXA_ETARIA": "25 A 29 ANOS",
+          "TOTAL_DISCENTES": 294,
+          "PERCENTUAL": 40.0
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_FAIXA_ETARIA": "30 A 34 ANOS",
+          "TOTAL_DISCENTES": 170,
+          "PERCENTUAL": 23.13
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_FAIXA_ETARIA": "35 A 39 ANOS",
+          "TOTAL_DISCENTES": 94,
+          "PERCENTUAL": 12.79
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_FAIXA_ETARIA": "40 A 44 ANOS",
+          "TOTAL_DISCENTES": 51,
+          "PERCENTUAL": 6.94
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_FAIXA_ETARIA": "45 A 49 ANOS",
+          "TOTAL_DISCENTES": 30,
+          "PERCENTUAL": 4.08
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_FAIXA_ETARIA": "50 A 54 ANOS",
+          "TOTAL_DISCENTES": 10,
+          "PERCENTUAL": 1.36
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_FAIXA_ETARIA": "55 A 59 ANOS",
+          "TOTAL_DISCENTES": 4,
+          "PERCENTUAL": 0.54
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_FAIXA_ETARIA": "60 A 64 ANOS",
+          "TOTAL_DISCENTES": 2,
+          "PERCENTUAL": 0.27
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_FAIXA_ETARIA": "65 A 69 ANOS",
+          "TOTAL_DISCENTES": 1,
+          "PERCENTUAL": 0.14
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_FAIXA_ETARIA": "20 A 24 ANOS",
+          "TOTAL_DISCENTES": 355,
+          "PERCENTUAL": 12.76
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_FAIXA_ETARIA": "25 A 29 ANOS",
+          "TOTAL_DISCENTES": 1158,
+          "PERCENTUAL": 41.61
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_FAIXA_ETARIA": "30 A 34 ANOS",
+          "TOTAL_DISCENTES": 674,
+          "PERCENTUAL": 24.22
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_FAIXA_ETARIA": "35 A 39 ANOS",
+          "TOTAL_DISCENTES": 330,
+          "PERCENTUAL": 11.86
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_FAIXA_ETARIA": "40 A 44 ANOS",
+          "TOTAL_DISCENTES": 155,
+          "PERCENTUAL": 5.57
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_FAIXA_ETARIA": "45 A 49 ANOS",
+          "TOTAL_DISCENTES": 68,
+          "PERCENTUAL": 2.44
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_FAIXA_ETARIA": "50 A 54 ANOS",
+          "TOTAL_DISCENTES": 25,
+          "PERCENTUAL": 0.9
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_FAIXA_ETARIA": "55 A 59 ANOS",
+          "TOTAL_DISCENTES": 12,
+          "PERCENTUAL": 0.43
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_FAIXA_ETARIA": "60 A 64 ANOS",
+          "TOTAL_DISCENTES": 5,
+          "PERCENTUAL": 0.18
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_FAIXA_ETARIA": "70 OU MAIS",
+          "TOTAL_DISCENTES": 1,
+          "PERCENTUAL": 0.04
+        }
+      ]
+    },
+    "2021": {
+      "distribuicao_grau_academico": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO",
+          "TOTAL_DISCENTES": 1,
+          "PERCENTUAL": 0.07
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+          "TOTAL_DISCENTES": 918,
+          "PERCENTUAL": 65.11
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO PROFISSIONAL",
+          "TOTAL_DISCENTES": 491,
+          "PERCENTUAL": 34.82
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO",
+          "TOTAL_DISCENTES": 738,
+          "PERCENTUAL": 24.4
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO PROFISSIONAL",
+          "TOTAL_DISCENTES": 58,
+          "PERCENTUAL": 1.92
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+          "TOTAL_DISCENTES": 1757,
+          "PERCENTUAL": 58.08
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO PROFISSIONAL",
+          "TOTAL_DISCENTES": 472,
+          "PERCENTUAL": 15.6
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO",
+          "TOTAL_DISCENTES": 931,
+          "PERCENTUAL": 46.07
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+          "TOTAL_DISCENTES": 1090,
+          "PERCENTUAL": 53.93
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO",
+          "TOTAL_DISCENTES": 430,
+          "PERCENTUAL": 41.03
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+          "TOTAL_DISCENTES": 618,
+          "PERCENTUAL": 58.97
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO",
+          "TOTAL_DISCENTES": 1412,
+          "PERCENTUAL": 46.45
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+          "TOTAL_DISCENTES": 1628,
+          "PERCENTUAL": 53.55
+        }
+      ],
+      "situacao_academica": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "NM_SITUACAO_DISCENTE": "ABANDONOU",
+          "TOTAL_DISCENTES": 56,
+          "PERCENTUAL": 3.97
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "NM_SITUACAO_DISCENTE": "DESLIGADO",
+          "TOTAL_DISCENTES": 114,
+          "PERCENTUAL": 8.09
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "NM_SITUACAO_DISCENTE": "MATRICULADO",
+          "TOTAL_DISCENTES": 1023,
+          "PERCENTUAL": 72.55
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "NM_SITUACAO_DISCENTE": "TITULADO",
+          "TOTAL_DISCENTES": 217,
+          "PERCENTUAL": 15.39
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "NM_SITUACAO_DISCENTE": "ABANDONOU",
+          "TOTAL_DISCENTES": 82,
+          "PERCENTUAL": 2.71
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "NM_SITUACAO_DISCENTE": "DESLIGADO",
+          "TOTAL_DISCENTES": 187,
+          "PERCENTUAL": 6.18
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "NM_SITUACAO_DISCENTE": "MATRICULADO",
+          "TOTAL_DISCENTES": 2258,
+          "PERCENTUAL": 74.64
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "NM_SITUACAO_DISCENTE": "TITULADO",
+          "TOTAL_DISCENTES": 498,
+          "PERCENTUAL": 16.46
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "NM_SITUACAO_DISCENTE": "ABANDONOU",
+          "TOTAL_DISCENTES": 37,
+          "PERCENTUAL": 1.83
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "NM_SITUACAO_DISCENTE": "DESLIGADO",
+          "TOTAL_DISCENTES": 119,
+          "PERCENTUAL": 5.89
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "NM_SITUACAO_DISCENTE": "MATRICULADO",
+          "TOTAL_DISCENTES": 1592,
+          "PERCENTUAL": 78.77
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "NM_SITUACAO_DISCENTE": "TITULADO",
+          "TOTAL_DISCENTES": 273,
+          "PERCENTUAL": 13.51
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "NM_SITUACAO_DISCENTE": "ABANDONOU",
+          "TOTAL_DISCENTES": 22,
+          "PERCENTUAL": 2.1
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "NM_SITUACAO_DISCENTE": "DESLIGADO",
+          "TOTAL_DISCENTES": 41,
+          "PERCENTUAL": 3.91
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "NM_SITUACAO_DISCENTE": "MATRICULADO",
+          "TOTAL_DISCENTES": 851,
+          "PERCENTUAL": 81.2
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "NM_SITUACAO_DISCENTE": "TITULADO",
+          "TOTAL_DISCENTES": 134,
+          "PERCENTUAL": 12.79
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "NM_SITUACAO_DISCENTE": "ABANDONOU",
+          "TOTAL_DISCENTES": 52,
+          "PERCENTUAL": 1.71
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "NM_SITUACAO_DISCENTE": "DESLIGADO",
+          "TOTAL_DISCENTES": 128,
+          "PERCENTUAL": 4.21
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "NM_SITUACAO_DISCENTE": "MATRICULADO",
+          "TOTAL_DISCENTES": 2427,
+          "PERCENTUAL": 79.84
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "NM_SITUACAO_DISCENTE": "MUDANÇA DE NÍVEL SEM DEFESA",
+          "TOTAL_DISCENTES": 2,
+          "PERCENTUAL": 0.07
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "NM_SITUACAO_DISCENTE": "TITULADO",
+          "TOTAL_DISCENTES": 431,
+          "PERCENTUAL": 14.18
+        }
+      ],
+      "internacionalizacao_nacionalidade": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_TIPO_NACIONALIDADE_DISCENTE": "BRASILEIRO",
+          "TOTAL_DISCENTES": 1406,
+          "PERCENTUAL": 99.72
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_TIPO_NACIONALIDADE_DISCENTE": "ESTRANGEIRO",
+          "TOTAL_DISCENTES": 4,
+          "PERCENTUAL": 0.28
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_TIPO_NACIONALIDADE_DISCENTE": "BRASILEIRO",
+          "TOTAL_DISCENTES": 3004,
+          "PERCENTUAL": 99.31
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_TIPO_NACIONALIDADE_DISCENTE": "ESTRANGEIRO",
+          "TOTAL_DISCENTES": 21,
+          "PERCENTUAL": 0.69
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_TIPO_NACIONALIDADE_DISCENTE": "BRASILEIRO",
+          "TOTAL_DISCENTES": 2008,
+          "PERCENTUAL": 99.36
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_TIPO_NACIONALIDADE_DISCENTE": "ESTRANGEIRO",
+          "TOTAL_DISCENTES": 13,
+          "PERCENTUAL": 0.64
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_TIPO_NACIONALIDADE_DISCENTE": "BRASILEIRO",
+          "TOTAL_DISCENTES": 1027,
+          "PERCENTUAL": 98.0
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_TIPO_NACIONALIDADE_DISCENTE": "ESTRANGEIRO",
+          "TOTAL_DISCENTES": 21,
+          "PERCENTUAL": 2.0
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_TIPO_NACIONALIDADE_DISCENTE": "BRASILEIRO",
+          "TOTAL_DISCENTES": 2932,
+          "PERCENTUAL": 96.45
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_TIPO_NACIONALIDADE_DISCENTE": "ESTRANGEIRO",
+          "TOTAL_DISCENTES": 108,
+          "PERCENTUAL": 3.55
+        }
+      ],
+      "tempo_medio_titulacao": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+          "MEDIA_MESES_TITULACAO": 29.1
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO PROFISSIONAL",
+          "MEDIA_MESES_TITULACAO": 29.0
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO",
+          "MEDIA_MESES_TITULACAO": 54.9
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+          "MEDIA_MESES_TITULACAO": 29.9
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO PROFISSIONAL",
+          "MEDIA_MESES_TITULACAO": 29.1
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO",
+          "MEDIA_MESES_TITULACAO": 59.5
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+          "MEDIA_MESES_TITULACAO": 31.6
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO",
+          "MEDIA_MESES_TITULACAO": 58.5
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+          "MEDIA_MESES_TITULACAO": 35.2
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO",
+          "MEDIA_MESES_TITULACAO": 58.0
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+          "MEDIA_MESES_TITULACAO": 31.1
+        }
+      ],
+      "tamanho_medio_programa": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "MEDIA_DISCENTES_POR_PROGRAMA": 54.2
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "MEDIA_DISCENTES_POR_PROGRAMA": 89.0
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "MEDIA_DISCENTES_POR_PROGRAMA": 155.5
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "MEDIA_DISCENTES_POR_PROGRAMA": 262.0
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "MEDIA_DISCENTES_POR_PROGRAMA": 380.0
+        }
+      ],
+      "faixa_etaria": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_FAIXA_ETARIA": "20 A 24 ANOS",
+          "TOTAL_DISCENTES": 123,
+          "PERCENTUAL": 8.72
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_FAIXA_ETARIA": "25 A 29 ANOS",
+          "TOTAL_DISCENTES": 443,
+          "PERCENTUAL": 31.42
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_FAIXA_ETARIA": "30 A 34 ANOS",
+          "TOTAL_DISCENTES": 330,
+          "PERCENTUAL": 23.4
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_FAIXA_ETARIA": "35 A 39 ANOS",
+          "TOTAL_DISCENTES": 243,
+          "PERCENTUAL": 17.23
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_FAIXA_ETARIA": "40 A 44 ANOS",
+          "TOTAL_DISCENTES": 165,
+          "PERCENTUAL": 11.7
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_FAIXA_ETARIA": "45 A 49 ANOS",
+          "TOTAL_DISCENTES": 63,
+          "PERCENTUAL": 4.47
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_FAIXA_ETARIA": "50 A 54 ANOS",
+          "TOTAL_DISCENTES": 31,
+          "PERCENTUAL": 2.2
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_FAIXA_ETARIA": "55 A 59 ANOS",
+          "TOTAL_DISCENTES": 9,
+          "PERCENTUAL": 0.64
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_FAIXA_ETARIA": "60 A 64 ANOS",
+          "TOTAL_DISCENTES": 1,
+          "PERCENTUAL": 0.07
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_FAIXA_ETARIA": "65 A 69 ANOS",
+          "TOTAL_DISCENTES": 2,
+          "PERCENTUAL": 0.14
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_FAIXA_ETARIA": "20 A 24 ANOS",
+          "TOTAL_DISCENTES": 291,
+          "PERCENTUAL": 9.62
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_FAIXA_ETARIA": "25 A 29 ANOS",
+          "TOTAL_DISCENTES": 942,
+          "PERCENTUAL": 31.14
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_FAIXA_ETARIA": "30 A 34 ANOS",
+          "TOTAL_DISCENTES": 684,
+          "PERCENTUAL": 22.61
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_FAIXA_ETARIA": "35 A 39 ANOS",
+          "TOTAL_DISCENTES": 502,
+          "PERCENTUAL": 16.6
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_FAIXA_ETARIA": "40 A 44 ANOS",
+          "TOTAL_DISCENTES": 311,
+          "PERCENTUAL": 10.28
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_FAIXA_ETARIA": "45 A 49 ANOS",
+          "TOTAL_DISCENTES": 157,
+          "PERCENTUAL": 5.19
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_FAIXA_ETARIA": "50 A 54 ANOS",
+          "TOTAL_DISCENTES": 90,
+          "PERCENTUAL": 2.98
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_FAIXA_ETARIA": "55 A 59 ANOS",
+          "TOTAL_DISCENTES": 36,
+          "PERCENTUAL": 1.19
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_FAIXA_ETARIA": "60 A 64 ANOS",
+          "TOTAL_DISCENTES": 8,
+          "PERCENTUAL": 0.26
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_FAIXA_ETARIA": "65 A 69 ANOS",
+          "TOTAL_DISCENTES": 3,
+          "PERCENTUAL": 0.1
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_FAIXA_ETARIA": "70 OU MAIS",
+          "TOTAL_DISCENTES": 1,
+          "PERCENTUAL": 0.03
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_FAIXA_ETARIA": "20 A 24 ANOS",
+          "TOTAL_DISCENTES": 181,
+          "PERCENTUAL": 8.96
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_FAIXA_ETARIA": "25 A 29 ANOS",
+          "TOTAL_DISCENTES": 639,
+          "PERCENTUAL": 31.62
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_FAIXA_ETARIA": "30 A 34 ANOS",
+          "TOTAL_DISCENTES": 488,
+          "PERCENTUAL": 24.15
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_FAIXA_ETARIA": "35 A 39 ANOS",
+          "TOTAL_DISCENTES": 338,
+          "PERCENTUAL": 16.72
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_FAIXA_ETARIA": "40 A 44 ANOS",
+          "TOTAL_DISCENTES": 200,
+          "PERCENTUAL": 9.9
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_FAIXA_ETARIA": "45 A 49 ANOS",
+          "TOTAL_DISCENTES": 108,
+          "PERCENTUAL": 5.34
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_FAIXA_ETARIA": "50 A 54 ANOS",
+          "TOTAL_DISCENTES": 38,
+          "PERCENTUAL": 1.88
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_FAIXA_ETARIA": "55 A 59 ANOS",
+          "TOTAL_DISCENTES": 19,
+          "PERCENTUAL": 0.94
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_FAIXA_ETARIA": "60 A 64 ANOS",
+          "TOTAL_DISCENTES": 8,
+          "PERCENTUAL": 0.4
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_FAIXA_ETARIA": "65 A 69 ANOS",
+          "TOTAL_DISCENTES": 2,
+          "PERCENTUAL": 0.1
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_FAIXA_ETARIA": "20 A 24 ANOS",
+          "TOTAL_DISCENTES": 79,
+          "PERCENTUAL": 7.54
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_FAIXA_ETARIA": "25 A 29 ANOS",
+          "TOTAL_DISCENTES": 394,
+          "PERCENTUAL": 37.6
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_FAIXA_ETARIA": "30 A 34 ANOS",
+          "TOTAL_DISCENTES": 266,
+          "PERCENTUAL": 25.38
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_FAIXA_ETARIA": "35 A 39 ANOS",
+          "TOTAL_DISCENTES": 143,
+          "PERCENTUAL": 13.65
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_FAIXA_ETARIA": "40 A 44 ANOS",
+          "TOTAL_DISCENTES": 83,
+          "PERCENTUAL": 7.92
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_FAIXA_ETARIA": "45 A 49 ANOS",
+          "TOTAL_DISCENTES": 44,
+          "PERCENTUAL": 4.2
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_FAIXA_ETARIA": "50 A 54 ANOS",
+          "TOTAL_DISCENTES": 23,
+          "PERCENTUAL": 2.19
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_FAIXA_ETARIA": "55 A 59 ANOS",
+          "TOTAL_DISCENTES": 10,
+          "PERCENTUAL": 0.95
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_FAIXA_ETARIA": "60 A 64 ANOS",
+          "TOTAL_DISCENTES": 6,
+          "PERCENTUAL": 0.57
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_FAIXA_ETARIA": "20 A 24 ANOS",
+          "TOTAL_DISCENTES": 363,
+          "PERCENTUAL": 11.94
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_FAIXA_ETARIA": "25 A 29 ANOS",
+          "TOTAL_DISCENTES": 1217,
+          "PERCENTUAL": 40.03
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_FAIXA_ETARIA": "30 A 34 ANOS",
+          "TOTAL_DISCENTES": 759,
+          "PERCENTUAL": 24.97
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_FAIXA_ETARIA": "35 A 39 ANOS",
+          "TOTAL_DISCENTES": 378,
+          "PERCENTUAL": 12.43
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_FAIXA_ETARIA": "40 A 44 ANOS",
+          "TOTAL_DISCENTES": 182,
+          "PERCENTUAL": 5.99
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_FAIXA_ETARIA": "45 A 49 ANOS",
+          "TOTAL_DISCENTES": 79,
+          "PERCENTUAL": 2.6
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_FAIXA_ETARIA": "50 A 54 ANOS",
+          "TOTAL_DISCENTES": 36,
+          "PERCENTUAL": 1.18
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_FAIXA_ETARIA": "55 A 59 ANOS",
+          "TOTAL_DISCENTES": 18,
+          "PERCENTUAL": 0.59
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_FAIXA_ETARIA": "60 A 64 ANOS",
+          "TOTAL_DISCENTES": 5,
+          "PERCENTUAL": 0.16
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_FAIXA_ETARIA": "65 A 69 ANOS",
+          "TOTAL_DISCENTES": 2,
+          "PERCENTUAL": 0.07
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_FAIXA_ETARIA": "70 OU MAIS",
+          "TOTAL_DISCENTES": 1,
+          "PERCENTUAL": 0.03
+        }
+      ]
+    },
+    "2022": {
+      "distribuicao_grau_academico": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO",
+          "TOTAL_DISCENTES": 1,
+          "PERCENTUAL": 0.07
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+          "TOTAL_DISCENTES": 894,
+          "PERCENTUAL": 63.4
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO PROFISSIONAL",
+          "TOTAL_DISCENTES": 515,
+          "PERCENTUAL": 36.52
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO",
+          "TOTAL_DISCENTES": 805,
+          "PERCENTUAL": 26.71
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO PROFISSIONAL",
+          "TOTAL_DISCENTES": 69,
+          "PERCENTUAL": 2.29
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+          "TOTAL_DISCENTES": 1692,
+          "PERCENTUAL": 56.14
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO PROFISSIONAL",
+          "TOTAL_DISCENTES": 448,
+          "PERCENTUAL": 14.86
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO",
+          "TOTAL_DISCENTES": 915,
+          "PERCENTUAL": 45.59
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+          "TOTAL_DISCENTES": 1092,
+          "PERCENTUAL": 54.41
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO",
+          "TOTAL_DISCENTES": 456,
+          "PERCENTUAL": 41.42
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+          "TOTAL_DISCENTES": 645,
+          "PERCENTUAL": 58.58
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO",
+          "TOTAL_DISCENTES": 1381,
+          "PERCENTUAL": 45.59
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+          "TOTAL_DISCENTES": 1648,
+          "PERCENTUAL": 54.41
+        }
+      ],
+      "situacao_academica": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "NM_SITUACAO_DISCENTE": "ABANDONOU",
+          "TOTAL_DISCENTES": 49,
+          "PERCENTUAL": 3.48
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "NM_SITUACAO_DISCENTE": "DESLIGADO",
+          "TOTAL_DISCENTES": 129,
+          "PERCENTUAL": 9.15
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "NM_SITUACAO_DISCENTE": "MATRICULADO",
+          "TOTAL_DISCENTES": 995,
+          "PERCENTUAL": 70.57
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "NM_SITUACAO_DISCENTE": "TITULADO",
+          "TOTAL_DISCENTES": 237,
+          "PERCENTUAL": 16.81
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "NM_SITUACAO_DISCENTE": "ABANDONOU",
+          "TOTAL_DISCENTES": 91,
+          "PERCENTUAL": 3.02
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "NM_SITUACAO_DISCENTE": "DESLIGADO",
+          "TOTAL_DISCENTES": 200,
+          "PERCENTUAL": 6.64
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "NM_SITUACAO_DISCENTE": "MATRICULADO",
+          "TOTAL_DISCENTES": 2280,
+          "PERCENTUAL": 75.65
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "NM_SITUACAO_DISCENTE": "MUDANÇA DE NÍVEL SEM DEFESA",
+          "TOTAL_DISCENTES": 1,
+          "PERCENTUAL": 0.03
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "NM_SITUACAO_DISCENTE": "TITULADO",
+          "TOTAL_DISCENTES": 442,
+          "PERCENTUAL": 14.66
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "NM_SITUACAO_DISCENTE": "ABANDONOU",
+          "TOTAL_DISCENTES": 50,
+          "PERCENTUAL": 2.49
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "NM_SITUACAO_DISCENTE": "DESLIGADO",
+          "TOTAL_DISCENTES": 133,
+          "PERCENTUAL": 6.63
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "NM_SITUACAO_DISCENTE": "MATRICULADO",
+          "TOTAL_DISCENTES": 1545,
+          "PERCENTUAL": 76.98
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "NM_SITUACAO_DISCENTE": "TITULADO",
+          "TOTAL_DISCENTES": 279,
+          "PERCENTUAL": 13.9
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "NM_SITUACAO_DISCENTE": "ABANDONOU",
+          "TOTAL_DISCENTES": 39,
+          "PERCENTUAL": 3.54
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "NM_SITUACAO_DISCENTE": "DESLIGADO",
+          "TOTAL_DISCENTES": 73,
+          "PERCENTUAL": 6.63
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "NM_SITUACAO_DISCENTE": "MATRICULADO",
+          "TOTAL_DISCENTES": 851,
+          "PERCENTUAL": 77.29
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "NM_SITUACAO_DISCENTE": "TITULADO",
+          "TOTAL_DISCENTES": 138,
+          "PERCENTUAL": 12.53
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "NM_SITUACAO_DISCENTE": "ABANDONOU",
+          "TOTAL_DISCENTES": 35,
+          "PERCENTUAL": 1.16
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "NM_SITUACAO_DISCENTE": "DESLIGADO",
+          "TOTAL_DISCENTES": 179,
+          "PERCENTUAL": 5.91
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "NM_SITUACAO_DISCENTE": "MATRICULADO",
+          "TOTAL_DISCENTES": 2360,
+          "PERCENTUAL": 77.91
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "NM_SITUACAO_DISCENTE": "MUDANÇA DE NÍVEL SEM DEFESA",
+          "TOTAL_DISCENTES": 1,
+          "PERCENTUAL": 0.03
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "NM_SITUACAO_DISCENTE": "TITULADO",
+          "TOTAL_DISCENTES": 454,
+          "PERCENTUAL": 14.99
+        }
+      ],
+      "internacionalizacao_nacionalidade": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_TIPO_NACIONALIDADE_DISCENTE": "BRASILEIRO",
+          "TOTAL_DISCENTES": 1408,
+          "PERCENTUAL": 99.86
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_TIPO_NACIONALIDADE_DISCENTE": "ESTRANGEIRO",
+          "TOTAL_DISCENTES": 2,
+          "PERCENTUAL": 0.14
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_TIPO_NACIONALIDADE_DISCENTE": "BRASILEIRO",
+          "TOTAL_DISCENTES": 2996,
+          "PERCENTUAL": 99.4
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_TIPO_NACIONALIDADE_DISCENTE": "ESTRANGEIRO",
+          "TOTAL_DISCENTES": 18,
+          "PERCENTUAL": 0.6
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_TIPO_NACIONALIDADE_DISCENTE": "BRASILEIRO",
+          "TOTAL_DISCENTES": 1989,
+          "PERCENTUAL": 99.1
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_TIPO_NACIONALIDADE_DISCENTE": "ESTRANGEIRO",
+          "TOTAL_DISCENTES": 18,
+          "PERCENTUAL": 0.9
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_TIPO_NACIONALIDADE_DISCENTE": "BRASILEIRO",
+          "TOTAL_DISCENTES": 1076,
+          "PERCENTUAL": 97.73
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_TIPO_NACIONALIDADE_DISCENTE": "ESTRANGEIRO",
+          "TOTAL_DISCENTES": 25,
+          "PERCENTUAL": 2.27
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_TIPO_NACIONALIDADE_DISCENTE": "BRASILEIRO",
+          "TOTAL_DISCENTES": 2935,
+          "PERCENTUAL": 96.9
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_TIPO_NACIONALIDADE_DISCENTE": "ESTRANGEIRO",
+          "TOTAL_DISCENTES": 94,
+          "PERCENTUAL": 3.1
+        }
+      ],
+      "tempo_medio_titulacao": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+          "MEDIA_MESES_TITULACAO": 31.9
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO PROFISSIONAL",
+          "MEDIA_MESES_TITULACAO": 30.6
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO",
+          "MEDIA_MESES_TITULACAO": 54.9
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+          "MEDIA_MESES_TITULACAO": 32.3
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO PROFISSIONAL",
+          "MEDIA_MESES_TITULACAO": 30.4
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO",
+          "MEDIA_MESES_TITULACAO": 58.1
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+          "MEDIA_MESES_TITULACAO": 33.8
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO",
+          "MEDIA_MESES_TITULACAO": 61.2
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+          "MEDIA_MESES_TITULACAO": 35.7
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO",
+          "MEDIA_MESES_TITULACAO": 62.3
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+          "MEDIA_MESES_TITULACAO": 33.1
+        }
+      ],
+      "tamanho_medio_programa": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "MEDIA_DISCENTES_POR_PROGRAMA": 54.2
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "MEDIA_DISCENTES_POR_PROGRAMA": 88.6
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "MEDIA_DISCENTES_POR_PROGRAMA": 154.4
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "MEDIA_DISCENTES_POR_PROGRAMA": 275.2
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "MEDIA_DISCENTES_POR_PROGRAMA": 378.6
+        }
+      ],
+      "faixa_etaria": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_FAIXA_ETARIA": "20 A 24 ANOS",
+          "TOTAL_DISCENTES": 101,
+          "PERCENTUAL": 7.16
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_FAIXA_ETARIA": "25 A 29 ANOS",
+          "TOTAL_DISCENTES": 401,
+          "PERCENTUAL": 28.44
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_FAIXA_ETARIA": "30 A 34 ANOS",
+          "TOTAL_DISCENTES": 349,
+          "PERCENTUAL": 24.75
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_FAIXA_ETARIA": "35 A 39 ANOS",
+          "TOTAL_DISCENTES": 264,
+          "PERCENTUAL": 18.72
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_FAIXA_ETARIA": "40 A 44 ANOS",
+          "TOTAL_DISCENTES": 170,
+          "PERCENTUAL": 12.06
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_FAIXA_ETARIA": "45 A 49 ANOS",
+          "TOTAL_DISCENTES": 73,
+          "PERCENTUAL": 5.18
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_FAIXA_ETARIA": "50 A 54 ANOS",
+          "TOTAL_DISCENTES": 36,
+          "PERCENTUAL": 2.55
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_FAIXA_ETARIA": "55 A 59 ANOS",
+          "TOTAL_DISCENTES": 10,
+          "PERCENTUAL": 0.71
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_FAIXA_ETARIA": "60 A 64 ANOS",
+          "TOTAL_DISCENTES": 4,
+          "PERCENTUAL": 0.28
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_FAIXA_ETARIA": "65 A 69 ANOS",
+          "TOTAL_DISCENTES": 2,
+          "PERCENTUAL": 0.14
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_FAIXA_ETARIA": "20 A 24 ANOS",
+          "TOTAL_DISCENTES": 213,
+          "PERCENTUAL": 7.07
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_FAIXA_ETARIA": "25 A 29 ANOS",
+          "TOTAL_DISCENTES": 886,
+          "PERCENTUAL": 29.4
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_FAIXA_ETARIA": "30 A 34 ANOS",
+          "TOTAL_DISCENTES": 660,
+          "PERCENTUAL": 21.9
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_FAIXA_ETARIA": "35 A 39 ANOS",
+          "TOTAL_DISCENTES": 526,
+          "PERCENTUAL": 17.45
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_FAIXA_ETARIA": "40 A 44 ANOS",
+          "TOTAL_DISCENTES": 372,
+          "PERCENTUAL": 12.34
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_FAIXA_ETARIA": "45 A 49 ANOS",
+          "TOTAL_DISCENTES": 194,
+          "PERCENTUAL": 6.44
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_FAIXA_ETARIA": "50 A 54 ANOS",
+          "TOTAL_DISCENTES": 103,
+          "PERCENTUAL": 3.42
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_FAIXA_ETARIA": "55 A 59 ANOS",
+          "TOTAL_DISCENTES": 44,
+          "PERCENTUAL": 1.46
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_FAIXA_ETARIA": "60 A 64 ANOS",
+          "TOTAL_DISCENTES": 13,
+          "PERCENTUAL": 0.43
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_FAIXA_ETARIA": "65 A 69 ANOS",
+          "TOTAL_DISCENTES": 3,
+          "PERCENTUAL": 0.1
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_FAIXA_ETARIA": "20 A 24 ANOS",
+          "TOTAL_DISCENTES": 157,
+          "PERCENTUAL": 7.82
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_FAIXA_ETARIA": "25 A 29 ANOS",
+          "TOTAL_DISCENTES": 589,
+          "PERCENTUAL": 29.35
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_FAIXA_ETARIA": "30 A 34 ANOS",
+          "TOTAL_DISCENTES": 494,
+          "PERCENTUAL": 24.61
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_FAIXA_ETARIA": "35 A 39 ANOS",
+          "TOTAL_DISCENTES": 340,
+          "PERCENTUAL": 16.94
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_FAIXA_ETARIA": "40 A 44 ANOS",
+          "TOTAL_DISCENTES": 227,
+          "PERCENTUAL": 11.31
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_FAIXA_ETARIA": "45 A 49 ANOS",
+          "TOTAL_DISCENTES": 124,
+          "PERCENTUAL": 6.18
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_FAIXA_ETARIA": "50 A 54 ANOS",
+          "TOTAL_DISCENTES": 45,
+          "PERCENTUAL": 2.24
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_FAIXA_ETARIA": "55 A 59 ANOS",
+          "TOTAL_DISCENTES": 21,
+          "PERCENTUAL": 1.05
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_FAIXA_ETARIA": "60 A 64 ANOS",
+          "TOTAL_DISCENTES": 7,
+          "PERCENTUAL": 0.35
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_FAIXA_ETARIA": "65 A 69 ANOS",
+          "TOTAL_DISCENTES": 2,
+          "PERCENTUAL": 0.1
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_FAIXA_ETARIA": "70 OU MAIS",
+          "TOTAL_DISCENTES": 1,
+          "PERCENTUAL": 0.05
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_FAIXA_ETARIA": "20 A 24 ANOS",
+          "TOTAL_DISCENTES": 71,
+          "PERCENTUAL": 6.45
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_FAIXA_ETARIA": "25 A 29 ANOS",
+          "TOTAL_DISCENTES": 362,
+          "PERCENTUAL": 32.88
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_FAIXA_ETARIA": "30 A 34 ANOS",
+          "TOTAL_DISCENTES": 282,
+          "PERCENTUAL": 25.61
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_FAIXA_ETARIA": "35 A 39 ANOS",
+          "TOTAL_DISCENTES": 181,
+          "PERCENTUAL": 16.44
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_FAIXA_ETARIA": "40 A 44 ANOS",
+          "TOTAL_DISCENTES": 103,
+          "PERCENTUAL": 9.36
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_FAIXA_ETARIA": "45 A 49 ANOS",
+          "TOTAL_DISCENTES": 43,
+          "PERCENTUAL": 3.91
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_FAIXA_ETARIA": "50 A 54 ANOS",
+          "TOTAL_DISCENTES": 37,
+          "PERCENTUAL": 3.36
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_FAIXA_ETARIA": "55 A 59 ANOS",
+          "TOTAL_DISCENTES": 12,
+          "PERCENTUAL": 1.09
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_FAIXA_ETARIA": "60 A 64 ANOS",
+          "TOTAL_DISCENTES": 9,
+          "PERCENTUAL": 0.82
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_FAIXA_ETARIA": "70 OU MAIS",
+          "TOTAL_DISCENTES": 1,
+          "PERCENTUAL": 0.09
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_FAIXA_ETARIA": "20 A 24 ANOS",
+          "TOTAL_DISCENTES": 303,
+          "PERCENTUAL": 10.0
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_FAIXA_ETARIA": "25 A 29 ANOS",
+          "TOTAL_DISCENTES": 1195,
+          "PERCENTUAL": 39.45
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_FAIXA_ETARIA": "30 A 34 ANOS",
+          "TOTAL_DISCENTES": 760,
+          "PERCENTUAL": 25.09
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_FAIXA_ETARIA": "35 A 39 ANOS",
+          "TOTAL_DISCENTES": 406,
+          "PERCENTUAL": 13.4
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_FAIXA_ETARIA": "40 A 44 ANOS",
+          "TOTAL_DISCENTES": 196,
+          "PERCENTUAL": 6.47
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_FAIXA_ETARIA": "45 A 49 ANOS",
+          "TOTAL_DISCENTES": 97,
+          "PERCENTUAL": 3.2
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_FAIXA_ETARIA": "50 A 54 ANOS",
+          "TOTAL_DISCENTES": 42,
+          "PERCENTUAL": 1.39
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_FAIXA_ETARIA": "55 A 59 ANOS",
+          "TOTAL_DISCENTES": 22,
+          "PERCENTUAL": 0.73
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_FAIXA_ETARIA": "60 A 64 ANOS",
+          "TOTAL_DISCENTES": 5,
+          "PERCENTUAL": 0.17
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_FAIXA_ETARIA": "65 A 69 ANOS",
+          "TOTAL_DISCENTES": 2,
+          "PERCENTUAL": 0.07
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_FAIXA_ETARIA": "70 OU MAIS",
+          "TOTAL_DISCENTES": 1,
+          "PERCENTUAL": 0.03
+        }
+      ]
+    },
+    "2023": {
+      "distribuicao_grau_academico": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO",
+          "TOTAL_DISCENTES": 1,
+          "PERCENTUAL": 0.07
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+          "TOTAL_DISCENTES": 891,
+          "PERCENTUAL": 60.9
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO PROFISSIONAL",
+          "TOTAL_DISCENTES": 571,
+          "PERCENTUAL": 39.03
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO",
+          "TOTAL_DISCENTES": 879,
+          "PERCENTUAL": 28.19
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO PROFISSIONAL",
+          "TOTAL_DISCENTES": 85,
+          "PERCENTUAL": 2.73
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+          "TOTAL_DISCENTES": 1668,
+          "PERCENTUAL": 53.5
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO PROFISSIONAL",
+          "TOTAL_DISCENTES": 486,
+          "PERCENTUAL": 15.59
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO",
+          "TOTAL_DISCENTES": 910,
+          "PERCENTUAL": 43.23
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+          "TOTAL_DISCENTES": 1195,
+          "PERCENTUAL": 56.77
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO",
+          "TOTAL_DISCENTES": 437,
+          "PERCENTUAL": 41.15
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+          "TOTAL_DISCENTES": 625,
+          "PERCENTUAL": 58.85
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO",
+          "TOTAL_DISCENTES": 1291,
+          "PERCENTUAL": 43.09
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+          "TOTAL_DISCENTES": 1705,
+          "PERCENTUAL": 56.91
+        }
+      ],
+      "situacao_academica": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "NM_SITUACAO_DISCENTE": "ABANDONOU",
+          "TOTAL_DISCENTES": 48,
+          "PERCENTUAL": 3.28
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "NM_SITUACAO_DISCENTE": "DESLIGADO",
+          "TOTAL_DISCENTES": 126,
+          "PERCENTUAL": 8.61
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "NM_SITUACAO_DISCENTE": "MATRICULADO",
+          "TOTAL_DISCENTES": 1029,
+          "PERCENTUAL": 70.33
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "NM_SITUACAO_DISCENTE": "TITULADO",
+          "TOTAL_DISCENTES": 260,
+          "PERCENTUAL": 17.77
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "NM_SITUACAO_DISCENTE": "ABANDONOU",
+          "TOTAL_DISCENTES": 97,
+          "PERCENTUAL": 3.11
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "NM_SITUACAO_DISCENTE": "DESLIGADO",
+          "TOTAL_DISCENTES": 226,
+          "PERCENTUAL": 7.25
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "NM_SITUACAO_DISCENTE": "MATRICULADO",
+          "TOTAL_DISCENTES": 2349,
+          "PERCENTUAL": 75.34
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "NM_SITUACAO_DISCENTE": "MUDANÇA DE NÍVEL SEM DEFESA",
+          "TOTAL_DISCENTES": 3,
+          "PERCENTUAL": 0.1
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "NM_SITUACAO_DISCENTE": "TITULADO",
+          "TOTAL_DISCENTES": 443,
+          "PERCENTUAL": 14.21
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "NM_SITUACAO_DISCENTE": "ABANDONOU",
+          "TOTAL_DISCENTES": 43,
+          "PERCENTUAL": 2.04
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "NM_SITUACAO_DISCENTE": "DESLIGADO",
+          "TOTAL_DISCENTES": 115,
+          "PERCENTUAL": 5.46
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "NM_SITUACAO_DISCENTE": "MATRICULADO",
+          "TOTAL_DISCENTES": 1643,
+          "PERCENTUAL": 78.05
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "NM_SITUACAO_DISCENTE": "MUDANÇA DE NÍVEL SEM DEFESA",
+          "TOTAL_DISCENTES": 2,
+          "PERCENTUAL": 0.1
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "NM_SITUACAO_DISCENTE": "TITULADO",
+          "TOTAL_DISCENTES": 302,
+          "PERCENTUAL": 14.35
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "NM_SITUACAO_DISCENTE": "ABANDONOU",
+          "TOTAL_DISCENTES": 23,
+          "PERCENTUAL": 2.17
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "NM_SITUACAO_DISCENTE": "DESLIGADO",
+          "TOTAL_DISCENTES": 83,
+          "PERCENTUAL": 7.82
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "NM_SITUACAO_DISCENTE": "MATRICULADO",
+          "TOTAL_DISCENTES": 816,
+          "PERCENTUAL": 76.84
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "NM_SITUACAO_DISCENTE": "MUDANÇA DE NÍVEL SEM DEFESA",
+          "TOTAL_DISCENTES": 1,
+          "PERCENTUAL": 0.09
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "NM_SITUACAO_DISCENTE": "TITULADO",
+          "TOTAL_DISCENTES": 139,
+          "PERCENTUAL": 13.09
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "NM_SITUACAO_DISCENTE": "ABANDONOU",
+          "TOTAL_DISCENTES": 20,
+          "PERCENTUAL": 0.67
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "NM_SITUACAO_DISCENTE": "DESLIGADO",
+          "TOTAL_DISCENTES": 178,
+          "PERCENTUAL": 5.94
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "NM_SITUACAO_DISCENTE": "MATRICULADO",
+          "TOTAL_DISCENTES": 2368,
+          "PERCENTUAL": 79.04
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "NM_SITUACAO_DISCENTE": "MUDANÇA DE NÍVEL SEM DEFESA",
+          "TOTAL_DISCENTES": 9,
+          "PERCENTUAL": 0.3
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "NM_SITUACAO_DISCENTE": "TITULADO",
+          "TOTAL_DISCENTES": 421,
+          "PERCENTUAL": 14.05
+        }
+      ],
+      "internacionalizacao_nacionalidade": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_TIPO_NACIONALIDADE_DISCENTE": "BRASILEIRO",
+          "TOTAL_DISCENTES": 1457,
+          "PERCENTUAL": 99.59
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_TIPO_NACIONALIDADE_DISCENTE": "ESTRANGEIRO",
+          "TOTAL_DISCENTES": 6,
+          "PERCENTUAL": 0.41
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_TIPO_NACIONALIDADE_DISCENTE": "BRASILEIRO",
+          "TOTAL_DISCENTES": 3092,
+          "PERCENTUAL": 99.17
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_TIPO_NACIONALIDADE_DISCENTE": "ESTRANGEIRO",
+          "TOTAL_DISCENTES": 26,
+          "PERCENTUAL": 0.83
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_TIPO_NACIONALIDADE_DISCENTE": "BRASILEIRO",
+          "TOTAL_DISCENTES": 2076,
+          "PERCENTUAL": 98.62
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_TIPO_NACIONALIDADE_DISCENTE": "ESTRANGEIRO",
+          "TOTAL_DISCENTES": 29,
+          "PERCENTUAL": 1.38
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_TIPO_NACIONALIDADE_DISCENTE": "BRASILEIRO",
+          "TOTAL_DISCENTES": 1036,
+          "PERCENTUAL": 97.55
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_TIPO_NACIONALIDADE_DISCENTE": "ESTRANGEIRO",
+          "TOTAL_DISCENTES": 26,
+          "PERCENTUAL": 2.45
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_TIPO_NACIONALIDADE_DISCENTE": "BRASILEIRO",
+          "TOTAL_DISCENTES": 2914,
+          "PERCENTUAL": 97.26
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_TIPO_NACIONALIDADE_DISCENTE": "ESTRANGEIRO",
+          "TOTAL_DISCENTES": 82,
+          "PERCENTUAL": 2.74
+        }
+      ],
+      "tempo_medio_titulacao": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+          "MEDIA_MESES_TITULACAO": 31.8
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO PROFISSIONAL",
+          "MEDIA_MESES_TITULACAO": 32.2
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO",
+          "MEDIA_MESES_TITULACAO": 57.5
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO PROFISSIONAL",
+          "MEDIA_MESES_TITULACAO": 42.6
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+          "MEDIA_MESES_TITULACAO": 31.9
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO PROFISSIONAL",
+          "MEDIA_MESES_TITULACAO": 30.2
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO",
+          "MEDIA_MESES_TITULACAO": 58.5
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+          "MEDIA_MESES_TITULACAO": 34.3
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO",
+          "MEDIA_MESES_TITULACAO": 65.2
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+          "MEDIA_MESES_TITULACAO": 41.4
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO",
+          "MEDIA_MESES_TITULACAO": 64.7
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+          "MEDIA_MESES_TITULACAO": 33.3
+        }
+      ],
+      "tamanho_medio_programa": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "MEDIA_DISCENTES_POR_PROGRAMA": 56.3
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "MEDIA_DISCENTES_POR_PROGRAMA": 91.7
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "MEDIA_DISCENTES_POR_PROGRAMA": 161.9
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "MEDIA_DISCENTES_POR_PROGRAMA": 265.5
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "MEDIA_DISCENTES_POR_PROGRAMA": 374.5
+        }
+      ],
+      "faixa_etaria": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_FAIXA_ETARIA": "20 A 24 ANOS",
+          "TOTAL_DISCENTES": 90,
+          "PERCENTUAL": 6.15
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_FAIXA_ETARIA": "25 A 29 ANOS",
+          "TOTAL_DISCENTES": 421,
+          "PERCENTUAL": 28.78
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_FAIXA_ETARIA": "30 A 34 ANOS",
+          "TOTAL_DISCENTES": 338,
+          "PERCENTUAL": 23.1
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_FAIXA_ETARIA": "35 A 39 ANOS",
+          "TOTAL_DISCENTES": 283,
+          "PERCENTUAL": 19.34
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_FAIXA_ETARIA": "40 A 44 ANOS",
+          "TOTAL_DISCENTES": 178,
+          "PERCENTUAL": 12.17
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_FAIXA_ETARIA": "45 A 49 ANOS",
+          "TOTAL_DISCENTES": 86,
+          "PERCENTUAL": 5.88
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_FAIXA_ETARIA": "50 A 54 ANOS",
+          "TOTAL_DISCENTES": 37,
+          "PERCENTUAL": 2.53
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_FAIXA_ETARIA": "55 A 59 ANOS",
+          "TOTAL_DISCENTES": 21,
+          "PERCENTUAL": 1.44
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_FAIXA_ETARIA": "60 A 64 ANOS",
+          "TOTAL_DISCENTES": 7,
+          "PERCENTUAL": 0.48
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_FAIXA_ETARIA": "70 OU MAIS",
+          "TOTAL_DISCENTES": 2,
+          "PERCENTUAL": 0.14
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_FAIXA_ETARIA": "20 A 24 ANOS",
+          "TOTAL_DISCENTES": 256,
+          "PERCENTUAL": 8.21
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_FAIXA_ETARIA": "25 A 29 ANOS",
+          "TOTAL_DISCENTES": 869,
+          "PERCENTUAL": 27.87
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_FAIXA_ETARIA": "30 A 34 ANOS",
+          "TOTAL_DISCENTES": 631,
+          "PERCENTUAL": 20.24
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_FAIXA_ETARIA": "35 A 39 ANOS",
+          "TOTAL_DISCENTES": 534,
+          "PERCENTUAL": 17.13
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_FAIXA_ETARIA": "40 A 44 ANOS",
+          "TOTAL_DISCENTES": 399,
+          "PERCENTUAL": 12.8
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_FAIXA_ETARIA": "45 A 49 ANOS",
+          "TOTAL_DISCENTES": 228,
+          "PERCENTUAL": 7.31
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_FAIXA_ETARIA": "50 A 54 ANOS",
+          "TOTAL_DISCENTES": 124,
+          "PERCENTUAL": 3.98
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_FAIXA_ETARIA": "55 A 59 ANOS",
+          "TOTAL_DISCENTES": 51,
+          "PERCENTUAL": 1.64
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_FAIXA_ETARIA": "60 A 64 ANOS",
+          "TOTAL_DISCENTES": 18,
+          "PERCENTUAL": 0.58
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_FAIXA_ETARIA": "65 A 69 ANOS",
+          "TOTAL_DISCENTES": 7,
+          "PERCENTUAL": 0.22
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_FAIXA_ETARIA": "70 OU MAIS",
+          "TOTAL_DISCENTES": 1,
+          "PERCENTUAL": 0.03
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_FAIXA_ETARIA": "20 A 24 ANOS",
+          "TOTAL_DISCENTES": 169,
+          "PERCENTUAL": 8.03
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_FAIXA_ETARIA": "25 A 29 ANOS",
+          "TOTAL_DISCENTES": 607,
+          "PERCENTUAL": 28.84
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_FAIXA_ETARIA": "30 A 34 ANOS",
+          "TOTAL_DISCENTES": 493,
+          "PERCENTUAL": 23.42
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_FAIXA_ETARIA": "35 A 39 ANOS",
+          "TOTAL_DISCENTES": 345,
+          "PERCENTUAL": 16.39
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_FAIXA_ETARIA": "40 A 44 ANOS",
+          "TOTAL_DISCENTES": 259,
+          "PERCENTUAL": 12.3
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_FAIXA_ETARIA": "45 A 49 ANOS",
+          "TOTAL_DISCENTES": 141,
+          "PERCENTUAL": 6.7
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_FAIXA_ETARIA": "50 A 54 ANOS",
+          "TOTAL_DISCENTES": 54,
+          "PERCENTUAL": 2.57
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_FAIXA_ETARIA": "55 A 59 ANOS",
+          "TOTAL_DISCENTES": 22,
+          "PERCENTUAL": 1.05
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_FAIXA_ETARIA": "60 A 64 ANOS",
+          "TOTAL_DISCENTES": 10,
+          "PERCENTUAL": 0.48
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_FAIXA_ETARIA": "65 A 69 ANOS",
+          "TOTAL_DISCENTES": 4,
+          "PERCENTUAL": 0.19
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_FAIXA_ETARIA": "70 OU MAIS",
+          "TOTAL_DISCENTES": 1,
+          "PERCENTUAL": 0.05
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_FAIXA_ETARIA": "20 A 24 ANOS",
+          "TOTAL_DISCENTES": 73,
+          "PERCENTUAL": 6.87
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_FAIXA_ETARIA": "25 A 29 ANOS",
+          "TOTAL_DISCENTES": 339,
+          "PERCENTUAL": 31.92
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_FAIXA_ETARIA": "30 A 34 ANOS",
+          "TOTAL_DISCENTES": 274,
+          "PERCENTUAL": 25.8
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_FAIXA_ETARIA": "35 A 39 ANOS",
+          "TOTAL_DISCENTES": 156,
+          "PERCENTUAL": 14.69
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_FAIXA_ETARIA": "40 A 44 ANOS",
+          "TOTAL_DISCENTES": 112,
+          "PERCENTUAL": 10.55
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_FAIXA_ETARIA": "45 A 49 ANOS",
+          "TOTAL_DISCENTES": 54,
+          "PERCENTUAL": 5.08
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_FAIXA_ETARIA": "50 A 54 ANOS",
+          "TOTAL_DISCENTES": 29,
+          "PERCENTUAL": 2.73
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_FAIXA_ETARIA": "55 A 59 ANOS",
+          "TOTAL_DISCENTES": 16,
+          "PERCENTUAL": 1.51
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_FAIXA_ETARIA": "60 A 64 ANOS",
+          "TOTAL_DISCENTES": 9,
+          "PERCENTUAL": 0.85
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_FAIXA_ETARIA": "20 A 24 ANOS",
+          "TOTAL_DISCENTES": 282,
+          "PERCENTUAL": 9.41
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_FAIXA_ETARIA": "25 A 29 ANOS",
+          "TOTAL_DISCENTES": 1163,
+          "PERCENTUAL": 38.82
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_FAIXA_ETARIA": "30 A 34 ANOS",
+          "TOTAL_DISCENTES": 765,
+          "PERCENTUAL": 25.53
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_FAIXA_ETARIA": "35 A 39 ANOS",
+          "TOTAL_DISCENTES": 391,
+          "PERCENTUAL": 13.05
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_FAIXA_ETARIA": "40 A 44 ANOS",
+          "TOTAL_DISCENTES": 213,
+          "PERCENTUAL": 7.11
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_FAIXA_ETARIA": "45 A 49 ANOS",
+          "TOTAL_DISCENTES": 102,
+          "PERCENTUAL": 3.4
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_FAIXA_ETARIA": "50 A 54 ANOS",
+          "TOTAL_DISCENTES": 45,
+          "PERCENTUAL": 1.5
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_FAIXA_ETARIA": "55 A 59 ANOS",
+          "TOTAL_DISCENTES": 23,
+          "PERCENTUAL": 0.77
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_FAIXA_ETARIA": "60 A 64 ANOS",
+          "TOTAL_DISCENTES": 8,
+          "PERCENTUAL": 0.27
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_FAIXA_ETARIA": "65 A 69 ANOS",
+          "TOTAL_DISCENTES": 3,
+          "PERCENTUAL": 0.1
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_FAIXA_ETARIA": "70 OU MAIS",
+          "TOTAL_DISCENTES": 1,
+          "PERCENTUAL": 0.03
+        }
+      ]
+    },
+    "2024": {
+      "distribuicao_grau_academico": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+          "TOTAL_DISCENTES": 955,
+          "PERCENTUAL": 60.75
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO PROFISSIONAL",
+          "TOTAL_DISCENTES": 617,
+          "PERCENTUAL": 39.25
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO",
+          "TOTAL_DISCENTES": 923,
+          "PERCENTUAL": 27.16
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO PROFISSIONAL",
+          "TOTAL_DISCENTES": 94,
+          "PERCENTUAL": 2.77
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+          "TOTAL_DISCENTES": 1813,
+          "PERCENTUAL": 53.34
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO PROFISSIONAL",
+          "TOTAL_DISCENTES": 569,
+          "PERCENTUAL": 16.74
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO",
+          "TOTAL_DISCENTES": 945,
+          "PERCENTUAL": 41.54
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+          "TOTAL_DISCENTES": 1330,
+          "PERCENTUAL": 58.46
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO",
+          "TOTAL_DISCENTES": 438,
+          "PERCENTUAL": 40.52
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+          "TOTAL_DISCENTES": 643,
+          "PERCENTUAL": 59.48
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO",
+          "TOTAL_DISCENTES": 1241,
+          "PERCENTUAL": 40.25
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+          "TOTAL_DISCENTES": 1842,
+          "PERCENTUAL": 59.75
+        }
+      ],
+      "situacao_academica": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "NM_SITUACAO_DISCENTE": "ABANDONOU",
+          "TOTAL_DISCENTES": 39,
+          "PERCENTUAL": 2.48
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "NM_SITUACAO_DISCENTE": "DESLIGADO",
+          "TOTAL_DISCENTES": 165,
+          "PERCENTUAL": 10.5
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "NM_SITUACAO_DISCENTE": "MATRICULADO",
+          "TOTAL_DISCENTES": 1101,
+          "PERCENTUAL": 70.04
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "NM_SITUACAO_DISCENTE": "TITULADO",
+          "TOTAL_DISCENTES": 267,
+          "PERCENTUAL": 16.98
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "NM_SITUACAO_DISCENTE": "ABANDONOU",
+          "TOTAL_DISCENTES": 63,
+          "PERCENTUAL": 1.85
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "NM_SITUACAO_DISCENTE": "DESLIGADO",
+          "TOTAL_DISCENTES": 193,
+          "PERCENTUAL": 5.68
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "NM_SITUACAO_DISCENTE": "MATRICULADO",
+          "TOTAL_DISCENTES": 2632,
+          "PERCENTUAL": 77.43
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "NM_SITUACAO_DISCENTE": "MUDANÇA DE NÍVEL SEM DEFESA",
+          "TOTAL_DISCENTES": 3,
+          "PERCENTUAL": 0.09
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "NM_SITUACAO_DISCENTE": "TITULADO",
+          "TOTAL_DISCENTES": 508,
+          "PERCENTUAL": 14.95
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "NM_SITUACAO_DISCENTE": "ABANDONOU",
+          "TOTAL_DISCENTES": 65,
+          "PERCENTUAL": 2.86
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "NM_SITUACAO_DISCENTE": "DESLIGADO",
+          "TOTAL_DISCENTES": 160,
+          "PERCENTUAL": 7.03
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "NM_SITUACAO_DISCENTE": "MATRICULADO",
+          "TOTAL_DISCENTES": 1722,
+          "PERCENTUAL": 75.69
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "NM_SITUACAO_DISCENTE": "MUDANÇA DE NÍVEL SEM DEFESA",
+          "TOTAL_DISCENTES": 1,
+          "PERCENTUAL": 0.04
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "NM_SITUACAO_DISCENTE": "TITULADO",
+          "TOTAL_DISCENTES": 327,
+          "PERCENTUAL": 14.37
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "NM_SITUACAO_DISCENTE": "ABANDONOU",
+          "TOTAL_DISCENTES": 18,
+          "PERCENTUAL": 1.67
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "NM_SITUACAO_DISCENTE": "DESLIGADO",
+          "TOTAL_DISCENTES": 84,
+          "PERCENTUAL": 7.77
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "NM_SITUACAO_DISCENTE": "MATRICULADO",
+          "TOTAL_DISCENTES": 831,
+          "PERCENTUAL": 76.87
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "NM_SITUACAO_DISCENTE": "MUDANÇA DE NÍVEL SEM DEFESA",
+          "TOTAL_DISCENTES": 1,
+          "PERCENTUAL": 0.09
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "NM_SITUACAO_DISCENTE": "TITULADO",
+          "TOTAL_DISCENTES": 147,
+          "PERCENTUAL": 13.6
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "NM_SITUACAO_DISCENTE": "ABANDONOU",
+          "TOTAL_DISCENTES": 10,
+          "PERCENTUAL": 0.32
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "NM_SITUACAO_DISCENTE": "DESLIGADO",
+          "TOTAL_DISCENTES": 129,
+          "PERCENTUAL": 4.18
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "NM_SITUACAO_DISCENTE": "MATRICULADO",
+          "TOTAL_DISCENTES": 2498,
+          "PERCENTUAL": 81.02
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "NM_SITUACAO_DISCENTE": "MUDANÇA DE NÍVEL SEM DEFESA",
+          "TOTAL_DISCENTES": 6,
+          "PERCENTUAL": 0.19
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "NM_SITUACAO_DISCENTE": "TITULADO",
+          "TOTAL_DISCENTES": 440,
+          "PERCENTUAL": 14.27
+        }
+      ],
+      "internacionalizacao_nacionalidade": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_TIPO_NACIONALIDADE_DISCENTE": "BRASILEIRO",
+          "TOTAL_DISCENTES": 1566,
+          "PERCENTUAL": 99.62
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_TIPO_NACIONALIDADE_DISCENTE": "ESTRANGEIRO",
+          "TOTAL_DISCENTES": 6,
+          "PERCENTUAL": 0.38
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_TIPO_NACIONALIDADE_DISCENTE": "BRASILEIRO",
+          "TOTAL_DISCENTES": 3363,
+          "PERCENTUAL": 98.94
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_TIPO_NACIONALIDADE_DISCENTE": "ESTRANGEIRO",
+          "TOTAL_DISCENTES": 36,
+          "PERCENTUAL": 1.06
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_TIPO_NACIONALIDADE_DISCENTE": "BRASILEIRO",
+          "TOTAL_DISCENTES": 2228,
+          "PERCENTUAL": 97.93
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_TIPO_NACIONALIDADE_DISCENTE": "ESTRANGEIRO",
+          "TOTAL_DISCENTES": 47,
+          "PERCENTUAL": 2.07
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_TIPO_NACIONALIDADE_DISCENTE": "BRASILEIRO",
+          "TOTAL_DISCENTES": 1050,
+          "PERCENTUAL": 97.13
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_TIPO_NACIONALIDADE_DISCENTE": "ESTRANGEIRO",
+          "TOTAL_DISCENTES": 31,
+          "PERCENTUAL": 2.87
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_TIPO_NACIONALIDADE_DISCENTE": "BRASILEIRO",
+          "TOTAL_DISCENTES": 3006,
+          "PERCENTUAL": 97.5
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_TIPO_NACIONALIDADE_DISCENTE": "ESTRANGEIRO",
+          "TOTAL_DISCENTES": 77,
+          "PERCENTUAL": 2.5
+        }
+      ],
+      "tempo_medio_titulacao": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+          "MEDIA_MESES_TITULACAO": 31.6
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO PROFISSIONAL",
+          "MEDIA_MESES_TITULACAO": 32.8
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO",
+          "MEDIA_MESES_TITULACAO": 58.7
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO PROFISSIONAL",
+          "MEDIA_MESES_TITULACAO": 46.7
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+          "MEDIA_MESES_TITULACAO": 32.1
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO PROFISSIONAL",
+          "MEDIA_MESES_TITULACAO": 30.4
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO",
+          "MEDIA_MESES_TITULACAO": 59.2
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+          "MEDIA_MESES_TITULACAO": 33.2
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO",
+          "MEDIA_MESES_TITULACAO": 64.0
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+          "MEDIA_MESES_TITULACAO": 39.3
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO",
+          "MEDIA_MESES_TITULACAO": 65.0
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+          "MEDIA_MESES_TITULACAO": 33.8
+        }
+      ],
+      "tamanho_medio_programa": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "MEDIA_DISCENTES_POR_PROGRAMA": 62.9
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "MEDIA_DISCENTES_POR_PROGRAMA": 103.0
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "MEDIA_DISCENTES_POR_PROGRAMA": 175.0
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "MEDIA_DISCENTES_POR_PROGRAMA": 270.2
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "MEDIA_DISCENTES_POR_PROGRAMA": 385.4
+        }
+      ],
+      "faixa_etaria": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_FAIXA_ETARIA": "20 A 24 ANOS",
+          "TOTAL_DISCENTES": 137,
+          "PERCENTUAL": 8.72
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_FAIXA_ETARIA": "25 A 29 ANOS",
+          "TOTAL_DISCENTES": 461,
+          "PERCENTUAL": 29.33
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_FAIXA_ETARIA": "30 A 34 ANOS",
+          "TOTAL_DISCENTES": 343,
+          "PERCENTUAL": 21.82
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_FAIXA_ETARIA": "35 A 39 ANOS",
+          "TOTAL_DISCENTES": 246,
+          "PERCENTUAL": 15.65
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_FAIXA_ETARIA": "40 A 44 ANOS",
+          "TOTAL_DISCENTES": 193,
+          "PERCENTUAL": 12.28
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_FAIXA_ETARIA": "45 A 49 ANOS",
+          "TOTAL_DISCENTES": 108,
+          "PERCENTUAL": 6.87
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_FAIXA_ETARIA": "50 A 54 ANOS",
+          "TOTAL_DISCENTES": 49,
+          "PERCENTUAL": 3.12
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_FAIXA_ETARIA": "55 A 59 ANOS",
+          "TOTAL_DISCENTES": 26,
+          "PERCENTUAL": 1.65
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_FAIXA_ETARIA": "60 A 64 ANOS",
+          "TOTAL_DISCENTES": 8,
+          "PERCENTUAL": 0.51
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_FAIXA_ETARIA": "70 OU MAIS",
+          "TOTAL_DISCENTES": 1,
+          "PERCENTUAL": 0.06
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_FAIXA_ETARIA": "20 A 24 ANOS",
+          "TOTAL_DISCENTES": 321,
+          "PERCENTUAL": 9.44
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_FAIXA_ETARIA": "25 A 29 ANOS",
+          "TOTAL_DISCENTES": 972,
+          "PERCENTUAL": 28.6
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_FAIXA_ETARIA": "30 A 34 ANOS",
+          "TOTAL_DISCENTES": 668,
+          "PERCENTUAL": 19.65
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_FAIXA_ETARIA": "35 A 39 ANOS",
+          "TOTAL_DISCENTES": 528,
+          "PERCENTUAL": 15.53
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_FAIXA_ETARIA": "40 A 44 ANOS",
+          "TOTAL_DISCENTES": 414,
+          "PERCENTUAL": 12.18
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_FAIXA_ETARIA": "45 A 49 ANOS",
+          "TOTAL_DISCENTES": 270,
+          "PERCENTUAL": 7.94
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_FAIXA_ETARIA": "50 A 54 ANOS",
+          "TOTAL_DISCENTES": 136,
+          "PERCENTUAL": 4.0
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_FAIXA_ETARIA": "55 A 59 ANOS",
+          "TOTAL_DISCENTES": 54,
+          "PERCENTUAL": 1.59
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_FAIXA_ETARIA": "60 A 64 ANOS",
+          "TOTAL_DISCENTES": 27,
+          "PERCENTUAL": 0.79
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_FAIXA_ETARIA": "65 A 69 ANOS",
+          "TOTAL_DISCENTES": 7,
+          "PERCENTUAL": 0.21
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_FAIXA_ETARIA": "70 OU MAIS",
+          "TOTAL_DISCENTES": 2,
+          "PERCENTUAL": 0.06
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_FAIXA_ETARIA": "20 A 24 ANOS",
+          "TOTAL_DISCENTES": 171,
+          "PERCENTUAL": 7.52
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_FAIXA_ETARIA": "25 A 29 ANOS",
+          "TOTAL_DISCENTES": 667,
+          "PERCENTUAL": 29.32
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_FAIXA_ETARIA": "30 A 34 ANOS",
+          "TOTAL_DISCENTES": 526,
+          "PERCENTUAL": 23.12
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_FAIXA_ETARIA": "35 A 39 ANOS",
+          "TOTAL_DISCENTES": 355,
+          "PERCENTUAL": 15.6
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_FAIXA_ETARIA": "40 A 44 ANOS",
+          "TOTAL_DISCENTES": 276,
+          "PERCENTUAL": 12.13
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_FAIXA_ETARIA": "45 A 49 ANOS",
+          "TOTAL_DISCENTES": 156,
+          "PERCENTUAL": 6.86
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_FAIXA_ETARIA": "50 A 54 ANOS",
+          "TOTAL_DISCENTES": 75,
+          "PERCENTUAL": 3.3
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_FAIXA_ETARIA": "55 A 59 ANOS",
+          "TOTAL_DISCENTES": 31,
+          "PERCENTUAL": 1.36
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_FAIXA_ETARIA": "60 A 64 ANOS",
+          "TOTAL_DISCENTES": 11,
+          "PERCENTUAL": 0.48
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_FAIXA_ETARIA": "65 A 69 ANOS",
+          "TOTAL_DISCENTES": 6,
+          "PERCENTUAL": 0.26
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_FAIXA_ETARIA": "70 OU MAIS",
+          "TOTAL_DISCENTES": 1,
+          "PERCENTUAL": 0.04
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_FAIXA_ETARIA": "20 A 24 ANOS",
+          "TOTAL_DISCENTES": 89,
+          "PERCENTUAL": 8.23
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_FAIXA_ETARIA": "25 A 29 ANOS",
+          "TOTAL_DISCENTES": 371,
+          "PERCENTUAL": 34.32
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_FAIXA_ETARIA": "30 A 34 ANOS",
+          "TOTAL_DISCENTES": 252,
+          "PERCENTUAL": 23.31
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_FAIXA_ETARIA": "35 A 39 ANOS",
+          "TOTAL_DISCENTES": 157,
+          "PERCENTUAL": 14.52
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_FAIXA_ETARIA": "40 A 44 ANOS",
+          "TOTAL_DISCENTES": 108,
+          "PERCENTUAL": 9.99
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_FAIXA_ETARIA": "45 A 49 ANOS",
+          "TOTAL_DISCENTES": 46,
+          "PERCENTUAL": 4.26
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_FAIXA_ETARIA": "50 A 54 ANOS",
+          "TOTAL_DISCENTES": 32,
+          "PERCENTUAL": 2.96
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_FAIXA_ETARIA": "55 A 59 ANOS",
+          "TOTAL_DISCENTES": 18,
+          "PERCENTUAL": 1.67
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_FAIXA_ETARIA": "60 A 64 ANOS",
+          "TOTAL_DISCENTES": 6,
+          "PERCENTUAL": 0.56
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_FAIXA_ETARIA": "65 A 69 ANOS",
+          "TOTAL_DISCENTES": 2,
+          "PERCENTUAL": 0.19
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_FAIXA_ETARIA": "19 OU MENOS",
+          "TOTAL_DISCENTES": 1,
+          "PERCENTUAL": 0.03
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_FAIXA_ETARIA": "20 A 24 ANOS",
+          "TOTAL_DISCENTES": 291,
+          "PERCENTUAL": 9.44
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_FAIXA_ETARIA": "25 A 29 ANOS",
+          "TOTAL_DISCENTES": 1238,
+          "PERCENTUAL": 40.16
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_FAIXA_ETARIA": "30 A 34 ANOS",
+          "TOTAL_DISCENTES": 744,
+          "PERCENTUAL": 24.13
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_FAIXA_ETARIA": "35 A 39 ANOS",
+          "TOTAL_DISCENTES": 405,
+          "PERCENTUAL": 13.14
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_FAIXA_ETARIA": "40 A 44 ANOS",
+          "TOTAL_DISCENTES": 207,
+          "PERCENTUAL": 6.71
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_FAIXA_ETARIA": "45 A 49 ANOS",
+          "TOTAL_DISCENTES": 112,
+          "PERCENTUAL": 3.63
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_FAIXA_ETARIA": "50 A 54 ANOS",
+          "TOTAL_DISCENTES": 49,
+          "PERCENTUAL": 1.59
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_FAIXA_ETARIA": "55 A 59 ANOS",
+          "TOTAL_DISCENTES": 25,
+          "PERCENTUAL": 0.81
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_FAIXA_ETARIA": "60 A 64 ANOS",
+          "TOTAL_DISCENTES": 7,
+          "PERCENTUAL": 0.23
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_FAIXA_ETARIA": "65 A 69 ANOS",
+          "TOTAL_DISCENTES": 3,
+          "PERCENTUAL": 0.1
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_FAIXA_ETARIA": "70 OU MAIS",
+          "TOTAL_DISCENTES": 1,
+          "PERCENTUAL": 0.03
+        }
+      ]
+    }
+  }
+}

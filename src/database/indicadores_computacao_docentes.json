@@ -1,0 +1,6717 @@
+{
+  "metadata": {
+    "total_registros_computacao": 16524,
+    "anos_analisados": [2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024],
+    "anos_disponiveis_esperados": [
+      2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024
+    ],
+    "conceitos": [3, 4, 5, 6, 7],
+    "escopo": {
+      "areas": [
+        "CIÊNCIA DA COMPUTAÇÃO",
+        "COMPUTAÇÃO",
+        "ENGENHARIA DA COMPUTAÇÃO"
+      ],
+      "conceitos_filtro": [3, 4, 5, 6, 7],
+      "periodo": [2017, 2024]
+    }
+  },
+  "geral": {
+    "lideranca_bolsas_pq": [
+      {
+        "CD_CONCEITO_PROGRAMA": 3,
+        "TEM_BOLSA_PQ": "NÃO",
+        "TOTAL_DOCENTES": 2996,
+        "PERCENTUAL": 90.46
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 3,
+        "TEM_BOLSA_PQ": "SIM",
+        "TOTAL_DOCENTES": 316,
+        "PERCENTUAL": 9.54
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 4,
+        "TEM_BOLSA_PQ": "NÃO",
+        "TOTAL_DOCENTES": 3968,
+        "PERCENTUAL": 80.95
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 4,
+        "TEM_BOLSA_PQ": "SIM",
+        "TOTAL_DOCENTES": 934,
+        "PERCENTUAL": 19.05
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 5,
+        "TEM_BOLSA_PQ": "NÃO",
+        "TOTAL_DOCENTES": 1279,
+        "PERCENTUAL": 68.25
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 5,
+        "TEM_BOLSA_PQ": "SIM",
+        "TOTAL_DOCENTES": 595,
+        "PERCENTUAL": 31.75
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 6,
+        "TEM_BOLSA_PQ": "NÃO",
+        "TOTAL_DOCENTES": 501,
+        "PERCENTUAL": 54.16
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 6,
+        "TEM_BOLSA_PQ": "SIM",
+        "TOTAL_DOCENTES": 424,
+        "PERCENTUAL": 45.84
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 7,
+        "TEM_BOLSA_PQ": "NÃO",
+        "TOTAL_DOCENTES": 1348,
+        "PERCENTUAL": 46.74
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 7,
+        "TEM_BOLSA_PQ": "SIM",
+        "TOTAL_DOCENTES": 1536,
+        "PERCENTUAL": 53.26
+      }
+    ],
+    "internacionalizacao_titulacao_exterior": [
+      {
+        "CD_CONCEITO_PROGRAMA": 3,
+        "TITULADO_NO_EXTERIOR": "NÃO",
+        "TOTAL_DOCENTES": 2877,
+        "PERCENTUAL": 86.87
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 3,
+        "TITULADO_NO_EXTERIOR": "SIM",
+        "TOTAL_DOCENTES": 435,
+        "PERCENTUAL": 13.13
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 4,
+        "TITULADO_NO_EXTERIOR": "NÃO",
+        "TOTAL_DOCENTES": 3953,
+        "PERCENTUAL": 80.64
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 4,
+        "TITULADO_NO_EXTERIOR": "SIM",
+        "TOTAL_DOCENTES": 949,
+        "PERCENTUAL": 19.36
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 5,
+        "TITULADO_NO_EXTERIOR": "NÃO",
+        "TOTAL_DOCENTES": 1328,
+        "PERCENTUAL": 70.86
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 5,
+        "TITULADO_NO_EXTERIOR": "SIM",
+        "TOTAL_DOCENTES": 546,
+        "PERCENTUAL": 29.14
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 6,
+        "TITULADO_NO_EXTERIOR": "NÃO",
+        "TOTAL_DOCENTES": 643,
+        "PERCENTUAL": 69.51
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 6,
+        "TITULADO_NO_EXTERIOR": "SIM",
+        "TOTAL_DOCENTES": 282,
+        "PERCENTUAL": 30.49
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 7,
+        "TITULADO_NO_EXTERIOR": "NÃO",
+        "TOTAL_DOCENTES": 1678,
+        "PERCENTUAL": 58.18
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 7,
+        "TITULADO_NO_EXTERIOR": "SIM",
+        "TOTAL_DOCENTES": 1206,
+        "PERCENTUAL": 41.82
+      }
+    ],
+    "internacionalizacao_nacionalidade": [
+      {
+        "CD_CONCEITO_PROGRAMA": 3,
+        "DOCENTE_ESTRANGEIRO": "BRASILEIRO",
+        "TOTAL_DOCENTES": 3232,
+        "PERCENTUAL": 97.58
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 3,
+        "DOCENTE_ESTRANGEIRO": "ESTRANGEIRO",
+        "TOTAL_DOCENTES": 80,
+        "PERCENTUAL": 2.42
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 4,
+        "DOCENTE_ESTRANGEIRO": "BRASILEIRO",
+        "TOTAL_DOCENTES": 4788,
+        "PERCENTUAL": 97.67
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 4,
+        "DOCENTE_ESTRANGEIRO": "ESTRANGEIRO",
+        "TOTAL_DOCENTES": 114,
+        "PERCENTUAL": 2.33
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 5,
+        "DOCENTE_ESTRANGEIRO": "BRASILEIRO",
+        "TOTAL_DOCENTES": 1807,
+        "PERCENTUAL": 96.42
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 5,
+        "DOCENTE_ESTRANGEIRO": "ESTRANGEIRO",
+        "TOTAL_DOCENTES": 67,
+        "PERCENTUAL": 3.58
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 6,
+        "DOCENTE_ESTRANGEIRO": "BRASILEIRO",
+        "TOTAL_DOCENTES": 905,
+        "PERCENTUAL": 97.84
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 6,
+        "DOCENTE_ESTRANGEIRO": "ESTRANGEIRO",
+        "TOTAL_DOCENTES": 20,
+        "PERCENTUAL": 2.16
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 7,
+        "DOCENTE_ESTRANGEIRO": "BRASILEIRO",
+        "TOTAL_DOCENTES": 2815,
+        "PERCENTUAL": 97.61
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 7,
+        "DOCENTE_ESTRANGEIRO": "ESTRANGEIRO",
+        "TOTAL_DOCENTES": 69,
+        "PERCENTUAL": 2.39
+      }
+    ],
+    "endogamia_academica": [
+      {
+        "CD_CONCEITO_PROGRAMA": 3,
+        "ENDOGAMIA": "NÃO",
+        "TOTAL_DOCENTES": 3063,
+        "PERCENTUAL": 92.48
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 3,
+        "ENDOGAMIA": "SIM",
+        "TOTAL_DOCENTES": 249,
+        "PERCENTUAL": 7.52
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 4,
+        "ENDOGAMIA": "NÃO",
+        "TOTAL_DOCENTES": 4247,
+        "PERCENTUAL": 86.64
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 4,
+        "ENDOGAMIA": "SIM",
+        "TOTAL_DOCENTES": 655,
+        "PERCENTUAL": 13.36
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 5,
+        "ENDOGAMIA": "NÃO",
+        "TOTAL_DOCENTES": 1605,
+        "PERCENTUAL": 85.65
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 5,
+        "ENDOGAMIA": "SIM",
+        "TOTAL_DOCENTES": 269,
+        "PERCENTUAL": 14.35
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 6,
+        "ENDOGAMIA": "NÃO",
+        "TOTAL_DOCENTES": 766,
+        "PERCENTUAL": 82.81
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 6,
+        "ENDOGAMIA": "SIM",
+        "TOTAL_DOCENTES": 159,
+        "PERCENTUAL": 17.19
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 7,
+        "ENDOGAMIA": "NÃO",
+        "TOTAL_DOCENTES": 1814,
+        "PERCENTUAL": 62.9
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 7,
+        "ENDOGAMIA": "SIM",
+        "TOTAL_DOCENTES": 1070,
+        "PERCENTUAL": 37.1
+      }
+    ],
+    "maturidade_tempo_doutorado": [
+      {
+        "CD_CONCEITO_PROGRAMA": 3,
+        "MEDIA_ANOS_DOUTORADO": 11.2
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 4,
+        "MEDIA_ANOS_DOUTORADO": 13.0
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 5,
+        "MEDIA_ANOS_DOUTORADO": 13.9
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 6,
+        "MEDIA_ANOS_DOUTORADO": 16.9
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 7,
+        "MEDIA_ANOS_DOUTORADO": 18.2
+      }
+    ],
+    "tamanho_medio_programa": [
+      {
+        "CD_CONCEITO_PROGRAMA": 3,
+        "MEDIA_DOCENTES_PERMANENTES_POR_PROGRAMA": 14.5
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 4,
+        "MEDIA_DOCENTES_PERMANENTES_POR_PROGRAMA": 19.8
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 5,
+        "MEDIA_DOCENTES_PERMANENTES_POR_PROGRAMA": 23.4
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 6,
+        "MEDIA_DOCENTES_PERMANENTES_POR_PROGRAMA": 33.0
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 7,
+        "MEDIA_DOCENTES_PERMANENTES_POR_PROGRAMA": 48.1
+      }
+    ],
+    "categoria_docente": [
+      {
+        "CD_CONCEITO_PROGRAMA": 3,
+        "DS_CATEGORIA_DOCENTE": "COLABORADOR",
+        "TOTAL_DOCENTES": 645,
+        "PERCENTUAL": 16.26
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 3,
+        "DS_CATEGORIA_DOCENTE": "PERMANENTE",
+        "TOTAL_DOCENTES": 3312,
+        "PERCENTUAL": 83.47
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 3,
+        "DS_CATEGORIA_DOCENTE": "VISITANTE",
+        "TOTAL_DOCENTES": 11,
+        "PERCENTUAL": 0.28
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 4,
+        "DS_CATEGORIA_DOCENTE": "COLABORADOR",
+        "TOTAL_DOCENTES": 1042,
+        "PERCENTUAL": 17.38
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 4,
+        "DS_CATEGORIA_DOCENTE": "PERMANENTE",
+        "TOTAL_DOCENTES": 4902,
+        "PERCENTUAL": 81.77
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 4,
+        "DS_CATEGORIA_DOCENTE": "VISITANTE",
+        "TOTAL_DOCENTES": 51,
+        "PERCENTUAL": 0.85
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 5,
+        "DS_CATEGORIA_DOCENTE": "COLABORADOR",
+        "TOTAL_DOCENTES": 328,
+        "PERCENTUAL": 14.77
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 5,
+        "DS_CATEGORIA_DOCENTE": "PERMANENTE",
+        "TOTAL_DOCENTES": 1874,
+        "PERCENTUAL": 84.41
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 5,
+        "DS_CATEGORIA_DOCENTE": "VISITANTE",
+        "TOTAL_DOCENTES": 18,
+        "PERCENTUAL": 0.81
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 6,
+        "DS_CATEGORIA_DOCENTE": "COLABORADOR",
+        "TOTAL_DOCENTES": 149,
+        "PERCENTUAL": 13.87
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 6,
+        "DS_CATEGORIA_DOCENTE": "PERMANENTE",
+        "TOTAL_DOCENTES": 925,
+        "PERCENTUAL": 86.13
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 7,
+        "DS_CATEGORIA_DOCENTE": "COLABORADOR",
+        "TOTAL_DOCENTES": 383,
+        "PERCENTUAL": 11.72
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 7,
+        "DS_CATEGORIA_DOCENTE": "PERMANENTE",
+        "TOTAL_DOCENTES": 2884,
+        "PERCENTUAL": 88.28
+      }
+    ],
+    "regime_trabalho": [
+      {
+        "CD_CONCEITO_PROGRAMA": 3,
+        "DS_REGIME_TRABALHO": "DEDICAÇÃO EXCLUSIVA",
+        "TOTAL_DOCENTES": 1710,
+        "PERCENTUAL": 51.63
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 3,
+        "DS_REGIME_TRABALHO": "INTEGRAL",
+        "TOTAL_DOCENTES": 1428,
+        "PERCENTUAL": 43.12
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 3,
+        "DS_REGIME_TRABALHO": "PARCIAL",
+        "TOTAL_DOCENTES": 174,
+        "PERCENTUAL": 5.25
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 4,
+        "DS_REGIME_TRABALHO": "DEDICAÇÃO EXCLUSIVA",
+        "TOTAL_DOCENTES": 2538,
+        "PERCENTUAL": 51.77
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 4,
+        "DS_REGIME_TRABALHO": "INTEGRAL",
+        "TOTAL_DOCENTES": 2110,
+        "PERCENTUAL": 43.04
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 4,
+        "DS_REGIME_TRABALHO": "PARCIAL",
+        "TOTAL_DOCENTES": 254,
+        "PERCENTUAL": 5.18
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 5,
+        "DS_REGIME_TRABALHO": "DEDICAÇÃO EXCLUSIVA",
+        "TOTAL_DOCENTES": 979,
+        "PERCENTUAL": 52.24
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 5,
+        "DS_REGIME_TRABALHO": "INTEGRAL",
+        "TOTAL_DOCENTES": 872,
+        "PERCENTUAL": 46.53
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 5,
+        "DS_REGIME_TRABALHO": "PARCIAL",
+        "TOTAL_DOCENTES": 23,
+        "PERCENTUAL": 1.23
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 6,
+        "DS_REGIME_TRABALHO": "DEDICAÇÃO EXCLUSIVA",
+        "TOTAL_DOCENTES": 372,
+        "PERCENTUAL": 40.22
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 6,
+        "DS_REGIME_TRABALHO": "INTEGRAL",
+        "TOTAL_DOCENTES": 540,
+        "PERCENTUAL": 58.38
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 6,
+        "DS_REGIME_TRABALHO": "PARCIAL",
+        "TOTAL_DOCENTES": 13,
+        "PERCENTUAL": 1.41
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 7,
+        "DS_REGIME_TRABALHO": "DEDICAÇÃO EXCLUSIVA",
+        "TOTAL_DOCENTES": 1674,
+        "PERCENTUAL": 58.04
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 7,
+        "DS_REGIME_TRABALHO": "INTEGRAL",
+        "TOTAL_DOCENTES": 1201,
+        "PERCENTUAL": 41.64
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 7,
+        "DS_REGIME_TRABALHO": "PARCIAL",
+        "TOTAL_DOCENTES": 9,
+        "PERCENTUAL": 0.31
+      }
+    ],
+    "desigualdade_regional": [
+      {
+        "CD_CONCEITO_PROGRAMA": 3,
+        "NM_REGIAO": "CENTRO-OESTE",
+        "TOTAL_DOCENTES": 284,
+        "PERCENTUAL": 7.16
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 3,
+        "NM_REGIAO": "NORDESTE",
+        "TOTAL_DOCENTES": 1456,
+        "PERCENTUAL": 36.69
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 3,
+        "NM_REGIAO": "NORTE",
+        "TOTAL_DOCENTES": 161,
+        "PERCENTUAL": 4.06
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 3,
+        "NM_REGIAO": "SUDESTE",
+        "TOTAL_DOCENTES": 1033,
+        "PERCENTUAL": 26.03
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 3,
+        "NM_REGIAO": "SUL",
+        "TOTAL_DOCENTES": 1034,
+        "PERCENTUAL": 26.06
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 4,
+        "NM_REGIAO": "CENTRO-OESTE",
+        "TOTAL_DOCENTES": 803,
+        "PERCENTUAL": 13.39
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 4,
+        "NM_REGIAO": "NORDESTE",
+        "TOTAL_DOCENTES": 2034,
+        "PERCENTUAL": 33.93
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 4,
+        "NM_REGIAO": "NORTE",
+        "TOTAL_DOCENTES": 88,
+        "PERCENTUAL": 1.47
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 4,
+        "NM_REGIAO": "SUDESTE",
+        "TOTAL_DOCENTES": 2394,
+        "PERCENTUAL": 39.93
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 4,
+        "NM_REGIAO": "SUL",
+        "TOTAL_DOCENTES": 676,
+        "PERCENTUAL": 11.28
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 5,
+        "NM_REGIAO": "CENTRO-OESTE",
+        "TOTAL_DOCENTES": 234,
+        "PERCENTUAL": 10.54
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 5,
+        "NM_REGIAO": "NORDESTE",
+        "TOTAL_DOCENTES": 708,
+        "PERCENTUAL": 31.89
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 5,
+        "NM_REGIAO": "NORTE",
+        "TOTAL_DOCENTES": 211,
+        "PERCENTUAL": 9.5
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 5,
+        "NM_REGIAO": "SUDESTE",
+        "TOTAL_DOCENTES": 405,
+        "PERCENTUAL": 18.24
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 5,
+        "NM_REGIAO": "SUL",
+        "TOTAL_DOCENTES": 662,
+        "PERCENTUAL": 29.82
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 6,
+        "NM_REGIAO": "NORTE",
+        "TOTAL_DOCENTES": 103,
+        "PERCENTUAL": 9.59
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 6,
+        "NM_REGIAO": "SUDESTE",
+        "TOTAL_DOCENTES": 699,
+        "PERCENTUAL": 65.08
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 6,
+        "NM_REGIAO": "SUL",
+        "TOTAL_DOCENTES": 272,
+        "PERCENTUAL": 25.33
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 7,
+        "NM_REGIAO": "NORDESTE",
+        "TOTAL_DOCENTES": 695,
+        "PERCENTUAL": 21.27
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 7,
+        "NM_REGIAO": "SUDESTE",
+        "TOTAL_DOCENTES": 2013,
+        "PERCENTUAL": 61.62
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 7,
+        "NM_REGIAO": "SUL",
+        "TOTAL_DOCENTES": 559,
+        "PERCENTUAL": 17.11
+      }
+    ],
+    "natureza_instituicao": [
+      {
+        "CD_CONCEITO_PROGRAMA": 3,
+        "DS_DEPENDENCIA_ADMINISTRATIVA": "PRIVADA",
+        "TOTAL_DOCENTES": 268,
+        "PERCENTUAL": 6.75
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 3,
+        "DS_DEPENDENCIA_ADMINISTRATIVA": "PÚBLICA",
+        "TOTAL_DOCENTES": 3700,
+        "PERCENTUAL": 93.25
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 4,
+        "DS_DEPENDENCIA_ADMINISTRATIVA": "PRIVADA",
+        "TOTAL_DOCENTES": 556,
+        "PERCENTUAL": 9.27
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 4,
+        "DS_DEPENDENCIA_ADMINISTRATIVA": "PÚBLICA",
+        "TOTAL_DOCENTES": 5439,
+        "PERCENTUAL": 90.73
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 5,
+        "DS_DEPENDENCIA_ADMINISTRATIVA": "PRIVADA",
+        "TOTAL_DOCENTES": 226,
+        "PERCENTUAL": 10.18
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 5,
+        "DS_DEPENDENCIA_ADMINISTRATIVA": "PÚBLICA",
+        "TOTAL_DOCENTES": 1994,
+        "PERCENTUAL": 89.82
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 6,
+        "DS_DEPENDENCIA_ADMINISTRATIVA": "PRIVADA",
+        "TOTAL_DOCENTES": 96,
+        "PERCENTUAL": 8.94
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 6,
+        "DS_DEPENDENCIA_ADMINISTRATIVA": "PÚBLICA",
+        "TOTAL_DOCENTES": 978,
+        "PERCENTUAL": 91.06
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 7,
+        "DS_DEPENDENCIA_ADMINISTRATIVA": "PRIVADA",
+        "TOTAL_DOCENTES": 282,
+        "PERCENTUAL": 8.63
+      },
+      {
+        "CD_CONCEITO_PROGRAMA": 7,
+        "DS_DEPENDENCIA_ADMINISTRATIVA": "PÚBLICA",
+        "TOTAL_DOCENTES": 2985,
+        "PERCENTUAL": 91.37
+      }
+    ],
+    "top_20_instituicoes": [
+      {
+        "SG_ENTIDADE_ENSINO": "UFPE",
+        "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DE PERNAMBUCO",
+        "TOTAL_DOCENTES": 1033
+      },
+      {
+        "SG_ENTIDADE_ENSINO": "UFRJ",
+        "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DO RIO DE JANEIRO",
+        "TOTAL_DOCENTES": 558
+      },
+      {
+        "SG_ENTIDADE_ENSINO": "USP",
+        "NM_ENTIDADE_ENSINO": "UNIVERSIDADE DE SÃO PAULO",
+        "TOTAL_DOCENTES": 530
+      },
+      {
+        "SG_ENTIDADE_ENSINO": "UFMG",
+        "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DE MINAS GERAIS",
+        "TOTAL_DOCENTES": 506
+      },
+      {
+        "SG_ENTIDADE_ENSINO": "UNB",
+        "NM_ENTIDADE_ENSINO": "UNIVERSIDADE DE BRASÍLIA",
+        "TOTAL_DOCENTES": 501
+      },
+      {
+        "SG_ENTIDADE_ENSINO": "UTFPR",
+        "NM_ENTIDADE_ENSINO": "UNIVERSIDADE TECNOLÓGICA FEDERAL DO PARANÁ",
+        "TOTAL_DOCENTES": 499
+      },
+      {
+        "SG_ENTIDADE_ENSINO": "UFRGS",
+        "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL",
+        "TOTAL_DOCENTES": 471
+      },
+      {
+        "SG_ENTIDADE_ENSINO": "UFSCAR",
+        "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DE SÃO CARLOS",
+        "TOTAL_DOCENTES": 444
+      },
+      {
+        "SG_ENTIDADE_ENSINO": "UFMS",
+        "NM_ENTIDADE_ENSINO": "FUNDAÇÃO UNIVERSIDADE FEDERAL DE MATO GROSSO DO SUL",
+        "TOTAL_DOCENTES": 422
+      },
+      {
+        "SG_ENTIDADE_ENSINO": "UNICAMP",
+        "NM_ENTIDADE_ENSINO": "UNIVERSIDADE ESTADUAL DE CAMPINAS",
+        "TOTAL_DOCENTES": 402
+      },
+      {
+        "SG_ENTIDADE_ENSINO": "USP/SC",
+        "NM_ENTIDADE_ENSINO": "UNIVERSIDADE DE SÃO PAULO (SÃO CARLOS)",
+        "TOTAL_DOCENTES": 376
+      },
+      {
+        "SG_ENTIDADE_ENSINO": "UFF",
+        "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL FLUMINENSE",
+        "TOTAL_DOCENTES": 366
+      },
+      {
+        "SG_ENTIDADE_ENSINO": "UFG",
+        "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DE GOIÁS",
+        "TOTAL_DOCENTES": 355
+      },
+      {
+        "SG_ENTIDADE_ENSINO": "UFBA",
+        "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DA BAHIA",
+        "TOTAL_DOCENTES": 352
+      },
+      {
+        "SG_ENTIDADE_ENSINO": "UFRN",
+        "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DO RIO GRANDE DO NORTE",
+        "TOTAL_DOCENTES": 352
+      },
+      {
+        "SG_ENTIDADE_ENSINO": "UFC",
+        "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DO CEARÁ",
+        "TOTAL_DOCENTES": 346
+      },
+      {
+        "SG_ENTIDADE_ENSINO": "UFCG",
+        "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DE CAMPINA GRANDE",
+        "TOTAL_DOCENTES": 341
+      },
+      {
+        "SG_ENTIDADE_ENSINO": "UFPR",
+        "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DO PARANÁ",
+        "TOTAL_DOCENTES": 325
+      },
+      {
+        "SG_ENTIDADE_ENSINO": "UFABC",
+        "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DO ABC",
+        "TOTAL_DOCENTES": 320
+      },
+      {
+        "SG_ENTIDADE_ENSINO": "UFPA",
+        "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DO PARÁ",
+        "TOTAL_DOCENTES": 304
+      }
+    ]
+  },
+  "por_ano": {
+    "2017": {
+      "lideranca_bolsas_pq": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "TEM_BOLSA_PQ": "NÃO",
+          "TOTAL_DOCENTES": 421,
+          "PERCENTUAL": 91.52
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "TEM_BOLSA_PQ": "SIM",
+          "TOTAL_DOCENTES": 39,
+          "PERCENTUAL": 8.48
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "TEM_BOLSA_PQ": "NÃO",
+          "TOTAL_DOCENTES": 483,
+          "PERCENTUAL": 82.0
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "TEM_BOLSA_PQ": "SIM",
+          "TOTAL_DOCENTES": 106,
+          "PERCENTUAL": 18.0
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "TEM_BOLSA_PQ": "NÃO",
+          "TOTAL_DOCENTES": 107,
+          "PERCENTUAL": 64.85
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "TEM_BOLSA_PQ": "SIM",
+          "TOTAL_DOCENTES": 58,
+          "PERCENTUAL": 35.15
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "TEM_BOLSA_PQ": "NÃO",
+          "TOTAL_DOCENTES": 49,
+          "PERCENTUAL": 51.04
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "TEM_BOLSA_PQ": "SIM",
+          "TOTAL_DOCENTES": 47,
+          "PERCENTUAL": 48.96
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "TEM_BOLSA_PQ": "NÃO",
+          "TOTAL_DOCENTES": 156,
+          "PERCENTUAL": 45.35
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "TEM_BOLSA_PQ": "SIM",
+          "TOTAL_DOCENTES": 188,
+          "PERCENTUAL": 54.65
+        }
+      ],
+      "internacionalizacao_titulacao_exterior": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "TITULADO_NO_EXTERIOR": "NÃO",
+          "TOTAL_DOCENTES": 387,
+          "PERCENTUAL": 84.13
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "TITULADO_NO_EXTERIOR": "SIM",
+          "TOTAL_DOCENTES": 73,
+          "PERCENTUAL": 15.87
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "TITULADO_NO_EXTERIOR": "NÃO",
+          "TOTAL_DOCENTES": 456,
+          "PERCENTUAL": 77.42
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "TITULADO_NO_EXTERIOR": "SIM",
+          "TOTAL_DOCENTES": 133,
+          "PERCENTUAL": 22.58
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "TITULADO_NO_EXTERIOR": "NÃO",
+          "TOTAL_DOCENTES": 97,
+          "PERCENTUAL": 58.79
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "TITULADO_NO_EXTERIOR": "SIM",
+          "TOTAL_DOCENTES": 68,
+          "PERCENTUAL": 41.21
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "TITULADO_NO_EXTERIOR": "NÃO",
+          "TOTAL_DOCENTES": 60,
+          "PERCENTUAL": 62.5
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "TITULADO_NO_EXTERIOR": "SIM",
+          "TOTAL_DOCENTES": 36,
+          "PERCENTUAL": 37.5
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "TITULADO_NO_EXTERIOR": "NÃO",
+          "TOTAL_DOCENTES": 196,
+          "PERCENTUAL": 56.98
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "TITULADO_NO_EXTERIOR": "SIM",
+          "TOTAL_DOCENTES": 148,
+          "PERCENTUAL": 43.02
+        }
+      ],
+      "internacionalizacao_nacionalidade": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DOCENTE_ESTRANGEIRO": "BRASILEIRO",
+          "TOTAL_DOCENTES": 449,
+          "PERCENTUAL": 97.61
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DOCENTE_ESTRANGEIRO": "ESTRANGEIRO",
+          "TOTAL_DOCENTES": 11,
+          "PERCENTUAL": 2.39
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DOCENTE_ESTRANGEIRO": "BRASILEIRO",
+          "TOTAL_DOCENTES": 577,
+          "PERCENTUAL": 97.96
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DOCENTE_ESTRANGEIRO": "ESTRANGEIRO",
+          "TOTAL_DOCENTES": 12,
+          "PERCENTUAL": 2.04
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DOCENTE_ESTRANGEIRO": "BRASILEIRO",
+          "TOTAL_DOCENTES": 156,
+          "PERCENTUAL": 94.55
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DOCENTE_ESTRANGEIRO": "ESTRANGEIRO",
+          "TOTAL_DOCENTES": 9,
+          "PERCENTUAL": 5.45
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DOCENTE_ESTRANGEIRO": "BRASILEIRO",
+          "TOTAL_DOCENTES": 94,
+          "PERCENTUAL": 97.92
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DOCENTE_ESTRANGEIRO": "ESTRANGEIRO",
+          "TOTAL_DOCENTES": 2,
+          "PERCENTUAL": 2.08
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DOCENTE_ESTRANGEIRO": "BRASILEIRO",
+          "TOTAL_DOCENTES": 338,
+          "PERCENTUAL": 98.26
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DOCENTE_ESTRANGEIRO": "ESTRANGEIRO",
+          "TOTAL_DOCENTES": 6,
+          "PERCENTUAL": 1.74
+        }
+      ],
+      "endogamia_academica": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "ENDOGAMIA": "NÃO",
+          "TOTAL_DOCENTES": 428,
+          "PERCENTUAL": 93.04
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "ENDOGAMIA": "SIM",
+          "TOTAL_DOCENTES": 32,
+          "PERCENTUAL": 6.96
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "ENDOGAMIA": "NÃO",
+          "TOTAL_DOCENTES": 515,
+          "PERCENTUAL": 87.44
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "ENDOGAMIA": "SIM",
+          "TOTAL_DOCENTES": 74,
+          "PERCENTUAL": 12.56
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "ENDOGAMIA": "NÃO",
+          "TOTAL_DOCENTES": 149,
+          "PERCENTUAL": 90.3
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "ENDOGAMIA": "SIM",
+          "TOTAL_DOCENTES": 16,
+          "PERCENTUAL": 9.7
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "ENDOGAMIA": "NÃO",
+          "TOTAL_DOCENTES": 79,
+          "PERCENTUAL": 82.29
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "ENDOGAMIA": "SIM",
+          "TOTAL_DOCENTES": 17,
+          "PERCENTUAL": 17.71
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "ENDOGAMIA": "NÃO",
+          "TOTAL_DOCENTES": 215,
+          "PERCENTUAL": 62.5
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "ENDOGAMIA": "SIM",
+          "TOTAL_DOCENTES": 129,
+          "PERCENTUAL": 37.5
+        }
+      ],
+      "maturidade_tempo_doutorado": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "MEDIA_ANOS_DOUTORADO": 9.7
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "MEDIA_ANOS_DOUTORADO": 11.8
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "MEDIA_ANOS_DOUTORADO": 13.1
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "MEDIA_ANOS_DOUTORADO": 15.4
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "MEDIA_ANOS_DOUTORADO": 17.3
+        }
+      ],
+      "tamanho_medio_programa": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "MEDIA_DOCENTES_PERMANENTES_POR_PROGRAMA": 14.4
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "MEDIA_DOCENTES_PERMANENTES_POR_PROGRAMA": 21.0
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "MEDIA_DOCENTES_PERMANENTES_POR_PROGRAMA": 23.6
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "MEDIA_DOCENTES_PERMANENTES_POR_PROGRAMA": 32.0
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "MEDIA_DOCENTES_PERMANENTES_POR_PROGRAMA": 49.1
+        }
+      ],
+      "categoria_docente": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_CATEGORIA_DOCENTE": "COLABORADOR",
+          "TOTAL_DOCENTES": 96,
+          "PERCENTUAL": 17.27
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_CATEGORIA_DOCENTE": "PERMANENTE",
+          "TOTAL_DOCENTES": 460,
+          "PERCENTUAL": 82.73
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_CATEGORIA_DOCENTE": "COLABORADOR",
+          "TOTAL_DOCENTES": 108,
+          "PERCENTUAL": 15.25
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_CATEGORIA_DOCENTE": "PERMANENTE",
+          "TOTAL_DOCENTES": 589,
+          "PERCENTUAL": 83.19
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_CATEGORIA_DOCENTE": "VISITANTE",
+          "TOTAL_DOCENTES": 11,
+          "PERCENTUAL": 1.55
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_CATEGORIA_DOCENTE": "COLABORADOR",
+          "TOTAL_DOCENTES": 17,
+          "PERCENTUAL": 9.29
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_CATEGORIA_DOCENTE": "PERMANENTE",
+          "TOTAL_DOCENTES": 165,
+          "PERCENTUAL": 90.16
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_CATEGORIA_DOCENTE": "VISITANTE",
+          "TOTAL_DOCENTES": 1,
+          "PERCENTUAL": 0.55
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_CATEGORIA_DOCENTE": "COLABORADOR",
+          "TOTAL_DOCENTES": 14,
+          "PERCENTUAL": 12.73
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_CATEGORIA_DOCENTE": "PERMANENTE",
+          "TOTAL_DOCENTES": 96,
+          "PERCENTUAL": 87.27
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_CATEGORIA_DOCENTE": "COLABORADOR",
+          "TOTAL_DOCENTES": 41,
+          "PERCENTUAL": 10.65
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_CATEGORIA_DOCENTE": "PERMANENTE",
+          "TOTAL_DOCENTES": 344,
+          "PERCENTUAL": 89.35
+        }
+      ],
+      "regime_trabalho": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_REGIME_TRABALHO": "DEDICAÇÃO EXCLUSIVA",
+          "TOTAL_DOCENTES": 168,
+          "PERCENTUAL": 36.52
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_REGIME_TRABALHO": "INTEGRAL",
+          "TOTAL_DOCENTES": 266,
+          "PERCENTUAL": 57.83
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_REGIME_TRABALHO": "PARCIAL",
+          "TOTAL_DOCENTES": 26,
+          "PERCENTUAL": 5.65
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_REGIME_TRABALHO": "DEDICAÇÃO EXCLUSIVA",
+          "TOTAL_DOCENTES": 233,
+          "PERCENTUAL": 39.56
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_REGIME_TRABALHO": "INTEGRAL",
+          "TOTAL_DOCENTES": 327,
+          "PERCENTUAL": 55.52
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_REGIME_TRABALHO": "PARCIAL",
+          "TOTAL_DOCENTES": 29,
+          "PERCENTUAL": 4.92
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_REGIME_TRABALHO": "DEDICAÇÃO EXCLUSIVA",
+          "TOTAL_DOCENTES": 69,
+          "PERCENTUAL": 41.82
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_REGIME_TRABALHO": "INTEGRAL",
+          "TOTAL_DOCENTES": 93,
+          "PERCENTUAL": 56.36
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_REGIME_TRABALHO": "PARCIAL",
+          "TOTAL_DOCENTES": 3,
+          "PERCENTUAL": 1.82
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_REGIME_TRABALHO": "DEDICAÇÃO EXCLUSIVA",
+          "TOTAL_DOCENTES": 20,
+          "PERCENTUAL": 20.83
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_REGIME_TRABALHO": "INTEGRAL",
+          "TOTAL_DOCENTES": 76,
+          "PERCENTUAL": 79.17
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_REGIME_TRABALHO": "DEDICAÇÃO EXCLUSIVA",
+          "TOTAL_DOCENTES": 173,
+          "PERCENTUAL": 50.29
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_REGIME_TRABALHO": "INTEGRAL",
+          "TOTAL_DOCENTES": 170,
+          "PERCENTUAL": 49.42
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_REGIME_TRABALHO": "PARCIAL",
+          "TOTAL_DOCENTES": 1,
+          "PERCENTUAL": 0.29
+        }
+      ],
+      "desigualdade_regional": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "NM_REGIAO": "CENTRO-OESTE",
+          "TOTAL_DOCENTES": 51,
+          "PERCENTUAL": 9.17
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "NM_REGIAO": "NORDESTE",
+          "TOTAL_DOCENTES": 188,
+          "PERCENTUAL": 33.81
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "NM_REGIAO": "NORTE",
+          "TOTAL_DOCENTES": 10,
+          "PERCENTUAL": 1.8
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "NM_REGIAO": "SUDESTE",
+          "TOTAL_DOCENTES": 128,
+          "PERCENTUAL": 23.02
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "NM_REGIAO": "SUL",
+          "TOTAL_DOCENTES": 179,
+          "PERCENTUAL": 32.19
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "NM_REGIAO": "CENTRO-OESTE",
+          "TOTAL_DOCENTES": 84,
+          "PERCENTUAL": 11.86
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "NM_REGIAO": "NORDESTE",
+          "TOTAL_DOCENTES": 240,
+          "PERCENTUAL": 33.9
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "NM_REGIAO": "NORTE",
+          "TOTAL_DOCENTES": 20,
+          "PERCENTUAL": 2.82
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "NM_REGIAO": "SUDESTE",
+          "TOTAL_DOCENTES": 306,
+          "PERCENTUAL": 43.22
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "NM_REGIAO": "SUL",
+          "TOTAL_DOCENTES": 58,
+          "PERCENTUAL": 8.19
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "NM_REGIAO": "CENTRO-OESTE",
+          "TOTAL_DOCENTES": 24,
+          "PERCENTUAL": 13.11
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "NM_REGIAO": "NORDESTE",
+          "TOTAL_DOCENTES": 57,
+          "PERCENTUAL": 31.15
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "NM_REGIAO": "NORTE",
+          "TOTAL_DOCENTES": 24,
+          "PERCENTUAL": 13.11
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "NM_REGIAO": "SUL",
+          "TOTAL_DOCENTES": 78,
+          "PERCENTUAL": 42.62
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "NM_REGIAO": "SUDESTE",
+          "TOTAL_DOCENTES": 86,
+          "PERCENTUAL": 78.18
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "NM_REGIAO": "SUL",
+          "TOTAL_DOCENTES": 24,
+          "PERCENTUAL": 21.82
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "NM_REGIAO": "NORDESTE",
+          "TOTAL_DOCENTES": 84,
+          "PERCENTUAL": 21.82
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "NM_REGIAO": "SUDESTE",
+          "TOTAL_DOCENTES": 241,
+          "PERCENTUAL": 62.6
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "NM_REGIAO": "SUL",
+          "TOTAL_DOCENTES": 60,
+          "PERCENTUAL": 15.58
+        }
+      ],
+      "natureza_instituicao": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_DEPENDENCIA_ADMINISTRATIVA": "PRIVADA",
+          "TOTAL_DOCENTES": 49,
+          "PERCENTUAL": 8.81
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_DEPENDENCIA_ADMINISTRATIVA": "PÚBLICA",
+          "TOTAL_DOCENTES": 507,
+          "PERCENTUAL": 91.19
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_DEPENDENCIA_ADMINISTRATIVA": "PRIVADA",
+          "TOTAL_DOCENTES": 80,
+          "PERCENTUAL": 11.3
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_DEPENDENCIA_ADMINISTRATIVA": "PÚBLICA",
+          "TOTAL_DOCENTES": 628,
+          "PERCENTUAL": 88.7
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_DEPENDENCIA_ADMINISTRATIVA": "PRIVADA",
+          "TOTAL_DOCENTES": 13,
+          "PERCENTUAL": 7.1
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_DEPENDENCIA_ADMINISTRATIVA": "PÚBLICA",
+          "TOTAL_DOCENTES": 170,
+          "PERCENTUAL": 92.9
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_DEPENDENCIA_ADMINISTRATIVA": "PRIVADA",
+          "TOTAL_DOCENTES": 24,
+          "PERCENTUAL": 21.82
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_DEPENDENCIA_ADMINISTRATIVA": "PÚBLICA",
+          "TOTAL_DOCENTES": 86,
+          "PERCENTUAL": 78.18
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_DEPENDENCIA_ADMINISTRATIVA": "PRIVADA",
+          "TOTAL_DOCENTES": 25,
+          "PERCENTUAL": 6.49
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_DEPENDENCIA_ADMINISTRATIVA": "PÚBLICA",
+          "TOTAL_DOCENTES": 360,
+          "PERCENTUAL": 93.51
+        }
+      ],
+      "top_20_instituicoes": [
+        {
+          "SG_ENTIDADE_ENSINO": "UFPE",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DE PERNAMBUCO",
+          "TOTAL_DOCENTES": 127
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFRJ",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DO RIO DE JANEIRO",
+          "TOTAL_DOCENTES": 72
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "USP/SC",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE DE SÃO PAULO ( SÃO CARLOS )",
+          "TOTAL_DOCENTES": 70
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFMS",
+          "NM_ENTIDADE_ENSINO": "FUNDAÇÃO UNIVERSIDADE FEDERAL DE MATO GROSSO DO SUL",
+          "TOTAL_DOCENTES": 67
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UTFPR",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE TECNOLÓGICA FEDERAL DO PARANÁ",
+          "TOTAL_DOCENTES": 63
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "USP",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE DE SÃO PAULO",
+          "TOTAL_DOCENTES": 62
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFRGS",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL",
+          "TOTAL_DOCENTES": 60
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFBA",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DA BAHIA",
+          "TOTAL_DOCENTES": 57
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFSCAR",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DE SÃO CARLOS",
+          "TOTAL_DOCENTES": 57
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFMG",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DE MINAS GERAIS",
+          "TOTAL_DOCENTES": 54
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UNICAMP",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE ESTADUAL DE CAMPINAS",
+          "TOTAL_DOCENTES": 51
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UNB",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE DE BRASÍLIA",
+          "TOTAL_DOCENTES": 50
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFCG",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DE CAMPINA GRANDE",
+          "TOTAL_DOCENTES": 44
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFABC",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DO ABC",
+          "TOTAL_DOCENTES": 43
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFG",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DE GOIÁS",
+          "TOTAL_DOCENTES": 42
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFF",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL FLUMINENSE",
+          "TOTAL_DOCENTES": 42
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFRN",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DO RIO GRANDE DO NORTE",
+          "TOTAL_DOCENTES": 41
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFSM",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DE SANTA MARIA",
+          "TOTAL_DOCENTES": 36
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFPR",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DO PARANÁ",
+          "TOTAL_DOCENTES": 35
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "CESAR",
+          "NM_ENTIDADE_ENSINO": "CENTRO DE ESTUDOS E SISTEMAS AVANÇADOS DO RECIFE",
+          "TOTAL_DOCENTES": 34
+        }
+      ]
+    },
+    "2018": {
+      "lideranca_bolsas_pq": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "TEM_BOLSA_PQ": "NÃO",
+          "TOTAL_DOCENTES": 419,
+          "PERCENTUAL": 90.89
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "TEM_BOLSA_PQ": "SIM",
+          "TOTAL_DOCENTES": 42,
+          "PERCENTUAL": 9.11
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "TEM_BOLSA_PQ": "NÃO",
+          "TOTAL_DOCENTES": 493,
+          "PERCENTUAL": 81.62
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "TEM_BOLSA_PQ": "SIM",
+          "TOTAL_DOCENTES": 111,
+          "PERCENTUAL": 18.38
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "TEM_BOLSA_PQ": "NÃO",
+          "TOTAL_DOCENTES": 116,
+          "PERCENTUAL": 65.91
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "TEM_BOLSA_PQ": "SIM",
+          "TOTAL_DOCENTES": 60,
+          "PERCENTUAL": 34.09
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "TEM_BOLSA_PQ": "NÃO",
+          "TOTAL_DOCENTES": 48,
+          "PERCENTUAL": 50.53
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "TEM_BOLSA_PQ": "SIM",
+          "TOTAL_DOCENTES": 47,
+          "PERCENTUAL": 49.47
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "TEM_BOLSA_PQ": "NÃO",
+          "TOTAL_DOCENTES": 157,
+          "PERCENTUAL": 44.73
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "TEM_BOLSA_PQ": "SIM",
+          "TOTAL_DOCENTES": 194,
+          "PERCENTUAL": 55.27
+        }
+      ],
+      "internacionalizacao_titulacao_exterior": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "TITULADO_NO_EXTERIOR": "NÃO",
+          "TOTAL_DOCENTES": 387,
+          "PERCENTUAL": 83.95
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "TITULADO_NO_EXTERIOR": "SIM",
+          "TOTAL_DOCENTES": 74,
+          "PERCENTUAL": 16.05
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "TITULADO_NO_EXTERIOR": "NÃO",
+          "TOTAL_DOCENTES": 473,
+          "PERCENTUAL": 78.31
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "TITULADO_NO_EXTERIOR": "SIM",
+          "TOTAL_DOCENTES": 131,
+          "PERCENTUAL": 21.69
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "TITULADO_NO_EXTERIOR": "NÃO",
+          "TOTAL_DOCENTES": 108,
+          "PERCENTUAL": 61.36
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "TITULADO_NO_EXTERIOR": "SIM",
+          "TOTAL_DOCENTES": 68,
+          "PERCENTUAL": 38.64
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "TITULADO_NO_EXTERIOR": "NÃO",
+          "TOTAL_DOCENTES": 58,
+          "PERCENTUAL": 61.05
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "TITULADO_NO_EXTERIOR": "SIM",
+          "TOTAL_DOCENTES": 37,
+          "PERCENTUAL": 38.95
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "TITULADO_NO_EXTERIOR": "NÃO",
+          "TOTAL_DOCENTES": 199,
+          "PERCENTUAL": 56.7
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "TITULADO_NO_EXTERIOR": "SIM",
+          "TOTAL_DOCENTES": 152,
+          "PERCENTUAL": 43.3
+        }
+      ],
+      "internacionalizacao_nacionalidade": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DOCENTE_ESTRANGEIRO": "BRASILEIRO",
+          "TOTAL_DOCENTES": 451,
+          "PERCENTUAL": 97.83
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DOCENTE_ESTRANGEIRO": "ESTRANGEIRO",
+          "TOTAL_DOCENTES": 10,
+          "PERCENTUAL": 2.17
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DOCENTE_ESTRANGEIRO": "BRASILEIRO",
+          "TOTAL_DOCENTES": 592,
+          "PERCENTUAL": 98.01
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DOCENTE_ESTRANGEIRO": "ESTRANGEIRO",
+          "TOTAL_DOCENTES": 12,
+          "PERCENTUAL": 1.99
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DOCENTE_ESTRANGEIRO": "BRASILEIRO",
+          "TOTAL_DOCENTES": 167,
+          "PERCENTUAL": 94.89
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DOCENTE_ESTRANGEIRO": "ESTRANGEIRO",
+          "TOTAL_DOCENTES": 9,
+          "PERCENTUAL": 5.11
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DOCENTE_ESTRANGEIRO": "BRASILEIRO",
+          "TOTAL_DOCENTES": 93,
+          "PERCENTUAL": 97.89
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DOCENTE_ESTRANGEIRO": "ESTRANGEIRO",
+          "TOTAL_DOCENTES": 2,
+          "PERCENTUAL": 2.11
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DOCENTE_ESTRANGEIRO": "BRASILEIRO",
+          "TOTAL_DOCENTES": 344,
+          "PERCENTUAL": 98.01
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DOCENTE_ESTRANGEIRO": "ESTRANGEIRO",
+          "TOTAL_DOCENTES": 7,
+          "PERCENTUAL": 1.99
+        }
+      ],
+      "endogamia_academica": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "ENDOGAMIA": "NÃO",
+          "TOTAL_DOCENTES": 430,
+          "PERCENTUAL": 93.28
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "ENDOGAMIA": "SIM",
+          "TOTAL_DOCENTES": 31,
+          "PERCENTUAL": 6.72
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "ENDOGAMIA": "NÃO",
+          "TOTAL_DOCENTES": 527,
+          "PERCENTUAL": 87.25
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "ENDOGAMIA": "SIM",
+          "TOTAL_DOCENTES": 77,
+          "PERCENTUAL": 12.75
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "ENDOGAMIA": "NÃO",
+          "TOTAL_DOCENTES": 155,
+          "PERCENTUAL": 88.07
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "ENDOGAMIA": "SIM",
+          "TOTAL_DOCENTES": 21,
+          "PERCENTUAL": 11.93
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "ENDOGAMIA": "NÃO",
+          "TOTAL_DOCENTES": 79,
+          "PERCENTUAL": 83.16
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "ENDOGAMIA": "SIM",
+          "TOTAL_DOCENTES": 16,
+          "PERCENTUAL": 16.84
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "ENDOGAMIA": "NÃO",
+          "TOTAL_DOCENTES": 217,
+          "PERCENTUAL": 61.82
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "ENDOGAMIA": "SIM",
+          "TOTAL_DOCENTES": 134,
+          "PERCENTUAL": 38.18
+        }
+      ],
+      "maturidade_tempo_doutorado": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "MEDIA_ANOS_DOUTORADO": 10.2
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "MEDIA_ANOS_DOUTORADO": 12.3
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "MEDIA_ANOS_DOUTORADO": 13.6
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "MEDIA_ANOS_DOUTORADO": 16.5
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "MEDIA_ANOS_DOUTORADO": 17.8
+        }
+      ],
+      "tamanho_medio_programa": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "MEDIA_DOCENTES_PERMANENTES_POR_PROGRAMA": 14.9
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "MEDIA_DOCENTES_PERMANENTES_POR_PROGRAMA": 21.6
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "MEDIA_DOCENTES_PERMANENTES_POR_PROGRAMA": 25.1
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "MEDIA_DOCENTES_PERMANENTES_POR_PROGRAMA": 31.7
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "MEDIA_DOCENTES_PERMANENTES_POR_PROGRAMA": 50.1
+        }
+      ],
+      "categoria_docente": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_CATEGORIA_DOCENTE": "COLABORADOR",
+          "TOTAL_DOCENTES": 94,
+          "PERCENTUAL": 16.91
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_CATEGORIA_DOCENTE": "PERMANENTE",
+          "TOTAL_DOCENTES": 461,
+          "PERCENTUAL": 82.91
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_CATEGORIA_DOCENTE": "VISITANTE",
+          "TOTAL_DOCENTES": 1,
+          "PERCENTUAL": 0.18
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_CATEGORIA_DOCENTE": "COLABORADOR",
+          "TOTAL_DOCENTES": 109,
+          "PERCENTUAL": 15.06
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_CATEGORIA_DOCENTE": "PERMANENTE",
+          "TOTAL_DOCENTES": 604,
+          "PERCENTUAL": 83.43
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_CATEGORIA_DOCENTE": "VISITANTE",
+          "TOTAL_DOCENTES": 11,
+          "PERCENTUAL": 1.52
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_CATEGORIA_DOCENTE": "COLABORADOR",
+          "TOTAL_DOCENTES": 14,
+          "PERCENTUAL": 7.33
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_CATEGORIA_DOCENTE": "PERMANENTE",
+          "TOTAL_DOCENTES": 176,
+          "PERCENTUAL": 92.15
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_CATEGORIA_DOCENTE": "VISITANTE",
+          "TOTAL_DOCENTES": 1,
+          "PERCENTUAL": 0.52
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_CATEGORIA_DOCENTE": "COLABORADOR",
+          "TOTAL_DOCENTES": 14,
+          "PERCENTUAL": 12.84
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_CATEGORIA_DOCENTE": "PERMANENTE",
+          "TOTAL_DOCENTES": 95,
+          "PERCENTUAL": 87.16
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_CATEGORIA_DOCENTE": "COLABORADOR",
+          "TOTAL_DOCENTES": 41,
+          "PERCENTUAL": 10.46
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_CATEGORIA_DOCENTE": "PERMANENTE",
+          "TOTAL_DOCENTES": 351,
+          "PERCENTUAL": 89.54
+        }
+      ],
+      "regime_trabalho": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_REGIME_TRABALHO": "DEDICAÇÃO EXCLUSIVA",
+          "TOTAL_DOCENTES": 189,
+          "PERCENTUAL": 41.0
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_REGIME_TRABALHO": "INTEGRAL",
+          "TOTAL_DOCENTES": 249,
+          "PERCENTUAL": 54.01
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_REGIME_TRABALHO": "PARCIAL",
+          "TOTAL_DOCENTES": 23,
+          "PERCENTUAL": 4.99
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_REGIME_TRABALHO": "DEDICAÇÃO EXCLUSIVA",
+          "TOTAL_DOCENTES": 253,
+          "PERCENTUAL": 41.89
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_REGIME_TRABALHO": "INTEGRAL",
+          "TOTAL_DOCENTES": 318,
+          "PERCENTUAL": 52.65
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_REGIME_TRABALHO": "PARCIAL",
+          "TOTAL_DOCENTES": 33,
+          "PERCENTUAL": 5.46
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_REGIME_TRABALHO": "DEDICAÇÃO EXCLUSIVA",
+          "TOTAL_DOCENTES": 77,
+          "PERCENTUAL": 43.75
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_REGIME_TRABALHO": "INTEGRAL",
+          "TOTAL_DOCENTES": 97,
+          "PERCENTUAL": 55.11
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_REGIME_TRABALHO": "PARCIAL",
+          "TOTAL_DOCENTES": 2,
+          "PERCENTUAL": 1.14
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_REGIME_TRABALHO": "DEDICAÇÃO EXCLUSIVA",
+          "TOTAL_DOCENTES": 21,
+          "PERCENTUAL": 22.11
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_REGIME_TRABALHO": "INTEGRAL",
+          "TOTAL_DOCENTES": 74,
+          "PERCENTUAL": 77.89
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_REGIME_TRABALHO": "DEDICAÇÃO EXCLUSIVA",
+          "TOTAL_DOCENTES": 179,
+          "PERCENTUAL": 51.0
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_REGIME_TRABALHO": "INTEGRAL",
+          "TOTAL_DOCENTES": 171,
+          "PERCENTUAL": 48.72
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_REGIME_TRABALHO": "PARCIAL",
+          "TOTAL_DOCENTES": 1,
+          "PERCENTUAL": 0.28
+        }
+      ],
+      "desigualdade_regional": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "NM_REGIAO": "CENTRO-OESTE",
+          "TOTAL_DOCENTES": 52,
+          "PERCENTUAL": 9.35
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "NM_REGIAO": "NORDESTE",
+          "TOTAL_DOCENTES": 177,
+          "PERCENTUAL": 31.83
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "NM_REGIAO": "NORTE",
+          "TOTAL_DOCENTES": 13,
+          "PERCENTUAL": 2.34
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "NM_REGIAO": "SUDESTE",
+          "TOTAL_DOCENTES": 133,
+          "PERCENTUAL": 23.92
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "NM_REGIAO": "SUL",
+          "TOTAL_DOCENTES": 181,
+          "PERCENTUAL": 32.55
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "NM_REGIAO": "CENTRO-OESTE",
+          "TOTAL_DOCENTES": 87,
+          "PERCENTUAL": 12.02
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "NM_REGIAO": "NORDESTE",
+          "TOTAL_DOCENTES": 229,
+          "PERCENTUAL": 31.63
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "NM_REGIAO": "NORTE",
+          "TOTAL_DOCENTES": 23,
+          "PERCENTUAL": 3.18
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "NM_REGIAO": "SUDESTE",
+          "TOTAL_DOCENTES": 328,
+          "PERCENTUAL": 45.3
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "NM_REGIAO": "SUL",
+          "TOTAL_DOCENTES": 57,
+          "PERCENTUAL": 7.87
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "NM_REGIAO": "CENTRO-OESTE",
+          "TOTAL_DOCENTES": 26,
+          "PERCENTUAL": 13.61
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "NM_REGIAO": "NORDESTE",
+          "TOTAL_DOCENTES": 59,
+          "PERCENTUAL": 30.89
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "NM_REGIAO": "NORTE",
+          "TOTAL_DOCENTES": 26,
+          "PERCENTUAL": 13.61
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "NM_REGIAO": "SUL",
+          "TOTAL_DOCENTES": 80,
+          "PERCENTUAL": 41.88
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "NM_REGIAO": "SUDESTE",
+          "TOTAL_DOCENTES": 85,
+          "PERCENTUAL": 77.98
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "NM_REGIAO": "SUL",
+          "TOTAL_DOCENTES": 24,
+          "PERCENTUAL": 22.02
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "NM_REGIAO": "NORDESTE",
+          "TOTAL_DOCENTES": 84,
+          "PERCENTUAL": 21.43
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "NM_REGIAO": "SUDESTE",
+          "TOTAL_DOCENTES": 250,
+          "PERCENTUAL": 63.78
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "NM_REGIAO": "SUL",
+          "TOTAL_DOCENTES": 58,
+          "PERCENTUAL": 14.8
+        }
+      ],
+      "natureza_instituicao": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_DEPENDENCIA_ADMINISTRATIVA": "PRIVADA",
+          "TOTAL_DOCENTES": 50,
+          "PERCENTUAL": 8.99
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_DEPENDENCIA_ADMINISTRATIVA": "PÚBLICA",
+          "TOTAL_DOCENTES": 506,
+          "PERCENTUAL": 91.01
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_DEPENDENCIA_ADMINISTRATIVA": "PRIVADA",
+          "TOTAL_DOCENTES": 74,
+          "PERCENTUAL": 10.22
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_DEPENDENCIA_ADMINISTRATIVA": "PÚBLICA",
+          "TOTAL_DOCENTES": 650,
+          "PERCENTUAL": 89.78
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_DEPENDENCIA_ADMINISTRATIVA": "PRIVADA",
+          "TOTAL_DOCENTES": 13,
+          "PERCENTUAL": 6.81
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_DEPENDENCIA_ADMINISTRATIVA": "PÚBLICA",
+          "TOTAL_DOCENTES": 178,
+          "PERCENTUAL": 93.19
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_DEPENDENCIA_ADMINISTRATIVA": "PRIVADA",
+          "TOTAL_DOCENTES": 24,
+          "PERCENTUAL": 22.02
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_DEPENDENCIA_ADMINISTRATIVA": "PÚBLICA",
+          "TOTAL_DOCENTES": 85,
+          "PERCENTUAL": 77.98
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_DEPENDENCIA_ADMINISTRATIVA": "PRIVADA",
+          "TOTAL_DOCENTES": 27,
+          "PERCENTUAL": 6.89
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_DEPENDENCIA_ADMINISTRATIVA": "PÚBLICA",
+          "TOTAL_DOCENTES": 365,
+          "PERCENTUAL": 93.11
+        }
+      ],
+      "top_20_instituicoes": [
+        {
+          "SG_ENTIDADE_ENSINO": "UFPE",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DE PERNAMBUCO",
+          "TOTAL_DOCENTES": 128
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFRJ",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DO RIO DE JANEIRO",
+          "TOTAL_DOCENTES": 75
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "USP/SC",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE DE SÃO PAULO ( SÃO CARLOS )",
+          "TOTAL_DOCENTES": 71
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFMS",
+          "NM_ENTIDADE_ENSINO": "FUNDAÇÃO UNIVERSIDADE FEDERAL DE MATO GROSSO DO SUL",
+          "TOTAL_DOCENTES": 66
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UTFPR",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE TECNOLÓGICA FEDERAL DO PARANÁ",
+          "TOTAL_DOCENTES": 61
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "USP",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE DE SÃO PAULO",
+          "TOTAL_DOCENTES": 60
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFRGS",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL",
+          "TOTAL_DOCENTES": 58
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFMG",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DE MINAS GERAIS",
+          "TOTAL_DOCENTES": 57
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFSCAR",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DE SÃO CARLOS",
+          "TOTAL_DOCENTES": 55
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UNB",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE DE BRASÍLIA",
+          "TOTAL_DOCENTES": 54
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFABC",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DO ABC",
+          "TOTAL_DOCENTES": 53
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UNICAMP",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE ESTADUAL DE CAMPINAS",
+          "TOTAL_DOCENTES": 51
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFG",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DE GOIÁS",
+          "TOTAL_DOCENTES": 45
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFBA",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DA BAHIA",
+          "TOTAL_DOCENTES": 44
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFCG",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DE CAMPINA GRANDE",
+          "TOTAL_DOCENTES": 43
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFF",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL FLUMINENSE",
+          "TOTAL_DOCENTES": 42
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFRN",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DO RIO GRANDE DO NORTE",
+          "TOTAL_DOCENTES": 41
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFPR",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DO PARANÁ",
+          "TOTAL_DOCENTES": 37
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFPA",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DO PARÁ",
+          "TOTAL_DOCENTES": 36
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFSM",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DE SANTA MARIA",
+          "TOTAL_DOCENTES": 36
+        }
+      ]
+    },
+    "2019": {
+      "lideranca_bolsas_pq": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "TEM_BOLSA_PQ": "NÃO",
+          "TOTAL_DOCENTES": 413,
+          "PERCENTUAL": 90.17
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "TEM_BOLSA_PQ": "SIM",
+          "TOTAL_DOCENTES": 45,
+          "PERCENTUAL": 9.83
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "TEM_BOLSA_PQ": "NÃO",
+          "TOTAL_DOCENTES": 466,
+          "PERCENTUAL": 81.04
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "TEM_BOLSA_PQ": "SIM",
+          "TOTAL_DOCENTES": 109,
+          "PERCENTUAL": 18.96
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "TEM_BOLSA_PQ": "NÃO",
+          "TOTAL_DOCENTES": 115,
+          "PERCENTUAL": 66.47
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "TEM_BOLSA_PQ": "SIM",
+          "TOTAL_DOCENTES": 58,
+          "PERCENTUAL": 33.53
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "TEM_BOLSA_PQ": "NÃO",
+          "TOTAL_DOCENTES": 43,
+          "PERCENTUAL": 46.24
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "TEM_BOLSA_PQ": "SIM",
+          "TOTAL_DOCENTES": 50,
+          "PERCENTUAL": 53.76
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "TEM_BOLSA_PQ": "NÃO",
+          "TOTAL_DOCENTES": 150,
+          "PERCENTUAL": 43.1
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "TEM_BOLSA_PQ": "SIM",
+          "TOTAL_DOCENTES": 198,
+          "PERCENTUAL": 56.9
+        }
+      ],
+      "internacionalizacao_titulacao_exterior": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "TITULADO_NO_EXTERIOR": "NÃO",
+          "TOTAL_DOCENTES": 389,
+          "PERCENTUAL": 84.93
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "TITULADO_NO_EXTERIOR": "SIM",
+          "TOTAL_DOCENTES": 69,
+          "PERCENTUAL": 15.07
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "TITULADO_NO_EXTERIOR": "NÃO",
+          "TOTAL_DOCENTES": 449,
+          "PERCENTUAL": 78.09
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "TITULADO_NO_EXTERIOR": "SIM",
+          "TOTAL_DOCENTES": 126,
+          "PERCENTUAL": 21.91
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "TITULADO_NO_EXTERIOR": "NÃO",
+          "TOTAL_DOCENTES": 110,
+          "PERCENTUAL": 63.58
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "TITULADO_NO_EXTERIOR": "SIM",
+          "TOTAL_DOCENTES": 63,
+          "PERCENTUAL": 36.42
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "TITULADO_NO_EXTERIOR": "NÃO",
+          "TOTAL_DOCENTES": 58,
+          "PERCENTUAL": 62.37
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "TITULADO_NO_EXTERIOR": "SIM",
+          "TOTAL_DOCENTES": 35,
+          "PERCENTUAL": 37.63
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "TITULADO_NO_EXTERIOR": "NÃO",
+          "TOTAL_DOCENTES": 203,
+          "PERCENTUAL": 58.33
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "TITULADO_NO_EXTERIOR": "SIM",
+          "TOTAL_DOCENTES": 145,
+          "PERCENTUAL": 41.67
+        }
+      ],
+      "internacionalizacao_nacionalidade": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DOCENTE_ESTRANGEIRO": "BRASILEIRO",
+          "TOTAL_DOCENTES": 447,
+          "PERCENTUAL": 97.6
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DOCENTE_ESTRANGEIRO": "ESTRANGEIRO",
+          "TOTAL_DOCENTES": 11,
+          "PERCENTUAL": 2.4
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DOCENTE_ESTRANGEIRO": "BRASILEIRO",
+          "TOTAL_DOCENTES": 563,
+          "PERCENTUAL": 97.91
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DOCENTE_ESTRANGEIRO": "ESTRANGEIRO",
+          "TOTAL_DOCENTES": 12,
+          "PERCENTUAL": 2.09
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DOCENTE_ESTRANGEIRO": "BRASILEIRO",
+          "TOTAL_DOCENTES": 165,
+          "PERCENTUAL": 95.38
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DOCENTE_ESTRANGEIRO": "ESTRANGEIRO",
+          "TOTAL_DOCENTES": 8,
+          "PERCENTUAL": 4.62
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DOCENTE_ESTRANGEIRO": "BRASILEIRO",
+          "TOTAL_DOCENTES": 91,
+          "PERCENTUAL": 97.85
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DOCENTE_ESTRANGEIRO": "ESTRANGEIRO",
+          "TOTAL_DOCENTES": 2,
+          "PERCENTUAL": 2.15
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DOCENTE_ESTRANGEIRO": "BRASILEIRO",
+          "TOTAL_DOCENTES": 341,
+          "PERCENTUAL": 97.99
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DOCENTE_ESTRANGEIRO": "ESTRANGEIRO",
+          "TOTAL_DOCENTES": 7,
+          "PERCENTUAL": 2.01
+        }
+      ],
+      "endogamia_academica": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "ENDOGAMIA": "NÃO",
+          "TOTAL_DOCENTES": 425,
+          "PERCENTUAL": 92.79
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "ENDOGAMIA": "SIM",
+          "TOTAL_DOCENTES": 33,
+          "PERCENTUAL": 7.21
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "ENDOGAMIA": "NÃO",
+          "TOTAL_DOCENTES": 495,
+          "PERCENTUAL": 86.09
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "ENDOGAMIA": "SIM",
+          "TOTAL_DOCENTES": 80,
+          "PERCENTUAL": 13.91
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "ENDOGAMIA": "NÃO",
+          "TOTAL_DOCENTES": 149,
+          "PERCENTUAL": 86.13
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "ENDOGAMIA": "SIM",
+          "TOTAL_DOCENTES": 24,
+          "PERCENTUAL": 13.87
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "ENDOGAMIA": "NÃO",
+          "TOTAL_DOCENTES": 78,
+          "PERCENTUAL": 83.87
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "ENDOGAMIA": "SIM",
+          "TOTAL_DOCENTES": 15,
+          "PERCENTUAL": 16.13
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "ENDOGAMIA": "NÃO",
+          "TOTAL_DOCENTES": 208,
+          "PERCENTUAL": 59.77
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "ENDOGAMIA": "SIM",
+          "TOTAL_DOCENTES": 140,
+          "PERCENTUAL": 40.23
+        }
+      ],
+      "maturidade_tempo_doutorado": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "MEDIA_ANOS_DOUTORADO": 10.7
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "MEDIA_ANOS_DOUTORADO": 12.9
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "MEDIA_ANOS_DOUTORADO": 14.0
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "MEDIA_ANOS_DOUTORADO": 17.4
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "MEDIA_ANOS_DOUTORADO": 18.3
+        }
+      ],
+      "tamanho_medio_programa": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "MEDIA_DOCENTES_PERMANENTES_POR_PROGRAMA": 14.8
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "MEDIA_DOCENTES_PERMANENTES_POR_PROGRAMA": 20.5
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "MEDIA_DOCENTES_PERMANENTES_POR_PROGRAMA": 24.7
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "MEDIA_DOCENTES_PERMANENTES_POR_PROGRAMA": 31.0
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "MEDIA_DOCENTES_PERMANENTES_POR_PROGRAMA": 49.7
+        }
+      ],
+      "categoria_docente": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_CATEGORIA_DOCENTE": "COLABORADOR",
+          "TOTAL_DOCENTES": 84,
+          "PERCENTUAL": 15.47
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_CATEGORIA_DOCENTE": "PERMANENTE",
+          "TOTAL_DOCENTES": 458,
+          "PERCENTUAL": 84.35
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_CATEGORIA_DOCENTE": "VISITANTE",
+          "TOTAL_DOCENTES": 1,
+          "PERCENTUAL": 0.18
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_CATEGORIA_DOCENTE": "COLABORADOR",
+          "TOTAL_DOCENTES": 138,
+          "PERCENTUAL": 19.14
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_CATEGORIA_DOCENTE": "PERMANENTE",
+          "TOTAL_DOCENTES": 575,
+          "PERCENTUAL": 79.75
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_CATEGORIA_DOCENTE": "VISITANTE",
+          "TOTAL_DOCENTES": 8,
+          "PERCENTUAL": 1.11
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_CATEGORIA_DOCENTE": "COLABORADOR",
+          "TOTAL_DOCENTES": 21,
+          "PERCENTUAL": 10.82
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_CATEGORIA_DOCENTE": "PERMANENTE",
+          "TOTAL_DOCENTES": 173,
+          "PERCENTUAL": 89.18
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_CATEGORIA_DOCENTE": "COLABORADOR",
+          "TOTAL_DOCENTES": 17,
+          "PERCENTUAL": 15.45
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_CATEGORIA_DOCENTE": "PERMANENTE",
+          "TOTAL_DOCENTES": 93,
+          "PERCENTUAL": 84.55
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_CATEGORIA_DOCENTE": "COLABORADOR",
+          "TOTAL_DOCENTES": 49,
+          "PERCENTUAL": 12.34
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_CATEGORIA_DOCENTE": "PERMANENTE",
+          "TOTAL_DOCENTES": 348,
+          "PERCENTUAL": 87.66
+        }
+      ],
+      "regime_trabalho": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_REGIME_TRABALHO": "DEDICAÇÃO EXCLUSIVA",
+          "TOTAL_DOCENTES": 202,
+          "PERCENTUAL": 44.1
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_REGIME_TRABALHO": "INTEGRAL",
+          "TOTAL_DOCENTES": 233,
+          "PERCENTUAL": 50.87
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_REGIME_TRABALHO": "PARCIAL",
+          "TOTAL_DOCENTES": 23,
+          "PERCENTUAL": 5.02
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_REGIME_TRABALHO": "DEDICAÇÃO EXCLUSIVA",
+          "TOTAL_DOCENTES": 261,
+          "PERCENTUAL": 45.39
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_REGIME_TRABALHO": "INTEGRAL",
+          "TOTAL_DOCENTES": 285,
+          "PERCENTUAL": 49.57
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_REGIME_TRABALHO": "PARCIAL",
+          "TOTAL_DOCENTES": 29,
+          "PERCENTUAL": 5.04
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_REGIME_TRABALHO": "DEDICAÇÃO EXCLUSIVA",
+          "TOTAL_DOCENTES": 78,
+          "PERCENTUAL": 45.09
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_REGIME_TRABALHO": "INTEGRAL",
+          "TOTAL_DOCENTES": 93,
+          "PERCENTUAL": 53.76
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_REGIME_TRABALHO": "PARCIAL",
+          "TOTAL_DOCENTES": 2,
+          "PERCENTUAL": 1.16
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_REGIME_TRABALHO": "DEDICAÇÃO EXCLUSIVA",
+          "TOTAL_DOCENTES": 20,
+          "PERCENTUAL": 21.51
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_REGIME_TRABALHO": "INTEGRAL",
+          "TOTAL_DOCENTES": 72,
+          "PERCENTUAL": 77.42
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_REGIME_TRABALHO": "PARCIAL",
+          "TOTAL_DOCENTES": 1,
+          "PERCENTUAL": 1.08
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_REGIME_TRABALHO": "DEDICAÇÃO EXCLUSIVA",
+          "TOTAL_DOCENTES": 183,
+          "PERCENTUAL": 52.59
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_REGIME_TRABALHO": "INTEGRAL",
+          "TOTAL_DOCENTES": 164,
+          "PERCENTUAL": 47.13
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_REGIME_TRABALHO": "PARCIAL",
+          "TOTAL_DOCENTES": 1,
+          "PERCENTUAL": 0.29
+        }
+      ],
+      "desigualdade_regional": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "NM_REGIAO": "CENTRO-OESTE",
+          "TOTAL_DOCENTES": 51,
+          "PERCENTUAL": 9.39
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "NM_REGIAO": "NORDESTE",
+          "TOTAL_DOCENTES": 183,
+          "PERCENTUAL": 33.7
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "NM_REGIAO": "NORTE",
+          "TOTAL_DOCENTES": 13,
+          "PERCENTUAL": 2.39
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "NM_REGIAO": "SUDESTE",
+          "TOTAL_DOCENTES": 129,
+          "PERCENTUAL": 23.76
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "NM_REGIAO": "SUL",
+          "TOTAL_DOCENTES": 167,
+          "PERCENTUAL": 30.76
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "NM_REGIAO": "CENTRO-OESTE",
+          "TOTAL_DOCENTES": 86,
+          "PERCENTUAL": 11.93
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "NM_REGIAO": "NORDESTE",
+          "TOTAL_DOCENTES": 227,
+          "PERCENTUAL": 31.48
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "NM_REGIAO": "NORTE",
+          "TOTAL_DOCENTES": 23,
+          "PERCENTUAL": 3.19
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "NM_REGIAO": "SUDESTE",
+          "TOTAL_DOCENTES": 327,
+          "PERCENTUAL": 45.35
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "NM_REGIAO": "SUL",
+          "TOTAL_DOCENTES": 58,
+          "PERCENTUAL": 8.04
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "NM_REGIAO": "CENTRO-OESTE",
+          "TOTAL_DOCENTES": 26,
+          "PERCENTUAL": 13.4
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "NM_REGIAO": "NORDESTE",
+          "TOTAL_DOCENTES": 59,
+          "PERCENTUAL": 30.41
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "NM_REGIAO": "NORTE",
+          "TOTAL_DOCENTES": 28,
+          "PERCENTUAL": 14.43
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "NM_REGIAO": "SUL",
+          "TOTAL_DOCENTES": 81,
+          "PERCENTUAL": 41.75
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "NM_REGIAO": "SUDESTE",
+          "TOTAL_DOCENTES": 86,
+          "PERCENTUAL": 78.18
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "NM_REGIAO": "SUL",
+          "TOTAL_DOCENTES": 24,
+          "PERCENTUAL": 21.82
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "NM_REGIAO": "NORDESTE",
+          "TOTAL_DOCENTES": 88,
+          "PERCENTUAL": 22.17
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "NM_REGIAO": "SUDESTE",
+          "TOTAL_DOCENTES": 252,
+          "PERCENTUAL": 63.48
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "NM_REGIAO": "SUL",
+          "TOTAL_DOCENTES": 57,
+          "PERCENTUAL": 14.36
+        }
+      ],
+      "natureza_instituicao": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_DEPENDENCIA_ADMINISTRATIVA": "PRIVADA",
+          "TOTAL_DOCENTES": 48,
+          "PERCENTUAL": 8.84
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_DEPENDENCIA_ADMINISTRATIVA": "PÚBLICA",
+          "TOTAL_DOCENTES": 495,
+          "PERCENTUAL": 91.16
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_DEPENDENCIA_ADMINISTRATIVA": "PRIVADA",
+          "TOTAL_DOCENTES": 72,
+          "PERCENTUAL": 9.99
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_DEPENDENCIA_ADMINISTRATIVA": "PÚBLICA",
+          "TOTAL_DOCENTES": 649,
+          "PERCENTUAL": 90.01
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_DEPENDENCIA_ADMINISTRATIVA": "PRIVADA",
+          "TOTAL_DOCENTES": 14,
+          "PERCENTUAL": 7.22
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_DEPENDENCIA_ADMINISTRATIVA": "PÚBLICA",
+          "TOTAL_DOCENTES": 180,
+          "PERCENTUAL": 92.78
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_DEPENDENCIA_ADMINISTRATIVA": "PRIVADA",
+          "TOTAL_DOCENTES": 24,
+          "PERCENTUAL": 21.82
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_DEPENDENCIA_ADMINISTRATIVA": "PÚBLICA",
+          "TOTAL_DOCENTES": 86,
+          "PERCENTUAL": 78.18
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_DEPENDENCIA_ADMINISTRATIVA": "PRIVADA",
+          "TOTAL_DOCENTES": 24,
+          "PERCENTUAL": 6.05
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_DEPENDENCIA_ADMINISTRATIVA": "PÚBLICA",
+          "TOTAL_DOCENTES": 373,
+          "PERCENTUAL": 93.95
+        }
+      ],
+      "top_20_instituicoes": [
+        {
+          "SG_ENTIDADE_ENSINO": "UFPE",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DE PERNAMBUCO",
+          "TOTAL_DOCENTES": 129
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "USP/SC",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE DE SÃO PAULO (SÃO CARLOS)",
+          "TOTAL_DOCENTES": 73
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFRJ",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DO RIO DE JANEIRO",
+          "TOTAL_DOCENTES": 71
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "USP",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE DE SÃO PAULO",
+          "TOTAL_DOCENTES": 67
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UTFPR",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE TECNOLÓGICA FEDERAL DO PARANÁ",
+          "TOTAL_DOCENTES": 66
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFMG",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DE MINAS GERAIS",
+          "TOTAL_DOCENTES": 63
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFMS",
+          "NM_ENTIDADE_ENSINO": "FUNDAÇÃO UNIVERSIDADE FEDERAL DE MATO GROSSO DO SUL",
+          "TOTAL_DOCENTES": 62
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFSCAR",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DE SÃO CARLOS",
+          "TOTAL_DOCENTES": 60
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFRGS",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL",
+          "TOTAL_DOCENTES": 57
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UNB",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE DE BRASÍLIA",
+          "TOTAL_DOCENTES": 56
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UNICAMP",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE ESTADUAL DE CAMPINAS",
+          "TOTAL_DOCENTES": 49
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFABC",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DO ABC",
+          "TOTAL_DOCENTES": 48
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFF",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL FLUMINENSE",
+          "TOTAL_DOCENTES": 45
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFCG",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DE CAMPINA GRANDE",
+          "TOTAL_DOCENTES": 45
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFG",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DE GOIÁS",
+          "TOTAL_DOCENTES": 45
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFBA",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DA BAHIA",
+          "TOTAL_DOCENTES": 43
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFRN",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DO RIO GRANDE DO NORTE",
+          "TOTAL_DOCENTES": 40
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFPR",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DO PARANÁ",
+          "TOTAL_DOCENTES": 37
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFPA",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DO PARÁ",
+          "TOTAL_DOCENTES": 36
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFU",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DE UBERLÂNDIA",
+          "TOTAL_DOCENTES": 34
+        }
+      ]
+    },
+    "2020": {
+      "lideranca_bolsas_pq": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "TEM_BOLSA_PQ": "NÃO",
+          "TOTAL_DOCENTES": 411,
+          "PERCENTUAL": 89.54
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "TEM_BOLSA_PQ": "SIM",
+          "TOTAL_DOCENTES": 48,
+          "PERCENTUAL": 10.46
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "TEM_BOLSA_PQ": "NÃO",
+          "TOTAL_DOCENTES": 446,
+          "PERCENTUAL": 79.93
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "TEM_BOLSA_PQ": "SIM",
+          "TOTAL_DOCENTES": 112,
+          "PERCENTUAL": 20.07
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "TEM_BOLSA_PQ": "NÃO",
+          "TOTAL_DOCENTES": 123,
+          "PERCENTUAL": 67.58
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "TEM_BOLSA_PQ": "SIM",
+          "TOTAL_DOCENTES": 59,
+          "PERCENTUAL": 32.42
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "TEM_BOLSA_PQ": "NÃO",
+          "TOTAL_DOCENTES": 44,
+          "PERCENTUAL": 46.32
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "TEM_BOLSA_PQ": "SIM",
+          "TOTAL_DOCENTES": 51,
+          "PERCENTUAL": 53.68
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "TEM_BOLSA_PQ": "NÃO",
+          "TOTAL_DOCENTES": 158,
+          "PERCENTUAL": 45.4
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "TEM_BOLSA_PQ": "SIM",
+          "TOTAL_DOCENTES": 190,
+          "PERCENTUAL": 54.6
+        }
+      ],
+      "internacionalizacao_titulacao_exterior": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "TITULADO_NO_EXTERIOR": "NÃO",
+          "TOTAL_DOCENTES": 397,
+          "PERCENTUAL": 86.49
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "TITULADO_NO_EXTERIOR": "SIM",
+          "TOTAL_DOCENTES": 62,
+          "PERCENTUAL": 13.51
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "TITULADO_NO_EXTERIOR": "NÃO",
+          "TOTAL_DOCENTES": 436,
+          "PERCENTUAL": 78.14
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "TITULADO_NO_EXTERIOR": "SIM",
+          "TOTAL_DOCENTES": 122,
+          "PERCENTUAL": 21.86
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "TITULADO_NO_EXTERIOR": "NÃO",
+          "TOTAL_DOCENTES": 119,
+          "PERCENTUAL": 65.38
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "TITULADO_NO_EXTERIOR": "SIM",
+          "TOTAL_DOCENTES": 63,
+          "PERCENTUAL": 34.62
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "TITULADO_NO_EXTERIOR": "NÃO",
+          "TOTAL_DOCENTES": 61,
+          "PERCENTUAL": 64.21
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "TITULADO_NO_EXTERIOR": "SIM",
+          "TOTAL_DOCENTES": 34,
+          "PERCENTUAL": 35.79
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "TITULADO_NO_EXTERIOR": "NÃO",
+          "TOTAL_DOCENTES": 205,
+          "PERCENTUAL": 58.91
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "TITULADO_NO_EXTERIOR": "SIM",
+          "TOTAL_DOCENTES": 143,
+          "PERCENTUAL": 41.09
+        }
+      ],
+      "internacionalizacao_nacionalidade": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DOCENTE_ESTRANGEIRO": "BRASILEIRO",
+          "TOTAL_DOCENTES": 448,
+          "PERCENTUAL": 97.6
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DOCENTE_ESTRANGEIRO": "ESTRANGEIRO",
+          "TOTAL_DOCENTES": 11,
+          "PERCENTUAL": 2.4
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DOCENTE_ESTRANGEIRO": "BRASILEIRO",
+          "TOTAL_DOCENTES": 545,
+          "PERCENTUAL": 97.67
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DOCENTE_ESTRANGEIRO": "ESTRANGEIRO",
+          "TOTAL_DOCENTES": 13,
+          "PERCENTUAL": 2.33
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DOCENTE_ESTRANGEIRO": "BRASILEIRO",
+          "TOTAL_DOCENTES": 174,
+          "PERCENTUAL": 95.6
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DOCENTE_ESTRANGEIRO": "ESTRANGEIRO",
+          "TOTAL_DOCENTES": 8,
+          "PERCENTUAL": 4.4
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DOCENTE_ESTRANGEIRO": "BRASILEIRO",
+          "TOTAL_DOCENTES": 93,
+          "PERCENTUAL": 97.89
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DOCENTE_ESTRANGEIRO": "ESTRANGEIRO",
+          "TOTAL_DOCENTES": 2,
+          "PERCENTUAL": 2.11
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DOCENTE_ESTRANGEIRO": "BRASILEIRO",
+          "TOTAL_DOCENTES": 341,
+          "PERCENTUAL": 97.99
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DOCENTE_ESTRANGEIRO": "ESTRANGEIRO",
+          "TOTAL_DOCENTES": 7,
+          "PERCENTUAL": 2.01
+        }
+      ],
+      "endogamia_academica": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "ENDOGAMIA": "NÃO",
+          "TOTAL_DOCENTES": 422,
+          "PERCENTUAL": 91.94
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "ENDOGAMIA": "SIM",
+          "TOTAL_DOCENTES": 37,
+          "PERCENTUAL": 8.06
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "ENDOGAMIA": "NÃO",
+          "TOTAL_DOCENTES": 479,
+          "PERCENTUAL": 85.84
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "ENDOGAMIA": "SIM",
+          "TOTAL_DOCENTES": 79,
+          "PERCENTUAL": 14.16
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "ENDOGAMIA": "NÃO",
+          "TOTAL_DOCENTES": 153,
+          "PERCENTUAL": 84.07
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "ENDOGAMIA": "SIM",
+          "TOTAL_DOCENTES": 29,
+          "PERCENTUAL": 15.93
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "ENDOGAMIA": "NÃO",
+          "TOTAL_DOCENTES": 78,
+          "PERCENTUAL": 82.11
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "ENDOGAMIA": "SIM",
+          "TOTAL_DOCENTES": 17,
+          "PERCENTUAL": 17.89
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "ENDOGAMIA": "NÃO",
+          "TOTAL_DOCENTES": 208,
+          "PERCENTUAL": 59.77
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "ENDOGAMIA": "SIM",
+          "TOTAL_DOCENTES": 140,
+          "PERCENTUAL": 40.23
+        }
+      ],
+      "maturidade_tempo_doutorado": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "MEDIA_ANOS_DOUTORADO": 11.3
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "MEDIA_ANOS_DOUTORADO": 13.6
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "MEDIA_ANOS_DOUTORADO": 14.7
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "MEDIA_ANOS_DOUTORADO": 17.8
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "MEDIA_ANOS_DOUTORADO": 18.9
+        }
+      ],
+      "tamanho_medio_programa": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "MEDIA_DOCENTES_PERMANENTES_POR_PROGRAMA": 14.8
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "MEDIA_DOCENTES_PERMANENTES_POR_PROGRAMA": 19.9
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "MEDIA_DOCENTES_PERMANENTES_POR_PROGRAMA": 26.0
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "MEDIA_DOCENTES_PERMANENTES_POR_PROGRAMA": 31.7
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "MEDIA_DOCENTES_PERMANENTES_POR_PROGRAMA": 49.7
+        }
+      ],
+      "categoria_docente": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_CATEGORIA_DOCENTE": "COLABORADOR",
+          "TOTAL_DOCENTES": 78,
+          "PERCENTUAL": 14.44
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_CATEGORIA_DOCENTE": "PERMANENTE",
+          "TOTAL_DOCENTES": 459,
+          "PERCENTUAL": 85.0
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_CATEGORIA_DOCENTE": "VISITANTE",
+          "TOTAL_DOCENTES": 3,
+          "PERCENTUAL": 0.56
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_CATEGORIA_DOCENTE": "COLABORADOR",
+          "TOTAL_DOCENTES": 129,
+          "PERCENTUAL": 18.59
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_CATEGORIA_DOCENTE": "PERMANENTE",
+          "TOTAL_DOCENTES": 558,
+          "PERCENTUAL": 80.4
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_CATEGORIA_DOCENTE": "VISITANTE",
+          "TOTAL_DOCENTES": 7,
+          "PERCENTUAL": 1.01
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_CATEGORIA_DOCENTE": "COLABORADOR",
+          "TOTAL_DOCENTES": 21,
+          "PERCENTUAL": 10.29
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_CATEGORIA_DOCENTE": "PERMANENTE",
+          "TOTAL_DOCENTES": 182,
+          "PERCENTUAL": 89.22
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_CATEGORIA_DOCENTE": "VISITANTE",
+          "TOTAL_DOCENTES": 1,
+          "PERCENTUAL": 0.49
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_CATEGORIA_DOCENTE": "COLABORADOR",
+          "TOTAL_DOCENTES": 15,
+          "PERCENTUAL": 13.64
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_CATEGORIA_DOCENTE": "PERMANENTE",
+          "TOTAL_DOCENTES": 95,
+          "PERCENTUAL": 86.36
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_CATEGORIA_DOCENTE": "COLABORADOR",
+          "TOTAL_DOCENTES": 49,
+          "PERCENTUAL": 12.34
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_CATEGORIA_DOCENTE": "PERMANENTE",
+          "TOTAL_DOCENTES": 348,
+          "PERCENTUAL": 87.66
+        }
+      ],
+      "regime_trabalho": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_REGIME_TRABALHO": "DEDICAÇÃO EXCLUSIVA",
+          "TOTAL_DOCENTES": 204,
+          "PERCENTUAL": 44.44
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_REGIME_TRABALHO": "INTEGRAL",
+          "TOTAL_DOCENTES": 233,
+          "PERCENTUAL": 50.76
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_REGIME_TRABALHO": "PARCIAL",
+          "TOTAL_DOCENTES": 22,
+          "PERCENTUAL": 4.79
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_REGIME_TRABALHO": "DEDICAÇÃO EXCLUSIVA",
+          "TOTAL_DOCENTES": 257,
+          "PERCENTUAL": 46.06
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_REGIME_TRABALHO": "INTEGRAL",
+          "TOTAL_DOCENTES": 266,
+          "PERCENTUAL": 47.67
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_REGIME_TRABALHO": "PARCIAL",
+          "TOTAL_DOCENTES": 35,
+          "PERCENTUAL": 6.27
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_REGIME_TRABALHO": "DEDICAÇÃO EXCLUSIVA",
+          "TOTAL_DOCENTES": 87,
+          "PERCENTUAL": 47.8
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_REGIME_TRABALHO": "INTEGRAL",
+          "TOTAL_DOCENTES": 94,
+          "PERCENTUAL": 51.65
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_REGIME_TRABALHO": "PARCIAL",
+          "TOTAL_DOCENTES": 1,
+          "PERCENTUAL": 0.55
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_REGIME_TRABALHO": "DEDICAÇÃO EXCLUSIVA",
+          "TOTAL_DOCENTES": 24,
+          "PERCENTUAL": 25.26
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_REGIME_TRABALHO": "INTEGRAL",
+          "TOTAL_DOCENTES": 70,
+          "PERCENTUAL": 73.68
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_REGIME_TRABALHO": "PARCIAL",
+          "TOTAL_DOCENTES": 1,
+          "PERCENTUAL": 1.05
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_REGIME_TRABALHO": "DEDICAÇÃO EXCLUSIVA",
+          "TOTAL_DOCENTES": 183,
+          "PERCENTUAL": 52.59
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_REGIME_TRABALHO": "INTEGRAL",
+          "TOTAL_DOCENTES": 164,
+          "PERCENTUAL": 47.13
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_REGIME_TRABALHO": "PARCIAL",
+          "TOTAL_DOCENTES": 1,
+          "PERCENTUAL": 0.29
+        }
+      ],
+      "desigualdade_regional": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "NM_REGIAO": "CENTRO-OESTE",
+          "TOTAL_DOCENTES": 50,
+          "PERCENTUAL": 9.26
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "NM_REGIAO": "NORDESTE",
+          "TOTAL_DOCENTES": 184,
+          "PERCENTUAL": 34.07
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "NM_REGIAO": "NORTE",
+          "TOTAL_DOCENTES": 15,
+          "PERCENTUAL": 2.78
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "NM_REGIAO": "SUDESTE",
+          "TOTAL_DOCENTES": 134,
+          "PERCENTUAL": 24.81
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "NM_REGIAO": "SUL",
+          "TOTAL_DOCENTES": 157,
+          "PERCENTUAL": 29.07
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "NM_REGIAO": "CENTRO-OESTE",
+          "TOTAL_DOCENTES": 83,
+          "PERCENTUAL": 11.96
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "NM_REGIAO": "NORDESTE",
+          "TOTAL_DOCENTES": 229,
+          "PERCENTUAL": 33.0
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "NM_REGIAO": "NORTE",
+          "TOTAL_DOCENTES": 22,
+          "PERCENTUAL": 3.17
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "NM_REGIAO": "SUDESTE",
+          "TOTAL_DOCENTES": 305,
+          "PERCENTUAL": 43.95
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "NM_REGIAO": "SUL",
+          "TOTAL_DOCENTES": 55,
+          "PERCENTUAL": 7.93
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "NM_REGIAO": "CENTRO-OESTE",
+          "TOTAL_DOCENTES": 31,
+          "PERCENTUAL": 15.2
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "NM_REGIAO": "NORDESTE",
+          "TOTAL_DOCENTES": 63,
+          "PERCENTUAL": 30.88
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "NM_REGIAO": "NORTE",
+          "TOTAL_DOCENTES": 28,
+          "PERCENTUAL": 13.73
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "NM_REGIAO": "SUL",
+          "TOTAL_DOCENTES": 82,
+          "PERCENTUAL": 40.2
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "NM_REGIAO": "SUDESTE",
+          "TOTAL_DOCENTES": 86,
+          "PERCENTUAL": 78.18
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "NM_REGIAO": "SUL",
+          "TOTAL_DOCENTES": 24,
+          "PERCENTUAL": 21.82
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "NM_REGIAO": "NORDESTE",
+          "TOTAL_DOCENTES": 88,
+          "PERCENTUAL": 22.17
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "NM_REGIAO": "SUDESTE",
+          "TOTAL_DOCENTES": 250,
+          "PERCENTUAL": 62.97
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "NM_REGIAO": "SUL",
+          "TOTAL_DOCENTES": 59,
+          "PERCENTUAL": 14.86
+        }
+      ],
+      "natureza_instituicao": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_DEPENDENCIA_ADMINISTRATIVA": "PRIVADA",
+          "TOTAL_DOCENTES": 47,
+          "PERCENTUAL": 8.7
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_DEPENDENCIA_ADMINISTRATIVA": "PÚBLICA",
+          "TOTAL_DOCENTES": 493,
+          "PERCENTUAL": 91.3
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_DEPENDENCIA_ADMINISTRATIVA": "PRIVADA",
+          "TOTAL_DOCENTES": 72,
+          "PERCENTUAL": 10.37
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_DEPENDENCIA_ADMINISTRATIVA": "PÚBLICA",
+          "TOTAL_DOCENTES": 622,
+          "PERCENTUAL": 89.63
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_DEPENDENCIA_ADMINISTRATIVA": "PRIVADA",
+          "TOTAL_DOCENTES": 14,
+          "PERCENTUAL": 6.86
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_DEPENDENCIA_ADMINISTRATIVA": "PÚBLICA",
+          "TOTAL_DOCENTES": 190,
+          "PERCENTUAL": 93.14
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_DEPENDENCIA_ADMINISTRATIVA": "PRIVADA",
+          "TOTAL_DOCENTES": 24,
+          "PERCENTUAL": 21.82
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_DEPENDENCIA_ADMINISTRATIVA": "PÚBLICA",
+          "TOTAL_DOCENTES": 86,
+          "PERCENTUAL": 78.18
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_DEPENDENCIA_ADMINISTRATIVA": "PRIVADA",
+          "TOTAL_DOCENTES": 23,
+          "PERCENTUAL": 5.79
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_DEPENDENCIA_ADMINISTRATIVA": "PÚBLICA",
+          "TOTAL_DOCENTES": 374,
+          "PERCENTUAL": 94.21
+        }
+      ],
+      "top_20_instituicoes": [
+        {
+          "SG_ENTIDADE_ENSINO": "UFPE",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DE PERNAMBUCO",
+          "TOTAL_DOCENTES": 128
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "USP/SC",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE DE SÃO PAULO (SÃO CARLOS)",
+          "TOTAL_DOCENTES": 76
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "USP",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE DE SÃO PAULO",
+          "TOTAL_DOCENTES": 68
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFRJ",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DO RIO DE JANEIRO",
+          "TOTAL_DOCENTES": 66
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFMG",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DE MINAS GERAIS",
+          "TOTAL_DOCENTES": 63
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UNB",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE DE BRASÍLIA",
+          "TOTAL_DOCENTES": 61
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UTFPR",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE TECNOLÓGICA FEDERAL DO PARANÁ",
+          "TOTAL_DOCENTES": 61
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFRGS",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL",
+          "TOTAL_DOCENTES": 59
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFMS",
+          "NM_ENTIDADE_ENSINO": "FUNDAÇÃO UNIVERSIDADE FEDERAL DE MATO GROSSO DO SUL",
+          "TOTAL_DOCENTES": 58
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFSCAR",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DE SÃO CARLOS",
+          "TOTAL_DOCENTES": 51
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UNICAMP",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE ESTADUAL DE CAMPINAS",
+          "TOTAL_DOCENTES": 49
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFRN",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DO RIO GRANDE DO NORTE",
+          "TOTAL_DOCENTES": 45
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFG",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DE GOIÁS",
+          "TOTAL_DOCENTES": 45
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFCG",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DE CAMPINA GRANDE",
+          "TOTAL_DOCENTES": 45
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFF",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL FLUMINENSE",
+          "TOTAL_DOCENTES": 44
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFBA",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DA BAHIA",
+          "TOTAL_DOCENTES": 43
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFPR",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DO PARANÁ",
+          "TOTAL_DOCENTES": 40
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFABC",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DO ABC",
+          "TOTAL_DOCENTES": 39
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFPA",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DO PARÁ",
+          "TOTAL_DOCENTES": 37
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFC",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DO CEARÁ",
+          "TOTAL_DOCENTES": 34
+        }
+      ]
+    },
+    "2021": {
+      "lideranca_bolsas_pq": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "TEM_BOLSA_PQ": "NÃO",
+          "TOTAL_DOCENTES": 328,
+          "PERCENTUAL": 89.13
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "TEM_BOLSA_PQ": "SIM",
+          "TOTAL_DOCENTES": 40,
+          "PERCENTUAL": 10.87
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "TEM_BOLSA_PQ": "NÃO",
+          "TOTAL_DOCENTES": 509,
+          "PERCENTUAL": 80.28
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "TEM_BOLSA_PQ": "SIM",
+          "TOTAL_DOCENTES": 125,
+          "PERCENTUAL": 19.72
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "TEM_BOLSA_PQ": "NÃO",
+          "TOTAL_DOCENTES": 200,
+          "PERCENTUAL": 69.44
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "TEM_BOLSA_PQ": "SIM",
+          "TOTAL_DOCENTES": 88,
+          "PERCENTUAL": 30.56
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "TEM_BOLSA_PQ": "NÃO",
+          "TOTAL_DOCENTES": 77,
+          "PERCENTUAL": 57.89
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "TEM_BOLSA_PQ": "SIM",
+          "TOTAL_DOCENTES": 56,
+          "PERCENTUAL": 42.11
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "TEM_BOLSA_PQ": "NÃO",
+          "TOTAL_DOCENTES": 184,
+          "PERCENTUAL": 48.94
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "TEM_BOLSA_PQ": "SIM",
+          "TOTAL_DOCENTES": 192,
+          "PERCENTUAL": 51.06
+        }
+      ],
+      "internacionalizacao_titulacao_exterior": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "TITULADO_NO_EXTERIOR": "NÃO",
+          "TOTAL_DOCENTES": 327,
+          "PERCENTUAL": 88.86
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "TITULADO_NO_EXTERIOR": "SIM",
+          "TOTAL_DOCENTES": 41,
+          "PERCENTUAL": 11.14
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "TITULADO_NO_EXTERIOR": "NÃO",
+          "TOTAL_DOCENTES": 517,
+          "PERCENTUAL": 81.55
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "TITULADO_NO_EXTERIOR": "SIM",
+          "TOTAL_DOCENTES": 117,
+          "PERCENTUAL": 18.45
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "TITULADO_NO_EXTERIOR": "NÃO",
+          "TOTAL_DOCENTES": 216,
+          "PERCENTUAL": 75.0
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "TITULADO_NO_EXTERIOR": "SIM",
+          "TOTAL_DOCENTES": 72,
+          "PERCENTUAL": 25.0
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "TITULADO_NO_EXTERIOR": "NÃO",
+          "TOTAL_DOCENTES": 95,
+          "PERCENTUAL": 71.43
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "TITULADO_NO_EXTERIOR": "SIM",
+          "TOTAL_DOCENTES": 38,
+          "PERCENTUAL": 28.57
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "TITULADO_NO_EXTERIOR": "NÃO",
+          "TOTAL_DOCENTES": 215,
+          "PERCENTUAL": 57.18
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "TITULADO_NO_EXTERIOR": "SIM",
+          "TOTAL_DOCENTES": 161,
+          "PERCENTUAL": 42.82
+        }
+      ],
+      "internacionalizacao_nacionalidade": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DOCENTE_ESTRANGEIRO": "BRASILEIRO",
+          "TOTAL_DOCENTES": 360,
+          "PERCENTUAL": 97.83
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DOCENTE_ESTRANGEIRO": "ESTRANGEIRO",
+          "TOTAL_DOCENTES": 8,
+          "PERCENTUAL": 2.17
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DOCENTE_ESTRANGEIRO": "BRASILEIRO",
+          "TOTAL_DOCENTES": 618,
+          "PERCENTUAL": 97.48
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DOCENTE_ESTRANGEIRO": "ESTRANGEIRO",
+          "TOTAL_DOCENTES": 16,
+          "PERCENTUAL": 2.52
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DOCENTE_ESTRANGEIRO": "BRASILEIRO",
+          "TOTAL_DOCENTES": 279,
+          "PERCENTUAL": 96.88
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DOCENTE_ESTRANGEIRO": "ESTRANGEIRO",
+          "TOTAL_DOCENTES": 9,
+          "PERCENTUAL": 3.12
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DOCENTE_ESTRANGEIRO": "BRASILEIRO",
+          "TOTAL_DOCENTES": 130,
+          "PERCENTUAL": 97.74
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DOCENTE_ESTRANGEIRO": "ESTRANGEIRO",
+          "TOTAL_DOCENTES": 3,
+          "PERCENTUAL": 2.26
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DOCENTE_ESTRANGEIRO": "BRASILEIRO",
+          "TOTAL_DOCENTES": 367,
+          "PERCENTUAL": 97.61
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DOCENTE_ESTRANGEIRO": "ESTRANGEIRO",
+          "TOTAL_DOCENTES": 9,
+          "PERCENTUAL": 2.39
+        }
+      ],
+      "endogamia_academica": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "ENDOGAMIA": "NÃO",
+          "TOTAL_DOCENTES": 341,
+          "PERCENTUAL": 92.66
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "ENDOGAMIA": "SIM",
+          "TOTAL_DOCENTES": 27,
+          "PERCENTUAL": 7.34
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "ENDOGAMIA": "NÃO",
+          "TOTAL_DOCENTES": 552,
+          "PERCENTUAL": 87.07
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "ENDOGAMIA": "SIM",
+          "TOTAL_DOCENTES": 82,
+          "PERCENTUAL": 12.93
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "ENDOGAMIA": "NÃO",
+          "TOTAL_DOCENTES": 249,
+          "PERCENTUAL": 86.46
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "ENDOGAMIA": "SIM",
+          "TOTAL_DOCENTES": 39,
+          "PERCENTUAL": 13.54
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "ENDOGAMIA": "NÃO",
+          "TOTAL_DOCENTES": 113,
+          "PERCENTUAL": 84.96
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "ENDOGAMIA": "SIM",
+          "TOTAL_DOCENTES": 20,
+          "PERCENTUAL": 15.04
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "ENDOGAMIA": "NÃO",
+          "TOTAL_DOCENTES": 259,
+          "PERCENTUAL": 68.88
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "ENDOGAMIA": "SIM",
+          "TOTAL_DOCENTES": 117,
+          "PERCENTUAL": 31.12
+        }
+      ],
+      "maturidade_tempo_doutorado": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "MEDIA_ANOS_DOUTORADO": 11.0
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "MEDIA_ANOS_DOUTORADO": 12.5
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "MEDIA_ANOS_DOUTORADO": 13.1
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "MEDIA_ANOS_DOUTORADO": 16.1
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "MEDIA_ANOS_DOUTORADO": 17.3
+        }
+      ],
+      "tamanho_medio_programa": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "MEDIA_DOCENTES_PERMANENTES_POR_PROGRAMA": 14.2
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "MEDIA_DOCENTES_PERMANENTES_POR_PROGRAMA": 18.6
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "MEDIA_DOCENTES_PERMANENTES_POR_PROGRAMA": 22.2
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "MEDIA_DOCENTES_PERMANENTES_POR_PROGRAMA": 33.2
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "MEDIA_DOCENTES_PERMANENTES_POR_PROGRAMA": 47.0
+        }
+      ],
+      "categoria_docente": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_CATEGORIA_DOCENTE": "COLABORADOR",
+          "TOTAL_DOCENTES": 80,
+          "PERCENTUAL": 17.86
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_CATEGORIA_DOCENTE": "PERMANENTE",
+          "TOTAL_DOCENTES": 368,
+          "PERCENTUAL": 82.14
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_CATEGORIA_DOCENTE": "COLABORADOR",
+          "TOTAL_DOCENTES": 137,
+          "PERCENTUAL": 17.68
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_CATEGORIA_DOCENTE": "PERMANENTE",
+          "TOTAL_DOCENTES": 634,
+          "PERCENTUAL": 81.81
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_CATEGORIA_DOCENTE": "VISITANTE",
+          "TOTAL_DOCENTES": 4,
+          "PERCENTUAL": 0.52
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_CATEGORIA_DOCENTE": "COLABORADOR",
+          "TOTAL_DOCENTES": 56,
+          "PERCENTUAL": 16.18
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_CATEGORIA_DOCENTE": "PERMANENTE",
+          "TOTAL_DOCENTES": 288,
+          "PERCENTUAL": 83.24
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_CATEGORIA_DOCENTE": "VISITANTE",
+          "TOTAL_DOCENTES": 2,
+          "PERCENTUAL": 0.58
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_CATEGORIA_DOCENTE": "COLABORADOR",
+          "TOTAL_DOCENTES": 21,
+          "PERCENTUAL": 13.64
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_CATEGORIA_DOCENTE": "PERMANENTE",
+          "TOTAL_DOCENTES": 133,
+          "PERCENTUAL": 86.36
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_CATEGORIA_DOCENTE": "COLABORADOR",
+          "TOTAL_DOCENTES": 52,
+          "PERCENTUAL": 12.15
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_CATEGORIA_DOCENTE": "PERMANENTE",
+          "TOTAL_DOCENTES": 376,
+          "PERCENTUAL": 87.85
+        }
+      ],
+      "regime_trabalho": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_REGIME_TRABALHO": "DEDICAÇÃO EXCLUSIVA",
+          "TOTAL_DOCENTES": 230,
+          "PERCENTUAL": 62.5
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_REGIME_TRABALHO": "INTEGRAL",
+          "TOTAL_DOCENTES": 119,
+          "PERCENTUAL": 32.34
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_REGIME_TRABALHO": "PARCIAL",
+          "TOTAL_DOCENTES": 19,
+          "PERCENTUAL": 5.16
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_REGIME_TRABALHO": "DEDICAÇÃO EXCLUSIVA",
+          "TOTAL_DOCENTES": 382,
+          "PERCENTUAL": 60.25
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_REGIME_TRABALHO": "INTEGRAL",
+          "TOTAL_DOCENTES": 224,
+          "PERCENTUAL": 35.33
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_REGIME_TRABALHO": "PARCIAL",
+          "TOTAL_DOCENTES": 28,
+          "PERCENTUAL": 4.42
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_REGIME_TRABALHO": "DEDICAÇÃO EXCLUSIVA",
+          "TOTAL_DOCENTES": 154,
+          "PERCENTUAL": 53.47
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_REGIME_TRABALHO": "INTEGRAL",
+          "TOTAL_DOCENTES": 130,
+          "PERCENTUAL": 45.14
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_REGIME_TRABALHO": "PARCIAL",
+          "TOTAL_DOCENTES": 4,
+          "PERCENTUAL": 1.39
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_REGIME_TRABALHO": "DEDICAÇÃO EXCLUSIVA",
+          "TOTAL_DOCENTES": 63,
+          "PERCENTUAL": 47.37
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_REGIME_TRABALHO": "INTEGRAL",
+          "TOTAL_DOCENTES": 68,
+          "PERCENTUAL": 51.13
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_REGIME_TRABALHO": "PARCIAL",
+          "TOTAL_DOCENTES": 2,
+          "PERCENTUAL": 1.5
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_REGIME_TRABALHO": "DEDICAÇÃO EXCLUSIVA",
+          "TOTAL_DOCENTES": 234,
+          "PERCENTUAL": 62.23
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_REGIME_TRABALHO": "INTEGRAL",
+          "TOTAL_DOCENTES": 140,
+          "PERCENTUAL": 37.23
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_REGIME_TRABALHO": "PARCIAL",
+          "TOTAL_DOCENTES": 2,
+          "PERCENTUAL": 0.53
+        }
+      ],
+      "desigualdade_regional": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "NM_REGIAO": "CENTRO-OESTE",
+          "TOTAL_DOCENTES": 20,
+          "PERCENTUAL": 4.46
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "NM_REGIAO": "NORDESTE",
+          "TOTAL_DOCENTES": 185,
+          "PERCENTUAL": 41.29
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "NM_REGIAO": "NORTE",
+          "TOTAL_DOCENTES": 29,
+          "PERCENTUAL": 6.47
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "NM_REGIAO": "SUDESTE",
+          "TOTAL_DOCENTES": 129,
+          "PERCENTUAL": 28.79
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "NM_REGIAO": "SUL",
+          "TOTAL_DOCENTES": 85,
+          "PERCENTUAL": 18.97
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "NM_REGIAO": "CENTRO-OESTE",
+          "TOTAL_DOCENTES": 123,
+          "PERCENTUAL": 15.87
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "NM_REGIAO": "NORDESTE",
+          "TOTAL_DOCENTES": 271,
+          "PERCENTUAL": 34.97
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "NM_REGIAO": "SUDESTE",
+          "TOTAL_DOCENTES": 273,
+          "PERCENTUAL": 35.23
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "NM_REGIAO": "SUL",
+          "TOTAL_DOCENTES": 108,
+          "PERCENTUAL": 13.94
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "NM_REGIAO": "CENTRO-OESTE",
+          "TOTAL_DOCENTES": 31,
+          "PERCENTUAL": 8.96
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "NM_REGIAO": "NORDESTE",
+          "TOTAL_DOCENTES": 115,
+          "PERCENTUAL": 33.24
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "NM_REGIAO": "NORTE",
+          "TOTAL_DOCENTES": 22,
+          "PERCENTUAL": 6.36
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "NM_REGIAO": "SUDESTE",
+          "TOTAL_DOCENTES": 96,
+          "PERCENTUAL": 27.75
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "NM_REGIAO": "SUL",
+          "TOTAL_DOCENTES": 82,
+          "PERCENTUAL": 23.7
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "NM_REGIAO": "NORTE",
+          "TOTAL_DOCENTES": 25,
+          "PERCENTUAL": 16.23
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "NM_REGIAO": "SUDESTE",
+          "TOTAL_DOCENTES": 88,
+          "PERCENTUAL": 57.14
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "NM_REGIAO": "SUL",
+          "TOTAL_DOCENTES": 41,
+          "PERCENTUAL": 26.62
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "NM_REGIAO": "NORDESTE",
+          "TOTAL_DOCENTES": 89,
+          "PERCENTUAL": 20.79
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "NM_REGIAO": "SUDESTE",
+          "TOTAL_DOCENTES": 253,
+          "PERCENTUAL": 59.11
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "NM_REGIAO": "SUL",
+          "TOTAL_DOCENTES": 86,
+          "PERCENTUAL": 20.09
+        }
+      ],
+      "natureza_instituicao": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_DEPENDENCIA_ADMINISTRATIVA": "PRIVADA",
+          "TOTAL_DOCENTES": 21,
+          "PERCENTUAL": 4.69
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_DEPENDENCIA_ADMINISTRATIVA": "PÚBLICA",
+          "TOTAL_DOCENTES": 427,
+          "PERCENTUAL": 95.31
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_DEPENDENCIA_ADMINISTRATIVA": "PRIVADA",
+          "TOTAL_DOCENTES": 58,
+          "PERCENTUAL": 7.48
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_DEPENDENCIA_ADMINISTRATIVA": "PÚBLICA",
+          "TOTAL_DOCENTES": 717,
+          "PERCENTUAL": 92.52
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_DEPENDENCIA_ADMINISTRATIVA": "PRIVADA",
+          "TOTAL_DOCENTES": 41,
+          "PERCENTUAL": 11.85
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_DEPENDENCIA_ADMINISTRATIVA": "PÚBLICA",
+          "TOTAL_DOCENTES": 305,
+          "PERCENTUAL": 88.15
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_DEPENDENCIA_ADMINISTRATIVA": "PÚBLICA",
+          "TOTAL_DOCENTES": 154,
+          "PERCENTUAL": 100.0
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_DEPENDENCIA_ADMINISTRATIVA": "PRIVADA",
+          "TOTAL_DOCENTES": 45,
+          "PERCENTUAL": 10.51
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_DEPENDENCIA_ADMINISTRATIVA": "PÚBLICA",
+          "TOTAL_DOCENTES": 383,
+          "PERCENTUAL": 89.49
+        }
+      ],
+      "top_20_instituicoes": [
+        {
+          "SG_ENTIDADE_ENSINO": "UFPE",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DE PERNAMBUCO",
+          "TOTAL_DOCENTES": 141
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "USP/SC",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE DE SÃO PAULO (SÃO CARLOS)",
+          "TOTAL_DOCENTES": 77
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UNB",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE DE BRASÍLIA",
+          "TOTAL_DOCENTES": 69
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "USP",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE DE SÃO PAULO",
+          "TOTAL_DOCENTES": 68
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFRJ",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DO RIO DE JANEIRO",
+          "TOTAL_DOCENTES": 66
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFMG",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DE MINAS GERAIS",
+          "TOTAL_DOCENTES": 66
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFRGS",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL",
+          "TOTAL_DOCENTES": 63
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UTFPR",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE TECNOLÓGICA FEDERAL DO PARANÁ",
+          "TOTAL_DOCENTES": 61
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFMS",
+          "NM_ENTIDADE_ENSINO": "FUNDAÇÃO UNIVERSIDADE FEDERAL DE MATO GROSSO DO SUL",
+          "TOTAL_DOCENTES": 57
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFSCAR",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DE SÃO CARLOS",
+          "TOTAL_DOCENTES": 53
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFC",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DO CEARÁ",
+          "TOTAL_DOCENTES": 53
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UNICAMP",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE ESTADUAL DE CAMPINAS",
+          "TOTAL_DOCENTES": 49
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFG",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DE GOIÁS",
+          "TOTAL_DOCENTES": 48
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFF",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL FLUMINENSE",
+          "TOTAL_DOCENTES": 46
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFRN",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DO RIO GRANDE DO NORTE",
+          "TOTAL_DOCENTES": 45
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFCG",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DE CAMPINA GRANDE",
+          "TOTAL_DOCENTES": 45
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFBA",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DA BAHIA",
+          "TOTAL_DOCENTES": 43
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFPR",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DO PARANÁ",
+          "TOTAL_DOCENTES": 41
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFU",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DE UBERLÂNDIA",
+          "TOTAL_DOCENTES": 39
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFPA",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DO PARÁ",
+          "TOTAL_DOCENTES": 38
+        }
+      ]
+    },
+    "2022": {
+      "lideranca_bolsas_pq": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "TEM_BOLSA_PQ": "NÃO",
+          "TOTAL_DOCENTES": 338,
+          "PERCENTUAL": 89.42
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "TEM_BOLSA_PQ": "SIM",
+          "TOTAL_DOCENTES": 40,
+          "PERCENTUAL": 10.58
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "TEM_BOLSA_PQ": "NÃO",
+          "TOTAL_DOCENTES": 510,
+          "PERCENTUAL": 80.06
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "TEM_BOLSA_PQ": "SIM",
+          "TOTAL_DOCENTES": 127,
+          "PERCENTUAL": 19.94
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "TEM_BOLSA_PQ": "NÃO",
+          "TOTAL_DOCENTES": 206,
+          "PERCENTUAL": 69.83
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "TEM_BOLSA_PQ": "SIM",
+          "TOTAL_DOCENTES": 89,
+          "PERCENTUAL": 30.17
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "TEM_BOLSA_PQ": "NÃO",
+          "TOTAL_DOCENTES": 76,
+          "PERCENTUAL": 57.58
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "TEM_BOLSA_PQ": "SIM",
+          "TOTAL_DOCENTES": 56,
+          "PERCENTUAL": 42.42
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "TEM_BOLSA_PQ": "NÃO",
+          "TOTAL_DOCENTES": 178,
+          "PERCENTUAL": 48.37
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "TEM_BOLSA_PQ": "SIM",
+          "TOTAL_DOCENTES": 190,
+          "PERCENTUAL": 51.63
+        }
+      ],
+      "internacionalizacao_titulacao_exterior": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "TITULADO_NO_EXTERIOR": "NÃO",
+          "TOTAL_DOCENTES": 337,
+          "PERCENTUAL": 89.15
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "TITULADO_NO_EXTERIOR": "SIM",
+          "TOTAL_DOCENTES": 41,
+          "PERCENTUAL": 10.85
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "TITULADO_NO_EXTERIOR": "NÃO",
+          "TOTAL_DOCENTES": 528,
+          "PERCENTUAL": 82.89
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "TITULADO_NO_EXTERIOR": "SIM",
+          "TOTAL_DOCENTES": 109,
+          "PERCENTUAL": 17.11
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "TITULADO_NO_EXTERIOR": "NÃO",
+          "TOTAL_DOCENTES": 225,
+          "PERCENTUAL": 76.27
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "TITULADO_NO_EXTERIOR": "SIM",
+          "TOTAL_DOCENTES": 70,
+          "PERCENTUAL": 23.73
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "TITULADO_NO_EXTERIOR": "NÃO",
+          "TOTAL_DOCENTES": 95,
+          "PERCENTUAL": 71.97
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "TITULADO_NO_EXTERIOR": "SIM",
+          "TOTAL_DOCENTES": 37,
+          "PERCENTUAL": 28.03
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "TITULADO_NO_EXTERIOR": "NÃO",
+          "TOTAL_DOCENTES": 210,
+          "PERCENTUAL": 57.07
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "TITULADO_NO_EXTERIOR": "SIM",
+          "TOTAL_DOCENTES": 158,
+          "PERCENTUAL": 42.93
+        }
+      ],
+      "internacionalizacao_nacionalidade": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DOCENTE_ESTRANGEIRO": "BRASILEIRO",
+          "TOTAL_DOCENTES": 369,
+          "PERCENTUAL": 97.62
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DOCENTE_ESTRANGEIRO": "ESTRANGEIRO",
+          "TOTAL_DOCENTES": 9,
+          "PERCENTUAL": 2.38
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DOCENTE_ESTRANGEIRO": "BRASILEIRO",
+          "TOTAL_DOCENTES": 619,
+          "PERCENTUAL": 97.17
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DOCENTE_ESTRANGEIRO": "ESTRANGEIRO",
+          "TOTAL_DOCENTES": 18,
+          "PERCENTUAL": 2.83
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DOCENTE_ESTRANGEIRO": "BRASILEIRO",
+          "TOTAL_DOCENTES": 287,
+          "PERCENTUAL": 97.29
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DOCENTE_ESTRANGEIRO": "ESTRANGEIRO",
+          "TOTAL_DOCENTES": 8,
+          "PERCENTUAL": 2.71
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DOCENTE_ESTRANGEIRO": "BRASILEIRO",
+          "TOTAL_DOCENTES": 129,
+          "PERCENTUAL": 97.73
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DOCENTE_ESTRANGEIRO": "ESTRANGEIRO",
+          "TOTAL_DOCENTES": 3,
+          "PERCENTUAL": 2.27
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DOCENTE_ESTRANGEIRO": "BRASILEIRO",
+          "TOTAL_DOCENTES": 359,
+          "PERCENTUAL": 97.55
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DOCENTE_ESTRANGEIRO": "ESTRANGEIRO",
+          "TOTAL_DOCENTES": 9,
+          "PERCENTUAL": 2.45
+        }
+      ],
+      "endogamia_academica": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "ENDOGAMIA": "NÃO",
+          "TOTAL_DOCENTES": 351,
+          "PERCENTUAL": 92.86
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "ENDOGAMIA": "SIM",
+          "TOTAL_DOCENTES": 27,
+          "PERCENTUAL": 7.14
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "ENDOGAMIA": "NÃO",
+          "TOTAL_DOCENTES": 555,
+          "PERCENTUAL": 87.13
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "ENDOGAMIA": "SIM",
+          "TOTAL_DOCENTES": 82,
+          "PERCENTUAL": 12.87
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "ENDOGAMIA": "NÃO",
+          "TOTAL_DOCENTES": 255,
+          "PERCENTUAL": 86.44
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "ENDOGAMIA": "SIM",
+          "TOTAL_DOCENTES": 40,
+          "PERCENTUAL": 13.56
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "ENDOGAMIA": "NÃO",
+          "TOTAL_DOCENTES": 112,
+          "PERCENTUAL": 84.85
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "ENDOGAMIA": "SIM",
+          "TOTAL_DOCENTES": 20,
+          "PERCENTUAL": 15.15
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "ENDOGAMIA": "NÃO",
+          "TOTAL_DOCENTES": 254,
+          "PERCENTUAL": 69.02
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "ENDOGAMIA": "SIM",
+          "TOTAL_DOCENTES": 114,
+          "PERCENTUAL": 30.98
+        }
+      ],
+      "maturidade_tempo_doutorado": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "MEDIA_ANOS_DOUTORADO": 11.7
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "MEDIA_ANOS_DOUTORADO": 13.2
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "MEDIA_ANOS_DOUTORADO": 13.7
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "MEDIA_ANOS_DOUTORADO": 17.0
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "MEDIA_ANOS_DOUTORADO": 18.2
+        }
+      ],
+      "tamanho_medio_programa": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "MEDIA_DOCENTES_PERMANENTES_POR_PROGRAMA": 14.5
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "MEDIA_DOCENTES_PERMANENTES_POR_PROGRAMA": 18.7
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "MEDIA_DOCENTES_PERMANENTES_POR_PROGRAMA": 22.7
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "MEDIA_DOCENTES_PERMANENTES_POR_PROGRAMA": 33.0
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "MEDIA_DOCENTES_PERMANENTES_POR_PROGRAMA": 46.0
+        }
+      ],
+      "categoria_docente": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_CATEGORIA_DOCENTE": "COLABORADOR",
+          "TOTAL_DOCENTES": 78,
+          "PERCENTUAL": 17.07
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_CATEGORIA_DOCENTE": "PERMANENTE",
+          "TOTAL_DOCENTES": 378,
+          "PERCENTUAL": 82.71
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_CATEGORIA_DOCENTE": "VISITANTE",
+          "TOTAL_DOCENTES": 1,
+          "PERCENTUAL": 0.22
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_CATEGORIA_DOCENTE": "COLABORADOR",
+          "TOTAL_DOCENTES": 148,
+          "PERCENTUAL": 18.78
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_CATEGORIA_DOCENTE": "PERMANENTE",
+          "TOTAL_DOCENTES": 637,
+          "PERCENTUAL": 80.84
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_CATEGORIA_DOCENTE": "VISITANTE",
+          "TOTAL_DOCENTES": 3,
+          "PERCENTUAL": 0.38
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_CATEGORIA_DOCENTE": "COLABORADOR",
+          "TOTAL_DOCENTES": 67,
+          "PERCENTUAL": 18.36
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_CATEGORIA_DOCENTE": "PERMANENTE",
+          "TOTAL_DOCENTES": 295,
+          "PERCENTUAL": 80.82
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_CATEGORIA_DOCENTE": "VISITANTE",
+          "TOTAL_DOCENTES": 3,
+          "PERCENTUAL": 0.82
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_CATEGORIA_DOCENTE": "COLABORADOR",
+          "TOTAL_DOCENTES": 21,
+          "PERCENTUAL": 13.73
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_CATEGORIA_DOCENTE": "PERMANENTE",
+          "TOTAL_DOCENTES": 132,
+          "PERCENTUAL": 86.27
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_CATEGORIA_DOCENTE": "COLABORADOR",
+          "TOTAL_DOCENTES": 50,
+          "PERCENTUAL": 11.96
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_CATEGORIA_DOCENTE": "PERMANENTE",
+          "TOTAL_DOCENTES": 368,
+          "PERCENTUAL": 88.04
+        }
+      ],
+      "regime_trabalho": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_REGIME_TRABALHO": "DEDICAÇÃO EXCLUSIVA",
+          "TOTAL_DOCENTES": 238,
+          "PERCENTUAL": 62.96
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_REGIME_TRABALHO": "INTEGRAL",
+          "TOTAL_DOCENTES": 120,
+          "PERCENTUAL": 31.75
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_REGIME_TRABALHO": "PARCIAL",
+          "TOTAL_DOCENTES": 20,
+          "PERCENTUAL": 5.29
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_REGIME_TRABALHO": "DEDICAÇÃO EXCLUSIVA",
+          "TOTAL_DOCENTES": 384,
+          "PERCENTUAL": 60.28
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_REGIME_TRABALHO": "INTEGRAL",
+          "TOTAL_DOCENTES": 223,
+          "PERCENTUAL": 35.01
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_REGIME_TRABALHO": "PARCIAL",
+          "TOTAL_DOCENTES": 30,
+          "PERCENTUAL": 4.71
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_REGIME_TRABALHO": "DEDICAÇÃO EXCLUSIVA",
+          "TOTAL_DOCENTES": 158,
+          "PERCENTUAL": 53.56
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_REGIME_TRABALHO": "INTEGRAL",
+          "TOTAL_DOCENTES": 132,
+          "PERCENTUAL": 44.75
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_REGIME_TRABALHO": "PARCIAL",
+          "TOTAL_DOCENTES": 5,
+          "PERCENTUAL": 1.69
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_REGIME_TRABALHO": "DEDICAÇÃO EXCLUSIVA",
+          "TOTAL_DOCENTES": 63,
+          "PERCENTUAL": 47.73
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_REGIME_TRABALHO": "INTEGRAL",
+          "TOTAL_DOCENTES": 66,
+          "PERCENTUAL": 50.0
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_REGIME_TRABALHO": "PARCIAL",
+          "TOTAL_DOCENTES": 3,
+          "PERCENTUAL": 2.27
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_REGIME_TRABALHO": "DEDICAÇÃO EXCLUSIVA",
+          "TOTAL_DOCENTES": 233,
+          "PERCENTUAL": 63.32
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_REGIME_TRABALHO": "INTEGRAL",
+          "TOTAL_DOCENTES": 134,
+          "PERCENTUAL": 36.41
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_REGIME_TRABALHO": "PARCIAL",
+          "TOTAL_DOCENTES": 1,
+          "PERCENTUAL": 0.27
+        }
+      ],
+      "desigualdade_regional": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "NM_REGIAO": "CENTRO-OESTE",
+          "TOTAL_DOCENTES": 20,
+          "PERCENTUAL": 4.38
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "NM_REGIAO": "NORDESTE",
+          "TOTAL_DOCENTES": 188,
+          "PERCENTUAL": 41.14
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "NM_REGIAO": "NORTE",
+          "TOTAL_DOCENTES": 27,
+          "PERCENTUAL": 5.91
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "NM_REGIAO": "SUDESTE",
+          "TOTAL_DOCENTES": 132,
+          "PERCENTUAL": 28.88
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "NM_REGIAO": "SUL",
+          "TOTAL_DOCENTES": 90,
+          "PERCENTUAL": 19.69
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "NM_REGIAO": "CENTRO-OESTE",
+          "TOTAL_DOCENTES": 120,
+          "PERCENTUAL": 15.23
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "NM_REGIAO": "NORDESTE",
+          "TOTAL_DOCENTES": 281,
+          "PERCENTUAL": 35.66
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "NM_REGIAO": "SUDESTE",
+          "TOTAL_DOCENTES": 275,
+          "PERCENTUAL": 34.9
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "NM_REGIAO": "SUL",
+          "TOTAL_DOCENTES": 112,
+          "PERCENTUAL": 14.21
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "NM_REGIAO": "CENTRO-OESTE",
+          "TOTAL_DOCENTES": 31,
+          "PERCENTUAL": 8.49
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "NM_REGIAO": "NORDESTE",
+          "TOTAL_DOCENTES": 123,
+          "PERCENTUAL": 33.7
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "NM_REGIAO": "NORTE",
+          "TOTAL_DOCENTES": 25,
+          "PERCENTUAL": 6.85
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "NM_REGIAO": "SUDESTE",
+          "TOTAL_DOCENTES": 101,
+          "PERCENTUAL": 27.67
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "NM_REGIAO": "SUL",
+          "TOTAL_DOCENTES": 85,
+          "PERCENTUAL": 23.29
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "NM_REGIAO": "NORTE",
+          "TOTAL_DOCENTES": 24,
+          "PERCENTUAL": 15.69
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "NM_REGIAO": "SUDESTE",
+          "TOTAL_DOCENTES": 86,
+          "PERCENTUAL": 56.21
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "NM_REGIAO": "SUL",
+          "TOTAL_DOCENTES": 43,
+          "PERCENTUAL": 28.1
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "NM_REGIAO": "NORDESTE",
+          "TOTAL_DOCENTES": 87,
+          "PERCENTUAL": 20.81
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "NM_REGIAO": "SUDESTE",
+          "TOTAL_DOCENTES": 247,
+          "PERCENTUAL": 59.09
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "NM_REGIAO": "SUL",
+          "TOTAL_DOCENTES": 84,
+          "PERCENTUAL": 20.1
+        }
+      ],
+      "natureza_instituicao": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_DEPENDENCIA_ADMINISTRATIVA": "PRIVADA",
+          "TOTAL_DOCENTES": 22,
+          "PERCENTUAL": 4.81
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_DEPENDENCIA_ADMINISTRATIVA": "PÚBLICA",
+          "TOTAL_DOCENTES": 435,
+          "PERCENTUAL": 95.19
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_DEPENDENCIA_ADMINISTRATIVA": "PRIVADA",
+          "TOTAL_DOCENTES": 63,
+          "PERCENTUAL": 7.99
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_DEPENDENCIA_ADMINISTRATIVA": "PÚBLICA",
+          "TOTAL_DOCENTES": 725,
+          "PERCENTUAL": 92.01
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_DEPENDENCIA_ADMINISTRATIVA": "PRIVADA",
+          "TOTAL_DOCENTES": 41,
+          "PERCENTUAL": 11.23
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_DEPENDENCIA_ADMINISTRATIVA": "PÚBLICA",
+          "TOTAL_DOCENTES": 324,
+          "PERCENTUAL": 88.77
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_DEPENDENCIA_ADMINISTRATIVA": "PÚBLICA",
+          "TOTAL_DOCENTES": 153,
+          "PERCENTUAL": 100.0
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_DEPENDENCIA_ADMINISTRATIVA": "PRIVADA",
+          "TOTAL_DOCENTES": 44,
+          "PERCENTUAL": 10.53
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_DEPENDENCIA_ADMINISTRATIVA": "PÚBLICA",
+          "TOTAL_DOCENTES": 374,
+          "PERCENTUAL": 89.47
+        }
+      ],
+      "top_20_instituicoes": [
+        {
+          "SG_ENTIDADE_ENSINO": "UFPE",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DE PERNAMBUCO",
+          "TOTAL_DOCENTES": 135
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "USP/SC",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE DE SÃO PAULO (SÃO CARLOS)",
+          "TOTAL_DOCENTES": 75
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UNB",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE DE BRASÍLIA",
+          "TOTAL_DOCENTES": 69
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFRJ",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DO RIO DE JANEIRO",
+          "TOTAL_DOCENTES": 69
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "USP",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE DE SÃO PAULO",
+          "TOTAL_DOCENTES": 66
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFMG",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DE MINAS GERAIS",
+          "TOTAL_DOCENTES": 66
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFRGS",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL",
+          "TOTAL_DOCENTES": 62
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UTFPR",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE TECNOLÓGICA FEDERAL DO PARANÁ",
+          "TOTAL_DOCENTES": 62
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFSCAR",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DE SÃO CARLOS",
+          "TOTAL_DOCENTES": 57
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFC",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DO CEARÁ",
+          "TOTAL_DOCENTES": 56
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFMS",
+          "NM_ENTIDADE_ENSINO": "FUNDAÇÃO UNIVERSIDADE FEDERAL DE MATO GROSSO DO SUL",
+          "TOTAL_DOCENTES": 56
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFBA",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DA BAHIA",
+          "TOTAL_DOCENTES": 48
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFRN",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DO RIO GRANDE DO NORTE",
+          "TOTAL_DOCENTES": 48
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UNICAMP",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE ESTADUAL DE CAMPINAS",
+          "TOTAL_DOCENTES": 48
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFF",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL FLUMINENSE",
+          "TOTAL_DOCENTES": 47
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFG",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DE GOIÁS",
+          "TOTAL_DOCENTES": 46
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFPR",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DO PARANÁ",
+          "TOTAL_DOCENTES": 43
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFCG",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DE CAMPINA GRANDE",
+          "TOTAL_DOCENTES": 42
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFU",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DE UBERLÂNDIA",
+          "TOTAL_DOCENTES": 39
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFPA",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DO PARÁ",
+          "TOTAL_DOCENTES": 39
+        }
+      ]
+    },
+    "2023": {
+      "lideranca_bolsas_pq": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "TEM_BOLSA_PQ": "NÃO",
+          "TOTAL_DOCENTES": 337,
+          "PERCENTUAL": 91.08
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "TEM_BOLSA_PQ": "SIM",
+          "TOTAL_DOCENTES": 33,
+          "PERCENTUAL": 8.92
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "TEM_BOLSA_PQ": "NÃO",
+          "TOTAL_DOCENTES": 529,
+          "PERCENTUAL": 80.76
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "TEM_BOLSA_PQ": "SIM",
+          "TOTAL_DOCENTES": 126,
+          "PERCENTUAL": 19.24
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "TEM_BOLSA_PQ": "NÃO",
+          "TOTAL_DOCENTES": 210,
+          "PERCENTUAL": 69.31
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "TEM_BOLSA_PQ": "SIM",
+          "TOTAL_DOCENTES": 93,
+          "PERCENTUAL": 30.69
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "TEM_BOLSA_PQ": "NÃO",
+          "TOTAL_DOCENTES": 81,
+          "PERCENTUAL": 58.27
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "TEM_BOLSA_PQ": "SIM",
+          "TOTAL_DOCENTES": 58,
+          "PERCENTUAL": 41.73
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "TEM_BOLSA_PQ": "NÃO",
+          "TOTAL_DOCENTES": 187,
+          "PERCENTUAL": 49.73
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "TEM_BOLSA_PQ": "SIM",
+          "TOTAL_DOCENTES": 189,
+          "PERCENTUAL": 50.27
+        }
+      ],
+      "internacionalizacao_titulacao_exterior": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "TITULADO_NO_EXTERIOR": "NÃO",
+          "TOTAL_DOCENTES": 330,
+          "PERCENTUAL": 89.19
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "TITULADO_NO_EXTERIOR": "SIM",
+          "TOTAL_DOCENTES": 40,
+          "PERCENTUAL": 10.81
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "TITULADO_NO_EXTERIOR": "NÃO",
+          "TOTAL_DOCENTES": 544,
+          "PERCENTUAL": 83.05
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "TITULADO_NO_EXTERIOR": "SIM",
+          "TOTAL_DOCENTES": 111,
+          "PERCENTUAL": 16.95
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "TITULADO_NO_EXTERIOR": "NÃO",
+          "TOTAL_DOCENTES": 230,
+          "PERCENTUAL": 75.91
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "TITULADO_NO_EXTERIOR": "SIM",
+          "TOTAL_DOCENTES": 73,
+          "PERCENTUAL": 24.09
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "TITULADO_NO_EXTERIOR": "NÃO",
+          "TOTAL_DOCENTES": 106,
+          "PERCENTUAL": 76.26
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "TITULADO_NO_EXTERIOR": "SIM",
+          "TOTAL_DOCENTES": 33,
+          "PERCENTUAL": 23.74
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "TITULADO_NO_EXTERIOR": "NÃO",
+          "TOTAL_DOCENTES": 223,
+          "PERCENTUAL": 59.31
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "TITULADO_NO_EXTERIOR": "SIM",
+          "TOTAL_DOCENTES": 153,
+          "PERCENTUAL": 40.69
+        }
+      ],
+      "internacionalizacao_nacionalidade": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DOCENTE_ESTRANGEIRO": "BRASILEIRO",
+          "TOTAL_DOCENTES": 360,
+          "PERCENTUAL": 97.3
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DOCENTE_ESTRANGEIRO": "ESTRANGEIRO",
+          "TOTAL_DOCENTES": 10,
+          "PERCENTUAL": 2.7
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DOCENTE_ESTRANGEIRO": "BRASILEIRO",
+          "TOTAL_DOCENTES": 639,
+          "PERCENTUAL": 97.56
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DOCENTE_ESTRANGEIRO": "ESTRANGEIRO",
+          "TOTAL_DOCENTES": 16,
+          "PERCENTUAL": 2.44
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DOCENTE_ESTRANGEIRO": "BRASILEIRO",
+          "TOTAL_DOCENTES": 295,
+          "PERCENTUAL": 97.36
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DOCENTE_ESTRANGEIRO": "ESTRANGEIRO",
+          "TOTAL_DOCENTES": 8,
+          "PERCENTUAL": 2.64
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DOCENTE_ESTRANGEIRO": "BRASILEIRO",
+          "TOTAL_DOCENTES": 136,
+          "PERCENTUAL": 97.84
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DOCENTE_ESTRANGEIRO": "ESTRANGEIRO",
+          "TOTAL_DOCENTES": 3,
+          "PERCENTUAL": 2.16
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DOCENTE_ESTRANGEIRO": "BRASILEIRO",
+          "TOTAL_DOCENTES": 364,
+          "PERCENTUAL": 96.81
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DOCENTE_ESTRANGEIRO": "ESTRANGEIRO",
+          "TOTAL_DOCENTES": 12,
+          "PERCENTUAL": 3.19
+        }
+      ],
+      "endogamia_academica": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "ENDOGAMIA": "NÃO",
+          "TOTAL_DOCENTES": 338,
+          "PERCENTUAL": 91.35
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "ENDOGAMIA": "SIM",
+          "TOTAL_DOCENTES": 32,
+          "PERCENTUAL": 8.65
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "ENDOGAMIA": "NÃO",
+          "TOTAL_DOCENTES": 566,
+          "PERCENTUAL": 86.41
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "ENDOGAMIA": "SIM",
+          "TOTAL_DOCENTES": 89,
+          "PERCENTUAL": 13.59
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "ENDOGAMIA": "NÃO",
+          "TOTAL_DOCENTES": 253,
+          "PERCENTUAL": 83.5
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "ENDOGAMIA": "SIM",
+          "TOTAL_DOCENTES": 50,
+          "PERCENTUAL": 16.5
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "ENDOGAMIA": "NÃO",
+          "TOTAL_DOCENTES": 114,
+          "PERCENTUAL": 82.01
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "ENDOGAMIA": "SIM",
+          "TOTAL_DOCENTES": 25,
+          "PERCENTUAL": 17.99
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "ENDOGAMIA": "NÃO",
+          "TOTAL_DOCENTES": 228,
+          "PERCENTUAL": 60.64
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "ENDOGAMIA": "SIM",
+          "TOTAL_DOCENTES": 148,
+          "PERCENTUAL": 39.36
+        }
+      ],
+      "maturidade_tempo_doutorado": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "MEDIA_ANOS_DOUTORADO": 12.5
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "MEDIA_ANOS_DOUTORADO": 13.8
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "MEDIA_ANOS_DOUTORADO": 14.1
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "MEDIA_ANOS_DOUTORADO": 17.2
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "MEDIA_ANOS_DOUTORADO": 18.6
+        }
+      ],
+      "tamanho_medio_programa": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "MEDIA_DOCENTES_PERMANENTES_POR_PROGRAMA": 14.2
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "MEDIA_DOCENTES_PERMANENTES_POR_PROGRAMA": 19.3
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "MEDIA_DOCENTES_PERMANENTES_POR_PROGRAMA": 23.3
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "MEDIA_DOCENTES_PERMANENTES_POR_PROGRAMA": 34.8
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "MEDIA_DOCENTES_PERMANENTES_POR_PROGRAMA": 47.0
+        }
+      ],
+      "categoria_docente": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_CATEGORIA_DOCENTE": "COLABORADOR",
+          "TOTAL_DOCENTES": 68,
+          "PERCENTUAL": 15.38
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_CATEGORIA_DOCENTE": "PERMANENTE",
+          "TOTAL_DOCENTES": 370,
+          "PERCENTUAL": 83.71
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_CATEGORIA_DOCENTE": "VISITANTE",
+          "TOTAL_DOCENTES": 4,
+          "PERCENTUAL": 0.9
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_CATEGORIA_DOCENTE": "COLABORADOR",
+          "TOTAL_DOCENTES": 141,
+          "PERCENTUAL": 17.58
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_CATEGORIA_DOCENTE": "PERMANENTE",
+          "TOTAL_DOCENTES": 655,
+          "PERCENTUAL": 81.67
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_CATEGORIA_DOCENTE": "VISITANTE",
+          "TOTAL_DOCENTES": 6,
+          "PERCENTUAL": 0.75
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_CATEGORIA_DOCENTE": "COLABORADOR",
+          "TOTAL_DOCENTES": 68,
+          "PERCENTUAL": 18.18
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_CATEGORIA_DOCENTE": "PERMANENTE",
+          "TOTAL_DOCENTES": 303,
+          "PERCENTUAL": 81.02
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_CATEGORIA_DOCENTE": "VISITANTE",
+          "TOTAL_DOCENTES": 3,
+          "PERCENTUAL": 0.8
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_CATEGORIA_DOCENTE": "COLABORADOR",
+          "TOTAL_DOCENTES": 23,
+          "PERCENTUAL": 14.2
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_CATEGORIA_DOCENTE": "PERMANENTE",
+          "TOTAL_DOCENTES": 139,
+          "PERCENTUAL": 85.8
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_CATEGORIA_DOCENTE": "COLABORADOR",
+          "TOTAL_DOCENTES": 53,
+          "PERCENTUAL": 12.35
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_CATEGORIA_DOCENTE": "PERMANENTE",
+          "TOTAL_DOCENTES": 376,
+          "PERCENTUAL": 87.65
+        }
+      ],
+      "regime_trabalho": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_REGIME_TRABALHO": "DEDICAÇÃO EXCLUSIVA",
+          "TOTAL_DOCENTES": 239,
+          "PERCENTUAL": 64.59
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_REGIME_TRABALHO": "INTEGRAL",
+          "TOTAL_DOCENTES": 111,
+          "PERCENTUAL": 30.0
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_REGIME_TRABALHO": "PARCIAL",
+          "TOTAL_DOCENTES": 20,
+          "PERCENTUAL": 5.41
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_REGIME_TRABALHO": "DEDICAÇÃO EXCLUSIVA",
+          "TOTAL_DOCENTES": 390,
+          "PERCENTUAL": 59.54
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_REGIME_TRABALHO": "INTEGRAL",
+          "TOTAL_DOCENTES": 231,
+          "PERCENTUAL": 35.27
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_REGIME_TRABALHO": "PARCIAL",
+          "TOTAL_DOCENTES": 34,
+          "PERCENTUAL": 5.19
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_REGIME_TRABALHO": "DEDICAÇÃO EXCLUSIVA",
+          "TOTAL_DOCENTES": 173,
+          "PERCENTUAL": 57.1
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_REGIME_TRABALHO": "INTEGRAL",
+          "TOTAL_DOCENTES": 126,
+          "PERCENTUAL": 41.58
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_REGIME_TRABALHO": "PARCIAL",
+          "TOTAL_DOCENTES": 4,
+          "PERCENTUAL": 1.32
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_REGIME_TRABALHO": "DEDICAÇÃO EXCLUSIVA",
+          "TOTAL_DOCENTES": 72,
+          "PERCENTUAL": 51.8
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_REGIME_TRABALHO": "INTEGRAL",
+          "TOTAL_DOCENTES": 64,
+          "PERCENTUAL": 46.04
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_REGIME_TRABALHO": "PARCIAL",
+          "TOTAL_DOCENTES": 3,
+          "PERCENTUAL": 2.16
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_REGIME_TRABALHO": "DEDICAÇÃO EXCLUSIVA",
+          "TOTAL_DOCENTES": 243,
+          "PERCENTUAL": 64.63
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_REGIME_TRABALHO": "INTEGRAL",
+          "TOTAL_DOCENTES": 132,
+          "PERCENTUAL": 35.11
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_REGIME_TRABALHO": "PARCIAL",
+          "TOTAL_DOCENTES": 1,
+          "PERCENTUAL": 0.27
+        }
+      ],
+      "desigualdade_regional": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "NM_REGIAO": "CENTRO-OESTE",
+          "TOTAL_DOCENTES": 20,
+          "PERCENTUAL": 4.52
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "NM_REGIAO": "NORDESTE",
+          "TOTAL_DOCENTES": 179,
+          "PERCENTUAL": 40.5
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "NM_REGIAO": "NORTE",
+          "TOTAL_DOCENTES": 27,
+          "PERCENTUAL": 6.11
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "NM_REGIAO": "SUDESTE",
+          "TOTAL_DOCENTES": 129,
+          "PERCENTUAL": 29.19
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "NM_REGIAO": "SUL",
+          "TOTAL_DOCENTES": 87,
+          "PERCENTUAL": 19.68
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "NM_REGIAO": "CENTRO-OESTE",
+          "TOTAL_DOCENTES": 122,
+          "PERCENTUAL": 15.21
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "NM_REGIAO": "NORDESTE",
+          "TOTAL_DOCENTES": 283,
+          "PERCENTUAL": 35.29
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "NM_REGIAO": "SUDESTE",
+          "TOTAL_DOCENTES": 285,
+          "PERCENTUAL": 35.54
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "NM_REGIAO": "SUL",
+          "TOTAL_DOCENTES": 112,
+          "PERCENTUAL": 13.97
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "NM_REGIAO": "CENTRO-OESTE",
+          "TOTAL_DOCENTES": 33,
+          "PERCENTUAL": 8.82
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "NM_REGIAO": "NORDESTE",
+          "TOTAL_DOCENTES": 118,
+          "PERCENTUAL": 31.55
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "NM_REGIAO": "NORTE",
+          "TOTAL_DOCENTES": 29,
+          "PERCENTUAL": 7.75
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "NM_REGIAO": "SUDESTE",
+          "TOTAL_DOCENTES": 107,
+          "PERCENTUAL": 28.61
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "NM_REGIAO": "SUL",
+          "TOTAL_DOCENTES": 87,
+          "PERCENTUAL": 23.26
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "NM_REGIAO": "NORTE",
+          "TOTAL_DOCENTES": 27,
+          "PERCENTUAL": 16.67
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "NM_REGIAO": "SUDESTE",
+          "TOTAL_DOCENTES": 88,
+          "PERCENTUAL": 54.32
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "NM_REGIAO": "SUL",
+          "TOTAL_DOCENTES": 47,
+          "PERCENTUAL": 29.01
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "NM_REGIAO": "NORDESTE",
+          "TOTAL_DOCENTES": 88,
+          "PERCENTUAL": 20.51
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "NM_REGIAO": "SUDESTE",
+          "TOTAL_DOCENTES": 263,
+          "PERCENTUAL": 61.31
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "NM_REGIAO": "SUL",
+          "TOTAL_DOCENTES": 78,
+          "PERCENTUAL": 18.18
+        }
+      ],
+      "natureza_instituicao": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_DEPENDENCIA_ADMINISTRATIVA": "PRIVADA",
+          "TOTAL_DOCENTES": 18,
+          "PERCENTUAL": 4.07
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_DEPENDENCIA_ADMINISTRATIVA": "PÚBLICA",
+          "TOTAL_DOCENTES": 424,
+          "PERCENTUAL": 95.93
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_DEPENDENCIA_ADMINISTRATIVA": "PRIVADA",
+          "TOTAL_DOCENTES": 67,
+          "PERCENTUAL": 8.35
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_DEPENDENCIA_ADMINISTRATIVA": "PÚBLICA",
+          "TOTAL_DOCENTES": 735,
+          "PERCENTUAL": 91.65
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_DEPENDENCIA_ADMINISTRATIVA": "PRIVADA",
+          "TOTAL_DOCENTES": 44,
+          "PERCENTUAL": 11.76
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_DEPENDENCIA_ADMINISTRATIVA": "PÚBLICA",
+          "TOTAL_DOCENTES": 330,
+          "PERCENTUAL": 88.24
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_DEPENDENCIA_ADMINISTRATIVA": "PÚBLICA",
+          "TOTAL_DOCENTES": 162,
+          "PERCENTUAL": 100.0
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_DEPENDENCIA_ADMINISTRATIVA": "PRIVADA",
+          "TOTAL_DOCENTES": 48,
+          "PERCENTUAL": 11.19
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_DEPENDENCIA_ADMINISTRATIVA": "PÚBLICA",
+          "TOTAL_DOCENTES": 381,
+          "PERCENTUAL": 88.81
+        }
+      ],
+      "top_20_instituicoes": [
+        {
+          "SG_ENTIDADE_ENSINO": "UFPE",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DE PERNAMBUCO",
+          "TOTAL_DOCENTES": 128
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "USP/SC",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE DE SÃO PAULO (SÃO CARLOS)",
+          "TOTAL_DOCENTES": 75
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UNB",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE DE BRASÍLIA",
+          "TOTAL_DOCENTES": 72
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFRJ",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DO RIO DE JANEIRO",
+          "TOTAL_DOCENTES": 71
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFMG",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DE MINAS GERAIS",
+          "TOTAL_DOCENTES": 68
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "USP",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE DE SÃO PAULO",
+          "TOTAL_DOCENTES": 65
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UTFPR",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE TECNOLÓGICA FEDERAL DO PARANÁ",
+          "TOTAL_DOCENTES": 62
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFSCAR",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DE SÃO CARLOS",
+          "TOTAL_DOCENTES": 57
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFRGS",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL",
+          "TOTAL_DOCENTES": 56
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFC",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DO CEARÁ",
+          "TOTAL_DOCENTES": 56
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFMS",
+          "NM_ENTIDADE_ENSINO": "FUNDAÇÃO UNIVERSIDADE FEDERAL DE MATO GROSSO DO SUL",
+          "TOTAL_DOCENTES": 56
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UNICAMP",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE ESTADUAL DE CAMPINAS",
+          "TOTAL_DOCENTES": 55
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFF",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL FLUMINENSE",
+          "TOTAL_DOCENTES": 49
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFG",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DE GOIÁS",
+          "TOTAL_DOCENTES": 47
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFPR",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DO PARANÁ",
+          "TOTAL_DOCENTES": 47
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFRN",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DO RIO GRANDE DO NORTE",
+          "TOTAL_DOCENTES": 47
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFPA",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DO PARÁ",
+          "TOTAL_DOCENTES": 44
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFBA",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DA BAHIA",
+          "TOTAL_DOCENTES": 41
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFU",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DE UBERLÂNDIA",
+          "TOTAL_DOCENTES": 40
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFCG",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DE CAMPINA GRANDE",
+          "TOTAL_DOCENTES": 39
+        }
+      ]
+    },
+    "2024": {
+      "lideranca_bolsas_pq": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "TEM_BOLSA_PQ": "NÃO",
+          "TOTAL_DOCENTES": 329,
+          "PERCENTUAL": 91.9
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "TEM_BOLSA_PQ": "SIM",
+          "TOTAL_DOCENTES": 29,
+          "PERCENTUAL": 8.1
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "TEM_BOLSA_PQ": "NÃO",
+          "TOTAL_DOCENTES": 532,
+          "PERCENTUAL": 81.85
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "TEM_BOLSA_PQ": "SIM",
+          "TOTAL_DOCENTES": 118,
+          "PERCENTUAL": 18.15
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "TEM_BOLSA_PQ": "NÃO",
+          "TOTAL_DOCENTES": 202,
+          "PERCENTUAL": 69.18
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "TEM_BOLSA_PQ": "SIM",
+          "TOTAL_DOCENTES": 90,
+          "PERCENTUAL": 30.82
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "TEM_BOLSA_PQ": "NÃO",
+          "TOTAL_DOCENTES": 83,
+          "PERCENTUAL": 58.45
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "TEM_BOLSA_PQ": "SIM",
+          "TOTAL_DOCENTES": 59,
+          "PERCENTUAL": 41.55
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "TEM_BOLSA_PQ": "NÃO",
+          "TOTAL_DOCENTES": 178,
+          "PERCENTUAL": 47.72
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "TEM_BOLSA_PQ": "SIM",
+          "TOTAL_DOCENTES": 195,
+          "PERCENTUAL": 52.28
+        }
+      ],
+      "internacionalizacao_titulacao_exterior": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "TITULADO_NO_EXTERIOR": "NÃO",
+          "TOTAL_DOCENTES": 323,
+          "PERCENTUAL": 90.22
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "TITULADO_NO_EXTERIOR": "SIM",
+          "TOTAL_DOCENTES": 35,
+          "PERCENTUAL": 9.78
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "TITULADO_NO_EXTERIOR": "NÃO",
+          "TOTAL_DOCENTES": 550,
+          "PERCENTUAL": 84.62
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "TITULADO_NO_EXTERIOR": "SIM",
+          "TOTAL_DOCENTES": 100,
+          "PERCENTUAL": 15.38
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "TITULADO_NO_EXTERIOR": "NÃO",
+          "TOTAL_DOCENTES": 223,
+          "PERCENTUAL": 76.37
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "TITULADO_NO_EXTERIOR": "SIM",
+          "TOTAL_DOCENTES": 69,
+          "PERCENTUAL": 23.63
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "TITULADO_NO_EXTERIOR": "NÃO",
+          "TOTAL_DOCENTES": 110,
+          "PERCENTUAL": 77.46
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "TITULADO_NO_EXTERIOR": "SIM",
+          "TOTAL_DOCENTES": 32,
+          "PERCENTUAL": 22.54
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "TITULADO_NO_EXTERIOR": "NÃO",
+          "TOTAL_DOCENTES": 227,
+          "PERCENTUAL": 60.86
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "TITULADO_NO_EXTERIOR": "SIM",
+          "TOTAL_DOCENTES": 146,
+          "PERCENTUAL": 39.14
+        }
+      ],
+      "internacionalizacao_nacionalidade": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DOCENTE_ESTRANGEIRO": "BRASILEIRO",
+          "TOTAL_DOCENTES": 348,
+          "PERCENTUAL": 97.21
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DOCENTE_ESTRANGEIRO": "ESTRANGEIRO",
+          "TOTAL_DOCENTES": 10,
+          "PERCENTUAL": 2.79
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DOCENTE_ESTRANGEIRO": "BRASILEIRO",
+          "TOTAL_DOCENTES": 635,
+          "PERCENTUAL": 97.69
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DOCENTE_ESTRANGEIRO": "ESTRANGEIRO",
+          "TOTAL_DOCENTES": 15,
+          "PERCENTUAL": 2.31
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DOCENTE_ESTRANGEIRO": "BRASILEIRO",
+          "TOTAL_DOCENTES": 284,
+          "PERCENTUAL": 97.26
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DOCENTE_ESTRANGEIRO": "ESTRANGEIRO",
+          "TOTAL_DOCENTES": 8,
+          "PERCENTUAL": 2.74
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DOCENTE_ESTRANGEIRO": "BRASILEIRO",
+          "TOTAL_DOCENTES": 139,
+          "PERCENTUAL": 97.89
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DOCENTE_ESTRANGEIRO": "ESTRANGEIRO",
+          "TOTAL_DOCENTES": 3,
+          "PERCENTUAL": 2.11
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DOCENTE_ESTRANGEIRO": "BRASILEIRO",
+          "TOTAL_DOCENTES": 361,
+          "PERCENTUAL": 96.78
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DOCENTE_ESTRANGEIRO": "ESTRANGEIRO",
+          "TOTAL_DOCENTES": 12,
+          "PERCENTUAL": 3.22
+        }
+      ],
+      "endogamia_academica": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "ENDOGAMIA": "NÃO",
+          "TOTAL_DOCENTES": 328,
+          "PERCENTUAL": 91.62
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "ENDOGAMIA": "SIM",
+          "TOTAL_DOCENTES": 30,
+          "PERCENTUAL": 8.38
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "ENDOGAMIA": "NÃO",
+          "TOTAL_DOCENTES": 558,
+          "PERCENTUAL": 85.85
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "ENDOGAMIA": "SIM",
+          "TOTAL_DOCENTES": 92,
+          "PERCENTUAL": 14.15
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "ENDOGAMIA": "NÃO",
+          "TOTAL_DOCENTES": 242,
+          "PERCENTUAL": 82.88
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "ENDOGAMIA": "SIM",
+          "TOTAL_DOCENTES": 50,
+          "PERCENTUAL": 17.12
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "ENDOGAMIA": "NÃO",
+          "TOTAL_DOCENTES": 113,
+          "PERCENTUAL": 79.58
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "ENDOGAMIA": "SIM",
+          "TOTAL_DOCENTES": 29,
+          "PERCENTUAL": 20.42
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "ENDOGAMIA": "NÃO",
+          "TOTAL_DOCENTES": 225,
+          "PERCENTUAL": 60.32
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "ENDOGAMIA": "SIM",
+          "TOTAL_DOCENTES": 148,
+          "PERCENTUAL": 39.68
+        }
+      ],
+      "maturidade_tempo_doutorado": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "MEDIA_ANOS_DOUTORADO": 12.9
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "MEDIA_ANOS_DOUTORADO": 14.2
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "MEDIA_ANOS_DOUTORADO": 15.0
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "MEDIA_ANOS_DOUTORADO": 17.6
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "MEDIA_ANOS_DOUTORADO": 19.2
+        }
+      ],
+      "tamanho_medio_programa": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "MEDIA_DOCENTES_PERMANENTES_POR_PROGRAMA": 14.3
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "MEDIA_DOCENTES_PERMANENTES_POR_PROGRAMA": 19.7
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "MEDIA_DOCENTES_PERMANENTES_POR_PROGRAMA": 22.5
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "MEDIA_DOCENTES_PERMANENTES_POR_PROGRAMA": 35.5
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "MEDIA_DOCENTES_PERMANENTES_POR_PROGRAMA": 46.6
+        }
+      ],
+      "categoria_docente": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_CATEGORIA_DOCENTE": "COLABORADOR",
+          "TOTAL_DOCENTES": 67,
+          "PERCENTUAL": 15.73
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_CATEGORIA_DOCENTE": "PERMANENTE",
+          "TOTAL_DOCENTES": 358,
+          "PERCENTUAL": 84.04
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_CATEGORIA_DOCENTE": "VISITANTE",
+          "TOTAL_DOCENTES": 1,
+          "PERCENTUAL": 0.23
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_CATEGORIA_DOCENTE": "COLABORADOR",
+          "TOTAL_DOCENTES": 132,
+          "PERCENTUAL": 16.86
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_CATEGORIA_DOCENTE": "PERMANENTE",
+          "TOTAL_DOCENTES": 650,
+          "PERCENTUAL": 83.01
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_CATEGORIA_DOCENTE": "VISITANTE",
+          "TOTAL_DOCENTES": 1,
+          "PERCENTUAL": 0.13
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_CATEGORIA_DOCENTE": "COLABORADOR",
+          "TOTAL_DOCENTES": 64,
+          "PERCENTUAL": 17.63
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_CATEGORIA_DOCENTE": "PERMANENTE",
+          "TOTAL_DOCENTES": 292,
+          "PERCENTUAL": 80.44
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_CATEGORIA_DOCENTE": "VISITANTE",
+          "TOTAL_DOCENTES": 7,
+          "PERCENTUAL": 1.93
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_CATEGORIA_DOCENTE": "COLABORADOR",
+          "TOTAL_DOCENTES": 24,
+          "PERCENTUAL": 14.46
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_CATEGORIA_DOCENTE": "PERMANENTE",
+          "TOTAL_DOCENTES": 142,
+          "PERCENTUAL": 85.54
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_CATEGORIA_DOCENTE": "COLABORADOR",
+          "TOTAL_DOCENTES": 48,
+          "PERCENTUAL": 11.4
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_CATEGORIA_DOCENTE": "PERMANENTE",
+          "TOTAL_DOCENTES": 373,
+          "PERCENTUAL": 88.6
+        }
+      ],
+      "regime_trabalho": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_REGIME_TRABALHO": "DEDICAÇÃO EXCLUSIVA",
+          "TOTAL_DOCENTES": 240,
+          "PERCENTUAL": 67.04
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_REGIME_TRABALHO": "INTEGRAL",
+          "TOTAL_DOCENTES": 97,
+          "PERCENTUAL": 27.09
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_REGIME_TRABALHO": "PARCIAL",
+          "TOTAL_DOCENTES": 21,
+          "PERCENTUAL": 5.87
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_REGIME_TRABALHO": "DEDICAÇÃO EXCLUSIVA",
+          "TOTAL_DOCENTES": 378,
+          "PERCENTUAL": 58.15
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_REGIME_TRABALHO": "INTEGRAL",
+          "TOTAL_DOCENTES": 236,
+          "PERCENTUAL": 36.31
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_REGIME_TRABALHO": "PARCIAL",
+          "TOTAL_DOCENTES": 36,
+          "PERCENTUAL": 5.54
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_REGIME_TRABALHO": "DEDICAÇÃO EXCLUSIVA",
+          "TOTAL_DOCENTES": 183,
+          "PERCENTUAL": 62.67
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_REGIME_TRABALHO": "INTEGRAL",
+          "TOTAL_DOCENTES": 107,
+          "PERCENTUAL": 36.64
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_REGIME_TRABALHO": "PARCIAL",
+          "TOTAL_DOCENTES": 2,
+          "PERCENTUAL": 0.68
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_REGIME_TRABALHO": "DEDICAÇÃO EXCLUSIVA",
+          "TOTAL_DOCENTES": 89,
+          "PERCENTUAL": 62.68
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_REGIME_TRABALHO": "INTEGRAL",
+          "TOTAL_DOCENTES": 50,
+          "PERCENTUAL": 35.21
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_REGIME_TRABALHO": "PARCIAL",
+          "TOTAL_DOCENTES": 3,
+          "PERCENTUAL": 2.11
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_REGIME_TRABALHO": "DEDICAÇÃO EXCLUSIVA",
+          "TOTAL_DOCENTES": 246,
+          "PERCENTUAL": 65.95
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_REGIME_TRABALHO": "INTEGRAL",
+          "TOTAL_DOCENTES": 126,
+          "PERCENTUAL": 33.78
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_REGIME_TRABALHO": "PARCIAL",
+          "TOTAL_DOCENTES": 1,
+          "PERCENTUAL": 0.27
+        }
+      ],
+      "desigualdade_regional": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "NM_REGIAO": "CENTRO-OESTE",
+          "TOTAL_DOCENTES": 20,
+          "PERCENTUAL": 4.69
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "NM_REGIAO": "NORDESTE",
+          "TOTAL_DOCENTES": 172,
+          "PERCENTUAL": 40.38
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "NM_REGIAO": "NORTE",
+          "TOTAL_DOCENTES": 27,
+          "PERCENTUAL": 6.34
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "NM_REGIAO": "SUDESTE",
+          "TOTAL_DOCENTES": 119,
+          "PERCENTUAL": 27.93
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "NM_REGIAO": "SUL",
+          "TOTAL_DOCENTES": 88,
+          "PERCENTUAL": 20.66
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "NM_REGIAO": "CENTRO-OESTE",
+          "TOTAL_DOCENTES": 98,
+          "PERCENTUAL": 12.52
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "NM_REGIAO": "NORDESTE",
+          "TOTAL_DOCENTES": 274,
+          "PERCENTUAL": 34.99
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "NM_REGIAO": "SUDESTE",
+          "TOTAL_DOCENTES": 295,
+          "PERCENTUAL": 37.68
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "NM_REGIAO": "SUL",
+          "TOTAL_DOCENTES": 116,
+          "PERCENTUAL": 14.81
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "NM_REGIAO": "CENTRO-OESTE",
+          "TOTAL_DOCENTES": 32,
+          "PERCENTUAL": 8.82
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "NM_REGIAO": "NORDESTE",
+          "TOTAL_DOCENTES": 114,
+          "PERCENTUAL": 31.4
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "NM_REGIAO": "NORTE",
+          "TOTAL_DOCENTES": 29,
+          "PERCENTUAL": 7.99
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "NM_REGIAO": "SUDESTE",
+          "TOTAL_DOCENTES": 101,
+          "PERCENTUAL": 27.82
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "NM_REGIAO": "SUL",
+          "TOTAL_DOCENTES": 87,
+          "PERCENTUAL": 23.97
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "NM_REGIAO": "NORTE",
+          "TOTAL_DOCENTES": 27,
+          "PERCENTUAL": 16.27
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "NM_REGIAO": "SUDESTE",
+          "TOTAL_DOCENTES": 94,
+          "PERCENTUAL": 56.63
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "NM_REGIAO": "SUL",
+          "TOTAL_DOCENTES": 45,
+          "PERCENTUAL": 27.11
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "NM_REGIAO": "NORDESTE",
+          "TOTAL_DOCENTES": 87,
+          "PERCENTUAL": 20.67
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "NM_REGIAO": "SUDESTE",
+          "TOTAL_DOCENTES": 257,
+          "PERCENTUAL": 61.05
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "NM_REGIAO": "SUL",
+          "TOTAL_DOCENTES": 77,
+          "PERCENTUAL": 18.29
+        }
+      ],
+      "natureza_instituicao": [
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_DEPENDENCIA_ADMINISTRATIVA": "PRIVADA",
+          "TOTAL_DOCENTES": 13,
+          "PERCENTUAL": 3.05
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 3,
+          "DS_DEPENDENCIA_ADMINISTRATIVA": "PÚBLICA",
+          "TOTAL_DOCENTES": 413,
+          "PERCENTUAL": 96.95
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_DEPENDENCIA_ADMINISTRATIVA": "PRIVADA",
+          "TOTAL_DOCENTES": 70,
+          "PERCENTUAL": 8.94
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 4,
+          "DS_DEPENDENCIA_ADMINISTRATIVA": "PÚBLICA",
+          "TOTAL_DOCENTES": 713,
+          "PERCENTUAL": 91.06
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_DEPENDENCIA_ADMINISTRATIVA": "PRIVADA",
+          "TOTAL_DOCENTES": 46,
+          "PERCENTUAL": 12.67
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 5,
+          "DS_DEPENDENCIA_ADMINISTRATIVA": "PÚBLICA",
+          "TOTAL_DOCENTES": 317,
+          "PERCENTUAL": 87.33
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 6,
+          "DS_DEPENDENCIA_ADMINISTRATIVA": "PÚBLICA",
+          "TOTAL_DOCENTES": 166,
+          "PERCENTUAL": 100.0
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_DEPENDENCIA_ADMINISTRATIVA": "PRIVADA",
+          "TOTAL_DOCENTES": 46,
+          "PERCENTUAL": 10.93
+        },
+        {
+          "CD_CONCEITO_PROGRAMA": 7,
+          "DS_DEPENDENCIA_ADMINISTRATIVA": "PÚBLICA",
+          "TOTAL_DOCENTES": 375,
+          "PERCENTUAL": 89.07
+        }
+      ],
+      "top_20_instituicoes": [
+        {
+          "SG_ENTIDADE_ENSINO": "UFPE",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DE PERNAMBUCO",
+          "TOTAL_DOCENTES": 117
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "USP-SÃO CARLOS",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE DE SÃO PAULO - CAMPUS SÃO CARLOS",
+          "TOTAL_DOCENTES": 76
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "USP",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE DE SÃO PAULO",
+          "TOTAL_DOCENTES": 74
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UNB",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE DE BRASÍLIA",
+          "TOTAL_DOCENTES": 70
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFMG",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DE MINAS GERAIS",
+          "TOTAL_DOCENTES": 69
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFRJ",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DO RIO DE JANEIRO",
+          "TOTAL_DOCENTES": 68
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UTFPR",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE TECNOLÓGICA FEDERAL DO PARANÁ",
+          "TOTAL_DOCENTES": 63
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFC",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DO CEARÁ",
+          "TOTAL_DOCENTES": 56
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFRGS",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL",
+          "TOTAL_DOCENTES": 56
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFSCAR",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DE SÃO CARLOS",
+          "TOTAL_DOCENTES": 54
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFF",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL FLUMINENSE",
+          "TOTAL_DOCENTES": 51
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UNICAMP",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE ESTADUAL DE CAMPINAS",
+          "TOTAL_DOCENTES": 50
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFPR",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DO PARANÁ",
+          "TOTAL_DOCENTES": 45
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFRN",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DO RIO GRANDE DO NORTE",
+          "TOTAL_DOCENTES": 45
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFPA",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DO PARÁ",
+          "TOTAL_DOCENTES": 44
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFMS",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DE MATO GROSSO DO SUL",
+          "TOTAL_DOCENTES": 43
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFCG",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DE CAMPINA GRANDE",
+          "TOTAL_DOCENTES": 38
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFU",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DE UBERLÂNDIA",
+          "TOTAL_DOCENTES": 38
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFPI",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DO PIAUÍ",
+          "TOTAL_DOCENTES": 37
+        },
+        {
+          "SG_ENTIDADE_ENSINO": "UFG",
+          "NM_ENTIDADE_ENSINO": "UNIVERSIDADE FEDERAL DE GOIÁS",
+          "TOTAL_DOCENTES": 37
+        }
+      ]
+    }
+  }
+}
