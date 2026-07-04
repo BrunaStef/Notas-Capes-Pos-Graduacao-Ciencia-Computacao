@@ -15,6 +15,10 @@ import {
   Divider,
   Button,
   alpha,
+  FormControl,
+  InputLabel,
+  Select,
+  MenuItem,
 } from "@mui/material";
 import {
   InsightsRounded,
@@ -23,16 +27,18 @@ import {
   PublicRounded,
   WorkspacePremiumRounded,
   ApartmentRounded,
-  DataObjectRounded,
-  HubRounded,
   QueryStatsRounded,
   MapRounded,
   BadgeRounded,
   AccessTimeFilledRounded,
   AccountBalanceRounded,
+  ShareRounded,
 } from "@mui/icons-material";
 
-import rawJsonData from "./database/indicadores_computacao_docentes.json";
+import rawJsonTeachersData from "./database/indicadores_computacao_docentes.json";
+import rawJsonStudentsData from "./database/indicadores_computacao_discentes.json";
+import rawRadarData from "./database/capes_radar_chart_docentes_discentes.json";
+import { CapesRadarChart, type CapesRadarData } from "./components/radarGraph";
 
 const PALETTE = [
   "#42001A",
@@ -44,114 +50,6 @@ const PALETTE = [
 ] as const;
 
 type AnoKey = "GERAL" | string;
-
-interface Metadata {
-  total_registros_computacao: number;
-  anos_analisados: number[];
-  anos_disponiveis_esperados?: number[];
-  conceitos: number[];
-  escopo?: {
-    areas: string[];
-    conceitos_filtro: number[];
-    periodo: [number, number];
-  };
-}
-
-interface LiderancaBolsasPq {
-  CD_CONCEITO_PROGRAMA: number;
-  TEM_BOLSA_PQ: "SIM" | "NÃO";
-  TOTAL_DOCENTES: number;
-  PERCENTUAL: number;
-}
-
-interface InternacionalizacaoTitulacaoExterior {
-  CD_CONCEITO_PROGRAMA: number;
-  TITULADO_NO_EXTERIOR: "SIM" | "NÃO";
-  TOTAL_DOCENTES: number;
-  PERCENTUAL: number;
-}
-
-interface InternacionalizacaoNacionalidade {
-  CD_CONCEITO_PROGRAMA: number;
-  DOCENTE_ESTRANGEIRO: "BRASILEIRO" | "ESTRANGEIRO";
-  TOTAL_DOCENTES: number;
-  PERCENTUAL: number;
-}
-
-interface EndogamiaAcademica {
-  CD_CONCEITO_PROGRAMA: number;
-  ENDOGAMIA: "SIM" | "NÃO";
-  TOTAL_DOCENTES: number;
-  PERCENTUAL: number;
-}
-
-interface MaturidadeTempoDoutorado {
-  CD_CONCEITO_PROGRAMA: number;
-  MEDIA_ANOS_DOUTORADO: number;
-}
-
-interface TamanhoMedioPrograma {
-  CD_CONCEITO_PROGRAMA: number;
-  MEDIA_DOCENTES_PERMANENTES_POR_PROGRAMA: number;
-}
-
-interface CategoriaDocente {
-  CD_CONCEITO_PROGRAMA: number;
-  DS_CATEGORIA_DOCENTE: "COLABORADOR" | "PERMANENTE" | "VISITANTE";
-  TOTAL_DOCENTES: number;
-  PERCENTUAL: number;
-}
-
-interface RegimeTrabalho {
-  CD_CONCEITO_PROGRAMA: number;
-  DS_REGIME_TRABALHO: "DEDICAÇÃO EXCLUSIVA" | "INTEGRAL" | "PARCIAL";
-  TOTAL_DOCENTES: number;
-  PERCENTUAL: number;
-}
-
-interface DesigualdadeRegional {
-  CD_CONCEITO_PROGRAMA: number;
-  NM_REGIAO: "NORTE" | "NORDESTE" | "CENTRO-OESTE" | "SUDESTE" | "SUL";
-  TOTAL_DOCENTES: number;
-  PERCENTUAL: number;
-}
-
-interface NaturezaInstituicao {
-  CD_CONCEITO_PROGRAMA: number;
-  DS_DEPENDENCIA_ADMINISTRATIVA: "PÚBLICA" | "PRIVADA";
-  TOTAL_DOCENTES: number;
-  PERCENTUAL: number;
-}
-
-interface Top20Instituicao {
-  SG_ENTIDADE_ENSINO: string;
-  NM_ENTIDADE_ENSINO: string;
-  TOTAL_DOCENTES: number;
-}
-
-interface IndicadoresBase {
-  lideranca_bolsas_pq: LiderancaBolsasPq[];
-  internacionalizacao_titulacao_exterior: InternacionalizacaoTitulacaoExterior[];
-  internacionalizacao_nacionalidade: InternacionalizacaoNacionalidade[];
-  endogamia_academica: EndogamiaAcademica[];
-  maturidade_tempo_doutorado: MaturidadeTempoDoutorado[];
-  tamanho_medio_programa: TamanhoMedioPrograma[];
-  categoria_docente: CategoriaDocente[];
-  regime_trabalho: RegimeTrabalho[];
-  desigualdade_regional: DesigualdadeRegional[];
-  natureza_instituicao: NaturezaInstituicao[];
-  top_20_instituicoes: Top20Instituicao[];
-}
-
-interface IndicadoresComputacaoDocentes {
-  metadata: Metadata;
-  geral: IndicadoresBase;
-  por_ano: Record<string, IndicadoresBase>;
-}
-
-const jsonData = rawJsonData as unknown as IndicadoresComputacaoDocentes;
-
-type Row = Record<string, any>;
 
 const theme = createTheme({
   palette: {
@@ -173,8 +71,7 @@ const theme = createTheme({
   },
   shape: { borderRadius: 0 },
   typography: {
-    fontFamily:
-      '"Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
+    fontFamily: '"Inter", system-ui, -apple-system, sans-serif',
     h1: { fontWeight: 700, letterSpacing: "-0.04em" },
     h2: { fontWeight: 700, letterSpacing: "-0.03em" },
     h3: { fontWeight: 700, letterSpacing: "-0.03em" },
@@ -210,8 +107,71 @@ const theme = createTheme({
         root: { textTransform: "none", borderRadius: 0 },
       },
     },
+    MuiSelect: {
+      styleOverrides: {
+        select: {
+          paddingTop: "10px",
+          paddingBottom: "10px",
+        },
+      },
+    },
   },
 });
+
+interface Metadata {
+  total_registros_computacao: number;
+  anos_analisados: number[];
+  anos_disponiveis_esperados?: number[];
+  conceitos: number[];
+  escopo?: {
+    areas: string[];
+    conceitos_filtro: number[];
+    periodo: [number, number];
+  };
+}
+
+interface IndicadoresBase {
+  lideranca_bolsas_pq: any[];
+  internacionalizacao_titulacao_exterior: any[];
+  internacionalizacao_nacionalidade: any[];
+  endogamia_academica: any[];
+  maturidade_tempo_doutorado: any[];
+  tamanho_medio_programa: any[];
+  categoria_docente: any[];
+  regime_trabalho: any[];
+  desigualdade_regional: any[];
+  natureza_instituicao: any[];
+  top_20_instituicoes: any[];
+}
+
+interface IndicadoresComputacaoDocentes {
+  metadata: Metadata;
+  geral: IndicadoresBase;
+  por_ano: Record<string, IndicadoresBase>;
+}
+
+export interface IndicadoresBaseDiscentes {
+  distribuicao_grau_academico: any[];
+  situacao_academica: any[];
+  internacionalizacao_nacionalidade: any[];
+  tempo_medio_titulacao: any[];
+  tamanho_medio_programa: any[];
+  faixa_etaria: any[];
+}
+
+interface IndicadoresComputacaoDiscentes {
+  metadata: Metadata;
+  geral: IndicadoresBaseDiscentes;
+  por_ano: Record<string, IndicadoresBaseDiscentes>;
+}
+
+const jsonTeachersData =
+  rawJsonTeachersData as unknown as IndicadoresComputacaoDocentes;
+const jsonStudentsData =
+  rawJsonStudentsData as unknown as IndicadoresComputacaoDiscentes;
+const jsonRadarData = rawRadarData as any;
+
+type Row = Record<string, any>;
 
 function useWidth<T extends HTMLElement>() {
   const ref = useRef<T | null>(null);
@@ -234,12 +194,6 @@ function useWidth<T extends HTMLElement>() {
 function toNumber(value: unknown) {
   const n = Number(value);
   return Number.isFinite(n) ? n : undefined;
-}
-
-function formatNumber(value: unknown) {
-  const n = Number(value);
-  if (!Number.isFinite(n)) return "—";
-  return new Intl.NumberFormat("pt-BR").format(n);
 }
 
 function sortConcepts(values: Array<string | number>) {
@@ -289,21 +243,11 @@ function createDarkTooltip() {
     tooltipEl = document.createElement("div");
     tooltipEl.id = "d3-dark-tooltip";
     tooltipEl.style.cssText = `
-      position: fixed;
-      pointer-events: none;
-      background: #0F1928;
-      border: 1px solid rgba(148,163,184,0.20);
-      color: #F1F5F9;
-      font-size: 13px;
-      font-family: Inter, system-ui, sans-serif;
-      padding: 8px 12px;
-      border-radius: 4px;
-      box-shadow: 0 8px 32px rgba(0,0,0,0.7);
-      z-index: 9999;
-      opacity: 0;
-      transition: opacity 120ms ease;
-      white-space: nowrap;
-      line-height: 1.5;
+      position: fixed; pointer-events: none; background: #0F1928;
+      border: 1px solid rgba(148,163,184,0.20); color: #F1F5F9;
+      font-size: 13px; padding: 8px 12px; border-radius: 4px;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.7); z-index: 9999;
+      opacity: 0; transition: opacity 120ms ease; white-space: nowrap;
     `;
     document.body.appendChild(tooltipEl);
   }
@@ -360,10 +304,13 @@ function ChartShell({
         }}
       >
         <Stack
-          direction="row"
           spacing={1.5}
-          alignItems="flex-start"
-          sx={{ mb: 1.25 }}
+          sx={{
+            marginBottom: 1.25,
+            display: "flex",
+            direction: "row",
+            alignItems: "flex-start",
+          }}
         >
           <Box
             sx={{
@@ -395,7 +342,6 @@ function ChartShell({
             </Typography>
           </Box>
         </Stack>
-
         <Box
           sx={{
             mb: 2,
@@ -412,7 +358,6 @@ function ChartShell({
             {description}
           </Typography>
         </Box>
-
         <Divider sx={{ mb: 2, borderColor: "rgba(148,163,184,0.08)" }} />
         <Box sx={{ flexGrow: 1, minHeight: 0 }}>{children}</Box>
       </CardContent>
@@ -438,7 +383,7 @@ function StackedBarChart({
   const ref = useRef<SVGSVGElement | null>(null);
 
   useEffect(() => {
-    if (!ref.current || !width) return;
+    if (!ref.current || !width || !rows.length) return;
     const svg = d3.select(ref.current);
     svg.selectAll("*").remove();
 
@@ -457,7 +402,7 @@ function StackedBarChart({
       const values = d3.rollups(
         conceptRows,
         (v) => d3.sum(v, (d) => toNumber(d[valueKey]) ?? 0),
-        (d) => String(d[categoryKey]),
+        (d) => String(d[categoryKey]).toUpperCase(),
       );
       const total = d3.sum(values, (d) => d[1]) || 1;
       return {
@@ -547,7 +492,7 @@ function StackedBarChart({
           .on("mousemove", (event: MouseEvent) => {
             showTooltip(
               tooltip,
-              `<strong>Conceito ${row.concept}</strong><br/>${seg.category}: <strong>${seg.value.toFixed(1)}%</strong>`,
+              `<strong>${row.concept.length > 2 ? row.concept : "Conceito " + row.concept}</strong><br/>${seg.category}: <strong>${seg.value.toFixed(1)}%</strong>`,
               event,
             );
           })
@@ -562,7 +507,7 @@ function StackedBarChart({
             .attr("font-size", 12)
             .attr("font-weight", 700)
             .attr("pointer-events", "none")
-            .text(`${seg.value.toFixed(0)}%`);
+            .text(`${seg.value.toFixed(1)}%`);
         }
         cursor += segW;
       });
@@ -596,6 +541,96 @@ function StackedBarChart({
   return <svg ref={ref} />;
 }
 
+function BarChart({
+  rows,
+  width,
+  height,
+  color = PALETTE[2],
+}: {
+  rows: any[];
+  width: number;
+  height: number;
+  color?: string;
+}) {
+  const ref = useRef<SVGSVGElement | null>(null);
+
+  useEffect(() => {
+    if (!ref.current || !width || !rows.length) return;
+
+    const svg = d3.select(ref.current);
+    svg.selectAll("*").remove();
+
+    const tooltip = createDarkTooltip();
+
+    const margin = { top: 20, right: 20, bottom: 50, left: 60 };
+
+    const innerWidth = width - margin.left - margin.right;
+    const innerHeight = height - margin.top - margin.bottom;
+
+    const concepts = sortConcepts(
+      rows.map((d) => String(d.CD_CONCEITO_PROGRAMA)),
+    );
+
+    const x = d3
+      .scaleBand<string>()
+      .domain(concepts)
+      .range([0, innerWidth])
+      .padding(0.3);
+
+    const y = d3
+      .scaleLinear()
+      .domain([0, d3.max(rows, (d) => d.PERCENTUAL) || 0])
+      .nice()
+      .range([innerHeight, 0]);
+
+    svg
+      .attr("viewBox", `0 0 ${width} ${height}`)
+      .attr("width", "100%")
+      .attr("height", height);
+
+    const g = svg
+      .append("g")
+      .attr("transform", `translate(${margin.left},${margin.top})`);
+
+    g.append("g")
+      .attr("transform", `translate(0,${innerHeight})`)
+      .call(d3.axisBottom(x));
+
+    g.append("g").call(d3.axisLeft(y).tickFormat((d) => `${d}%`));
+
+    g.selectAll(".bar")
+      .data(rows)
+      .enter()
+      .append("rect")
+      .attr("x", (d) => x(String(d.CD_CONCEITO_PROGRAMA))!)
+      .attr("y", (d) => y(d.PERCENTUAL))
+      .attr("width", x.bandwidth())
+      .attr("height", (d) => innerHeight - y(d.PERCENTUAL))
+      .attr("fill", color)
+      .on("mousemove", (event, d) => {
+        showTooltip(
+          tooltip,
+          `<strong>${String(d.CD_CONCEITO_PROGRAMA).length > 2 ? d.CD_CONCEITO_PROGRAMA : "Conceito " + d.CD_CONCEITO_PROGRAMA}</strong><br/>Evasão: <strong>${d.PERCENTUAL.toFixed(2)}%</strong>`,
+          event,
+        );
+      })
+      .on("mouseleave", () => hideTooltip(tooltip));
+
+    g.selectAll(".label")
+      .data(rows)
+      .enter()
+      .append("text")
+      .attr("x", (d) => x(String(d.CD_CONCEITO_PROGRAMA))! + x.bandwidth() / 2)
+      .attr("y", (d) => y(d.PERCENTUAL) - 6)
+      .attr("text-anchor", "middle")
+      .attr("font-size", 12)
+      .attr("fill", "#CBD5E1")
+      .text((d) => `${d.PERCENTUAL.toFixed(1)}%`);
+  }, [rows, width, height, color]);
+
+  return <svg ref={ref} />;
+}
+
 function LollipopChart({
   rows,
   valueKey,
@@ -612,7 +647,7 @@ function LollipopChart({
   const ref = useRef<SVGSVGElement | null>(null);
 
   useEffect(() => {
-    if (!ref.current || !width) return;
+    if (!ref.current || !width || !rows.length) return;
     const svg = d3.select(ref.current);
     svg.selectAll("*").remove();
 
@@ -626,7 +661,12 @@ function LollipopChart({
         concept: String(d.CD_CONCEITO_PROGRAMA),
         value: toNumber(d[valueKey]) ?? 0,
       }))
-      .sort((a, b) => Number(a.concept) - Number(b.concept));
+      .sort((a, b) => {
+        const na = Number(a.concept);
+        const nb = Number(b.concept);
+        if (Number.isFinite(na) && Number.isFinite(nb)) return na - nb;
+        return a.concept.localeCompare(b.concept, "pt-BR", { numeric: true });
+      });
 
     const maxValue = d3.max(data, (d) => d.value) ?? 1;
     const x = d3
@@ -686,7 +726,6 @@ function LollipopChart({
         .attr("y2", centerY)
         .attr("stroke", alpha(accent, 0.35))
         .attr("stroke-width", 2);
-
       const circle = g
         .append("circle")
         .attr("cx", xPos)
@@ -701,7 +740,7 @@ function LollipopChart({
         .on("mousemove", (event: MouseEvent) => {
           showTooltip(
             tooltip,
-            `<strong>Conceito ${d.concept}</strong><br/>Valor: <strong>${d3.format(".1f")(d.value)}</strong>`,
+            `<strong>${d.concept.length > 2 ? d.concept : "Conceito " + d.concept}</strong><br/>Valor: <strong>${d3.format(".1f")(d.value)}</strong>`,
             event,
           );
         })
@@ -721,113 +760,6 @@ function LollipopChart({
   return <svg ref={ref} />;
 }
 
-function HorizontalBarChart({
-  data,
-  width,
-  height,
-  accent,
-}: {
-  data: Top20Instituicao[];
-  width: number;
-  height: number;
-  accent: string;
-}) {
-  const ref = useRef<SVGSVGElement | null>(null);
-
-  useEffect(() => {
-    if (!ref.current || !width) return;
-    const svg = d3.select(ref.current);
-    svg.selectAll("*").remove();
-
-    const tooltip = createDarkTooltip();
-    const margin = { top: 16, right: 60, bottom: 32, left: 80 };
-    const innerWidth = Math.max(0, width - margin.left - margin.right);
-    const innerHeight = Math.max(0, height - margin.top - margin.bottom);
-
-    const sortedData = [...data]
-      .sort((a, b) => b.TOTAL_DOCENTES - a.TOTAL_DOCENTES)
-      .slice(0, 10);
-
-    const x = d3
-      .scaleLinear()
-      .domain([0, d3.max(sortedData, (d) => d.TOTAL_DOCENTES) || 0])
-      .nice()
-      .range([0, innerWidth]);
-    const y = d3
-      .scaleBand<string>()
-      .domain(sortedData.map((d) => d.SG_ENTIDADE_ENSINO))
-      .range([0, innerHeight])
-      .padding(0.2);
-
-    svg
-      .attr("viewBox", `0 0 ${width} ${height}`)
-      .attr("width", "100%")
-      .attr("height", height)
-      .style("overflow", "visible");
-    const g = svg
-      .append("g")
-      .attr("transform", `translate(${margin.left},${margin.top})`);
-
-    g.append("g")
-      .attr("transform", `translate(0,${innerHeight})`)
-      .call(d3.axisBottom(x).ticks(5).tickSizeOuter(0))
-      .call((s) =>
-        s.selectAll("text").attr("fill", "#94A3B8").attr("font-size", 12),
-      )
-      .call((s) =>
-        s.selectAll("path,line").attr("stroke", "rgba(255,255,255,0.08)"),
-      );
-
-    g.append("g")
-      .call(d3.axisLeft(y).tickSizeOuter(0).tickSize(0))
-      .call((s) =>
-        s
-          .selectAll("text")
-          .attr("fill", "#CBD5E1")
-          .attr("font-size", 12)
-          .attr("font-weight", "600"),
-      )
-      .call((s) =>
-        s.selectAll("path").attr("stroke", "rgba(255,255,255,0.08)"),
-      );
-
-    sortedData.forEach((d, index) => {
-      const yPos = y(d.SG_ENTIDADE_ENSINO);
-      if (yPos === undefined) return;
-
-      const rect = g
-        .append("rect")
-        .attr("x", 0)
-        .attr("y", yPos)
-        .attr("width", x(d.TOTAL_DOCENTES))
-        .attr("height", y.bandwidth())
-        .attr("fill", index % 2 === 0 ? accent : PALETTE[3])
-        .attr("rx", 2)
-        .attr("opacity", 0.9);
-
-      rect
-        .on("mousemove", (event: MouseEvent) => {
-          showTooltip(
-            tooltip,
-            `<strong>${d.SG_ENTIDADE_ENSINO}</strong><br/>${d.NM_ENTIDADE_ENSINO}<br/>Total de Docentes: <strong>${d.TOTAL_DOCENTES}</strong>`,
-            event,
-          );
-        })
-        .on("mouseleave", () => hideTooltip(tooltip));
-
-      g.append("text")
-        .attr("x", x(d.TOTAL_DOCENTES) + 8)
-        .attr("y", yPos + y.bandwidth() / 2 + 4)
-        .attr("fill", "#F1F5F9")
-        .attr("font-size", 12)
-        .attr("font-weight", 600)
-        .text(d.TOTAL_DOCENTES);
-    });
-  }, [data, width, height, accent]);
-
-  return <svg ref={ref} />;
-}
-
 function HeatmapChart({
   rows,
   width,
@@ -840,7 +772,7 @@ function HeatmapChart({
   const ref = useRef<SVGSVGElement | null>(null);
 
   useEffect(() => {
-    if (!ref.current || !width) return;
+    if (!ref.current || !width || !rows.length) return;
     const svg = d3.select(ref.current);
     svg.selectAll("*").remove();
 
@@ -860,10 +792,7 @@ function HeatmapChart({
         min === max
           ? (v: number) => (v === 0 ? 0 : 100)
           : d3.scaleLinear().domain([min, max]).range([0, 100]).clamp(true);
-      return values.map((d) => ({
-        ...d,
-        normalized: scale(d.value),
-      }));
+      return values.map((d) => ({ ...d, normalized: scale(d.value) }));
     });
 
     const x = d3
@@ -876,7 +805,6 @@ function HeatmapChart({
       .domain(metrics)
       .range([0, innerHeight])
       .padding(0.1);
-
     const color = d3
       .scaleQuantize<string>()
       .domain([0, 100])
@@ -939,7 +867,7 @@ function HeatmapChart({
         .on("mousemove", (event: MouseEvent) => {
           showTooltip(
             tooltip,
-            `<strong>${d.metric}</strong><br/>Conceito ${d.concept}<br/>Valor Bruto: <strong>${d3.format(".1f")(d.value)}</strong><br/>Score: <strong>${d3.format(".0f")(d.normalized)}</strong>`,
+            `<strong>${d.metric}</strong><br/>${d.concept.length > 2 ? d.concept : "Conceito " + d.concept}<br/>Valor Bruto: <strong>${d3.format(".1f")(d.value)}</strong><br/>Score: <strong>${d3.format(".0f")(d.normalized)}</strong>`,
             event,
           );
         })
@@ -962,41 +890,518 @@ function HeatmapChart({
   return <svg ref={ref} />;
 }
 
+export function StudentsPanel({
+  activeData,
+  progDiscentes,
+  pLabel = "Programa",
+}: {
+  activeData: IndicadoresBaseDiscentes;
+  progDiscentes?: any;
+  pLabel?: string;
+}) {
+  const { ref: grauRef, width: grauWidth } = useWidth<HTMLDivElement>();
+  const { ref: situacaoRef, width: situacaoWidth } = useWidth<HTMLDivElement>();
+  const { ref: nacionalidadeRef, width: nacionalidadeWidth } =
+    useWidth<HTMLDivElement>();
+  const { ref: faixaRef, width: faixaWidth } = useWidth<HTMLDivElement>();
+  const { ref: tamanhoRef, width: tamanhoWidth } = useWidth<HTMLDivElement>();
+  const { ref: tempoMestradoRef, width: tempoMestradoWidth } =
+    useWidth<HTMLDivElement>();
+  const { ref: tempoDoutoradoRef, width: tempoDoutoradoWidth } =
+    useWidth<HTMLDivElement>();
+
+  const stackedHeight = 270;
+  const lollipopHeight = 260;
+
+  const inject = (base: any[], prog: any[] | undefined, label: string) => {
+    if (!prog) return base;
+    return [
+      ...base,
+      ...prog.map((item) => ({ ...item, CD_CONCEITO_PROGRAMA: label })),
+    ];
+  };
+
+  const gerarMapaDeCores = (
+    rows: Record<string, any>[],
+    chaveCategoria: string,
+  ) => {
+    const categoriasUnicas = [
+      ...new Set(rows.map((r) => String(r[chaveCategoria]).toUpperCase())),
+    ].sort();
+    const mapa: Record<string, string> = {};
+    categoriasUnicas.forEach((cat, index) => {
+      mapa[cat] = PALETTE[index % PALETTE.length];
+    });
+    return mapa;
+  };
+
+  const evasaoData = useMemo(() => {
+    const grouped = new Map<string | number, number>();
+
+    const baseEvasao = activeData.situacao_academica || [];
+    const fullEvasao = inject(
+      baseEvasao,
+      progDiscentes?.situacao_academica,
+      pLabel,
+    );
+
+    fullEvasao.forEach((item) => {
+      if (
+        item.NM_SITUACAO_DISCENTE === "ABANDONOU" ||
+        item.NM_SITUACAO_DISCENTE === "DESLIGADO"
+      ) {
+        grouped.set(
+          item.CD_CONCEITO_PROGRAMA,
+          (grouped.get(item.CD_CONCEITO_PROGRAMA) || 0) + item.PERCENTUAL,
+        );
+      }
+    });
+
+    return Array.from(grouped.entries()).map(([conceito, percentual]) => ({
+      CD_CONCEITO_PROGRAMA: conceito,
+      NM_INDICADOR: "EVASÃO",
+      PERCENTUAL: Number(percentual.toFixed(2)),
+    }));
+  }, [activeData.situacao_academica, progDiscentes, pLabel]);
+
+  const mapaFaixa = useMemo(
+    () =>
+      gerarMapaDeCores(
+        inject(
+          activeData.faixa_etaria || [],
+          progDiscentes?.faixa_etaria,
+          pLabel,
+        ),
+        "DS_FAIXA_ETARIA",
+      ),
+    [activeData.faixa_etaria, progDiscentes, pLabel],
+  );
+
+  const tempoMestrado = useMemo(
+    () =>
+      inject(
+        activeData.tempo_medio_titulacao || [],
+        progDiscentes?.tempo_medio_titulacao,
+        pLabel,
+      ).filter((d: any) => d.DS_GRAU_ACADEMICO_DISCENTE === "MESTRADO"),
+    [activeData.tempo_medio_titulacao, progDiscentes, pLabel],
+  );
+
+  const tempoDoutorado = useMemo(
+    () =>
+      inject(
+        activeData.tempo_medio_titulacao || [],
+        progDiscentes?.tempo_medio_titulacao,
+        pLabel,
+      ).filter((d: any) => d.DS_GRAU_ACADEMICO_DISCENTE === "DOUTORADO"),
+    [activeData.tempo_medio_titulacao, progDiscentes, pLabel],
+  );
+
+  const tamanhoData = useMemo(() => {
+    const base = [...(activeData.tamanho_medio_programa || [])];
+    if (progDiscentes?.tamanho_total_alunos_periodo !== undefined) {
+      base.push({
+        CD_CONCEITO_PROGRAMA: pLabel,
+        MEDIA_DISCENTES_POR_PROGRAMA:
+          progDiscentes.media_alunos_por_ano ||
+          progDiscentes.tamanho_total_alunos_periodo,
+      });
+    }
+    return base;
+  }, [activeData.tamanho_medio_programa, progDiscentes, pLabel]);
+
+  return (
+    <Box
+      sx={{
+        display: "grid",
+        gridTemplateColumns: { xs: "1fr", xl: "repeat(2, minmax(0, 1fr))" },
+        gap: 2,
+        mb: 5,
+      }}
+    >
+      <Box ref={grauRef}>
+        <ChartShell
+          title="Distribuição de Grau Acadêmico"
+          subtitle="Mestrado vs Doutorado"
+          description="Proporção de discentes matriculados ou titulados por nível acadêmico dentro de cada conceito."
+          icon={SchoolRounded}
+          accent={PALETTE[4]}
+        >
+          {grauWidth > 0 && (
+            <StackedBarChart
+              rows={inject(
+                activeData.distribuicao_grau_academico || [],
+                progDiscentes?.distribuicao_grau_academico,
+                pLabel,
+              )}
+              categoryKey="DS_GRAU_ACADEMICO_DISCENTE"
+              valueKey="PERCENTUAL"
+              width={grauWidth}
+              height={stackedHeight}
+              colorMap={{
+                MESTRADO: PALETTE[5],
+                "MESTRADO PROFISSIONAL": PALETTE[3],
+                DOUTORADO: PALETTE[4],
+                "DOUTORADO PROFISSIONAL": PALETTE[2],
+              }}
+            />
+          )}
+        </ChartShell>
+      </Box>
+
+      <Box ref={situacaoRef}>
+        <ChartShell
+          title="Taxa de Evasão Discente"
+          subtitle="Abandono + desligamento"
+          description="Percentual de discentes que abandonaram ou foram desligados dos programas entre 2017 e 2024. Valores menores indicam maior capacidade de retenção dos alunos."
+          icon={GroupsRounded}
+          accent={PALETTE[2]}
+        >
+          {situacaoWidth > 0 && (
+            <BarChart
+              rows={evasaoData}
+              width={situacaoWidth}
+              height={stackedHeight}
+            />
+          )}
+        </ChartShell>
+      </Box>
+
+      <Box ref={tempoMestradoRef}>
+        <ChartShell
+          title="Tempo de Titulação (Mestrado)"
+          subtitle="Média em meses"
+          description="Velocidade média com que os alunos de mestrado concluem o curso, filtrado apenas por discentes já titulados."
+          icon={AccessTimeFilledRounded}
+          accent={PALETTE[5]}
+        >
+          {tempoMestradoWidth > 0 && (
+            <LollipopChart
+              rows={tempoMestrado}
+              valueKey="MEDIA_MESES_TITULACAO"
+              width={tempoMestradoWidth}
+              height={lollipopHeight}
+              accent={PALETTE[5]}
+            />
+          )}
+        </ChartShell>
+      </Box>
+
+      <Box ref={tempoDoutoradoRef}>
+        <ChartShell
+          title="Tempo de Titulação (Doutorado)"
+          subtitle="Média em meses"
+          description="Média de meses necessários para a defesa e titulação no doutorado nos diferentes conceitos CAPES."
+          icon={AccessTimeFilledRounded}
+          accent={PALETTE[3]}
+        >
+          {tempoDoutoradoWidth > 0 && (
+            <LollipopChart
+              rows={tempoDoutorado}
+              valueKey="MEDIA_MESES_TITULACAO"
+              width={tempoDoutoradoWidth}
+              height={lollipopHeight}
+              accent={PALETTE[3]}
+            />
+          )}
+        </ChartShell>
+      </Box>
+
+      <Box ref={nacionalidadeRef}>
+        <ChartShell
+          title="Nacionalidade Discente"
+          subtitle="Atração de alunos internacionais"
+          description="Proporção de discentes estrangeiros em relação aos brasileiros. Importante para observar o alcance internacional dos programas."
+          icon={PublicRounded}
+          accent={PALETTE[1]}
+        >
+          {nacionalidadeWidth > 0 && (
+            <StackedBarChart
+              rows={inject(
+                activeData.internacionalizacao_nacionalidade || [],
+                progDiscentes?.internacionalizacao_nacionalidade,
+                pLabel,
+              )}
+              categoryKey="DS_TIPO_NACIONALIDADE_DISCENTE"
+              valueKey="PERCENTUAL"
+              width={nacionalidadeWidth}
+              height={stackedHeight}
+              colorMap={{ BRASILEIRO: PALETTE[0], ESTRANGEIRO: PALETTE[1] }}
+            />
+          )}
+        </ChartShell>
+      </Box>
+
+      <Box ref={faixaRef}>
+        <ChartShell
+          title="Faixa Etária"
+          subtitle="Perfil demográfico dos alunos"
+          description="Distribuição etária do corpo discente, indicando a predominância de jovens recém-formados ou profissionais mais experientes."
+          icon={BadgeRounded}
+          accent={PALETTE[4]}
+        >
+          {faixaWidth > 0 && (
+            <StackedBarChart
+              rows={inject(
+                activeData.faixa_etaria || [],
+                progDiscentes?.faixa_etaria,
+                pLabel,
+              )}
+              categoryKey="DS_FAIXA_ETARIA"
+              valueKey="PERCENTUAL"
+              width={faixaWidth}
+              height={stackedHeight}
+              colorMap={mapaFaixa}
+            />
+          )}
+        </ChartShell>
+      </Box>
+
+      <Box ref={tamanhoRef} sx={{ gridColumn: { xs: "auto", xl: "1 / -1" } }}>
+        <ChartShell
+          title="Tamanho Médio do Corpo Discente"
+          subtitle="Volume de alunos por programa"
+          description="Média total de discentes vinculados por programa, evidenciando a capacidade de absorção e escala de orientação dos conceitos."
+          icon={ApartmentRounded}
+          accent={PALETTE[2]}
+          fullWidth
+        >
+          {tamanhoWidth > 0 && (
+            <LollipopChart
+              rows={tamanhoData}
+              valueKey="MEDIA_DISCENTES_POR_PROGRAMA"
+              width={tamanhoWidth}
+              height={lollipopHeight}
+              accent={PALETTE[2]}
+            />
+          )}
+        </ChartShell>
+      </Box>
+    </Box>
+  );
+}
+
 export default function App() {
   const anos = useMemo(() => {
-    const expected = jsonData.metadata?.anos_disponiveis_esperados ?? [];
-    const available = jsonData.metadata?.anos_analisados ?? [];
+    const expected =
+      jsonTeachersData.metadata?.anos_disponiveis_esperados ?? [];
+    const available = jsonTeachersData.metadata?.anos_analisados ?? [];
     const base = expected.length ? expected : available;
     return [...new Set(base)].sort((a, b) => a - b);
   }, []);
 
   const [selectedPeriod, setSelectedPeriod] = useState<AnoKey>("GERAL");
+  const [menuOpcoes, setMenuOpcoes] = useState<
+    Record<string, { cd_programa: string; nm_programa: string }[]>
+  >({});
+  const [selectedIES, setSelectedIES] = useState<string>("");
+  const [selectedProgram, setSelectedProgram] = useState<string>("");
+  const [programData, setProgramData] = useState<any>(null);
 
-  const activeData = useMemo<IndicadoresBase>(() => {
-    if (selectedPeriod === "GERAL") return jsonData.geral;
-    return jsonData.por_ano?.[selectedPeriod] ?? jsonData.geral;
+  useEffect(() => {
+    fetch("src/scripts/indicadores/menu_opcoes.json")
+      .then((res) => res.json())
+      .then((data) => setMenuOpcoes(data))
+      .catch(() => console.error("Menu de opções não encontrado"));
+  }, []);
+
+  useEffect(() => {
+    if (selectedProgram) {
+      fetch(`src/scripts/indicadores/programas/${selectedProgram}.json`)
+        .then((res) => res.json())
+        .then((data) => {
+          console.log("Programa carregado:", data);
+          setProgramData(data);
+        })
+        .catch(() => setProgramData(null));
+    } else {
+      setProgramData(null);
+    }
+  }, [selectedProgram]);
+
+  const activeTeachersData = useMemo<IndicadoresBase>(() => {
+    if (selectedPeriod === "GERAL") return jsonTeachersData.geral;
+    return jsonTeachersData.por_ano?.[selectedPeriod] ?? jsonTeachersData.geral;
   }, [selectedPeriod]);
 
-  const { metrics, charts, selectedLabel } = useMemo(() => {
-    const leadershipRows = activeData.lideranca_bolsas_pq || [];
-    const sizeRows = activeData.tamanho_medio_programa || [];
-    const maturityRows = activeData.maturidade_tempo_doutorado || [];
-    const internationalRows =
-      activeData.internacionalizacao_titulacao_exterior || [];
-    const endogamyRows = activeData.endogamia_academica || [];
-    const nationalityRows = activeData.internacionalizacao_nacionalidade || [];
-    const categoryRows = activeData.categoria_docente || [];
-    const regimeRows = activeData.regime_trabalho || [];
-    const regionRows = activeData.desigualdade_regional || [];
-    const institutionRows = activeData.natureza_instituicao || [];
-    const top20Rows = activeData.top_20_instituicoes || [];
+  const activeStudentsData = useMemo<IndicadoresBaseDiscentes>(() => {
+    if (selectedPeriod === "GERAL") return jsonStudentsData.geral;
+    return jsonStudentsData.por_ano?.[selectedPeriod] ?? jsonStudentsData.geral;
+  }, [selectedPeriod]);
+
+  const radarData = useMemo<CapesRadarData>(() => {
+    if (selectedPeriod === "GERAL") return jsonRadarData.geral;
+    return jsonRadarData.por_ano?.[selectedPeriod] ?? jsonRadarData.geral;
+  }, [selectedPeriod]);
+
+  // Resolve os dados dinâmicos do programa com base no período
+  const progDocentes = useMemo(() => {
+    if (!programData?.docentes) return undefined;
+    if (selectedPeriod === "GERAL") return programData.docentes.geral;
+    return (
+      programData.docentes.por_ano?.[selectedPeriod] ||
+      programData.docentes.geral
+    );
+  }, [programData, selectedPeriod]);
+
+  const progDiscentes = useMemo(() => {
+    if (!programData?.discentes) return undefined;
+    if (selectedPeriod === "GERAL") return programData.discentes.geral;
+    return (
+      programData.discentes.por_ano?.[selectedPeriod] ||
+      programData.discentes.geral
+    );
+  }, [programData, selectedPeriod]);
+
+  // Cálculo Dinâmico do Radar Metrics direto no Front-End
+  const programRadarMetrics = useMemo(() => {
+    if (!programData) return undefined;
+    if (programData.radar_metrics) return programData.radar_metrics; // Fallback se já vier do Python
+
+    if (!progDocentes || !progDiscentes) return undefined;
+
+    const getPct = (arr: any[], key: string, val: string) => {
+      if (!arr || !Array.isArray(arr)) return 0;
+      const item = arr.find(
+        (a) => String(a[key]).trim().toUpperCase() === val.toUpperCase(),
+      );
+      return item ? Number(item.PERCENTUAL) : 0;
+    };
+
+    return {
+      pct_docentes_permanentes: getPct(
+        progDocentes.categoria_docente,
+        "DS_CATEGORIA_DOCENTE",
+        "PERMANENTE",
+      ),
+      pct_pq: getPct(progDocentes.lideranca_bolsas_pq, "TEM_BOLSA_PQ", "SIM"),
+      pct_titulado_no_exterior: getPct(
+        progDocentes.internacionalizacao_titulacao_exterior,
+        "TITULADO_NO_EXTERIOR",
+        "SIM",
+      ),
+      pct_docente_estrangeiro: getPct(
+        progDocentes.internacionalizacao_nacionalidade,
+        "DOCENTE_ESTRANGEIRO",
+        "ESTRANGEIRO",
+      ),
+      pct_endogamia: getPct(
+        progDocentes.endogamia_academica,
+        "ENDOGAMIA",
+        "SIM",
+      ),
+      pct_dedicacao_exclusiva: getPct(
+        progDocentes.regime_trabalho,
+        "DS_REGIME_TRABALHO",
+        "DEDICAÇÃO EXCLUSIVA",
+      ),
+      pct_instituicao_publica: 0,
+      media_anos_doutorado: progDocentes.maturidade_media_anos_doutorado || 0,
+      discentes_por_programa:
+        progDiscentes.media_alunos_por_ano ||
+        progDiscentes.tamanho_total_alunos_periodo ||
+        0,
+      pct_mestrado: getPct(
+        progDiscentes.distribuicao_grau_academico,
+        "DS_GRAU_ACADEMICO_DISCENTE",
+        "MESTRADO",
+      ),
+      pct_doutorado: getPct(
+        progDiscentes.distribuicao_grau_academico,
+        "DS_GRAU_ACADEMICO_DISCENTE",
+        "DOUTORADO",
+      ),
+      pct_titulado: getPct(
+        progDiscentes.situacao_academica,
+        "NM_SITUACAO_DISCENTE",
+        "TITULADO",
+      ),
+      taxa_evasao:
+        getPct(
+          progDiscentes.situacao_academica,
+          "NM_SITUACAO_DISCENTE",
+          "ABANDONOU",
+        ) +
+        getPct(
+          progDiscentes.situacao_academica,
+          "NM_SITUACAO_DISCENTE",
+          "DESLIGADO",
+        ),
+      pct_estrangeiro_discente: getPct(
+        progDiscentes.internacionalizacao_nacionalidade,
+        "DS_TIPO_NACIONALIDADE_DISCENTE",
+        "ESTRANGEIRO",
+      ),
+      media_meses_titulacao_mestrado:
+        (
+          progDiscentes.tempo_medio_titulacao?.find(
+            (d: any) => d.DS_GRAU_ACADEMICO_DISCENTE === "MESTRADO",
+          ) || {}
+        ).MEDIA_MESES_TITULACAO || 0,
+      media_meses_titulacao_doutorado:
+        (
+          progDiscentes.tempo_medio_titulacao?.find(
+            (d: any) => d.DS_GRAU_ACADEMICO_DISCENTE === "DOUTORADO",
+          ) || {}
+        ).MEDIA_MESES_TITULACAO || 0,
+    };
+  }, [programData, progDocentes, progDiscentes]);
+
+  const { charts, selectedLabel, programName } = useMemo(() => {
+    const pLabel = programData?.metadata?.sg_ies || "Programa";
+
+    const inject = (base: any[], prog: any[] | undefined) => {
+      if (!prog) return [...base];
+      return [
+        ...base,
+        ...prog.map((item) => ({ ...item, CD_CONCEITO_PROGRAMA: pLabel })),
+      ];
+    };
+
+    let leadershipRows = inject(
+      activeTeachersData.lideranca_bolsas_pq || [],
+      progDocentes?.lideranca_bolsas_pq,
+    );
+    let sizeRows = [...(activeTeachersData.tamanho_medio_programa || [])];
+    let maturityRows = [
+      ...(activeTeachersData.maturidade_tempo_doutorado || []),
+    ];
+    let internationalRows = inject(
+      activeTeachersData.internacionalizacao_titulacao_exterior || [],
+      progDocentes?.internacionalizacao_titulacao_exterior,
+    );
+    let endogamyRows = inject(
+      activeTeachersData.endogamia_academica || [],
+      progDocentes?.endogamia_academica,
+    );
+    let nationalityRows = inject(
+      activeTeachersData.internacionalizacao_nacionalidade || [],
+      progDocentes?.internacionalizacao_nacionalidade,
+    );
+    let categoryRows = inject(
+      activeTeachersData.categoria_docente || [],
+      progDocentes?.categoria_docente,
+    );
+    let regimeRows = inject(
+      activeTeachersData.regime_trabalho || [],
+      progDocentes?.regime_trabalho,
+    );
+    let regionRows = [...(activeTeachersData.desigualdade_regional || [])];
+    let institutionRows = [...(activeTeachersData.natureza_instituicao || [])];
+    let top20Rows = [...(activeTeachersData.top_20_instituicoes || [])];
+
+    if (progDocentes) {
+      if (progDocentes.maturidade_media_anos_doutorado !== undefined) {
+        maturityRows.push({
+          CD_CONCEITO_PROGRAMA: pLabel,
+          MEDIA_ANOS_DOUTORADO: progDocentes.maturidade_media_anos_doutorado,
+        });
+      }
+    }
 
     const concepts = sortConcepts(
       leadershipRows.map((d) => d.CD_CONCEITO_PROGRAMA),
     );
-    const totalRegistros = jsonData.metadata.total_registros_computacao || 0;
-    const quantidadeProgramas = concepts.length;
-    const maxConcept = concepts.length ? Math.max(...concepts.map(Number)) : 0;
 
     const heatRows = concepts.flatMap((concept) => [
       {
@@ -1093,12 +1498,6 @@ export default function App() {
     ]);
 
     return {
-      metrics: {
-        totalRegistros,
-        quantidadeProgramas,
-        maxConcept,
-        recorte: selectedPeriod,
-      },
       charts: {
         leadershipRows,
         sizeRows,
@@ -1115,8 +1514,9 @@ export default function App() {
       },
       selectedLabel:
         selectedPeriod === "GERAL" ? "Geral (2017–2024)" : selectedPeriod,
+      programName: pLabel,
     };
-  }, [activeData, selectedPeriod]);
+  }, [activeTeachersData, progDocentes, selectedPeriod, programData]);
 
   const { ref: heatmapRef, width: heatmapWidth } = useWidth<HTMLDivElement>();
   const { ref: leadershipRef, width: leadershipWidth } =
@@ -1133,11 +1533,13 @@ export default function App() {
   const { ref: regionRef, width: regionWidth } = useWidth<HTMLDivElement>();
   const { ref: institutionRef, width: institutionWidth } =
     useWidth<HTMLDivElement>();
-  const { ref: top20Ref, width: top20Width } = useWidth<HTMLDivElement>();
 
   const stackedHeight = 270;
   const lollipopHeight = 260;
   const heatmapHeight = 420;
+
+  const { ref: forceRef, width: forceWidth } = useWidth<HTMLDivElement>();
+  const forceHeight = 600;
 
   return (
     <ThemeProvider theme={theme}>
@@ -1155,10 +1557,15 @@ export default function App() {
           <Container maxWidth="xl">
             <Toolbar disableGutters sx={{ minHeight: 60 }}>
               <Stack
-                direction="row"
                 spacing={1.2}
-                alignItems="center"
-                sx={{ flexGrow: 1 }}
+                sx={{
+                  flexGrow: 1,
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "start",
+                  gap: 2,
+                  flexDirection: "row",
+                }}
               >
                 <Box
                   sx={{
@@ -1175,7 +1582,11 @@ export default function App() {
                 </Box>
                 <Typography
                   variant="subtitle1"
-                  sx={{ fontWeight: 700, fontSize: "0.95rem" }}
+                  sx={{
+                    fontWeight: 700,
+                    fontSize: "0.95rem",
+                    marginTop: "0px !important",
+                  }}
                 >
                   CAPES Analytics
                 </Typography>
@@ -1186,559 +1597,496 @@ export default function App() {
         <Toolbar />
 
         <Container maxWidth="xl" sx={{ py: { xs: 3.5, md: 5 } }}>
-          <Box sx={{ mb: 4 }}>
-            <Typography
-              variant="overline"
-              sx={{
-                color: PALETTE[5],
-                fontWeight: 800,
-                letterSpacing: "0.12em",
-              }}
-            >
-              CAPES · Computação
-            </Typography>
-            <Typography
-              variant="h2"
-              sx={{
-                fontSize: { xs: "1.9rem", md: "2.4rem" },
-                mt: 0.5,
-                mb: 1.25,
-              }}
-            >
-              Painel analítico
-            </Typography>
-            <Typography
-              variant="body1"
-              color="text.secondary"
-              sx={{ maxWidth: 760 }}
-            >
-              Visão integrada do corpo docente dos programas de pós-graduação em
-              Computação avaliados pela CAPES. O recorte atual é{" "}
-              <Box component="span" sx={{ color: PALETTE[5], fontWeight: 700 }}>
-                {selectedLabel}
-              </Box>
-              .
-            </Typography>
-
-            <Box
-              sx={{
-                mt: 3,
-                display: "flex",
-                flexWrap: "wrap",
-                gap: 1,
-                alignItems: "center",
-              }}
-            >
-              <Button
-                variant={selectedPeriod === "GERAL" ? "contained" : "outlined"}
-                onClick={() => setSelectedPeriod("GERAL")}
+          <Box
+            sx={{
+              mb: 4,
+              display: "flex",
+              flexDirection: { xs: "column", lg: "row" },
+              gap: 4,
+              justifyContent: "space-between",
+              alignItems: { xs: "flex-start", lg: "flex-end" },
+            }}
+          >
+            <Box>
+              <Typography
+                variant="overline"
                 sx={{
-                  borderColor: alpha(PALETTE[4], 0.5),
-                  bgcolor:
-                    selectedPeriod === "GERAL" ? PALETTE[4] : "transparent",
-                  color: selectedPeriod === "GERAL" ? "#080E1A" : PALETTE[5],
-                  "&:hover": {
-                    bgcolor:
-                      selectedPeriod === "GERAL"
-                        ? PALETTE[5]
-                        : alpha(PALETTE[4], 0.12),
-                    borderColor: PALETTE[5],
-                  },
+                  color: PALETTE[5],
+                  fontWeight: 800,
+                  letterSpacing: "0.12em",
                 }}
               >
-                Geral
-              </Button>
-              {anos.map((ano) => (
+                CAPES · Computação
+              </Typography>
+              <Typography
+                variant="h2"
+                sx={{
+                  fontSize: { xs: "1.9rem", md: "2.4rem" },
+                  mt: 0.5,
+                  mb: 1.25,
+                }}
+              >
+                Painel analítico
+              </Typography>
+              <Typography
+                variant="body1"
+                color="text.secondary"
+                sx={{ maxWidth: 760 }}
+              >
+                Visão integrada dos corpos docente e discente dos programas de
+                pós-graduação em Computação avaliados pela CAPES. O recorte
+                atual é{" "}
+                <Box
+                  component="span"
+                  sx={{ color: PALETTE[5], fontWeight: 700 }}
+                >
+                  {selectedLabel}
+                </Box>
+                .
+              </Typography>
+
+              <Box
+                sx={{
+                  mt: 3,
+                  display: "flex",
+                  flexWrap: "wrap",
+                  gap: 1,
+                  alignItems: "center",
+                }}
+              >
                 <Button
-                  key={ano}
                   variant={
-                    selectedPeriod === String(ano) ? "contained" : "outlined"
+                    selectedPeriod === "GERAL" ? "contained" : "outlined"
                   }
-                  onClick={() => setSelectedPeriod(String(ano))}
+                  onClick={() => setSelectedPeriod("GERAL")}
                   sx={{
-                    borderColor: alpha(PALETTE[1], 0.5),
+                    borderColor: alpha(PALETTE[4], 0.5),
                     bgcolor:
-                      selectedPeriod === String(ano)
-                        ? PALETTE[1]
-                        : "transparent",
-                    color:
-                      selectedPeriod === String(ano) ? "#F1F5F9" : PALETTE[5],
+                      selectedPeriod === "GERAL" ? PALETTE[4] : "transparent",
+                    color: selectedPeriod === "GERAL" ? "#080E1A" : PALETTE[5],
                     "&:hover": {
                       bgcolor:
-                        selectedPeriod === String(ano)
-                          ? PALETTE[2]
-                          : alpha(PALETTE[1], 0.12),
-                      borderColor: PALETTE[2],
+                        selectedPeriod === "GERAL"
+                          ? PALETTE[5]
+                          : alpha(PALETTE[4], 0.12),
+                      borderColor: PALETTE[5],
                     },
                   }}
                 >
-                  {ano}
+                  Geral
                 </Button>
-              ))}
+                {anos.map((ano) => (
+                  <Button
+                    key={ano}
+                    variant={
+                      selectedPeriod === String(ano) ? "contained" : "outlined"
+                    }
+                    onClick={() => setSelectedPeriod(String(ano))}
+                    sx={{
+                      borderColor: alpha(PALETTE[1], 0.5),
+                      bgcolor:
+                        selectedPeriod === String(ano)
+                          ? PALETTE[1]
+                          : "transparent",
+                      color:
+                        selectedPeriod === String(ano) ? "#F1F5F9" : PALETTE[5],
+                      "&:hover": {
+                        bgcolor:
+                          selectedPeriod === String(ano)
+                            ? PALETTE[2]
+                            : alpha(PALETTE[1], 0.12),
+                        borderColor: PALETTE[2],
+                      },
+                    }}
+                  >
+                    {ano}
+                  </Button>
+                ))}
+              </Box>
+            </Box>
+
+            <Box
+              sx={{
+                display: "flex",
+                gap: 2,
+                alignItems: "center",
+                flexWrap: "wrap",
+              }}
+            >
+              <FormControl size="small" sx={{ minWidth: 150 }}>
+                <InputLabel sx={{ color: "text.secondary" }}>
+                  Instituição (IES)
+                </InputLabel>
+                <Select
+                  value={selectedIES}
+                  label="Instituição (IES)"
+                  onChange={(e) => {
+                    setSelectedIES(e.target.value);
+                    setSelectedProgram("");
+                  }}
+                  sx={{
+                    color: "text.primary",
+                    ".MuiOutlinedInput-notchedOutline": {
+                      borderColor: "rgba(255,255,255,0.2)",
+                    },
+                  }}
+                >
+                  <MenuItem value="">
+                    <em>Global (Nenhuma)</em>
+                  </MenuItem>
+                  {Object.keys(menuOpcoes)
+                    .sort()
+                    .map((ies) => (
+                      <MenuItem key={ies} value={ies}>
+                        {ies}
+                      </MenuItem>
+                    ))}
+                </Select>
+              </FormControl>
+
+              <FormControl
+                size="small"
+                sx={{ minWidth: 280 }}
+                disabled={!selectedIES}
+              >
+                <InputLabel sx={{ color: "text.secondary" }}>
+                  Programa
+                </InputLabel>
+                <Select
+                  value={selectedProgram}
+                  label="Programa"
+                  onChange={(e) => setSelectedProgram(e.target.value)}
+                  sx={{
+                    color: "text.primary",
+                    ".MuiOutlinedInput-notchedOutline": {
+                      borderColor: "rgba(255,255,255,0.2)",
+                    },
+                  }}
+                >
+                  <MenuItem value="">
+                    <em>Selecione o programa</em>
+                  </MenuItem>
+                  {selectedIES &&
+                    menuOpcoes[selectedIES]?.map((prog) => (
+                      <MenuItem key={prog.cd_programa} value={prog.cd_programa}>
+                        {prog.nm_programa}
+                      </MenuItem>
+                    ))}
+                </Select>
+              </FormControl>
             </Box>
           </Box>
 
-          {/* <Box
-            sx={{
-              mb: 5,
-              display: "grid",
-              gridTemplateColumns: {
-                xs: "1fr 1fr",
-                md: "repeat(4, minmax(0, 1fr))",
-              },
-              gap: 1.5,
-            }}
+          <Divider sx={{ mb: 4, borderColor: "rgba(148,163,184,0.15)" }} />
+          <Box
+            ref={forceRef}
+            sx={{ mb: 5, gridColumn: { xs: "auto", xl: "1 / -1" } }}
           >
-            <Card
-              sx={{
-                background: "#0F1928",
-                borderColor: "rgba(148,163,184,0.08)",
-              }}
-            >
-              <CardContent sx={{ p: 2.5 }}>
-                <Stack
-                  direction="row"
-                  spacing={1.5}
-                  alignItems="center"
-                  sx={{ mb: 1.5 }}
-                >
-                  <Box
-                    sx={{
-                      width: 34,
-                      height: 34,
-                      display: "grid",
-                      placeItems: "center",
-                      bgcolor: alpha(PALETTE[4], 0.1),
-                      color: PALETTE[4],
-                      border: `1px solid ${alpha(PALETTE[4], 0.16)}`,
-                    }}
-                  >
-                    <DataObjectRounded fontSize="small" />
-                  </Box>
-                  <Typography variant="body2" color="text.secondary">
-                    Total de registros
-                  </Typography>
-                </Stack>
-                <Typography
-                  variant="h4"
-                  sx={{ fontSize: { xs: "1.8rem", md: "2.1rem" } }}
-                >
-                  {formatNumber(metrics.totalRegistros)}
-                </Typography>
-              </CardContent>
-            </Card>
-
-            <Card
-              sx={{
-                background: "#0F1928",
-                borderColor: "rgba(148,163,184,0.08)",
-              }}
-            >
-              <CardContent sx={{ p: 2.5 }}>
-                <Stack
-                  direction="row"
-                  spacing={1.5}
-                  alignItems="center"
-                  sx={{ mb: 1.5 }}
-                >
-                  <Box
-                    sx={{
-                      width: 34,
-                      height: 34,
-                      display: "grid",
-                      placeItems: "center",
-                      bgcolor: alpha(PALETTE[2], 0.1),
-                      color: PALETTE[2],
-                      border: `1px solid ${alpha(PALETTE[2], 0.16)}`,
-                    }}
-                  >
-                    <HubRounded fontSize="small" />
-                  </Box>
-                  <Typography variant="body2" color="text.secondary">
-                    Programas avaliados
-                  </Typography>
-                </Stack>
-                <Typography
-                  variant="h4"
-                  sx={{ fontSize: { xs: "1.8rem", md: "2.1rem" } }}
-                >
-                  {formatNumber(metrics.quantidadeProgramas)}
-                </Typography>
-              </CardContent>
-            </Card>
-
-            <Card
-              sx={{
-                background: "#0F1928",
-                borderColor: "rgba(148,163,184,0.08)",
-              }}
-            >
-              <CardContent sx={{ p: 2.5 }}>
-                <Stack
-                  direction="row"
-                  spacing={1.5}
-                  alignItems="center"
-                  sx={{ mb: 1.5 }}
-                >
-                  <Box
-                    sx={{
-                      width: 34,
-                      height: 34,
-                      display: "grid",
-                      placeItems: "center",
-                      bgcolor: alpha(PALETTE[5], 0.1),
-                      color: PALETTE[5],
-                      border: `1px solid ${alpha(PALETTE[5], 0.16)}`,
-                    }}
-                  >
-                    <QueryStatsRounded fontSize="small" />
-                  </Box>
-                  <Typography variant="body2" color="text.secondary">
-                    Maior conceito
-                  </Typography>
-                </Stack>
-                <Typography
-                  variant="h4"
-                  sx={{ fontSize: { xs: "1.8rem", md: "2.1rem" } }}
-                >
-                  {formatNumber(metrics.maxConcept)}
-                </Typography>
-              </CardContent>
-            </Card>
-
-            <Card
-              sx={{
-                background: "#0F1928",
-                borderColor: "rgba(148,163,184,0.08)",
-              }}
-            >
-              <CardContent sx={{ p: 2.5 }}>
-                <Stack
-                  direction="row"
-                  spacing={1.5}
-                  alignItems="center"
-                  sx={{ mb: 1.5 }}
-                >
-                  <Box
-                    sx={{
-                      width: 34,
-                      height: 34,
-                      display: "grid",
-                      placeItems: "center",
-                      bgcolor: alpha(PALETTE[3], 0.1),
-                      color: PALETTE[3],
-                      border: `1px solid ${alpha(PALETTE[3], 0.16)}`,
-                    }}
-                  >
-                    <AccessTimeFilledRounded fontSize="small" />
-                  </Box>
-                  <Typography variant="body2" color="text.secondary">
-                    Recorte ativo
-                  </Typography>
-                </Stack>
-                <Typography
-                  variant="h4"
-                  sx={{ fontSize: { xs: "1.55rem", md: "1.9rem" } }}
-                >
-                  {selectedLabel}
-                </Typography>
-              </CardContent>
-            </Card>
-          </Box> */}
-
-          <Box sx={{ mb: 4 }}>
-            <Typography variant="h4" sx={{ mb: 1 }}>
-              Visão Geral Consolidada
-            </Typography>
-            <Typography variant="body2" color="text.secondary" sx={{ mb: 3 }}>
-              Todos os eixos da avaliação no recorte selecionado. Cores intensas
-              indicam maior concentração relativa dentro de cada indicador.
-            </Typography>
-          </Box>
-
-          <Box ref={heatmapRef} sx={{ mb: 5 }}>
             <ChartShell
-              title="Matriz comparativa normalizada"
-              subtitle="Indicadores em escala de 0 a 100 por linha"
-              description="Explore rapidamente quais conceitos dominam quais características. Programas mais altos tendem a se concentrar nas faixas superiores da matriz."
-              icon={QueryStatsRounded}
+              title="Análise Multidimensional (Gráfico Radar)"
+              subtitle="Comparativo de indicadores por conceito CAPES"
+              description="Explore a área de cobertura de cada conceito nas diferentes métricas. Selecione um programa específico no menu acima para sobrepô-lo aos conceitos."
+              icon={ShareRounded}
               accent={PALETTE[4]}
               fullWidth
             >
-              {heatmapWidth > 0 && (
-                <HeatmapChart
-                  rows={charts.heatRows}
-                  width={heatmapWidth}
-                  height={heatmapHeight}
+              {forceWidth > 0 && (
+                <CapesRadarChart
+                  data={radarData}
+                  programRadar={programRadarMetrics}
+                  programName={programName}
+                  width={forceWidth}
+                  height={forceHeight}
                 />
               )}
             </ChartShell>
           </Box>
 
-          <Box sx={{ mb: 4 }}>
-            <Typography variant="h4" sx={{ mb: 1 }}>
-              Detalhamento por Eixo Temático
-            </Typography>
-          </Box>
+          <Box sx={{ mb: 8 }}>
+            <Box sx={{ mb: 4 }}>
+              <Typography variant="h3" sx={{ mb: 1, color: "#F8FAFC" }}>
+                1. Visão do Corpo Docente
+              </Typography>
+              <Typography variant="body2" color="text.secondary">
+                Explore os indicadores focados nos professores formadores,
+                atração de talentos e estrutura.
+              </Typography>
+            </Box>
 
-          <Box
-            sx={{
-              display: "grid",
-              gridTemplateColumns: {
-                xs: "1fr",
-                xl: "repeat(2, minmax(0, 1fr))",
-              },
-              gap: 2,
-              mb: 5,
-            }}
-          >
-            <Box ref={leadershipRef}>
+            <Box ref={heatmapRef} sx={{ mb: 5 }}>
               <ChartShell
-                title="Bolsas de Produtividade (PQ)"
-                subtitle="Percentual por conceito"
-                description="Proporção de docentes bolsistas CNPq. Evidencia o acúmulo de lideranças científicas em programas de excelência."
-                icon={WorkspacePremiumRounded}
+                title="Matriz comparativa normalizada"
+                subtitle="Indicadores em escala de 0 a 100 por linha"
+                description="Explore rapidamente quais conceitos dominam quais características. Programas mais altos tendem a se concentrar nas faixas superiores da matriz."
+                icon={QueryStatsRounded}
                 accent={PALETTE[4]}
-              >
-                {leadershipWidth > 0 && (
-                  <StackedBarChart
-                    rows={charts.leadershipRows}
-                    categoryKey="TEM_BOLSA_PQ"
-                    valueKey="PERCENTUAL"
-                    width={leadershipWidth}
-                    height={stackedHeight}
-                    colorMap={{ SIM: PALETTE[4], NÃO: PALETTE[0] }}
-                  />
-                )}
-              </ChartShell>
-            </Box>
-
-            <Box ref={internationalRef}>
-              <ChartShell
-                title="Titulação no Exterior"
-                subtitle="Métrica de internacionalização"
-                description="Parcela com doutorado fora do Brasil. Crucial para inserção internacional."
-                icon={PublicRounded}
-                accent={PALETTE[5]}
-              >
-                {internationalWidth > 0 && (
-                  <StackedBarChart
-                    rows={charts.internationalRows}
-                    categoryKey="TITULADO_NO_EXTERIOR"
-                    valueKey="PERCENTUAL"
-                    width={internationalWidth}
-                    height={stackedHeight}
-                    colorMap={{ SIM: PALETTE[5], NÃO: PALETTE[1] }}
-                  />
-                )}
-              </ChartShell>
-            </Box>
-
-            <Box ref={nationalityRef}>
-              <ChartShell
-                title="Nacionalidade Docente"
-                subtitle="Atração de talentos globais"
-                description="Proporção de estrangeiros atuando nos programas. Notas mais altas tendem a atrair mais docentes internacionais."
-                icon={BadgeRounded}
-                accent={PALETTE[3]}
-              >
-                {nationalityWidth > 0 && (
-                  <StackedBarChart
-                    rows={charts.nationalityRows}
-                    categoryKey="DOCENTE_ESTRANGEIRO"
-                    valueKey="PERCENTUAL"
-                    width={nationalityWidth}
-                    height={stackedHeight}
-                    colorMap={{
-                      ESTRANGEIRO: PALETTE[3],
-                      BRASILEIRO: PALETTE[0],
-                    }}
-                  />
-                )}
-              </ChartShell>
-            </Box>
-
-            <Box ref={endogamyRef}>
-              <ChartShell
-                title="Endogamia Acadêmica"
-                subtitle="Formação na própria IES"
-                description="Docentes formados na mesma instituição. Altas taxas podem representar isolamento intelectual."
-                icon={GroupsRounded}
-                accent={PALETTE[2]}
-              >
-                {endogamyWidth > 0 && (
-                  <StackedBarChart
-                    rows={charts.endogamyRows}
-                    categoryKey="ENDOGAMIA"
-                    valueKey="PERCENTUAL"
-                    width={endogamyWidth}
-                    height={stackedHeight}
-                    colorMap={{ SIM: PALETTE[2], NÃO: PALETTE[0] }}
-                  />
-                )}
-              </ChartShell>
-            </Box>
-
-            <Box ref={categoryRef}>
-              <ChartShell
-                title="Categoria Docente"
-                subtitle="Composição do corpo docente"
-                description="Vínculo dos professores com o programa. O núcleo permanente é o eixo sustentador das avaliações."
-                icon={AccountBalanceRounded}
-                accent={PALETTE[1]}
-              >
-                {categoryWidth > 0 && (
-                  <StackedBarChart
-                    rows={charts.categoryRows}
-                    categoryKey="DS_CATEGORIA_DOCENTE"
-                    valueKey="PERCENTUAL"
-                    width={categoryWidth}
-                    height={stackedHeight}
-                    colorMap={{
-                      PERMANENTE: PALETTE[1],
-                      COLABORADOR: PALETTE[3],
-                      VISITANTE: PALETTE[5],
-                    }}
-                  />
-                )}
-              </ChartShell>
-            </Box>
-
-            <Box ref={regimeRef}>
-              <ChartShell
-                title="Regime de Trabalho"
-                subtitle="Dedicação ao programa"
-                description="Tempo investido na instituição. A dedicação exclusiva se relaciona com a constância das entregas acadêmicas."
-                icon={AccessTimeFilledRounded}
-                accent={PALETTE[5]}
-              >
-                {regimeWidth > 0 && (
-                  <StackedBarChart
-                    rows={charts.regimeRows}
-                    categoryKey="DS_REGIME_TRABALHO"
-                    valueKey="PERCENTUAL"
-                    width={regimeWidth}
-                    height={stackedHeight}
-                    colorMap={{
-                      "DEDICAÇÃO EXCLUSIVA": PALETTE[5],
-                      INTEGRAL: PALETTE[4],
-                      PARCIAL: PALETTE[3],
-                    }}
-                  />
-                )}
-              </ChartShell>
-            </Box>
-
-            <Box ref={institutionRef}>
-              <ChartShell
-                title="Natureza Administrativa"
-                subtitle="Pública vs Privada"
-                description="Distribuição dos docentes com base no caráter mantenedor da instituição. Fator estrutural importante."
-                icon={AccountBalanceRounded}
-                accent={PALETTE[3]}
-              >
-                {institutionWidth > 0 && (
-                  <StackedBarChart
-                    rows={charts.institutionRows}
-                    categoryKey="DS_DEPENDENCIA_ADMINISTRATIVA"
-                    valueKey="PERCENTUAL"
-                    width={institutionWidth}
-                    height={stackedHeight}
-                    colorMap={{ PÚBLICA: PALETTE[3], PRIVADA: PALETTE[0] }}
-                  />
-                )}
-              </ChartShell>
-            </Box>
-
-            <Box ref={regionRef}>
-              <ChartShell
-                title="Distribuição Regional"
-                subtitle="Cenário geográfico nacional"
-                description="Assimetrias entre regiões do Brasil nos diferentes degraus de excelência da CAPES."
-                icon={MapRounded}
-                accent={PALETTE[4]}
-              >
-                {regionWidth > 0 && (
-                  <StackedBarChart
-                    rows={charts.regionRows}
-                    categoryKey="NM_REGIAO"
-                    valueKey="PERCENTUAL"
-                    width={regionWidth}
-                    height={stackedHeight}
-                    colorMap={{
-                      SUDESTE: PALETTE[4],
-                      SUL: PALETTE[5],
-                      NORDESTE: PALETTE[3],
-                      "CENTRO-OESTE": PALETTE[2],
-                      NORTE: PALETTE[1],
-                    }}
-                  />
-                )}
-              </ChartShell>
-            </Box>
-
-            <Box ref={sizeRef}>
-              <ChartShell
-                title="Tamanho Médio"
-                subtitle="Docentes permanentes"
-                description="Volume médio de professores formadores de base por programa de Computação."
-                icon={ApartmentRounded}
-                accent={PALETTE[1]}
-              >
-                {sizeWidth > 0 && (
-                  <LollipopChart
-                    rows={charts.sizeRows}
-                    valueKey="MEDIA_DOCENTES_PERMANENTES_POR_PROGRAMA"
-                    width={sizeWidth}
-                    height={lollipopHeight}
-                    accent={PALETTE[1]}
-                  />
-                )}
-              </ChartShell>
-            </Box>
-
-            <Box ref={maturityRef}>
-              <ChartShell
-                title="Tempo de Doutorado"
-                subtitle="Média de anos de titulação"
-                description="Grupos mais maduros, com maior tempo de doutorado, costumam liderar os programas com nota máxima."
-                icon={SchoolRounded}
-                accent={PALETTE[2]}
-              >
-                {maturityWidth > 0 && (
-                  <LollipopChart
-                    rows={charts.maturityRows}
-                    valueKey="MEDIA_ANOS_DOUTORADO"
-                    width={maturityWidth}
-                    height={lollipopHeight}
-                    accent={PALETTE[2]}
-                  />
-                )}
-              </ChartShell>
-            </Box>
-
-            {/* <Box
-              ref={top20Ref}
-              sx={{ gridColumn: { xs: "auto", xl: "1 / -1" } }}
-            >
-              <ChartShell
-                title="Top 10 Instituições"
-                subtitle="Volume total no recorte"
-                description="Instituições com maior volume de docentes na amostra selecionada. Útil para localizar polos concentradores de produção acadêmica."
-                icon={InsightsRounded}
-                accent={PALETTE[5]}
                 fullWidth
               >
-                {top20Width > 0 && (
-                  <HorizontalBarChart
-                    data={charts.top20Rows}
-                    width={top20Width}
-                    height={320}
-                    accent={PALETTE[5]}
+                {heatmapWidth > 0 && (
+                  <HeatmapChart
+                    rows={charts.heatRows}
+                    width={heatmapWidth}
+                    height={heatmapHeight}
                   />
                 )}
               </ChartShell>
-            </Box> */}
+            </Box>
+
+            <Box
+              sx={{
+                display: "grid",
+                gridTemplateColumns: {
+                  xs: "1fr",
+                  xl: "repeat(2, minmax(0, 1fr))",
+                },
+                gap: 2,
+                mb: 5,
+              }}
+            >
+              <Box ref={leadershipRef}>
+                <ChartShell
+                  title="Bolsas de Produtividade (PQ)"
+                  subtitle="Percentual por conceito"
+                  description="Proporção de docentes bolsistas CNPq. Evidencia o acúmulo de lideranças científicas em programas de excelência."
+                  icon={WorkspacePremiumRounded}
+                  accent={PALETTE[4]}
+                >
+                  {leadershipWidth > 0 && (
+                    <StackedBarChart
+                      rows={charts.leadershipRows}
+                      categoryKey="TEM_BOLSA_PQ"
+                      valueKey="PERCENTUAL"
+                      width={leadershipWidth}
+                      height={stackedHeight}
+                      colorMap={{ SIM: PALETTE[4], NÃO: PALETTE[0] }}
+                    />
+                  )}
+                </ChartShell>
+              </Box>
+
+              <Box ref={internationalRef}>
+                <ChartShell
+                  title="Titulação no Exterior"
+                  subtitle="Métrica de internacionalização"
+                  description="Parcela com doutorado fora do Brasil. Crucial para inserção internacional."
+                  icon={PublicRounded}
+                  accent={PALETTE[5]}
+                >
+                  {internationalWidth > 0 && (
+                    <StackedBarChart
+                      rows={charts.internationalRows}
+                      categoryKey="TITULADO_NO_EXTERIOR"
+                      valueKey="PERCENTUAL"
+                      width={internationalWidth}
+                      height={stackedHeight}
+                      colorMap={{ SIM: PALETTE[5], NÃO: PALETTE[1] }}
+                    />
+                  )}
+                </ChartShell>
+              </Box>
+
+              <Box ref={nationalityRef}>
+                <ChartShell
+                  title="Nacionalidade Docente"
+                  subtitle="Atração de talentos globais"
+                  description="Proporção de estrangeiros atuando nos programas. Notas mais altas tendem a atrair mais docentes internacionais."
+                  icon={BadgeRounded}
+                  accent={PALETTE[3]}
+                >
+                  {nationalityWidth > 0 && (
+                    <StackedBarChart
+                      rows={charts.nationalityRows}
+                      categoryKey="DOCENTE_ESTRANGEIRO"
+                      valueKey="PERCENTUAL"
+                      width={nationalityWidth}
+                      height={stackedHeight}
+                      colorMap={{
+                        ESTRANGEIRO: PALETTE[3],
+                        BRASILEIRO: PALETTE[0],
+                      }}
+                    />
+                  )}
+                </ChartShell>
+              </Box>
+
+              <Box ref={endogamyRef}>
+                <ChartShell
+                  title="Endogamia Acadêmica"
+                  subtitle="Formação na própria IES"
+                  description="Docentes formados na mesma instituição. Altas taxas podem representar isolamento intelectual."
+                  icon={GroupsRounded}
+                  accent={PALETTE[2]}
+                >
+                  {endogamyWidth > 0 && (
+                    <StackedBarChart
+                      rows={charts.endogamyRows}
+                      categoryKey="ENDOGAMIA"
+                      valueKey="PERCENTUAL"
+                      width={endogamyWidth}
+                      height={stackedHeight}
+                      colorMap={{ SIM: PALETTE[2], NÃO: PALETTE[0] }}
+                    />
+                  )}
+                </ChartShell>
+              </Box>
+
+              <Box ref={categoryRef}>
+                <ChartShell
+                  title="Categoria Docente"
+                  subtitle="Composição do corpo docente"
+                  description="Vínculo dos professores com o programa. O núcleo permanente é o eixo sustentador das avaliações."
+                  icon={AccountBalanceRounded}
+                  accent={PALETTE[1]}
+                >
+                  {categoryWidth > 0 && (
+                    <StackedBarChart
+                      rows={charts.categoryRows}
+                      categoryKey="DS_CATEGORIA_DOCENTE"
+                      valueKey="PERCENTUAL"
+                      width={categoryWidth}
+                      height={stackedHeight}
+                      colorMap={{
+                        PERMANENTE: PALETTE[1],
+                        COLABORADOR: PALETTE[3],
+                        VISITANTE: PALETTE[5],
+                      }}
+                    />
+                  )}
+                </ChartShell>
+              </Box>
+
+              <Box ref={regimeRef}>
+                <ChartShell
+                  title="Regime de Trabalho"
+                  subtitle="Dedicação ao programa"
+                  description="Tempo investido na instituição. A dedicação exclusiva se relaciona com a constância das entregas acadêmicas."
+                  icon={AccessTimeFilledRounded}
+                  accent={PALETTE[5]}
+                >
+                  {regimeWidth > 0 && (
+                    <StackedBarChart
+                      rows={charts.regimeRows}
+                      categoryKey="DS_REGIME_TRABALHO"
+                      valueKey="PERCENTUAL"
+                      width={regimeWidth}
+                      height={stackedHeight}
+                      colorMap={{
+                        "DEDICAÇÃO EXCLUSIVA": PALETTE[5],
+                        INTEGRAL: PALETTE[4],
+                        PARCIAL: PALETTE[3],
+                      }}
+                    />
+                  )}
+                </ChartShell>
+              </Box>
+
+              <Box ref={institutionRef}>
+                <ChartShell
+                  title="Natureza Administrativa"
+                  subtitle="Pública vs Privada"
+                  description="Distribuição dos docentes com base no caráter mantenedor da instituição. Fator estrutural importante."
+                  icon={AccountBalanceRounded}
+                  accent={PALETTE[3]}
+                >
+                  {institutionWidth > 0 && (
+                    <StackedBarChart
+                      rows={charts.institutionRows}
+                      categoryKey="DS_DEPENDENCIA_ADMINISTRATIVA"
+                      valueKey="PERCENTUAL"
+                      width={institutionWidth}
+                      height={stackedHeight}
+                      colorMap={{ PÚBLICA: PALETTE[3], PRIVADA: PALETTE[0] }}
+                    />
+                  )}
+                </ChartShell>
+              </Box>
+
+              <Box ref={regionRef}>
+                <ChartShell
+                  title="Distribuição Regional"
+                  subtitle="Cenário geográfico nacional"
+                  description="Assimetrias entre regiões do Brasil nos diferentes degraus de excelência da CAPES."
+                  icon={MapRounded}
+                  accent={PALETTE[4]}
+                >
+                  {regionWidth > 0 && (
+                    <StackedBarChart
+                      rows={charts.regionRows}
+                      categoryKey="NM_REGIAO"
+                      valueKey="PERCENTUAL"
+                      width={regionWidth}
+                      height={stackedHeight}
+                      colorMap={{
+                        SUDESTE: PALETTE[4],
+                        SUL: PALETTE[5],
+                        NORDESTE: PALETTE[3],
+                        "CENTRO-OESTE": PALETTE[2],
+                        NORTE: PALETTE[1],
+                      }}
+                    />
+                  )}
+                </ChartShell>
+              </Box>
+
+              <Box ref={sizeRef}>
+                <ChartShell
+                  title="Tamanho Médio"
+                  subtitle="Docentes permanentes"
+                  description="Volume médio de professores formadores de base por programa de Computação."
+                  icon={ApartmentRounded}
+                  accent={PALETTE[1]}
+                >
+                  {sizeWidth > 0 && (
+                    <LollipopChart
+                      rows={charts.sizeRows}
+                      valueKey="MEDIA_DOCENTES_PERMANENTES_POR_PROGRAMA"
+                      width={sizeWidth}
+                      height={lollipopHeight}
+                      accent={PALETTE[1]}
+                    />
+                  )}
+                </ChartShell>
+              </Box>
+
+              <Box ref={maturityRef}>
+                <ChartShell
+                  title="Tempo de Doutorado"
+                  subtitle="Média de anos de titulação"
+                  description="Grupos mais maduros, com maior tempo de doutorado, costumam liderar os programas com nota máxima."
+                  icon={SchoolRounded}
+                  accent={PALETTE[2]}
+                >
+                  {maturityWidth > 0 && (
+                    <LollipopChart
+                      rows={charts.maturityRows}
+                      valueKey="MEDIA_ANOS_DOUTORADO"
+                      width={maturityWidth}
+                      height={lollipopHeight}
+                      accent={PALETTE[2]}
+                    />
+                  )}
+                </ChartShell>
+              </Box>
+            </Box>
+          </Box>
+
+          <Divider sx={{ mb: 4, borderColor: "rgba(148,163,184,0.15)" }} />
+
+          <Box sx={{ mb: 4 }}>
+            <Typography variant="h3" sx={{ mb: 1, color: "#F8FAFC" }}>
+              2. Visão do Corpo Discente
+            </Typography>
+            <Typography variant="body2" color="text.secondary" sx={{ mb: 3 }}>
+              Métricas relativas aos alunos, acompanhando status acadêmico,
+              demografia e tempo de titulação no período de{" "}
+              <strong>{selectedLabel}</strong>.
+            </Typography>
+
+            <StudentsPanel
+              activeData={activeStudentsData}
+              progDiscentes={progDiscentes}
+              pLabel={programName}
+            />
           </Box>
         </Container>
       </Box>
