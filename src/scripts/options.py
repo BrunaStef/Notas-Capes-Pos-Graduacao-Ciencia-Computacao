@@ -4,218 +4,211 @@ import json
 import glob
 import numpy as np
 
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+DIR = os.path.dirname(os.path.abspath(__file__))
+BASE_DIR = os.path.join(DIR, "data")
 
-caminho_indicadores = os.path.join(BASE_DIR, "indicadores", "programas")
+caminho_indicadores = os.path.join(BASE_DIR, "indicadores", "programas-atualizados")
 os.makedirs(caminho_indicadores, exist_ok=True)
+
+# Limites globais para normalização (baseados no script principal de consolidação)
+GLOBAL_BOUNDS = {
+    "total_docentes_permanentes": {"min": 0, "max": 150},
+    "docentes_permanentes_por_programa": {"min": 0, "max": 150},
+    "pct_docentes_permanentes": {"min": 0, "max": 100},
+    "pct_pq": {"min": 0, "max": 100},
+    "pct_titulado_no_exterior": {"min": 0, "max": 100},
+    "pct_docente_estrangeiro": {"min": 0, "max": 100},
+    "pct_endogamia": {"min": 0, "max": 100},
+    "pct_dedicacao_exclusiva": {"min": 0, "max": 100},
+    "pct_instituicao_publica": {"min": 0, "max": 100},
+    "media_anos_doutorado": {"min": 0, "max": 40},
+    "discentes_por_programa": {"min": 0, "max": 1000},
+    "pct_mestrado": {"min": 0, "max": 100},
+    "pct_doutorado": {"min": 0, "max": 100},
+    "pct_titulado": {"min": 0, "max": 100},
+    "taxa_evasao": {"min": 0, "max": 100},
+    "pct_estrangeiro_discente": {"min": 0, "max": 100},
+    "media_meses_titulacao_mestrado": {"min": 0, "max": 60},
+    "media_meses_titulacao_doutorado": {"min": 0, "max": 72}
+}
 
 areas_validas = ["CIÊNCIA DA COMPUTAÇÃO", "COMPUTAÇÃO", "ENGENHARIA DA COMPUTAÇÃO"]
 
 print("[1/6] Iniciando carregamento de Discentes...")
 arquivos_discentes = glob.glob(os.path.join(BASE_DIR, "br-capes-colsucup-discentes-*.xlsx")) + glob.glob(os.path.join(BASE_DIR, "br-capes-colsucup-discentes-*.csv"))
-print(f"      Encontrados {len(arquivos_discentes)} arquivos de discentes.")
-
 dfs_discentes = []
 for arq in arquivos_discentes:
     try:
-        print(f"      Lendo: {os.path.basename(arq)}...")
+        print(f"lendo {os.path.basename(arq)}...")
+
         df_ano = pd.read_excel(arq) if arq.endswith(".xlsx") else pd.read_csv(arq, sep=";", encoding="latin1", low_memory=False)
         dfs_discentes.append(df_ano)
     except Exception as e:
         print(f"      Erro ao ler {os.path.basename(arq)}: {e}")
 
-print("      Concatenando dados de discentes...")
-df_discentes_raw = pd.concat(dfs_discentes, ignore_index=True)
-
-print("      Filtrando e limpando dados de discentes...")
-df_discentes = df_discentes_raw[df_discentes_raw["NM_AREA_AVALIACAO"].astype(str).str.strip().str.upper().isin(areas_validas)].copy()
-df_discentes["AN_BASE"] = pd.to_numeric(df_discentes["AN_BASE"], errors="coerce").dropna().astype(int)
+df_discentes = pd.concat(dfs_discentes, ignore_index=True)
+df_discentes = df_discentes[df_discentes["NM_AREA_AVALIACAO"].astype(str).str.strip().str.upper().isin(areas_validas)].copy()
+df_discentes["AN_BASE"] = pd.to_numeric(df_discentes["AN_BASE"], errors="coerce").astype(int)
 df_discentes["CD_PROGRAMA_IES"] = df_discentes["CD_PROGRAMA_IES"].astype(str).str.strip()
 
 print("[2/6] Iniciando carregamento de Docentes...")
 arquivos_docentes = glob.glob(os.path.join(BASE_DIR, "br-capes-colsucup-docente-*.xlsx")) + glob.glob(os.path.join(BASE_DIR, "br-capes-colsucup-docente-*.csv"))
-print(f"      Encontrados {len(arquivos_docentes)} arquivos de docentes.")
-
 dfs_docentes = []
 for arq in arquivos_docentes:
     try:
-        print(f"      Lendo: {os.path.basename(arq)}...")
+        print(f"lendo {os.path.basename(arq)}...")
         df_ano = pd.read_excel(arq) if arq.endswith(".xlsx") else pd.read_csv(arq, sep=";", encoding="latin1", low_memory=False)
         dfs_docentes.append(df_ano)
     except Exception as e:
         print(f"      Erro ao ler {os.path.basename(arq)}: {e}")
 
-print("      Concatenando dados de docentes...")
-df_docentes_raw = pd.concat(dfs_docentes, ignore_index=True)
-
-print("      Filtrando e limpando dados de docentes...")
-df_docentes = df_docentes_raw[df_docentes_raw["NM_AREA_AVALIACAO"].astype(str).str.strip().str.upper().isin(areas_validas)].copy()
-df_docentes["AN_BASE"] = pd.to_numeric(df_docentes["AN_BASE"], errors="coerce").dropna().astype(int)
+df_docentes = pd.concat(dfs_docentes, ignore_index=True)
+df_docentes = df_docentes[df_docentes["NM_AREA_AVALIACAO"].astype(str).str.strip().str.upper().isin(areas_validas)].copy()
+df_docentes["AN_BASE"] = pd.to_numeric(df_docentes["AN_BASE"], errors="coerce").astype(int)
 df_docentes["CD_PROGRAMA_IES"] = df_docentes["CD_PROGRAMA_IES"].astype(str).str.strip()
 
-print("[3/6] Gerando mapeamento de menus para o Front-end...")
+def calcular_metricas_radar_programa(df_doc_prog, df_disc_prog):
+    permanentes = df_doc_prog[df_doc_prog["DS_CATEGORIA_DOCENTE"].astype(str).str.strip().str.upper() == "PERMANENTE"]
+    total_doc = len(permanentes)
+    
+    pct_pq = (len(permanentes[permanentes["CD_CAT_BOLSA_PRODUTIVIDADE"].notna()]) / total_doc * 100) if total_doc > 0 else 0
+    pct_ext = (len(permanentes[permanentes["NM_PAIS_IES_TITULACAO"].astype(str).str.strip().str.upper() != "BRASIL"]) / total_doc * 100) if total_doc > 0 else 0
+    pct_doc_est = (len(permanentes[permanentes["DS_TIPO_NACIONALIDADE_DOCENTE"].astype(str).str.strip().str.upper() != "BRASILEIRO"]) / total_doc * 100) if total_doc > 0 else 0
+    pct_endo = (len(permanentes[permanentes["SG_ENTIDADE_ENSINO"].astype(str).str.strip().str.upper() == permanentes["SG_IES_TITULACAO"].astype(str).str.strip().str.upper()]) / total_doc * 100) if total_doc > 0 else 0
+    pct_ded = (len(permanentes[permanentes["DS_REGIME_TRABALHO"].astype(str).str.strip().str.upper() == "DEDICAÇÃO EXCLUSIVA"]) / total_doc * 100) if total_doc > 0 else 0
+    
+    pct_pub = 0
+    if "DS_DEPENDENCIA_ADMINISTRATIVA" in permanentes.columns:
+        pct_pub = (len(permanentes[permanentes["DS_DEPENDENCIA_ADMINISTRATIVA"].astype(str).str.strip().str.upper() == "PÚBLICA"]) / total_doc * 100) if total_doc > 0 else 0
+    
+    perm_copy = permanentes.copy()
+    perm_copy["AN_TITULACAO"] = pd.to_numeric(perm_copy["AN_TITULACAO"], errors="coerce")
+    maturidade = (perm_copy["AN_BASE"] - perm_copy["AN_TITULACAO"]).mean() if not perm_copy.empty else 0
+
+    total_disc = len(df_disc_prog)
+    pct_mest = (len(df_disc_prog[df_disc_prog["DS_GRAU_ACADEMICO_DISCENTE"].astype(str).str.upper() == "MESTRADO"]) / total_disc * 100) if total_disc > 0 else 0
+    pct_dout = (len(df_disc_prog[df_disc_prog["DS_GRAU_ACADEMICO_DISCENTE"].astype(str).str.upper() == "DOUTORADO"]) / total_disc * 100) if total_disc > 0 else 0
+    pct_tit = (len(df_disc_prog[df_disc_prog["NM_SITUACAO_DISCENTE"].astype(str).str.upper() == "TITULADO"]) / total_disc * 100) if total_disc > 0 else 0
+    taxa_evas = (len(df_disc_prog[df_disc_prog["NM_SITUACAO_DISCENTE"].astype(str).str.upper() == "DESLIGADO"]) / total_disc * 100) if total_disc > 0 else 0
+    pct_disc_est = (len(df_disc_prog[df_disc_prog["DS_TIPO_NACIONALIDADE_DISCENTE"].astype(str).str.upper() != "BRASILEIRA"]) / total_disc * 100) if total_disc > 0 else 0
+    
+    titulados = df_disc_prog[df_disc_prog["NM_SITUACAO_DISCENTE"].astype(str).str.upper() == "TITULADO"]
+    media_m = titulados[titulados["DS_GRAU_ACADEMICO_DISCENTE"].astype(str).str.upper() == "MESTRADO"]["QT_MES_TITULACAO"].mean()
+    media_d = titulados[titulados["DS_GRAU_ACADEMICO_DISCENTE"].astype(str).str.upper() == "DOUTORADO"]["QT_MES_TITULACAO"].mean()
+
+    return {
+        "total_docentes_permanentes": float(total_doc),
+        "docentes_permanentes_por_programa": float(total_doc),
+        "pct_docentes_permanentes": float(100),
+        "pct_pq": float(pct_pq),
+        "pct_titulado_no_exterior": float(pct_ext),
+        "pct_docente_estrangeiro": float(pct_doc_est),
+        "pct_endogamia": float(pct_endo),
+        "pct_dedicacao_exclusiva": float(pct_ded),
+        "pct_instituicao_publica": float(pct_pub),
+        "media_anos_doutorado": float(maturidade),
+        "discentes_por_programa": float(total_disc),
+        "pct_mestrado": float(pct_mest),
+        "pct_doutorado": float(pct_dout),
+        "pct_titulado": float(pct_tit),
+        "taxa_evasao": float(taxa_evas),
+        "pct_estrangeiro_discente": float(pct_disc_est),
+        "media_meses_titulacao_mestrado": float(media_m if pd.notna(media_m) else 0),
+        "media_meses_titulacao_doutorado": float(media_d if pd.notna(media_d) else 0)
+    }
+
+def normalizar_metricas_programa(valores):
+    normalizado = {}
+    for key, val in valores.items():
+        bounds = GLOBAL_BOUNDS.get(key, {"min": 0, "max": 1})
+        norm = (val - bounds["min"]) / (bounds["max"] - bounds["min"]) if (bounds["max"] - bounds["min"]) != 0 else 0
+        normalizado[key] = float(np.clip(norm, 0, 1))
+    return normalizado
+
+def gerar_radar_programa(df_doc, df_disc):
+    reais = calcular_metricas_radar_programa(df_doc, df_disc)
+    return {"valores_reais": reais, "normalizado": normalizar_metricas_programa(reais)}
+
+print("[3/6] Gerando mapeamento de menus...")
 menu_opcoes = {}
-mapeamento_programas = df_discentes.dropna(subset=["SG_ENTIDADE_ENSINO", "NM_PROGRAMA_IES"]).groupby(
-    ["SG_ENTIDADE_ENSINO", "CD_PROGRAMA_IES", "NM_PROGRAMA_IES"]
-).size().reset_index()
-
-for _, row in mapeamento_programas.iterrows():
+mapeamento = df_discentes.groupby(["SG_ENTIDADE_ENSINO", "CD_PROGRAMA_IES", "NM_PROGRAMA_IES"]).size().reset_index()
+for _, row in mapeamento.iterrows():
     ies = str(row["SG_ENTIDADE_ENSINO"]).strip().upper()
-    cd_prog = str(row["CD_PROGRAMA_IES"]).strip()
-    nm_prog = str(row["NM_PROGRAMA_IES"]).strip().upper()
-    
-    if ies not in menu_opcoes:
-        menu_opcoes[ies] = []
-        
-    if not any(p["cd_programa"] == cd_prog for p in menu_opcoes[ies]):
-        menu_opcoes[ies].append({
-            "cd_programa": cd_prog,
-            "nm_programa": nm_prog
-        })
-
-caminho_menu = os.path.join(BASE_DIR, "indicadores", "menu_opcoes.json")
-with open(caminho_menu, "w", encoding="utf-8") as f:
+    cd = str(row["CD_PROGRAMA_IES"]).strip()
+    if ies not in menu_opcoes: menu_opcoes[ies] = []
+    menu_opcoes[ies].append({"cd_programa": cd, "nm_programa": str(row["NM_PROGRAMA_IES"]).strip().upper()})
+with open(os.path.join(BASE_DIR, "indicadores", "menu_opcoes.json"), "w", encoding="utf-8") as f:
     json.dump(menu_opcoes, f, ensure_ascii=False, indent=2)
-print(f"      Menu salvo em: {caminho_menu}")
 
-print("[4/6] Definindo funções de cálculo...")
-
-def calcular_proporcao_programa(df_dados, coluna_analise):
-    df_aux = df_dados.dropna(subset=[coluna_analise]).copy()
-    if df_aux[coluna_analise].dtype == "object":
-        df_aux[coluna_analise] = df_aux[coluna_analise].astype(str).str.strip().str.upper()
+def calcular_proporcao_programa(df_dados, col):
+    df_aux = df_dados.dropna(subset=[col]).copy()
+    if df_aux[col].dtype == "object": df_aux[col] = df_aux[col].astype(str).str.strip().str.upper()
     if len(df_aux) == 0: return []
-    
-    agrupado = df_aux.groupby(coluna_analise).size().reset_index(name="TOTAL")
-    total = agrupado["TOTAL"].sum()
-    agrupado["PERCENTUAL"] = ((agrupado["TOTAL"] / total) * 100).round(2)
+    agrupado = df_aux.groupby(col).size().reset_index(name="TOTAL")
+    agrupado["PERCENTUAL"] = ((agrupado["TOTAL"] / agrupado["TOTAL"].sum()) * 100).round(2)
     return agrupado.to_dict("records")
 
-def gerar_metricas_discentes_programa(df_base):
-    if len(df_base) == 0: return {}
-    
-    titulados = df_base[df_base["NM_SITUACAO_DISCENTE"].astype(str).str.strip().str.upper() == "TITULADO"].copy()
+def gerar_metricas_discentes_programa(df):
+    if len(df) == 0: return {}
+    titulados = df[df["NM_SITUACAO_DISCENTE"].astype(str).str.strip().str.upper() == "TITULADO"].copy()
     titulados["QT_MES_TITULACAO"] = pd.to_numeric(titulados["QT_MES_TITULACAO"], errors="coerce")
-    titulados = titulados[titulados["QT_MES_TITULACAO"] > 0]
-    
-    tempo_titulacao = titulados.dropna(subset=["QT_MES_TITULACAO", "DS_GRAU_ACADEMICO_DISCENTE"]).groupby(
-        "DS_GRAU_ACADEMICO_DISCENTE"
-    )["QT_MES_TITULACAO"].mean().round(1).reset_index(name="MEDIA_MESES_TITULACAO")
-
-    tamanho_medio = df_base.groupby("AN_BASE").size().mean().round(1)
-
+    tempo = titulados.dropna(subset=["QT_MES_TITULACAO", "DS_GRAU_ACADEMICO_DISCENTE"]).groupby("DS_GRAU_ACADEMICO_DISCENTE")["QT_MES_TITULACAO"].mean().round(1).reset_index(name="MEDIA_MESES_TITULACAO")
     return {
-        "distribuicao_grau_academico": calcular_proporcao_programa(df_base, "DS_GRAU_ACADEMICO_DISCENTE"),
-        "situacao_academica": calcular_proporcao_programa(df_base, "NM_SITUACAO_DISCENTE"),
-        "internacionalizacao_nacionalidade": calcular_proporcao_programa(df_base, "DS_TIPO_NACIONALIDADE_DISCENTE"),
-        "tempo_medio_titulacao": tempo_titulacao.to_dict("records"),
-        "tamanho_total_alunos_periodo": int(len(df_base)),
-        "media_alunos_por_ano": float(tamanho_medio),
-        "faixa_etaria": calcular_proporcao_programa(df_base, "DS_FAIXA_ETARIA")
+        "distribuicao_grau_academico": calcular_proporcao_programa(df, "DS_GRAU_ACADEMICO_DISCENTE"),
+        "situacao_academica": calcular_proporcao_programa(df, "NM_SITUACAO_DISCENTE"),
+        "internacionalizacao_nacionalidade": calcular_proporcao_programa(df, "DS_TIPO_NACIONALIDADE_DISCENTE"),
+        "tempo_medio_titulacao": tempo.to_dict("records"),
+        "tamanho_total_alunos_periodo": int(len(df)),
+        "media_alunos_por_ano": float(df.groupby("AN_BASE").size().mean().round(1)),
+        "faixa_etaria": calcular_proporcao_programa(df, "DS_FAIXA_ETARIA")
     }
 
-def gerar_metricas_docentes_programa(df_base):
-    docentes_permanentes = df_base[df_base["DS_CATEGORIA_DOCENTE"].astype(str).str.strip().str.upper() == "PERMANENTE"].copy()
-    if len(df_base) == 0: return {}
-    
-    if len(docentes_permanentes) > 0:
-        docentes_permanentes["TEM_BOLSA_PQ"] = docentes_permanentes["CD_CAT_BOLSA_PRODUTIVIDADE"].apply(
-            lambda x: "NÃO" if pd.isna(x) or str(x).strip().upper() in ["NA", "NÃO", "NÃO INFORMADO", "NAN", "NONE"] else "SIM"
-        )
-        docentes_permanentes["TITULADO_NO_EXTERIOR"] = docentes_permanentes["NM_PAIS_IES_TITULACAO"].apply(
-            lambda x: "NÃO" if pd.isna(x) or str(x).strip().upper() == "BRASIL" else "SIM"
-        )
-        docentes_permanentes["DOCENTE_ESTRANGEIRO"] = docentes_permanentes["DS_TIPO_NACIONALIDADE_DOCENTE"].apply(
-            lambda x: "BRASILEIRO" if str(x).strip().upper() == "BRASILEIRO" else "ESTRANGEIRO"
-        )
-        docentes_permanentes["ENDOGAMIA"] = np.where(
-            docentes_permanentes["SG_ENTIDADE_ENSINO"].astype(str).str.strip().str.upper() == docentes_permanentes["SG_IES_TITULACAO"].astype(str).str.strip().str.upper(), 
-            "SIM", "NÃO"
-        )
-        docentes_permanentes["AN_TITULACAO"] = pd.to_numeric(docentes_permanentes["AN_TITULACAO"], errors="coerce")
-        docentes_permanentes["TEMPO_DOUTORADO"] = docentes_permanentes["AN_BASE"] - docentes_permanentes["AN_TITULACAO"]
-        
-        maturidade = docentes_permanentes["TEMPO_DOUTORADO"].dropna().mean()
-        maturidade = round(maturidade, 1) if not pd.isna(maturidade) else 0
-        
-        bolsas_pq = calcular_proporcao_programa(docentes_permanentes, "TEM_BOLSA_PQ")
-        titulacao_exterior = calcular_proporcao_programa(docentes_permanentes, "TITULADO_NO_EXTERIOR")
-        nacionalidade = calcular_proporcao_programa(docentes_permanentes, "DOCENTE_ESTRANGEIRO")
-        endogamia = calcular_proporcao_programa(docentes_permanentes, "ENDOGAMIA")
-        regime_trabalho = calcular_proporcao_programa(docentes_permanentes, "DS_REGIME_TRABALHO")
-    else:
-        bolsas_pq, titulacao_exterior, nacionalidade, endogamia, regime_trabalho, maturidade = [], [], [], [], [], 0
-
+def gerar_metricas_docentes_programa(df):
+    permanentes = df[df["DS_CATEGORIA_DOCENTE"].astype(str).str.strip().str.upper() == "PERMANENTE"].copy()
+    if len(df) == 0: return {}
+    mat = 0
+    if len(permanentes) > 0:
+        permanentes["TEM_BOLSA_PQ"] = permanentes["CD_CAT_BOLSA_PRODUTIVIDADE"].apply(lambda x: "NÃO" if pd.isna(x) or str(x).strip().upper() in ["NA", "NÃO", "NÃO INFORMADO", "NAN", "NONE"] else "SIM")
+        permanentes["TITULADO_NO_EXTERIOR"] = permanentes["NM_PAIS_IES_TITULACAO"].apply(lambda x: "NÃO" if pd.isna(x) or str(x).strip().upper() == "BRASIL" else "SIM")
+        permanentes["DOCENTE_ESTRANGEIRO"] = permanentes["DS_TIPO_NACIONALIDADE_DOCENTE"].apply(lambda x: "BRASILEIRO" if str(x).strip().upper() == "BRASILEIRO" else "ESTRANGEIRO")
+        permanentes["ENDOGAMIA"] = np.where(permanentes["SG_ENTIDADE_ENSINO"].astype(str).str.strip().str.upper() == permanentes["SG_IES_TITULACAO"].astype(str).str.strip().str.upper(), "SIM", "NÃO")
+        mat = round((permanentes["AN_BASE"] - pd.to_numeric(permanentes["AN_TITULACAO"], errors="coerce")).mean(), 1)
     return {
-        "lideranca_bolsas_pq": bolsas_pq,
-        "internacionalizacao_titulacao_exterior": titulacao_exterior,
-        "internacionalizacao_nacionalidade": nacionalidade,
-        "endogamia_academica": endogamia,
-        "maturidade_media_anos_doutorado": float(maturidade),
-        "categoria_docente": calcular_proporcao_programa(df_base, "DS_CATEGORIA_DOCENTE"),
-        "regime_trabalho": regime_trabalho
+        "lideranca_bolsas_pq": calcular_proporcao_programa(permanentes, "TEM_BOLSA_PQ") if len(permanentes) > 0 else [],
+        "internacionalizacao_titulacao_exterior": calcular_proporcao_programa(permanentes, "TITULADO_NO_EXTERIOR") if len(permanentes) > 0 else [],
+        "internacionalizacao_nacionalidade": calcular_proporcao_programa(permanentes, "DOCENTE_ESTRANGEIRO") if len(permanentes) > 0 else [],
+        "endogamia_academica": calcular_proporcao_programa(permanentes, "ENDOGAMIA") if len(permanentes) > 0 else [],
+        "maturidade_media_anos_doutorado": float(mat) if not pd.isna(mat) else 0,
+        "categoria_docente": calcular_proporcao_programa(df, "DS_CATEGORIA_DOCENTE"),
+        "regime_trabalho": calcular_proporcao_programa(permanentes, "DS_REGIME_TRABALHO") if len(permanentes) > 0 else []
     }
 
-print("[5/6] Identificando programas únicos e preparando loop...")
-todos_programas = set(df_discentes["CD_PROGRAMA_IES"].unique()).union(set(df_docentes["CD_PROGRAMA_IES"].unique()))
-anos_desejados = list(range(2017, 2025))
+print("[5/6] Processando programas...")
+todos_progs = set(df_discentes["CD_PROGRAMA_IES"].unique()).union(set(df_docentes["CD_PROGRAMA_IES"].unique()))
+anos = list(range(2017, 2025))
 
-total_programas = len(todos_programas)
-print(f"      Total de {total_programas} programas para processar.")
-
-print("[6/6] Processando JSONs individuais de cada programa...")
-for index, cd_programa in enumerate(todos_programas, start=1):
-    if pd.isna(cd_programa) or cd_programa == "nan": continue
+for cd in todos_progs:
+    if pd.isna(cd) or cd == "nan": continue
+    df_d = df_discentes[df_discentes["CD_PROGRAMA_IES"] == cd]
+    df_dc = df_docentes[df_docentes["CD_PROGRAMA_IES"] == cd]
     
-    if index % 50 == 0 or index == 1 or index == total_programas:
-        print(f"      Processando programa {index}/{total_programas}: {cd_programa}")
+    nm = str(df_d["NM_PROGRAMA_IES"].iloc[0] if not df_d.empty else df_dc["NM_PROGRAMA_IES"].iloc[0]).strip().upper()
+    sg = str(df_d["SG_ENTIDADE_ENSINO"].iloc[0] if not df_d.empty else df_dc["SG_ENTIDADE_ENSINO"].iloc[0]).strip().upper()
+    ano_m = max(df_d["AN_BASE"].max() if not df_d.empty else 0, df_dc["AN_BASE"].max() if not df_dc.empty else 0)
+    conc = df_d[df_d["AN_BASE"] == ano_m]["CD_CONCEITO_PROGRAMA"].iloc[0] if not df_d.empty and ano_m in df_d["AN_BASE"].values else "NÃO INFORMADO"
     
-    df_disc_prog = df_discentes[df_discentes["CD_PROGRAMA_IES"] == cd_programa]
-    df_doc_prog = df_docentes[df_docentes["CD_PROGRAMA_IES"] == cd_programa]
-    
-    nm_programa = "NÃO INFORMADO"
-    sg_ies = "NÃO INFORMADO"
-    conceito_recente = "NÃO INFORMADO"
-    
-    if not df_disc_prog.empty:
-        nm_programa = str(df_disc_prog["NM_PROGRAMA_IES"].iloc[0]).strip().upper()
-        sg_ies = str(df_disc_prog["SG_ENTIDADE_ENSINO"].iloc[0]).strip().upper()
-        ano_max = df_disc_prog["AN_BASE"].max()
-        conceito_recente = df_disc_prog[df_disc_prog["AN_BASE"] == ano_max]["CD_CONCEITO_PROGRAMA"].iloc[0]
-    elif not df_doc_prog.empty:
-        nm_programa = str(df_doc_prog["NM_PROGRAMA_IES"].iloc[0]).strip().upper()
-        sg_ies = str(df_doc_prog["SG_ENTIDADE_ENSINO"].iloc[0]).strip().upper()
-        ano_max = df_doc_prog["AN_BASE"].max()
-        conceito_recente = df_doc_prog[df_doc_prog["AN_BASE"] == ano_max]["CD_CONCEITO_PROGRAMA"].iloc[0]
-
-    json_programa = {
-        "metadata": {
-            "cd_programa": cd_programa,
-            "nm_programa": nm_programa,
-            "sg_ies": sg_ies,
-            "conceito_recente": int(conceito_recente) if pd.notna(conceito_recente) and str(conceito_recente).isdigit() else conceito_recente
-        },
-        "discentes": {
-            "geral": gerar_metricas_discentes_programa(df_disc_prog),
-            "por_ano": {}
-        },
-        "docentes": {
-            "geral": gerar_metricas_docentes_programa(df_doc_prog),
-            "por_ano": {}
-        }
+    json_p = {
+        "metadata": {"cd_programa": cd, "nm_programa": nm, "sg_ies": sg, "conceito_recente": int(conc) if str(conc).isdigit() else conc},
+        "radar": gerar_radar_programa(df_dc, df_d),
+        "discentes": {"geral": gerar_metricas_discentes_programa(df_d), "por_ano": {}},
+        "docentes": {"geral": gerar_metricas_docentes_programa(df_dc), "por_ano": {}}
     }
     
-    for ano in anos_desejados:
-        df_disc_ano = df_disc_prog[df_disc_prog["AN_BASE"] == ano]
-        df_doc_ano = df_doc_prog[df_doc_prog["AN_BASE"] == ano]
-        
-        if not df_disc_ano.empty:
-            json_programa["discentes"]["por_ano"][str(ano)] = gerar_metricas_discentes_programa(df_disc_ano)
-        if not df_doc_ano.empty:
-            json_programa["docentes"]["por_ano"][str(ano)] = gerar_metricas_docentes_programa(df_doc_ano)
+    for a in anos:
+        if not df_d[df_d["AN_BASE"] == a].empty: json_p["discentes"]["por_ano"][str(a)] = gerar_metricas_discentes_programa(df_d[df_d["AN_BASE"] == a])
+        if not df_dc[df_dc["AN_BASE"] == a].empty: json_p["docentes"]["por_ano"][str(a)] = gerar_metricas_docentes_programa(df_dc[df_dc["AN_BASE"] == a])
             
-    caminho_saida = os.path.join(caminho_indicadores, f"{cd_programa}.json")
-    with open(caminho_saida, "w", encoding="utf-8") as f_out:
-        json.dump(json_programa, f_out, ensure_ascii=False)
+    with open(os.path.join(caminho_indicadores, f"{cd}.json"), "w", encoding="utf-8") as f:
+        json.dump(json_p, f, ensure_ascii=False)
 
 print("\n[SUCESSO] Processamento concluído!")

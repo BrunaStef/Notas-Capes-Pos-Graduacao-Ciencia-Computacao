@@ -1,3 +1,4 @@
+// radarGraph.tsx
 import { useEffect, useMemo, useRef, useState } from "react";
 import * as d3 from "d3";
 
@@ -12,9 +13,14 @@ export interface CapesRadarData {
   concept_year_raw?: any[];
 }
 
+export interface ProgramRadarData {
+  valores_reais: Record<string, number>;
+  normalizado: Record<string, number>;
+}
+
 export interface CapesRadarChartProps {
   data: CapesRadarData;
-  programRadar?: Record<string, number>;
+  programRadar?: ProgramRadarData;
   programName?: string;
   width?: number;
   height?: number;
@@ -153,22 +159,18 @@ export function CapesRadarChart({
       };
     });
 
-    if (programRadar) {
-      const maxVals: Record<string, number> = {};
-      metricKeys.forEach((m) => {
-        const maxReal = Math.max(
-          ...(data.radar_valores_reais || []).map((r) => r[m] || 0),
-        );
-        maxVals[m] = maxReal > 0 ? maxReal : 1;
-      });
-
+    if (
+      programRadar &&
+      programRadar.normalizado &&
+      programRadar.valores_reais
+    ) {
       formattedData.push({
         concept: "PROGRAMA",
         isProgram: true,
         values: metricKeys.map((metric) => ({
           metric,
-          norm: Math.min(1, (programRadar[metric] || 0) / maxVals[metric]),
-          real: programRadar[metric] || 0,
+          norm: programRadar.normalizado[metric] || 0,
+          real: programRadar.valores_reais[metric] || 0,
         })),
       });
     }

@@ -1,3 +1,4 @@
+// App.tsx
 import React, { useEffect, useMemo, useRef, useState } from "react";
 import * as d3 from "d3";
 import {
@@ -894,10 +895,12 @@ export function StudentsPanel({
   activeData,
   progDiscentes,
   pLabel = "Programa",
+  viewMode,
 }: {
   activeData: IndicadoresBaseDiscentes;
   progDiscentes?: any;
   pLabel?: string;
+  viewMode: "COMPARATIVE" | "PROGRAM_ONLY";
 }) {
   const { ref: grauRef, width: grauWidth } = useWidth<HTMLDivElement>();
   const { ref: situacaoRef, width: situacaoWidth } = useWidth<HTMLDivElement>();
@@ -914,9 +917,10 @@ export function StudentsPanel({
   const lollipopHeight = 260;
 
   const inject = (base: any[], prog: any[] | undefined, label: string) => {
-    if (!prog) return base;
+    const baseData = viewMode === "PROGRAM_ONLY" && prog ? [] : base;
+    if (!prog) return [...baseData];
     return [
-      ...base,
+      ...baseData,
       ...prog.map((item) => ({ ...item, CD_CONCEITO_PROGRAMA: label })),
     ];
   };
@@ -938,9 +942,8 @@ export function StudentsPanel({
   const evasaoData = useMemo(() => {
     const grouped = new Map<string | number, number>();
 
-    const baseEvasao = activeData.situacao_academica || [];
     const fullEvasao = inject(
-      baseEvasao,
+      activeData.situacao_academica || [],
       progDiscentes?.situacao_academica,
       pLabel,
     );
@@ -948,7 +951,7 @@ export function StudentsPanel({
     fullEvasao.forEach((item) => {
       if (
         item.NM_SITUACAO_DISCENTE === "ABANDONOU" ||
-        item.NM_SITUACAO_DISCENTE === "DESLIGADO"
+        item.NMSITUACAO_DISCENTE === "DESLIGADO"
       ) {
         grouped.set(
           item.CD_CONCEITO_PROGRAMA,
@@ -962,7 +965,7 @@ export function StudentsPanel({
       NM_INDICADOR: "EVASÃO",
       PERCENTUAL: Number(percentual.toFixed(2)),
     }));
-  }, [activeData.situacao_academica, progDiscentes, pLabel]);
+  }, [activeData.situacao_academica, progDiscentes, pLabel, viewMode]);
 
   const mapaFaixa = useMemo(
     () =>
@@ -974,7 +977,7 @@ export function StudentsPanel({
         ),
         "DS_FAIXA_ETARIA",
       ),
-    [activeData.faixa_etaria, progDiscentes, pLabel],
+    [activeData.faixa_etaria, progDiscentes, pLabel, viewMode],
   );
 
   const tempoMestrado = useMemo(
@@ -984,7 +987,7 @@ export function StudentsPanel({
         progDiscentes?.tempo_medio_titulacao,
         pLabel,
       ).filter((d: any) => d.DS_GRAU_ACADEMICO_DISCENTE === "MESTRADO"),
-    [activeData.tempo_medio_titulacao, progDiscentes, pLabel],
+    [activeData.tempo_medio_titulacao, progDiscentes, pLabel, viewMode],
   );
 
   const tempoDoutorado = useMemo(
@@ -994,11 +997,14 @@ export function StudentsPanel({
         progDiscentes?.tempo_medio_titulacao,
         pLabel,
       ).filter((d: any) => d.DS_GRAU_ACADEMICO_DISCENTE === "DOUTORADO"),
-    [activeData.tempo_medio_titulacao, progDiscentes, pLabel],
+    [activeData.tempo_medio_titulacao, progDiscentes, pLabel, viewMode],
   );
 
   const tamanhoData = useMemo(() => {
-    const base = [...(activeData.tamanho_medio_programa || [])];
+    const base =
+      viewMode === "PROGRAM_ONLY" && progDiscentes
+        ? []
+        : [...(activeData.tamanho_medio_programa || [])];
     if (progDiscentes?.tamanho_total_alunos_periodo !== undefined) {
       base.push({
         CD_CONCEITO_PROGRAMA: pLabel,
@@ -1008,7 +1014,7 @@ export function StudentsPanel({
       });
     }
     return base;
-  }, [activeData.tamanho_medio_programa, progDiscentes, pLabel]);
+  }, [activeData.tamanho_medio_programa, progDiscentes, pLabel, viewMode]);
 
   return (
     <Box
@@ -1191,6 +1197,9 @@ export default function App() {
   }, []);
 
   const [selectedPeriod, setSelectedPeriod] = useState<AnoKey>("GERAL");
+  const [viewMode, setViewMode] = useState<"COMPARATIVE" | "PROGRAM_ONLY">(
+    "COMPARATIVE",
+  );
   const [menuOpcoes, setMenuOpcoes] = useState<
     Record<string, { cd_programa: string; nm_programa: string }[]>
   >({});
@@ -1199,7 +1208,7 @@ export default function App() {
   const [programData, setProgramData] = useState<any>(null);
 
   useEffect(() => {
-    fetch("src/scripts/indicadores/menu_opcoes.json")
+    fetch("src/database/menu_opcoes.json")
       .then((res) => res.json())
       .then((data) => setMenuOpcoes(data))
       .catch(() => console.error("Menu de opções não encontrado"));
@@ -1207,10 +1216,10 @@ export default function App() {
 
   useEffect(() => {
     if (selectedProgram) {
-      fetch(`src/scripts/indicadores/programas/${selectedProgram}.json`)
+      fetch(`src/database/programas/${selectedProgram}.json`)
         .then((res) => res.json())
         .then((data) => {
-          console.log("Programa carregado:", data);
+          console.log("Dados do programa carregados:", data);
           setProgramData(data);
         })
         .catch(() => setProgramData(null));
@@ -1234,7 +1243,6 @@ export default function App() {
     return jsonRadarData.por_ano?.[selectedPeriod] ?? jsonRadarData.geral;
   }, [selectedPeriod]);
 
-  // Resolve os dados dinâmicos do programa com base no período
   const progDocentes = useMemo(() => {
     if (!programData?.docentes) return undefined;
     if (selectedPeriod === "GERAL") return programData.docentes.geral;
@@ -1253,107 +1261,20 @@ export default function App() {
     );
   }, [programData, selectedPeriod]);
 
-  // Cálculo Dinâmico do Radar Metrics direto no Front-End
   const programRadarMetrics = useMemo(() => {
-    if (!programData) return undefined;
-    if (programData.radar_metrics) return programData.radar_metrics; // Fallback se já vier do Python
+    if (!programData?.radar) return undefined;
 
-    if (!progDocentes || !progDiscentes) return undefined;
-
-    const getPct = (arr: any[], key: string, val: string) => {
-      if (!arr || !Array.isArray(arr)) return 0;
-      const item = arr.find(
-        (a) => String(a[key]).trim().toUpperCase() === val.toUpperCase(),
-      );
-      return item ? Number(item.PERCENTUAL) : 0;
-    };
-
-    return {
-      pct_docentes_permanentes: getPct(
-        progDocentes.categoria_docente,
-        "DS_CATEGORIA_DOCENTE",
-        "PERMANENTE",
-      ),
-      pct_pq: getPct(progDocentes.lideranca_bolsas_pq, "TEM_BOLSA_PQ", "SIM"),
-      pct_titulado_no_exterior: getPct(
-        progDocentes.internacionalizacao_titulacao_exterior,
-        "TITULADO_NO_EXTERIOR",
-        "SIM",
-      ),
-      pct_docente_estrangeiro: getPct(
-        progDocentes.internacionalizacao_nacionalidade,
-        "DOCENTE_ESTRANGEIRO",
-        "ESTRANGEIRO",
-      ),
-      pct_endogamia: getPct(
-        progDocentes.endogamia_academica,
-        "ENDOGAMIA",
-        "SIM",
-      ),
-      pct_dedicacao_exclusiva: getPct(
-        progDocentes.regime_trabalho,
-        "DS_REGIME_TRABALHO",
-        "DEDICAÇÃO EXCLUSIVA",
-      ),
-      pct_instituicao_publica: 0,
-      media_anos_doutorado: progDocentes.maturidade_media_anos_doutorado || 0,
-      discentes_por_programa:
-        progDiscentes.media_alunos_por_ano ||
-        progDiscentes.tamanho_total_alunos_periodo ||
-        0,
-      pct_mestrado: getPct(
-        progDiscentes.distribuicao_grau_academico,
-        "DS_GRAU_ACADEMICO_DISCENTE",
-        "MESTRADO",
-      ),
-      pct_doutorado: getPct(
-        progDiscentes.distribuicao_grau_academico,
-        "DS_GRAU_ACADEMICO_DISCENTE",
-        "DOUTORADO",
-      ),
-      pct_titulado: getPct(
-        progDiscentes.situacao_academica,
-        "NM_SITUACAO_DISCENTE",
-        "TITULADO",
-      ),
-      taxa_evasao:
-        getPct(
-          progDiscentes.situacao_academica,
-          "NM_SITUACAO_DISCENTE",
-          "ABANDONOU",
-        ) +
-        getPct(
-          progDiscentes.situacao_academica,
-          "NM_SITUACAO_DISCENTE",
-          "DESLIGADO",
-        ),
-      pct_estrangeiro_discente: getPct(
-        progDiscentes.internacionalizacao_nacionalidade,
-        "DS_TIPO_NACIONALIDADE_DISCENTE",
-        "ESTRANGEIRO",
-      ),
-      media_meses_titulacao_mestrado:
-        (
-          progDiscentes.tempo_medio_titulacao?.find(
-            (d: any) => d.DS_GRAU_ACADEMICO_DISCENTE === "MESTRADO",
-          ) || {}
-        ).MEDIA_MESES_TITULACAO || 0,
-      media_meses_titulacao_doutorado:
-        (
-          progDiscentes.tempo_medio_titulacao?.find(
-            (d: any) => d.DS_GRAU_ACADEMICO_DISCENTE === "DOUTORADO",
-          ) || {}
-        ).MEDIA_MESES_TITULACAO || 0,
-    };
-  }, [programData, progDocentes, progDiscentes]);
+    return programData.radar;
+  }, [programData]);
 
   const { charts, selectedLabel, programName } = useMemo(() => {
     const pLabel = programData?.metadata?.sg_ies || "Programa";
 
     const inject = (base: any[], prog: any[] | undefined) => {
-      if (!prog) return [...base];
+      const baseData = viewMode === "PROGRAM_ONLY" && prog ? [] : base;
+      if (!prog) return [...baseData];
       return [
-        ...base,
+        ...baseData,
         ...prog.map((item) => ({ ...item, CD_CONCEITO_PROGRAMA: pLabel })),
       ];
     };
@@ -1362,10 +1283,14 @@ export default function App() {
       activeTeachersData.lideranca_bolsas_pq || [],
       progDocentes?.lideranca_bolsas_pq,
     );
-    let sizeRows = [...(activeTeachersData.tamanho_medio_programa || [])];
-    let maturityRows = [
-      ...(activeTeachersData.maturidade_tempo_doutorado || []),
-    ];
+    let sizeRows =
+      viewMode === "PROGRAM_ONLY" && progDocentes
+        ? []
+        : [...(activeTeachersData.tamanho_medio_programa || [])];
+    let maturityRows =
+      viewMode === "PROGRAM_ONLY" && progDocentes
+        ? []
+        : [...(activeTeachersData.maturidade_tempo_doutorado || [])];
     let internationalRows = inject(
       activeTeachersData.internacionalizacao_titulacao_exterior || [],
       progDocentes?.internacionalizacao_titulacao_exterior,
@@ -1386,9 +1311,18 @@ export default function App() {
       activeTeachersData.regime_trabalho || [],
       progDocentes?.regime_trabalho,
     );
-    let regionRows = [...(activeTeachersData.desigualdade_regional || [])];
-    let institutionRows = [...(activeTeachersData.natureza_instituicao || [])];
-    let top20Rows = [...(activeTeachersData.top_20_instituicoes || [])];
+    let regionRows =
+      viewMode === "PROGRAM_ONLY" && progDocentes
+        ? []
+        : [...(activeTeachersData.desigualdade_regional || [])];
+    let institutionRows =
+      viewMode === "PROGRAM_ONLY" && progDocentes
+        ? []
+        : [...(activeTeachersData.natureza_instituicao || [])];
+    let top20Rows =
+      viewMode === "PROGRAM_ONLY" && progDocentes
+        ? []
+        : [...(activeTeachersData.top_20_instituicoes || [])];
 
     if (progDocentes) {
       if (progDocentes.maturidade_media_anos_doutorado !== undefined) {
@@ -1516,7 +1450,7 @@ export default function App() {
         selectedPeriod === "GERAL" ? "Geral (2017–2024)" : selectedPeriod,
       programName: pLabel,
     };
-  }, [activeTeachersData, progDocentes, selectedPeriod, programData]);
+  }, [activeTeachersData, progDocentes, selectedPeriod, programData, viewMode]);
 
   const { ref: heatmapRef, width: heatmapWidth } = useWidth<HTMLDivElement>();
   const { ref: leadershipRef, width: leadershipWidth } =
@@ -2086,6 +2020,7 @@ export default function App() {
               activeData={activeStudentsData}
               progDiscentes={progDiscentes}
               pLabel={programName}
+              viewMode={viewMode}
             />
           </Box>
         </Container>

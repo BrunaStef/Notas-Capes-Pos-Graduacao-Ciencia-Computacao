@@ -1,0 +1,622 @@
+{
+  "CEFET-RJ": [
+    {
+      "cd_programa": "31022014009P5",
+      "nm_programa": "CIÊNCIA DA COMPUTAÇÃO"
+    }
+  ],
+  "CEFET/RJ": [
+    {
+      "cd_programa": "31022014009P5",
+      "nm_programa": "CIÊNCIA DA COMPUTAÇÃO"
+    }
+  ],
+  "CESAR": [
+    {
+      "cd_programa": "25019015001P0",
+      "nm_programa": "ENGENHARIA DE SOFTWARE"
+    }
+  ],
+  "FUFPI": [
+    {
+      "cd_programa": "20001010049P6",
+      "nm_programa": "CIÊNCIA DA COMPUTAÇÃO"
+    },
+    {
+      "cd_programa": "21001014031P2",
+      "nm_programa": "CIÊNCIA DA COMPUTAÇÃO"
+    }
+  ],
+  "FUFSE": [
+    {
+      "cd_programa": "27001016029P4",
+      "nm_programa": "CIÊNCIA DA COMPUTAÇÃO"
+    }
+  ],
+  "FUPF": [
+    {
+      "cd_programa": "42009014011P1",
+      "nm_programa": "COMPUTAÇÃO APLICADA"
+    }
+  ],
+  "FURG": [
+    {
+      "cd_programa": "42004012022P1",
+      "nm_programa": "COMPUTAÇÃO"
+    }
+  ],
+  "IFCE": [
+    {
+      "cd_programa": "22008012004P2",
+      "nm_programa": "CIÊNCIA DA COMPUTAÇÃO"
+    }
+  ],
+  "IFES": [
+    {
+      "cd_programa": "30004012075P4",
+      "nm_programa": "COMPUTAÇÃO APLICADA"
+    }
+  ],
+  "IFPB": [
+    {
+      "cd_programa": "24007013002P9",
+      "nm_programa": "TECNOLOGIA DA INFORMAÇÃO"
+    }
+  ],
+  "IME": [
+    {
+      "cd_programa": "31007015009P3",
+      "nm_programa": "SISTEMAS E COMPUTAÇÃO"
+    }
+  ],
+  "IPT": [
+    {
+      "cd_programa": "33083010005P2",
+      "nm_programa": "COMPUTAÇÃO APLICADA"
+    }
+  ],
+  "ITA": [
+    {
+      "cd_programa": "33011010015P6",
+      "nm_programa": "COMPUTAÇÃO AERONÁUTICA"
+    },
+    {
+      "cd_programa": "33011010015P6",
+      "nm_programa": "COMPUTAÇÃO DE MISSÃO CRÍTICA"
+    }
+  ],
+  "MACKENZIE": [
+    {
+      "cd_programa": "33024014032P5",
+      "nm_programa": "COMPUTAÇÃO APLICADA"
+    }
+  ],
+  "PUC MINAS": [
+    {
+      "cd_programa": "32008015011P7",
+      "nm_programa": "INFORMÁTICA"
+    }
+  ],
+  "PUC-RIO": [
+    {
+      "cd_programa": "31005012004P9",
+      "nm_programa": "INFORMÁTICA"
+    }
+  ],
+  "PUC/MG": [
+    {
+      "cd_programa": "32008015011P7",
+      "nm_programa": "INFORMÁTICA"
+    }
+  ],
+  "PUC/PR": [
+    {
+      "cd_programa": "40003019004P1",
+      "nm_programa": "INFORMÁTICA"
+    }
+  ],
+  "PUC/RS": [
+    {
+      "cd_programa": "42005019016P8",
+      "nm_programa": "CIÊNCIA DA COMPUTAÇÃO"
+    }
+  ],
+  "PUCPR": [
+    {
+      "cd_programa": "40003019004P1",
+      "nm_programa": "INFORMÁTICA"
+    }
+  ],
+  "PUCRS": [
+    {
+      "cd_programa": "42005019016P8",
+      "nm_programa": "CIÊNCIA DA COMPUTAÇÃO"
+    }
+  ],
+  "UCS": [
+    {
+      "cd_programa": "42008018038P0",
+      "nm_programa": "COMPUTAÇÃO APLICADA"
+    }
+  ],
+  "UDESC": [
+    {
+      "cd_programa": "41002016023P2",
+      "nm_programa": "COMPUTAÇÃO APLICADA"
+    }
+  ],
+  "UECE": [
+    {
+      "cd_programa": "22003010016P9",
+      "nm_programa": "COMPUTAÇÃO APLICADA"
+    },
+    {
+      "cd_programa": "22003010018P1",
+      "nm_programa": "CIÊNCIA DA COMPUTAÇÃO"
+    }
+  ],
+  "UEFS": [
+    {
+      "cd_programa": "28002016020P6",
+      "nm_programa": "CIÊNCIA DA COMPUTAÇÃO"
+    }
+  ],
+  "UEL": [
+    {
+      "cd_programa": "40002012033P5",
+      "nm_programa": "CIÊNCIA DA COMPUTAÇÃO"
+    }
+  ],
+  "UEM": [
+    {
+      "cd_programa": "40004015019P5",
+      "nm_programa": "CIÊNCIA DA COMPUTAÇÃO"
+    }
+  ],
+  "UEMA": [
+    {
+      "cd_programa": "20002017004P9",
+      "nm_programa": "ENGENHARIA DE COMPUTAÇÃO E SISTEMAS"
+    }
+  ],
+  "UERN": [
+    {
+      "cd_programa": "23002018002P4",
+      "nm_programa": "CIÊNCIA DA COMPUTAÇÃO - UERN - UFERSA"
+    }
+  ],
+  "UFABC": [
+    {
+      "cd_programa": "33144010008P1",
+      "nm_programa": "CIÊNCIA DA COMPUTAÇÃO"
+    }
+  ],
+  "UFAC": [
+    {
+      "cd_programa": "11001011072P2",
+      "nm_programa": "CIÊNCIA DA COMPUTAÇÃO"
+    }
+  ],
+  "UFAL": [
+    {
+      "cd_programa": "26001012035P1",
+      "nm_programa": "INFORMÁTICA"
+    }
+  ],
+  "UFAM": [
+    {
+      "cd_programa": "12001015012P2",
+      "nm_programa": "INFORMÁTICA"
+    }
+  ],
+  "UFBA": [
+    {
+      "cd_programa": "28001010061P1",
+      "nm_programa": "CIÊNCIA DA COMPUTAÇÃO"
+    },
+    {
+      "cd_programa": "28001010061P1",
+      "nm_programa": "CIÊNCIA DA COMPUTAÇÃO - UFBA - UNIFACS - UEFS"
+    },
+    {
+      "cd_programa": "28001010090P1",
+      "nm_programa": "CIÊNCIA DA COMPUTAÇÃO - UFBA - UEFS"
+    },
+    {
+      "cd_programa": "28001010095P3",
+      "nm_programa": "CIÊNCIA DA COMPUTAÇÃO"
+    }
+  ],
+  "UFC": [
+    {
+      "cd_programa": "22001018031P5",
+      "nm_programa": "CIÊNCIAS DA COMPUTAÇÃO"
+    },
+    {
+      "cd_programa": "22001018173P4",
+      "nm_programa": "COMPUTAÇÃO"
+    }
+  ],
+  "UFCG": [
+    {
+      "cd_programa": "24009016005P0",
+      "nm_programa": "CIÊNCIA DA COMPUTAÇÃO"
+    }
+  ],
+  "UFERSA": [
+    {
+      "cd_programa": "23002018002P4",
+      "nm_programa": "CIÊNCIA DA COMPUTAÇÃO - UERN - UFERSA"
+    }
+  ],
+  "UFES": [
+    {
+      "cd_programa": "30001013007P0",
+      "nm_programa": "INFORMÁTICA"
+    }
+  ],
+  "UFF": [
+    {
+      "cd_programa": "31003010046P4",
+      "nm_programa": "COMPUTAÇÃO"
+    }
+  ],
+  "UFG": [
+    {
+      "cd_programa": "51001012028P6",
+      "nm_programa": "CIÊNCIA DA COMPUTAÇÃO - UFMS - UFG"
+    },
+    {
+      "cd_programa": "52001016027P2",
+      "nm_programa": "CIÊNCIA DA COMPUTAÇÃO"
+    }
+  ],
+  "UFJF": [
+    {
+      "cd_programa": "32005016034P8",
+      "nm_programa": "CIÊNCIA DA COMPUTAÇÃO"
+    }
+  ],
+  "UFLA": [
+    {
+      "cd_programa": "32004010027P9",
+      "nm_programa": "CIÊNCIA DA COMPUTAÇÃO"
+    }
+  ],
+  "UFMA": [
+    {
+      "cd_programa": "20001010022P0",
+      "nm_programa": "CIÊNCIA DA COMPUTAÇÃO"
+    },
+    {
+      "cd_programa": "20001010049P6",
+      "nm_programa": "CIÊNCIA DA COMPUTAÇÃO"
+    }
+  ],
+  "UFMG": [
+    {
+      "cd_programa": "32001010004P6",
+      "nm_programa": "CIÊNCIAS DA COMPUTAÇÃO"
+    }
+  ],
+  "UFMS": [
+    {
+      "cd_programa": "51001012012P2",
+      "nm_programa": "CIÊNCIA DA COMPUTAÇÃO"
+    },
+    {
+      "cd_programa": "51001012028P6",
+      "nm_programa": "CIÊNCIA DA COMPUTAÇÃO - UFMS - UFG"
+    },
+    {
+      "cd_programa": "51001012038P1",
+      "nm_programa": "COMPUTAÇÃO APLICADA"
+    }
+  ],
+  "UFMT": [
+    {
+      "cd_programa": "50001019179P1",
+      "nm_programa": "COMPUTAÇÃO APLICADA"
+    }
+  ],
+  "UFOP": [
+    {
+      "cd_programa": "32007019023P9",
+      "nm_programa": "CIÊNCIA DA COMPUTAÇÃO"
+    }
+  ],
+  "UFPA": [
+    {
+      "cd_programa": "15001016047P9",
+      "nm_programa": "CIÊNCIA DA COMPUTAÇÃO"
+    },
+    {
+      "cd_programa": "15001016092P4",
+      "nm_programa": "COMPUTAÇÃO APLICADA"
+    }
+  ],
+  "UFPB-JOÃO PESSOA": [
+    {
+      "cd_programa": "24001015047P4",
+      "nm_programa": "INFORMÁTICA"
+    }
+  ],
+  "UFPB-JP": [
+    {
+      "cd_programa": "24001015047P4",
+      "nm_programa": "INFORMÁTICA"
+    }
+  ],
+  "UFPE": [
+    {
+      "cd_programa": "25001019004P6",
+      "nm_programa": "CIÊNCIAS DA COMPUTAÇÃO"
+    },
+    {
+      "cd_programa": "25001019062P6",
+      "nm_programa": "CIÊNCIAS DA COMPUTAÇÃO"
+    }
+  ],
+  "UFPEL": [
+    {
+      "cd_programa": "42003016038P9",
+      "nm_programa": "COMPUTAÇÃO"
+    }
+  ],
+  "UFPI": [
+    {
+      "cd_programa": "20001010049P6",
+      "nm_programa": "CIÊNCIA DA COMPUTAÇÃO"
+    },
+    {
+      "cd_programa": "21001014031P2",
+      "nm_programa": "CIÊNCIA DA COMPUTAÇÃO"
+    }
+  ],
+  "UFPR": [
+    {
+      "cd_programa": "40001016034P5",
+      "nm_programa": "INFORMÁTICA"
+    }
+  ],
+  "UFRGS": [
+    {
+      "cd_programa": "42001013004P4",
+      "nm_programa": "COMPUTAÇÃO"
+    }
+  ],
+  "UFRJ": [
+    {
+      "cd_programa": "31001017004P3",
+      "nm_programa": "ENGENHARIA DE SISTEMAS E COMPUTAÇÃO"
+    },
+    {
+      "cd_programa": "31001017110P8",
+      "nm_programa": "INFORMÁTICA"
+    }
+  ],
+  "UFRN": [
+    {
+      "cd_programa": "23001011022P9",
+      "nm_programa": "SISTEMAS E COMPUTAÇÃO"
+    },
+    {
+      "cd_programa": "23001011071P0",
+      "nm_programa": "ENGENHARIA DE SOFTWARE"
+    },
+    {
+      "cd_programa": "23001011071P0",
+      "nm_programa": "TECNOLOGIA DA INFORMAÇÃO"
+    }
+  ],
+  "UFRPE": [
+    {
+      "cd_programa": "25003011032P2",
+      "nm_programa": "INFORMÁTICA APLICADA"
+    }
+  ],
+  "UFS": [
+    {
+      "cd_programa": "27001016029P4",
+      "nm_programa": "CIÊNCIA DA COMPUTAÇÃO"
+    }
+  ],
+  "UFSC": [
+    {
+      "cd_programa": "41001010025P2",
+      "nm_programa": "CIÊNCIAS DA COMPUTAÇÃO"
+    }
+  ],
+  "UFSCAR": [
+    {
+      "cd_programa": "33001014008P4",
+      "nm_programa": "CIÊNCIA DA COMPUTAÇÃO"
+    },
+    {
+      "cd_programa": "33001014044P0",
+      "nm_programa": "CIÊNCIA DA COMPUTAÇÃO"
+    }
+  ],
+  "UFSJ": [
+    {
+      "cd_programa": "32018010044P4",
+      "nm_programa": "CIÊNCIA DA COMPUTAÇÃO"
+    }
+  ],
+  "UFSM": [
+    {
+      "cd_programa": "42002010036P3",
+      "nm_programa": "CIÊNCIA DA COMPUTAÇÃO"
+    }
+  ],
+  "UFU": [
+    {
+      "cd_programa": "32006012017P2",
+      "nm_programa": "CIÊNCIA DA COMPUTAÇÃO"
+    }
+  ],
+  "UFV": [
+    {
+      "cd_programa": "32002017027P2",
+      "nm_programa": "CIÊNCIA DA COMPUTAÇÃO"
+    }
+  ],
+  "UNB": [
+    {
+      "cd_programa": "53001010054P6",
+      "nm_programa": "INFORMÁTICA"
+    },
+    {
+      "cd_programa": "53001010098P3",
+      "nm_programa": "COMPUTAÇÃO APLICADA"
+    }
+  ],
+  "UNESP-SJ RIO PRETO": [
+    {
+      "cd_programa": "33004153073P2",
+      "nm_programa": "CIÊNCIA DA COMPUTAÇÃO"
+    }
+  ],
+  "UNESP-SJRP": [
+    {
+      "cd_programa": "33004153073P2",
+      "nm_programa": "CIÊNCIA DA COMPUTAÇÃO"
+    }
+  ],
+  "UNICAMP": [
+    {
+      "cd_programa": "33003017005P8",
+      "nm_programa": "CIÊNCIA DA COMPUTAÇÃO"
+    }
+  ],
+  "UNIFACCAMP": [
+    {
+      "cd_programa": "33149011002P1",
+      "nm_programa": "CIÊNCIA DA COMPUTAÇÃO"
+    }
+  ],
+  "UNIFACS": [
+    {
+      "cd_programa": "28013018005P5",
+      "nm_programa": "SISTEMAS E COMPUTAÇÃO"
+    }
+  ],
+  "UNIFEI": [
+    {
+      "cd_programa": "32003013008P4",
+      "nm_programa": "CIÊNCIA E TECNOLOGIA DA COMPUTAÇÃO"
+    }
+  ],
+  "UNIFESP": [
+    {
+      "cd_programa": "33009015079P0",
+      "nm_programa": "CIÊNCIA DA COMPUTAÇÃO"
+    }
+  ],
+  "UNIFOR": [
+    {
+      "cd_programa": "22002014002P1",
+      "nm_programa": "INFORMÁTICA APLICADA"
+    }
+  ],
+  "UNIOESTE": [
+    {
+      "cd_programa": "40015017173P2",
+      "nm_programa": "CIÊNCIA DA COMPUTAÇÃO"
+    }
+  ],
+  "UNIPAMPA": [
+    {
+      "cd_programa": "42046017016P1",
+      "nm_programa": "ENGENHARIA DE SOFTWARE"
+    }
+  ],
+  "UNIRIO": [
+    {
+      "cd_programa": "31021018009P9",
+      "nm_programa": "INFORMÁTICA"
+    }
+  ],
+  "UNISINOS": [
+    {
+      "cd_programa": "42007011006P5",
+      "nm_programa": "COMPUTAÇÃO APLICADA"
+    }
+  ],
+  "UNIVALI": [
+    {
+      "cd_programa": "41005015010P7",
+      "nm_programa": "COMPUTAÇÃO"
+    }
+  ],
+  "UPE": [
+    {
+      "cd_programa": "25004018011P1",
+      "nm_programa": "ENGENHARIA DA COMPUTAÇÃO"
+    }
+  ],
+  "UPF": [
+    {
+      "cd_programa": "42009014011P1",
+      "nm_programa": "COMPUTAÇÃO APLICADA"
+    }
+  ],
+  "UPM": [
+    {
+      "cd_programa": "33024014032P5",
+      "nm_programa": "COMPUTAÇÃO APLICADA"
+    }
+  ],
+  "USP": [
+    {
+      "cd_programa": "33002010176P0",
+      "nm_programa": "CIÊNCIA DA COMPUTAÇÃO"
+    },
+    {
+      "cd_programa": "33002010214P0",
+      "nm_programa": "SISTEMAS DE INFORMAÇÃO"
+    }
+  ],
+  "USP-RIBEIRÃO PRETO": [
+    {
+      "cd_programa": "33002029052P5",
+      "nm_programa": "COMPUTAÇÃO APLICADA"
+    }
+  ],
+  "USP-SÃO CARLOS": [
+    {
+      "cd_programa": "33002045004P1",
+      "nm_programa": "CIÊNCIAS DA COMPUTAÇÃO E MATEMÁTICA COMPUTACIONAL"
+    }
+  ],
+  "USP/RP": [
+    {
+      "cd_programa": "33002029052P5",
+      "nm_programa": "COMPUTAÇÃO APLICADA"
+    }
+  ],
+  "USP/SC": [
+    {
+      "cd_programa": "33002045004P1",
+      "nm_programa": "CIÊNCIAS DA COMPUTAÇÃO E MATEMÁTICA COMPUTACIONAL"
+    }
+  ],
+  "UTFPR": [
+    {
+      "cd_programa": "40006018011P7",
+      "nm_programa": "COMPUTAÇÃO APLICADA"
+    },
+    {
+      "cd_programa": "40006018025P8",
+      "nm_programa": "INFORMÁTICA"
+    },
+    {
+      "cd_programa": "40006018171P4",
+      "nm_programa": "CIÊNCIA DA COMPUTAÇÃO"
+    },
+    {
+      "cd_programa": "40006018182P6",
+      "nm_programa": "CIÊNCIA DA COMPUTAÇÃO"
+    }
+  ]
+}
