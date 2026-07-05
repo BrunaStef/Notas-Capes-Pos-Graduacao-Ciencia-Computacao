@@ -1,7 +1,7 @@
 {
   "name": "dashboard-capes",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -16,10 +16,7 @@
     "@mui/material": "^9.1.1",
     "d3": "^7.9.0",
     "react": "^19.2.6",
-    "react-dom": "^19.2.6",
-    "react-vega": "^8.0.0",
-    "vega": "^6.2.0",
-    "vega-lite": "^6.4.3"
+    "react-dom": "^19.2.6"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",

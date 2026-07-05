@@ -1495,7 +1495,7 @@ export function PeriodicosPanel({
         </ChartShell>
       </Box>
 
-      <Box ref={vinculoRef}>
+      <Box ref={vinculoRef} sx={{ gridColumn: { xs: "auto", xl: "1 / -1" } }}>
         <ChartShell
           title="Produção com Vínculo a TCC"
           subtitle="Relação com trabalhos de conclusão"
