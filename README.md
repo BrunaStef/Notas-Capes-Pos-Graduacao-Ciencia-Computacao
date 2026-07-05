@@ -60,7 +60,6 @@ A interface oferece uma visão consolidada de indicadores organizados em quatro 
 - Vite
 - Material UI (MUI)
 - D3.js para visualizações customizadas
-- Vega e Vega-Lite
 - JSON como fonte principal de dados para a interface
 - Python para processamento e geração de dados estruturados a partir de arquivos fontes
 
@@ -125,24 +124,6 @@ A aplicação ficará disponível normalmente em:
 http://localhost:5173
 ```
 
-## Build para produção
-
-Para gerar a versão otimizada para deploy:
-
-```bash
-npm run build
-```
-
-O resultado será gerado na pasta dist.
-
-## Lint
-
-Para validar o código com ESLint:
-
-```bash
-npm run lint
-```
-
 ## Geração de dados
 
 A pasta src/database já contém arquivos JSON prontos para a aplicação. Caso você queira gerar ou atualizar esses dados a partir de fontes originais, os scripts Python localizados em src/scripts podem ser usados.
@@ -154,16 +135,6 @@ Os scripts de processamento utilizam bibliotecas como pandas, numpy e openpyxl. 
 ```bash
 pip install pandas numpy openpyxl
 ```
-
-### Fluxo típico de geração
-
-- executar o script de docentes para gerar indicadores de corpo docente;
-- executar o script de discentes para gerar indicadores de corpo discente;
-- executar o script de produção bibliográfica para gerar métricas de periódicos e publicações;
-- executar o script de programas_area_conceito.py, se for necessário consolidar informações por programa;
-- executar o script de radar-graph.py para gerar os dados usados no gráfico radar.
-
-> Observação: os scripts esperam arquivos de entrada no formato Excel ou CSV e podem precisar de ajustes de caminho conforme o ambiente local.
 
 ## Como usar a interface
 
@@ -185,12 +156,6 @@ A aplicação segue uma estrutura baseada em componentes e dados já preparados 
 - gráficos e componentes visuais são construídos com D3 e renderizados dentro de cartões temáticos;
 - os dados são carregados de arquivos JSON estruturados, o que facilita a manutenção e a análise por parte de quem trabalha no projeto;
 - o componente radarGraph.tsx encapsula a lógica de exibição do gráfico comparativo em múltiplos eixos.
-
-## Observações importantes
-
-- Os dados utilizados na aplicação são estáticos e já pré-processados, o que torna a execução rápida e previsível.
-- O projeto tem foco em visualização e análise exploratória de indicadores de pós-graduação em Computação.
-- A interface é pensada para ser utilizada tanto em ambiente local quanto em implantação web simples.
 
 ## Licença
 
