@@ -43,6 +43,20 @@ const CONCEPT_COLORS: Record<string, string> = {
   PROGRAMA: "#FFFFFF",
 };
 
+// LISTA DOS EIXOS ESSENCIAIS (Limita o gráfico aos 9 eixos principais)
+const ESSENTIAL_AXES = [
+  "pct_pq",
+  "pct_titulado_no_exterior",
+  "pct_docente_estrangeiro",
+  "media_anos_doutorado",
+  "pct_doutorado",
+  "taxa_evasao",
+  "media_meses_titulacao_mestrado",
+  "media_meses_titulacao_doutorado",
+  "publicacoes_por_programa",
+];
+
+// Mapeamento dos nomes técnicos para exibição na tela
 const METRIC_LABELS: Record<string, string> = {
   total_docentes_permanentes: "Docentes permanentes",
   docentes_permanentes_por_programa: "Docentes perm. / programa",
@@ -53,7 +67,7 @@ const METRIC_LABELS: Record<string, string> = {
   pct_endogamia: "% Endogamia",
   pct_dedicacao_exclusiva: "% Dedicação exclusiva",
   pct_instituicao_publica: "% Instituição pública",
-  media_anos_doutorado: "Média anos doutorado",
+  media_anos_doutorado: "Maturidade (Anos Doutorado)",
   discentes_por_programa: "Discentes / programa",
   pct_mestrado: "% Mestrado",
   pct_doutorado: "% Doutorado",
@@ -62,6 +76,7 @@ const METRIC_LABELS: Record<string, string> = {
   pct_estrangeiro_discente: "% Discentes estrangeiros",
   media_meses_titulacao_mestrado: "Meses (Mestrado)",
   media_meses_titulacao_doutorado: "Meses (Doutorado)",
+  publicacoes_por_programa: "Publicações / Programa",
 };
 
 function humanizeMetric(metricId: string): string {
@@ -136,8 +151,10 @@ export function CapesRadarChart({
       return { metrics: [], radarData: [] };
     }
 
-    const metricKeys = Object.keys(data.radar_normalizado[0]).filter(
-      (key) => key !== "CD_CONCEITO_PROGRAMA",
+    // EXTRAÇÃO E FILTRO: Pega apenas as chaves que existem no ESSENTIAL_AXES
+    const availableKeys = Object.keys(data.radar_normalizado[0]);
+    const metricKeys = ESSENTIAL_AXES.filter((key) =>
+      availableKeys.includes(key),
     );
 
     const formattedData: any[] = [3, 4, 5, 6, 7].map((concept) => {
@@ -348,21 +365,21 @@ export function CapesRadarChart({
       .enter()
       .append("circle")
       .attr("class", "radarCircle")
-      .attr("r", (d) => (d.isProgram ? 5 : 4))
+      .attr("r", (d: any) => (d.isProgram ? 5 : 4))
       .attr(
         "cx",
-        (d, i) => rScale(d.norm) * Math.cos(angleSlice * i - Math.PI / 2),
+        (d: any, i) => rScale(d.norm) * Math.cos(angleSlice * i - Math.PI / 2),
       )
       .attr(
         "cy",
-        (d, i) => rScale(d.norm) * Math.sin(angleSlice * i - Math.PI / 2),
+        (d: any, i) => rScale(d.norm) * Math.sin(angleSlice * i - Math.PI / 2),
       )
-      .style("fill", (d) => CONCEPT_COLORS[d.concept])
+      .style("fill", (d: any) => CONCEPT_COLORS[d.concept])
       .style("fill-opacity", 0.8)
       .style("stroke", COLOR.bg)
       .style("stroke-width", 1.5)
       .style("cursor", "pointer")
-      .on("mouseover", function (_, d) {
+      .on("mouseover", function (_, d: any) {
         highlightConcept(d.concept, this.parentNode);
         d3.select(this)
           .transition()

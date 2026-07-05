@@ -2,6 +2,7 @@
   "metadata": {
     "total_docentes": 16524,
     "total_discentes": 81654,
+    "total_producao": 24846,
     "anos": [2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024],
     "conceitos": [3, 4, 5, 6, 7],
     "eixos_radar": [
@@ -22,7 +23,8 @@
       "taxa_evasao",
       "pct_estrangeiro_discente",
       "media_meses_titulacao_mestrado",
-      "media_meses_titulacao_doutorado"
+      "media_meses_titulacao_doutorado",
+      "publicacoes_por_programa"
     ],
     "limites_escala_global": {
       "total_docentes_permanentes": {
@@ -96,6 +98,10 @@
       "media_meses_titulacao_doutorado": {
         "min": 52.6,
         "max": 65.16
+      },
+      "publicacoes_por_programa": {
+        "min": 17.28,
+        "max": 109.0
       }
     },
     "escopo": {
@@ -129,7 +135,8 @@
         "taxa_evasao": 0.7345596133190119,
         "pct_estrangeiro_discente": 0.051843317972350214,
         "media_meses_titulacao_mestrado": 0.15084654178674353,
-        "media_meses_titulacao_doutorado": 0.0
+        "media_meses_titulacao_doutorado": 0.0,
+        "publicacoes_por_programa": 0.048299171391190575
       },
       {
         "CD_CONCEITO_PROGRAMA": 4,
@@ -150,7 +157,8 @@
         "taxa_evasao": 0.5017454350161118,
         "pct_estrangeiro_discente": 0.1425691244239631,
         "media_meses_titulacao_mestrado": 0.21370677233429414,
-        "media_meses_titulacao_doutorado": 0.2109872611464968
+        "media_meses_titulacao_doutorado": 0.2109872611464968,
+        "publicacoes_por_programa": 0.19652202354993456
       },
       {
         "CD_CONCEITO_PROGRAMA": 5,
@@ -171,7 +179,8 @@
         "taxa_evasao": 0.42602040816326525,
         "pct_estrangeiro_discente": 0.18058755760368658,
         "media_meses_titulacao_mestrado": 0.24414625360230563,
-        "media_meses_titulacao_doutorado": 0.37340764331210186
+        "media_meses_titulacao_doutorado": 0.37340764331210186,
+        "publicacoes_por_programa": 0.27954644570431747
       },
       {
         "CD_CONCEITO_PROGRAMA": 6,
@@ -192,7 +201,8 @@
         "taxa_evasao": 0.567266380236305,
         "pct_estrangeiro_discente": 0.4389400921658985,
         "media_meses_titulacao_mestrado": 0.4991894812680119,
-        "media_meses_titulacao_doutorado": 0.5579219745222932
+        "media_meses_titulacao_doutorado": 0.5579219745222932,
+        "publicacoes_por_programa": 0.5217646096816398
       },
       {
         "CD_CONCEITO_PROGRAMA": 7,
@@ -213,7 +223,8 @@
         "taxa_evasao": 0.23764769065520946,
         "pct_estrangeiro_discente": 0.7860023041474653,
         "media_meses_titulacao_mestrado": 0.2545929394812681,
-        "media_meses_titulacao_doutorado": 0.5443869426751593
+        "media_meses_titulacao_doutorado": 0.5443869426751593,
+        "publicacoes_por_programa": 0.8666321412996075
       }
     ],
     "radar_valores_reais": [
@@ -236,7 +247,8 @@
         "taxa_evasao": 10.508750000000001,
         "pct_estrangeiro_discente": 0.365,
         "media_meses_titulacao_mestrado": 29.58375,
-        "media_meses_titulacao_doutorado": 0
+        "media_meses_titulacao_doutorado": 0,
+        "publicacoes_por_programa": 21.71
       },
       {
         "CD_CONCEITO_PROGRAMA": 4,
@@ -257,7 +269,8 @@
         "taxa_evasao": 8.34125,
         "pct_estrangeiro_discente": 0.75875,
         "media_meses_titulacao_mestrado": 30.45625,
-        "media_meses_titulacao_doutorado": 55.25
+        "media_meses_titulacao_doutorado": 55.25,
+        "publicacoes_por_programa": 35.305
       },
       {
         "CD_CONCEITO_PROGRAMA": 5,
@@ -278,7 +291,8 @@
         "taxa_evasao": 7.6362499999999995,
         "pct_estrangeiro_discente": 0.92375,
         "media_meses_titulacao_mestrado": 30.87875,
-        "media_meses_titulacao_doutorado": 57.29
+        "media_meses_titulacao_doutorado": 57.29,
+        "publicacoes_por_programa": 42.92
       },
       {
         "CD_CONCEITO_PROGRAMA": 6,
@@ -299,7 +313,8 @@
         "taxa_evasao": 8.95125,
         "pct_estrangeiro_discente": 2.045,
         "media_meses_titulacao_mestrado": 34.41875,
-        "media_meses_titulacao_doutorado": 59.6075
+        "media_meses_titulacao_doutorado": 59.6075,
+        "publicacoes_por_programa": 65.13625
       },
       {
         "CD_CONCEITO_PROGRAMA": 7,
@@ -320,7 +335,8 @@
         "taxa_evasao": 5.8825,
         "pct_estrangeiro_discente": 3.55125,
         "media_meses_titulacao_mestrado": 31.02375,
-        "media_meses_titulacao_doutorado": 59.4375
+        "media_meses_titulacao_doutorado": 59.4375,
+        "publicacoes_por_programa": 96.7675
       }
     ],
     "concept_year_raw": [
@@ -346,7 +362,9 @@
         "taxa_evasao": 8.97,
         "pct_estrangeiro_discente": 0.18,
         "media_meses_titulacao_mestrado": 28.38,
-        "media_meses_titulacao_doutorado": 0
+        "media_meses_titulacao_doutorado": 0,
+        "total_publicacoes": 553,
+        "publicacoes_por_programa": 17.28
       },
       {
         "AN_BASE": 2017,
@@ -370,7 +388,9 @@
         "taxa_evasao": 7.99,
         "pct_estrangeiro_discente": 0.77,
         "media_meses_titulacao_mestrado": 30.07,
-        "media_meses_titulacao_doutorado": 54.79
+        "media_meses_titulacao_doutorado": 54.79,
+        "total_publicacoes": 765,
+        "publicacoes_por_programa": 27.32
       },
       {
         "AN_BASE": 2017,
@@ -394,7 +414,9 @@
         "taxa_evasao": 6.55,
         "pct_estrangeiro_discente": 0.68,
         "media_meses_titulacao_mestrado": 28.24,
-        "media_meses_titulacao_doutorado": 54.06
+        "media_meses_titulacao_doutorado": 54.06,
+        "total_publicacoes": 224,
+        "publicacoes_por_programa": 32.0
       },
       {
         "AN_BASE": 2017,
@@ -418,7 +440,9 @@
         "taxa_evasao": 7.49,
         "pct_estrangeiro_discente": 1.47,
         "media_meses_titulacao_mestrado": 31.79,
-        "media_meses_titulacao_doutorado": 59.05
+        "media_meses_titulacao_doutorado": 59.05,
+        "total_publicacoes": 173,
+        "publicacoes_por_programa": 57.67
       },
       {
         "AN_BASE": 2017,
@@ -442,7 +466,9 @@
         "taxa_evasao": 5.95,
         "pct_estrangeiro_discente": 4.48,
         "media_meses_titulacao_mestrado": 30.28,
-        "media_meses_titulacao_doutorado": 58.46
+        "media_meses_titulacao_doutorado": 58.46,
+        "total_publicacoes": 630,
+        "publicacoes_por_programa": 90.0
       },
       {
         "AN_BASE": 2018,
@@ -466,7 +492,9 @@
         "taxa_evasao": 8.44,
         "pct_estrangeiro_discente": 0.4,
         "media_meses_titulacao_mestrado": 27.62,
-        "media_meses_titulacao_doutorado": 0
+        "media_meses_titulacao_doutorado": 0,
+        "total_publicacoes": 615,
+        "publicacoes_por_programa": 19.84
       },
       {
         "AN_BASE": 2018,
@@ -490,7 +518,9 @@
         "taxa_evasao": 9.06,
         "pct_estrangeiro_discente": 0.66,
         "media_meses_titulacao_mestrado": 29.84,
-        "media_meses_titulacao_doutorado": 56.33
+        "media_meses_titulacao_doutorado": 56.33,
+        "total_publicacoes": 879,
+        "publicacoes_por_programa": 31.39
       },
       {
         "AN_BASE": 2018,
@@ -514,7 +544,9 @@
         "taxa_evasao": 7.08,
         "pct_estrangeiro_discente": 0.58,
         "media_meses_titulacao_mestrado": 28.86,
-        "media_meses_titulacao_doutorado": 56.61
+        "media_meses_titulacao_doutorado": 56.61,
+        "total_publicacoes": 230,
+        "publicacoes_por_programa": 32.86
       },
       {
         "AN_BASE": 2018,
@@ -538,7 +570,9 @@
         "taxa_evasao": 10.4,
         "pct_estrangeiro_discente": 1.64,
         "media_meses_titulacao_mestrado": 30.91,
-        "media_meses_titulacao_doutorado": 59.59
+        "media_meses_titulacao_doutorado": 59.59,
+        "total_publicacoes": 172,
+        "publicacoes_por_programa": 57.33
       },
       {
         "AN_BASE": 2018,
@@ -562,7 +596,9 @@
         "taxa_evasao": 6.79,
         "pct_estrangeiro_discente": 4.22,
         "media_meses_titulacao_mestrado": 29.64,
-        "media_meses_titulacao_doutorado": 57.93
+        "media_meses_titulacao_doutorado": 57.93,
+        "total_publicacoes": 663,
+        "publicacoes_por_programa": 94.71
       },
       {
         "AN_BASE": 2019,
@@ -586,7 +622,9 @@
         "taxa_evasao": 9.65,
         "pct_estrangeiro_discente": 0.61,
         "media_meses_titulacao_mestrado": 27.49,
-        "media_meses_titulacao_doutorado": 0
+        "media_meses_titulacao_doutorado": 0,
+        "total_publicacoes": 678,
+        "publicacoes_por_programa": 21.87
       },
       {
         "AN_BASE": 2019,
@@ -610,7 +648,9 @@
         "taxa_evasao": 8.83,
         "pct_estrangeiro_discente": 0.8,
         "media_meses_titulacao_mestrado": 29.36,
-        "media_meses_titulacao_doutorado": 52.68
+        "media_meses_titulacao_doutorado": 52.68,
+        "total_publicacoes": 1045,
+        "publicacoes_por_programa": 37.32
       },
       {
         "AN_BASE": 2019,
@@ -634,7 +674,9 @@
         "taxa_evasao": 8.02,
         "pct_estrangeiro_discente": 0.56,
         "media_meses_titulacao_mestrado": 28.82,
-        "media_meses_titulacao_doutorado": 56.62
+        "media_meses_titulacao_doutorado": 56.62,
+        "total_publicacoes": 255,
+        "publicacoes_por_programa": 36.43
       },
       {
         "AN_BASE": 2019,
@@ -658,7 +700,9 @@
         "taxa_evasao": 11.73,
         "pct_estrangeiro_discente": 1.48,
         "media_meses_titulacao_mestrado": 31.46,
-        "media_meses_titulacao_doutorado": 52.6
+        "media_meses_titulacao_doutorado": 52.6,
+        "total_publicacoes": 158,
+        "publicacoes_por_programa": 52.67
       },
       {
         "AN_BASE": 2019,
@@ -682,7 +726,9 @@
         "taxa_evasao": 6.54,
         "pct_estrangeiro_discente": 4.12,
         "media_meses_titulacao_mestrado": 29.13,
-        "media_meses_titulacao_doutorado": 56.08
+        "media_meses_titulacao_doutorado": 56.08,
+        "total_publicacoes": 724,
+        "publicacoes_por_programa": 103.43
       },
       {
         "AN_BASE": 2020,
@@ -706,7 +752,9 @@
         "taxa_evasao": 7.46,
         "pct_estrangeiro_discente": 0.52,
         "media_meses_titulacao_mestrado": 28.84,
-        "media_meses_titulacao_doutorado": 0
+        "media_meses_titulacao_doutorado": 0,
+        "total_publicacoes": 893,
+        "publicacoes_por_programa": 28.81
       },
       {
         "AN_BASE": 2020,
@@ -730,7 +778,9 @@
         "taxa_evasao": 4.42,
         "pct_estrangeiro_discente": 0.66,
         "media_meses_titulacao_mestrado": 29.91,
-        "media_meses_titulacao_doutorado": 55.04
+        "media_meses_titulacao_doutorado": 55.04,
+        "total_publicacoes": 1090,
+        "publicacoes_por_programa": 38.93
       },
       {
         "AN_BASE": 2020,
@@ -754,7 +804,9 @@
         "taxa_evasao": 5.2,
         "pct_estrangeiro_discente": 0.58,
         "media_meses_titulacao_mestrado": 28.08,
-        "media_meses_titulacao_doutorado": 55.84
+        "media_meses_titulacao_doutorado": 55.84,
+        "total_publicacoes": 343,
+        "publicacoes_por_programa": 49.0
       },
       {
         "AN_BASE": 2020,
@@ -778,7 +830,9 @@
         "taxa_evasao": 6.39,
         "pct_estrangeiro_discente": 2.18,
         "media_meses_titulacao_mestrado": 30.09,
-        "media_meses_titulacao_doutorado": 56.72
+        "media_meses_titulacao_doutorado": 56.72,
+        "total_publicacoes": 215,
+        "publicacoes_por_programa": 71.67
       },
       {
         "AN_BASE": 2020,
@@ -802,7 +856,9 @@
         "taxa_evasao": 3.67,
         "pct_estrangeiro_discente": 3.7,
         "media_meses_titulacao_mestrado": 29.95,
-        "media_meses_titulacao_doutorado": 56.1
+        "media_meses_titulacao_doutorado": 56.1,
+        "total_publicacoes": 749,
+        "publicacoes_por_programa": 107.0
       },
       {
         "AN_BASE": 2021,
@@ -826,7 +882,9 @@
         "taxa_evasao": 12.06,
         "pct_estrangeiro_discente": 0.28,
         "media_meses_titulacao_mestrado": 29.03,
-        "media_meses_titulacao_doutorado": 0
+        "media_meses_titulacao_doutorado": 0,
+        "total_publicacoes": 589,
+        "publicacoes_por_programa": 23.56
       },
       {
         "AN_BASE": 2021,
@@ -850,7 +908,9 @@
         "taxa_evasao": 8.89,
         "pct_estrangeiro_discente": 0.69,
         "media_meses_titulacao_mestrado": 29.69,
-        "media_meses_titulacao_doutorado": 54.93
+        "media_meses_titulacao_doutorado": 54.93,
+        "total_publicacoes": 1297,
+        "publicacoes_por_programa": 38.15
       },
       {
         "AN_BASE": 2021,
@@ -874,7 +934,9 @@
         "taxa_evasao": 7.72,
         "pct_estrangeiro_discente": 0.64,
         "media_meses_titulacao_mestrado": 31.64,
-        "media_meses_titulacao_doutorado": 59.48
+        "media_meses_titulacao_doutorado": 59.48,
+        "total_publicacoes": 711,
+        "publicacoes_por_programa": 54.69
       },
       {
         "AN_BASE": 2021,
@@ -898,7 +960,9 @@
         "taxa_evasao": 6.01,
         "pct_estrangeiro_discente": 2.0,
         "media_meses_titulacao_mestrado": 35.15,
-        "media_meses_titulacao_doutorado": 58.55
+        "media_meses_titulacao_doutorado": 58.55,
+        "total_publicacoes": 293,
+        "publicacoes_por_programa": 73.25
       },
       {
         "AN_BASE": 2021,
@@ -922,7 +986,9 @@
         "taxa_evasao": 5.92,
         "pct_estrangeiro_discente": 3.55,
         "media_meses_titulacao_mestrado": 30.55,
-        "media_meses_titulacao_doutorado": 56.36
+        "media_meses_titulacao_doutorado": 56.36,
+        "total_publicacoes": 872,
+        "publicacoes_por_programa": 109.0
       },
       {
         "AN_BASE": 2022,
@@ -946,7 +1012,9 @@
         "taxa_evasao": 12.62,
         "pct_estrangeiro_discente": 0.14,
         "media_meses_titulacao_mestrado": 31.58,
-        "media_meses_titulacao_doutorado": 0
+        "media_meses_titulacao_doutorado": 0,
+        "total_publicacoes": 519,
+        "publicacoes_por_programa": 20.76
       },
       {
         "AN_BASE": 2022,
@@ -970,7 +1038,9 @@
         "taxa_evasao": 9.65,
         "pct_estrangeiro_discente": 0.6,
         "media_meses_titulacao_mestrado": 31.85,
-        "media_meses_titulacao_doutorado": 53.87
+        "media_meses_titulacao_doutorado": 53.87,
+        "total_publicacoes": 1282,
+        "publicacoes_por_programa": 37.71
       },
       {
         "AN_BASE": 2022,
@@ -994,7 +1064,9 @@
         "taxa_evasao": 9.12,
         "pct_estrangeiro_discente": 0.9,
         "media_meses_titulacao_mestrado": 33.81,
-        "media_meses_titulacao_doutorado": 58.09
+        "media_meses_titulacao_doutorado": 58.09,
+        "total_publicacoes": 636,
+        "publicacoes_por_programa": 48.92
       },
       {
         "AN_BASE": 2022,
@@ -1018,7 +1090,9 @@
         "taxa_evasao": 10.17,
         "pct_estrangeiro_discente": 2.27,
         "media_meses_titulacao_mestrado": 35.31,
-        "media_meses_titulacao_doutorado": 61.19
+        "media_meses_titulacao_doutorado": 61.19,
+        "total_publicacoes": 293,
+        "publicacoes_por_programa": 73.25
       },
       {
         "AN_BASE": 2022,
@@ -1042,7 +1116,9 @@
         "taxa_evasao": 7.07,
         "pct_estrangeiro_discente": 3.1,
         "media_meses_titulacao_mestrado": 33.02,
-        "media_meses_titulacao_doutorado": 61.99
+        "media_meses_titulacao_doutorado": 61.99,
+        "total_publicacoes": 809,
+        "publicacoes_por_programa": 101.12
       },
       {
         "AN_BASE": 2023,
@@ -1066,7 +1142,9 @@
         "taxa_evasao": 11.89,
         "pct_estrangeiro_discente": 0.41,
         "media_meses_titulacao_mestrado": 31.89,
-        "media_meses_titulacao_doutorado": 0
+        "media_meses_titulacao_doutorado": 0,
+        "total_publicacoes": 528,
+        "publicacoes_por_programa": 21.12
       },
       {
         "AN_BASE": 2023,
@@ -1090,7 +1168,9 @@
         "taxa_evasao": 10.36,
         "pct_estrangeiro_discente": 0.83,
         "media_meses_titulacao_mestrado": 31.28,
-        "media_meses_titulacao_doutorado": 56.6
+        "media_meses_titulacao_doutorado": 56.6,
+        "total_publicacoes": 1136,
+        "publicacoes_por_programa": 33.41
       },
       {
         "AN_BASE": 2023,
@@ -1114,7 +1194,9 @@
         "taxa_evasao": 7.51,
         "pct_estrangeiro_discente": 1.38,
         "media_meses_titulacao_mestrado": 34.34,
-        "media_meses_titulacao_doutorado": 58.45
+        "media_meses_titulacao_doutorado": 58.45,
+        "total_publicacoes": 582,
+        "publicacoes_por_programa": 44.77
       },
       {
         "AN_BASE": 2023,
@@ -1138,7 +1220,9 @@
         "taxa_evasao": 9.98,
         "pct_estrangeiro_discente": 2.45,
         "media_meses_titulacao_mestrado": 41.37,
-        "media_meses_titulacao_doutorado": 65.16
+        "media_meses_titulacao_doutorado": 65.16,
+        "total_publicacoes": 276,
+        "publicacoes_por_programa": 69.0
       },
       {
         "AN_BASE": 2023,
@@ -1162,7 +1246,9 @@
         "taxa_evasao": 6.61,
         "pct_estrangeiro_discente": 2.74,
         "media_meses_titulacao_mestrado": 32.64,
-        "media_meses_titulacao_doutorado": 64.36
+        "media_meses_titulacao_doutorado": 64.36,
+        "total_publicacoes": 684,
+        "publicacoes_por_programa": 85.5
       },
       {
         "AN_BASE": 2024,
@@ -1186,7 +1272,9 @@
         "taxa_evasao": 12.98,
         "pct_estrangeiro_discente": 0.38,
         "media_meses_titulacao_mestrado": 31.84,
-        "media_meses_titulacao_doutorado": 0
+        "media_meses_titulacao_doutorado": 0,
+        "total_publicacoes": 511,
+        "publicacoes_por_programa": 20.44
       },
       {
         "AN_BASE": 2024,
@@ -1210,7 +1298,9 @@
         "taxa_evasao": 7.53,
         "pct_estrangeiro_discente": 1.06,
         "media_meses_titulacao_mestrado": 31.65,
-        "media_meses_titulacao_doutorado": 57.76
+        "media_meses_titulacao_doutorado": 57.76,
+        "total_publicacoes": 1261,
+        "publicacoes_por_programa": 38.21
       },
       {
         "AN_BASE": 2024,
@@ -1234,7 +1324,9 @@
         "taxa_evasao": 9.89,
         "pct_estrangeiro_discente": 2.07,
         "media_meses_titulacao_mestrado": 33.24,
-        "media_meses_titulacao_doutorado": 59.17
+        "media_meses_titulacao_doutorado": 59.17,
+        "total_publicacoes": 581,
+        "publicacoes_por_programa": 44.69
       },
       {
         "AN_BASE": 2024,
@@ -1258,7 +1350,9 @@
         "taxa_evasao": 9.44,
         "pct_estrangeiro_discente": 2.87,
         "media_meses_titulacao_mestrado": 39.27,
-        "media_meses_titulacao_doutorado": 64.0
+        "media_meses_titulacao_doutorado": 64.0,
+        "total_publicacoes": 265,
+        "publicacoes_por_programa": 66.25
       },
       {
         "AN_BASE": 2024,
@@ -1282,7 +1376,9 @@
         "taxa_evasao": 4.51,
         "pct_estrangeiro_discente": 2.5,
         "media_meses_titulacao_mestrado": 32.98,
-        "media_meses_titulacao_doutorado": 64.22
+        "media_meses_titulacao_doutorado": 64.22,
+        "total_publicacoes": 667,
+        "publicacoes_por_programa": 83.38
       }
     ]
   },
@@ -1308,7 +1404,8 @@
           "taxa_evasao": 0.569280343716434,
           "pct_estrangeiro_discente": 0.009216589861751145,
           "media_meses_titulacao_mestrado": 0.06412103746397699,
-          "media_meses_titulacao_doutorado": 0.0
+          "media_meses_titulacao_doutorado": 0.0,
+          "publicacoes_por_programa": 0.0
         },
         {
           "CD_CONCEITO_PROGRAMA": 4,
@@ -1329,7 +1426,8 @@
           "taxa_evasao": 0.4640171858216971,
           "pct_estrangeiro_discente": 0.14516129032258063,
           "media_meses_titulacao_mestrado": 0.1858789625360232,
-          "media_meses_titulacao_doutorado": 0.17436305732484064
+          "media_meses_titulacao_doutorado": 0.17436305732484064,
+          "publicacoes_por_programa": 0.10946358482337548
         },
         {
           "CD_CONCEITO_PROGRAMA": 5,
@@ -1350,7 +1448,8 @@
           "taxa_evasao": 0.30934479054779807,
           "pct_estrangeiro_discente": 0.12442396313364054,
           "media_meses_titulacao_mestrado": 0.054034582132564846,
-          "media_meses_titulacao_doutorado": 0.11624203821656062
+          "media_meses_titulacao_doutorado": 0.11624203821656062,
+          "publicacoes_por_programa": 0.16048844308765808
         },
         {
           "CD_CONCEITO_PROGRAMA": 6,
@@ -1371,7 +1470,8 @@
           "taxa_evasao": 0.4103114930182599,
           "pct_estrangeiro_discente": 0.30645161290322576,
           "media_meses_titulacao_mestrado": 0.3097982708933718,
-          "media_meses_titulacao_doutorado": 0.5135350318471336
+          "media_meses_titulacao_doutorado": 0.5135350318471336,
+          "publicacoes_por_programa": 0.44036197121674664
         },
         {
           "CD_CONCEITO_PROGRAMA": 7,
@@ -1392,7 +1492,8 @@
           "taxa_evasao": 0.2448979591836735,
           "pct_estrangeiro_discente": 1.0,
           "media_meses_titulacao_mestrado": 0.2010086455331414,
-          "media_meses_titulacao_doutorado": 0.46656050955414025
+          "media_meses_titulacao_doutorado": 0.46656050955414025,
+          "publicacoes_por_programa": 0.7928477976450066
         }
       ],
       "radar_valores_reais": [
@@ -1415,7 +1516,8 @@
           "taxa_evasao": 8.97,
           "pct_estrangeiro_discente": 0.18,
           "media_meses_titulacao_mestrado": 28.38,
-          "media_meses_titulacao_doutorado": 0
+          "media_meses_titulacao_doutorado": 0,
+          "publicacoes_por_programa": 17.28
         },
         {
           "CD_CONCEITO_PROGRAMA": 4,
@@ -1436,7 +1538,8 @@
           "taxa_evasao": 7.99,
           "pct_estrangeiro_discente": 0.77,
           "media_meses_titulacao_mestrado": 30.07,
-          "media_meses_titulacao_doutorado": 54.79
+          "media_meses_titulacao_doutorado": 54.79,
+          "publicacoes_por_programa": 27.32
         },
         {
           "CD_CONCEITO_PROGRAMA": 5,
@@ -1457,7 +1560,8 @@
           "taxa_evasao": 6.55,
           "pct_estrangeiro_discente": 0.68,
           "media_meses_titulacao_mestrado": 28.24,
-          "media_meses_titulacao_doutorado": 54.06
+          "media_meses_titulacao_doutorado": 54.06,
+          "publicacoes_por_programa": 32.0
         },
         {
           "CD_CONCEITO_PROGRAMA": 6,
@@ -1478,7 +1582,8 @@
           "taxa_evasao": 7.49,
           "pct_estrangeiro_discente": 1.47,
           "media_meses_titulacao_mestrado": 31.79,
-          "media_meses_titulacao_doutorado": 59.05
+          "media_meses_titulacao_doutorado": 59.05,
+          "publicacoes_por_programa": 57.67
         },
         {
           "CD_CONCEITO_PROGRAMA": 7,
@@ -1499,7 +1604,8 @@
           "taxa_evasao": 5.95,
           "pct_estrangeiro_discente": 4.48,
           "media_meses_titulacao_mestrado": 30.28,
-          "media_meses_titulacao_doutorado": 58.46
+          "media_meses_titulacao_doutorado": 58.46,
+          "publicacoes_por_programa": 90.0
         }
       ]
     },
@@ -1524,7 +1630,8 @@
           "taxa_evasao": 0.5123523093447905,
           "pct_estrangeiro_discente": 0.05990783410138248,
           "media_meses_titulacao_mestrado": 0.009365994236311424,
-          "media_meses_titulacao_doutorado": 0.0
+          "media_meses_titulacao_doutorado": 0.0,
+          "publicacoes_por_programa": 0.027911033580462263
         },
         {
           "CD_CONCEITO_PROGRAMA": 4,
@@ -1545,7 +1652,8 @@
           "taxa_evasao": 0.5789473684210527,
           "pct_estrangeiro_discente": 0.11981566820276496,
           "media_meses_titulacao_mestrado": 0.16930835734870328,
-          "media_meses_titulacao_doutorado": 0.2969745222929935
+          "media_meses_titulacao_doutorado": 0.2969745222929935,
+          "publicacoes_por_programa": 0.15383776711731356
         },
         {
           "CD_CONCEITO_PROGRAMA": 5,
@@ -1566,7 +1674,8 @@
           "taxa_evasao": 0.36627282491944146,
           "pct_estrangeiro_discente": 0.10138248847926264,
           "media_meses_titulacao_mestrado": 0.09870317002881852,
-          "media_meses_titulacao_doutorado": 0.31926751592356684
+          "media_meses_titulacao_doutorado": 0.31926751592356684,
+          "publicacoes_por_programa": 0.16986480593109463
         },
         {
           "CD_CONCEITO_PROGRAMA": 6,
@@ -1587,7 +1696,8 @@
           "taxa_evasao": 0.7228786251342643,
           "pct_estrangeiro_discente": 0.34562211981566815,
           "media_meses_titulacao_mestrado": 0.2463976945244958,
-          "media_meses_titulacao_doutorado": 0.5565286624203826
+          "media_meses_titulacao_doutorado": 0.5565286624203826,
+          "publicacoes_por_programa": 0.43665503706934145
         },
         {
           "CD_CONCEITO_PROGRAMA": 7,
@@ -1608,7 +1718,8 @@
           "taxa_evasao": 0.3351235230934479,
           "pct_estrangeiro_discente": 0.9400921658986173,
           "media_meses_titulacao_mestrado": 0.15489913544668604,
-          "media_meses_titulacao_doutorado": 0.4243630573248408
+          "media_meses_titulacao_doutorado": 0.4243630573248408,
+          "publicacoes_por_programa": 0.8441997383340601
         }
       ],
       "radar_valores_reais": [
@@ -1631,7 +1742,8 @@
           "taxa_evasao": 8.44,
           "pct_estrangeiro_discente": 0.4,
           "media_meses_titulacao_mestrado": 27.62,
-          "media_meses_titulacao_doutorado": 0
+          "media_meses_titulacao_doutorado": 0,
+          "publicacoes_por_programa": 19.84
         },
         {
           "CD_CONCEITO_PROGRAMA": 4,
@@ -1652,7 +1764,8 @@
           "taxa_evasao": 9.06,
           "pct_estrangeiro_discente": 0.66,
           "media_meses_titulacao_mestrado": 29.84,
-          "media_meses_titulacao_doutorado": 56.33
+          "media_meses_titulacao_doutorado": 56.33,
+          "publicacoes_por_programa": 31.39
         },
         {
           "CD_CONCEITO_PROGRAMA": 5,
@@ -1673,7 +1786,8 @@
           "taxa_evasao": 7.08,
           "pct_estrangeiro_discente": 0.58,
           "media_meses_titulacao_mestrado": 28.86,
-          "media_meses_titulacao_doutorado": 56.61
+          "media_meses_titulacao_doutorado": 56.61,
+          "publicacoes_por_programa": 32.86
         },
         {
           "CD_CONCEITO_PROGRAMA": 6,
@@ -1694,7 +1808,8 @@
           "taxa_evasao": 10.4,
           "pct_estrangeiro_discente": 1.64,
           "media_meses_titulacao_mestrado": 30.91,
-          "media_meses_titulacao_doutorado": 59.59
+          "media_meses_titulacao_doutorado": 59.59,
+          "publicacoes_por_programa": 57.33
         },
         {
           "CD_CONCEITO_PROGRAMA": 7,
@@ -1715,7 +1830,8 @@
           "taxa_evasao": 6.79,
           "pct_estrangeiro_discente": 4.22,
           "media_meses_titulacao_mestrado": 29.64,
-          "media_meses_titulacao_doutorado": 57.93
+          "media_meses_titulacao_doutorado": 57.93,
+          "publicacoes_por_programa": 94.71
         }
       ]
     },
@@ -1740,7 +1856,8 @@
           "taxa_evasao": 0.6423200859291085,
           "pct_estrangeiro_discente": 0.10829493087557601,
           "media_meses_titulacao_mestrado": 0.0,
-          "media_meses_titulacao_doutorado": 0.0
+          "media_meses_titulacao_doutorado": 0.0,
+          "publicacoes_por_programa": 0.05004361098996947
         },
         {
           "CD_CONCEITO_PROGRAMA": 4,
@@ -1761,7 +1878,8 @@
           "taxa_evasao": 0.5542427497314715,
           "pct_estrangeiro_discente": 0.152073732718894,
           "media_meses_titulacao_mestrado": 0.13472622478386176,
-          "media_meses_titulacao_doutorado": 0.0063694267515922234
+          "media_meses_titulacao_doutorado": 0.0063694267515922234,
+          "publicacoes_por_programa": 0.21849105974705627
         },
         {
           "CD_CONCEITO_PROGRAMA": 5,
@@ -1782,7 +1900,8 @@
           "taxa_evasao": 0.46723952738990326,
           "pct_estrangeiro_discente": 0.0967741935483871,
           "media_meses_titulacao_mestrado": 0.09582132564841513,
-          "media_meses_titulacao_doutorado": 0.32006369426751574
+          "media_meses_titulacao_doutorado": 0.32006369426751574,
+          "publicacoes_por_programa": 0.20878761447884867
         },
         {
           "CD_CONCEITO_PROGRAMA": 6,
@@ -1803,7 +1922,8 @@
           "taxa_evasao": 0.8657357679914071,
           "pct_estrangeiro_discente": 0.30875576036866353,
           "media_meses_titulacao_mestrado": 0.2860230547550434,
-          "media_meses_titulacao_doutorado": 0.0
+          "media_meses_titulacao_doutorado": 0.0,
+          "publicacoes_por_programa": 0.38584823375490623
         },
         {
           "CD_CONCEITO_PROGRAMA": 7,
@@ -1824,7 +1944,8 @@
           "taxa_evasao": 0.3082706766917293,
           "pct_estrangeiro_discente": 0.9170506912442394,
           "media_meses_titulacao_mestrado": 0.11815561959654183,
-          "media_meses_titulacao_doutorado": 0.2770700636942674
+          "media_meses_titulacao_doutorado": 0.2770700636942674,
+          "publicacoes_por_programa": 0.9392716964675099
         }
       ],
       "radar_valores_reais": [
@@ -1847,7 +1968,8 @@
           "taxa_evasao": 9.65,
           "pct_estrangeiro_discente": 0.61,
           "media_meses_titulacao_mestrado": 27.49,
-          "media_meses_titulacao_doutorado": 0
+          "media_meses_titulacao_doutorado": 0,
+          "publicacoes_por_programa": 21.87
         },
         {
           "CD_CONCEITO_PROGRAMA": 4,
@@ -1868,7 +1990,8 @@
           "taxa_evasao": 8.83,
           "pct_estrangeiro_discente": 0.8,
           "media_meses_titulacao_mestrado": 29.36,
-          "media_meses_titulacao_doutorado": 52.68
+          "media_meses_titulacao_doutorado": 52.68,
+          "publicacoes_por_programa": 37.32
         },
         {
           "CD_CONCEITO_PROGRAMA": 5,
@@ -1889,7 +2012,8 @@
           "taxa_evasao": 8.02,
           "pct_estrangeiro_discente": 0.56,
           "media_meses_titulacao_mestrado": 28.82,
-          "media_meses_titulacao_doutorado": 56.62
+          "media_meses_titulacao_doutorado": 56.62,
+          "publicacoes_por_programa": 36.43
         },
         {
           "CD_CONCEITO_PROGRAMA": 6,
@@ -1910,7 +2034,8 @@
           "taxa_evasao": 11.73,
           "pct_estrangeiro_discente": 1.48,
           "media_meses_titulacao_mestrado": 31.46,
-          "media_meses_titulacao_doutorado": 52.6
+          "media_meses_titulacao_doutorado": 52.6,
+          "publicacoes_por_programa": 52.67
         },
         {
           "CD_CONCEITO_PROGRAMA": 7,
@@ -1931,7 +2056,8 @@
           "taxa_evasao": 6.54,
           "pct_estrangeiro_discente": 4.12,
           "media_meses_titulacao_mestrado": 29.13,
-          "media_meses_titulacao_doutorado": 56.08
+          "media_meses_titulacao_doutorado": 56.08,
+          "publicacoes_por_programa": 103.43
         }
       ]
     },
@@ -1956,7 +2082,8 @@
           "taxa_evasao": 0.4070891514500537,
           "pct_estrangeiro_discente": 0.08755760368663593,
           "media_meses_titulacao_mestrado": 0.09726224783861682,
-          "media_meses_titulacao_doutorado": 0.0
+          "media_meses_titulacao_doutorado": 0.0,
+          "publicacoes_por_programa": 0.1257086785870039
         },
         {
           "CD_CONCEITO_PROGRAMA": 4,
@@ -1977,7 +2104,8 @@
           "taxa_evasao": 0.08055853920515574,
           "pct_estrangeiro_discente": 0.11981566820276496,
           "media_meses_titulacao_mestrado": 0.17435158501440937,
-          "media_meses_titulacao_doutorado": 0.19426751592356678
+          "media_meses_titulacao_doutorado": 0.19426751592356678,
+          "publicacoes_por_programa": 0.23604448320976884
         },
         {
           "CD_CONCEITO_PROGRAMA": 5,
@@ -1998,7 +2126,8 @@
           "taxa_evasao": 0.16433941997851775,
           "pct_estrangeiro_discente": 0.10138248847926264,
           "media_meses_titulacao_mestrado": 0.042507204610951005,
-          "media_meses_titulacao_doutorado": 0.2579617834394907
+          "media_meses_titulacao_doutorado": 0.2579617834394907,
+          "publicacoes_por_programa": 0.3458351504579154
         },
         {
           "CD_CONCEITO_PROGRAMA": 6,
@@ -2019,7 +2148,8 @@
           "taxa_evasao": 0.29215896885069814,
           "pct_estrangeiro_discente": 0.47004608294930866,
           "media_meses_titulacao_mestrado": 0.1873198847262249,
-          "media_meses_titulacao_doutorado": 0.3280254777070063
+          "media_meses_titulacao_doutorado": 0.3280254777070063,
+          "publicacoes_por_programa": 0.5930004361098997
         },
         {
           "CD_CONCEITO_PROGRAMA": 7,
@@ -2040,7 +2170,8 @@
           "taxa_evasao": 0.0,
           "pct_estrangeiro_discente": 0.8202764976958524,
           "media_meses_titulacao_mestrado": 0.17723342939481276,
-          "media_meses_titulacao_doutorado": 0.2786624203821657
+          "media_meses_titulacao_doutorado": 0.2786624203821657,
+          "publicacoes_por_programa": 0.9781945050152638
         }
       ],
       "radar_valores_reais": [
@@ -2063,7 +2194,8 @@
           "taxa_evasao": 7.46,
           "pct_estrangeiro_discente": 0.52,
           "media_meses_titulacao_mestrado": 28.84,
-          "media_meses_titulacao_doutorado": 0
+          "media_meses_titulacao_doutorado": 0,
+          "publicacoes_por_programa": 28.81
         },
         {
           "CD_CONCEITO_PROGRAMA": 4,
@@ -2084,7 +2216,8 @@
           "taxa_evasao": 4.42,
           "pct_estrangeiro_discente": 0.66,
           "media_meses_titulacao_mestrado": 29.91,
-          "media_meses_titulacao_doutorado": 55.04
+          "media_meses_titulacao_doutorado": 55.04,
+          "publicacoes_por_programa": 38.93
         },
         {
           "CD_CONCEITO_PROGRAMA": 5,
@@ -2105,7 +2238,8 @@
           "taxa_evasao": 5.2,
           "pct_estrangeiro_discente": 0.58,
           "media_meses_titulacao_mestrado": 28.08,
-          "media_meses_titulacao_doutorado": 55.84
+          "media_meses_titulacao_doutorado": 55.84,
+          "publicacoes_por_programa": 49.0
         },
         {
           "CD_CONCEITO_PROGRAMA": 6,
@@ -2126,7 +2260,8 @@
           "taxa_evasao": 6.39,
           "pct_estrangeiro_discente": 2.18,
           "media_meses_titulacao_mestrado": 30.09,
-          "media_meses_titulacao_doutorado": 56.72
+          "media_meses_titulacao_doutorado": 56.72,
+          "publicacoes_por_programa": 71.67
         },
         {
           "CD_CONCEITO_PROGRAMA": 7,
@@ -2147,7 +2282,8 @@
           "taxa_evasao": 3.67,
           "pct_estrangeiro_discente": 3.7,
           "media_meses_titulacao_mestrado": 29.95,
-          "media_meses_titulacao_doutorado": 56.1
+          "media_meses_titulacao_doutorado": 56.1,
+          "publicacoes_por_programa": 107.0
         }
       ]
     },
@@ -2172,7 +2308,8 @@
           "taxa_evasao": 0.9011815252416756,
           "pct_estrangeiro_discente": 0.03225806451612903,
           "media_meses_titulacao_mestrado": 0.11095100864553334,
-          "media_meses_titulacao_doutorado": 0.0
+          "media_meses_titulacao_doutorado": 0.0,
+          "publicacoes_por_programa": 0.0684692542520715
         },
         {
           "CD_CONCEITO_PROGRAMA": 4,
@@ -2193,7 +2330,8 @@
           "taxa_evasao": 0.560687432867884,
           "pct_estrangeiro_discente": 0.1267281105990783,
           "media_meses_titulacao_mestrado": 0.15850144092219043,
-          "media_meses_titulacao_doutorado": 0.18550955414012732
+          "media_meses_titulacao_doutorado": 0.18550955414012732,
+          "publicacoes_por_programa": 0.22754034016572175
         },
         {
           "CD_CONCEITO_PROGRAMA": 5,
@@ -2214,7 +2352,8 @@
           "taxa_evasao": 0.435016111707841,
           "pct_estrangeiro_discente": 0.11520737327188939,
           "media_meses_titulacao_mestrado": 0.298991354466859,
-          "media_meses_titulacao_doutorado": 0.5477707006369426
+          "media_meses_titulacao_doutorado": 0.5477707006369426,
+          "publicacoes_por_programa": 0.40787178368948973
         },
         {
           "CD_CONCEITO_PROGRAMA": 6,
@@ -2235,7 +2374,8 @@
           "taxa_evasao": 0.2513426423200859,
           "pct_estrangeiro_discente": 0.4285714285714285,
           "media_meses_titulacao_mestrado": 0.5518731988472623,
-          "media_meses_titulacao_doutorado": 0.4737261146496814
+          "media_meses_titulacao_doutorado": 0.4737261146496814,
+          "publicacoes_por_programa": 0.6102267771478412
         },
         {
           "CD_CONCEITO_PROGRAMA": 7,
@@ -2256,7 +2396,8 @@
           "taxa_evasao": 0.24167561761546721,
           "pct_estrangeiro_discente": 0.7857142857142855,
           "media_meses_titulacao_mestrado": 0.22046109510086473,
-          "media_meses_titulacao_doutorado": 0.2993630573248407
+          "media_meses_titulacao_doutorado": 0.2993630573248407,
+          "publicacoes_por_programa": 1.0
         }
       ],
       "radar_valores_reais": [
@@ -2279,7 +2420,8 @@
           "taxa_evasao": 12.06,
           "pct_estrangeiro_discente": 0.28,
           "media_meses_titulacao_mestrado": 29.03,
-          "media_meses_titulacao_doutorado": 0
+          "media_meses_titulacao_doutorado": 0,
+          "publicacoes_por_programa": 23.56
         },
         {
           "CD_CONCEITO_PROGRAMA": 4,
@@ -2300,7 +2442,8 @@
           "taxa_evasao": 8.89,
           "pct_estrangeiro_discente": 0.69,
           "media_meses_titulacao_mestrado": 29.69,
-          "media_meses_titulacao_doutorado": 54.93
+          "media_meses_titulacao_doutorado": 54.93,
+          "publicacoes_por_programa": 38.15
         },
         {
           "CD_CONCEITO_PROGRAMA": 5,
@@ -2321,7 +2464,8 @@
           "taxa_evasao": 7.72,
           "pct_estrangeiro_discente": 0.64,
           "media_meses_titulacao_mestrado": 31.64,
-          "media_meses_titulacao_doutorado": 59.48
+          "media_meses_titulacao_doutorado": 59.48,
+          "publicacoes_por_programa": 54.69
         },
         {
           "CD_CONCEITO_PROGRAMA": 6,
@@ -2342,7 +2486,8 @@
           "taxa_evasao": 6.01,
           "pct_estrangeiro_discente": 2.0,
           "media_meses_titulacao_mestrado": 35.15,
-          "media_meses_titulacao_doutorado": 58.55
+          "media_meses_titulacao_doutorado": 58.55,
+          "publicacoes_por_programa": 73.25
         },
         {
           "CD_CONCEITO_PROGRAMA": 7,
@@ -2363,7 +2508,8 @@
           "taxa_evasao": 5.92,
           "pct_estrangeiro_discente": 3.55,
           "media_meses_titulacao_mestrado": 30.55,
-          "media_meses_titulacao_doutorado": 56.36
+          "media_meses_titulacao_doutorado": 56.36,
+          "publicacoes_por_programa": 109.0
         }
       ]
     },
@@ -2388,7 +2534,8 @@
           "taxa_evasao": 0.9613319011815251,
           "pct_estrangeiro_discente": 0.0,
           "media_meses_titulacao_mestrado": 0.2946685878962536,
-          "media_meses_titulacao_doutorado": 0.0
+          "media_meses_titulacao_doutorado": 0.0,
+          "publicacoes_por_programa": 0.037941561273440914
         },
         {
           "CD_CONCEITO_PROGRAMA": 4,
@@ -2409,7 +2556,8 @@
           "taxa_evasao": 0.6423200859291085,
           "pct_estrangeiro_discente": 0.10599078341013822,
           "media_meses_titulacao_mestrado": 0.3141210374639772,
-          "media_meses_titulacao_doutorado": 0.10111464968152839
+          "media_meses_titulacao_doutorado": 0.10111464968152839,
+          "publicacoes_por_programa": 0.2227431312690798
         },
         {
           "CD_CONCEITO_PROGRAMA": 5,
@@ -2430,7 +2578,8 @@
           "taxa_evasao": 0.585392051557465,
           "pct_estrangeiro_discente": 0.17511520737327185,
           "media_meses_titulacao_mestrado": 0.4553314121037467,
-          "media_meses_titulacao_doutorado": 0.4371019108280258
+          "media_meses_titulacao_doutorado": 0.4371019108280258,
+          "publicacoes_por_programa": 0.34496293065852596
         },
         {
           "CD_CONCEITO_PROGRAMA": 6,
@@ -2451,7 +2600,8 @@
           "taxa_evasao": 0.6981740064446831,
           "pct_estrangeiro_discente": 0.4907834101382487,
           "media_meses_titulacao_mestrado": 0.5634005763688764,
-          "media_meses_titulacao_doutorado": 0.6839171974522292
+          "media_meses_titulacao_doutorado": 0.6839171974522292,
+          "publicacoes_por_programa": 0.6102267771478412
         },
         {
           "CD_CONCEITO_PROGRAMA": 7,
@@ -2472,7 +2622,8 @@
           "taxa_evasao": 0.36519871106337276,
           "pct_estrangeiro_discente": 0.6820276497695851,
           "media_meses_titulacao_mestrado": 0.3984149855907785,
-          "media_meses_titulacao_doutorado": 0.7476114649681532
+          "media_meses_titulacao_doutorado": 0.7476114649681532,
+          "publicacoes_por_programa": 0.9140863497601396
         }
       ],
       "radar_valores_reais": [
@@ -2495,7 +2646,8 @@
           "taxa_evasao": 12.62,
           "pct_estrangeiro_discente": 0.14,
           "media_meses_titulacao_mestrado": 31.58,
-          "media_meses_titulacao_doutorado": 0
+          "media_meses_titulacao_doutorado": 0,
+          "publicacoes_por_programa": 20.76
         },
         {
           "CD_CONCEITO_PROGRAMA": 4,
@@ -2516,7 +2668,8 @@
           "taxa_evasao": 9.65,
           "pct_estrangeiro_discente": 0.6,
           "media_meses_titulacao_mestrado": 31.85,
-          "media_meses_titulacao_doutorado": 53.87
+          "media_meses_titulacao_doutorado": 53.87,
+          "publicacoes_por_programa": 37.71
         },
         {
           "CD_CONCEITO_PROGRAMA": 5,
@@ -2537,7 +2690,8 @@
           "taxa_evasao": 9.12,
           "pct_estrangeiro_discente": 0.9,
           "media_meses_titulacao_mestrado": 33.81,
-          "media_meses_titulacao_doutorado": 58.09
+          "media_meses_titulacao_doutorado": 58.09,
+          "publicacoes_por_programa": 48.92
         },
         {
           "CD_CONCEITO_PROGRAMA": 6,
@@ -2558,7 +2712,8 @@
           "taxa_evasao": 10.17,
           "pct_estrangeiro_discente": 2.27,
           "media_meses_titulacao_mestrado": 35.31,
-          "media_meses_titulacao_doutorado": 61.19
+          "media_meses_titulacao_doutorado": 61.19,
+          "publicacoes_por_programa": 73.25
         },
         {
           "CD_CONCEITO_PROGRAMA": 7,
@@ -2579,7 +2734,8 @@
           "taxa_evasao": 7.07,
           "pct_estrangeiro_discente": 3.1,
           "media_meses_titulacao_mestrado": 33.02,
-          "media_meses_titulacao_doutorado": 61.99
+          "media_meses_titulacao_doutorado": 61.99,
+          "publicacoes_por_programa": 101.12
         }
       ]
     },
@@ -2604,7 +2760,8 @@
           "taxa_evasao": 0.882921589688507,
           "pct_estrangeiro_discente": 0.06221198156682026,
           "media_meses_titulacao_mestrado": 0.3170028818443806,
-          "media_meses_titulacao_doutorado": 0.0
+          "media_meses_titulacao_doutorado": 0.0,
+          "publicacoes_por_programa": 0.041866550370693416
         },
         {
           "CD_CONCEITO_PROGRAMA": 4,
@@ -2625,7 +2782,8 @@
           "taxa_evasao": 0.7185821697099891,
           "pct_estrangeiro_discente": 0.15898617511520732,
           "media_meses_titulacao_mestrado": 0.2730547550432279,
-          "media_meses_titulacao_doutorado": 0.31847133757961793
+          "media_meses_titulacao_doutorado": 0.31847133757961793,
+          "publicacoes_por_programa": 0.17586131705189703
         },
         {
           "CD_CONCEITO_PROGRAMA": 5,
@@ -2646,7 +2804,8 @@
           "taxa_evasao": 0.4124597207303974,
           "pct_estrangeiro_discente": 0.2857142857142856,
           "media_meses_titulacao_mestrado": 0.4935158501440926,
-          "media_meses_titulacao_doutorado": 0.4657643312101914
+          "media_meses_titulacao_doutorado": 0.4657643312101914,
+          "publicacoes_por_programa": 0.2997165285651985
         },
         {
           "CD_CONCEITO_PROGRAMA": 6,
@@ -2667,7 +2826,8 @@
           "taxa_evasao": 0.677765843179377,
           "pct_estrangeiro_discente": 0.532258064516129,
           "media_meses_titulacao_mestrado": 1.0,
-          "media_meses_titulacao_doutorado": 1.0
+          "media_meses_titulacao_doutorado": 1.0,
+          "publicacoes_por_programa": 0.563890100305277
         },
         {
           "CD_CONCEITO_PROGRAMA": 7,
@@ -2688,7 +2848,8 @@
           "taxa_evasao": 0.31578947368421056,
           "pct_estrangeiro_discente": 0.5990783410138248,
           "media_meses_titulacao_mestrado": 0.3710374639769454,
-          "media_meses_titulacao_doutorado": 0.9363057324840767
+          "media_meses_titulacao_doutorado": 0.9363057324840767,
+          "publicacoes_por_programa": 0.7437854339293501
         }
       ],
       "radar_valores_reais": [
@@ -2711,7 +2872,8 @@
           "taxa_evasao": 11.89,
           "pct_estrangeiro_discente": 0.41,
           "media_meses_titulacao_mestrado": 31.89,
-          "media_meses_titulacao_doutorado": 0
+          "media_meses_titulacao_doutorado": 0,
+          "publicacoes_por_programa": 21.12
         },
         {
           "CD_CONCEITO_PROGRAMA": 4,
@@ -2732,7 +2894,8 @@
           "taxa_evasao": 10.36,
           "pct_estrangeiro_discente": 0.83,
           "media_meses_titulacao_mestrado": 31.28,
-          "media_meses_titulacao_doutorado": 56.6
+          "media_meses_titulacao_doutorado": 56.6,
+          "publicacoes_por_programa": 33.41
         },
         {
           "CD_CONCEITO_PROGRAMA": 5,
@@ -2753,7 +2916,8 @@
           "taxa_evasao": 7.51,
           "pct_estrangeiro_discente": 1.38,
           "media_meses_titulacao_mestrado": 34.34,
-          "media_meses_titulacao_doutorado": 58.45
+          "media_meses_titulacao_doutorado": 58.45,
+          "publicacoes_por_programa": 44.77
         },
         {
           "CD_CONCEITO_PROGRAMA": 6,
@@ -2774,7 +2938,8 @@
           "taxa_evasao": 9.98,
           "pct_estrangeiro_discente": 2.45,
           "media_meses_titulacao_mestrado": 41.37,
-          "media_meses_titulacao_doutorado": 65.16
+          "media_meses_titulacao_doutorado": 65.16,
+          "publicacoes_por_programa": 69.0
         },
         {
           "CD_CONCEITO_PROGRAMA": 7,
@@ -2795,7 +2960,8 @@
           "taxa_evasao": 6.61,
           "pct_estrangeiro_discente": 2.74,
           "media_meses_titulacao_mestrado": 32.64,
-          "media_meses_titulacao_doutorado": 64.36
+          "media_meses_titulacao_doutorado": 64.36,
+          "publicacoes_por_programa": 85.5
         }
       ]
     },
@@ -2820,7 +2986,8 @@
           "taxa_evasao": 1.0,
           "pct_estrangeiro_discente": 0.0552995391705069,
           "media_meses_titulacao_mestrado": 0.3134005763688762,
-          "media_meses_titulacao_doutorado": 0.0
+          "media_meses_titulacao_doutorado": 0.0,
+          "publicacoes_por_programa": 0.034452682075883125
         },
         {
           "CD_CONCEITO_PROGRAMA": 4,
@@ -2841,7 +3008,8 @@
           "taxa_evasao": 0.4146079484425349,
           "pct_estrangeiro_discente": 0.21198156682027647,
           "media_meses_titulacao_mestrado": 0.2997118155619597,
-          "media_meses_titulacao_doutorado": 0.4108280254777069
+          "media_meses_titulacao_doutorado": 0.4108280254777069,
+          "publicacoes_por_programa": 0.22819450501526384
         },
         {
           "CD_CONCEITO_PROGRAMA": 5,
@@ -2862,7 +3030,8 @@
           "taxa_evasao": 0.6680988184747584,
           "pct_estrangeiro_discente": 0.44470046082949294,
           "media_meses_titulacao_mestrado": 0.4142651296829974,
-          "media_meses_titulacao_doutorado": 0.5230891719745225
+          "media_meses_titulacao_doutorado": 0.5230891719745225,
+          "publicacoes_por_programa": 0.298844308765809
         },
         {
           "CD_CONCEITO_PROGRAMA": 6,
@@ -2883,7 +3052,8 @@
           "taxa_evasao": 0.6197636949516648,
           "pct_estrangeiro_discente": 0.629032258064516,
           "media_meses_titulacao_mestrado": 0.8487031700288188,
-          "media_meses_titulacao_doutorado": 0.9076433121019111
+          "media_meses_titulacao_doutorado": 0.9076433121019111,
+          "publicacoes_por_programa": 0.5339075447012647
         },
         {
           "CD_CONCEITO_PROGRAMA": 7,
@@ -2904,7 +3074,8 @@
           "taxa_evasao": 0.09022556390977442,
           "pct_estrangeiro_discente": 0.5437788018433178,
           "media_meses_titulacao_mestrado": 0.39553314121037453,
-          "media_meses_titulacao_doutorado": 0.92515923566879
+          "media_meses_titulacao_doutorado": 0.92515923566879,
+          "publicacoes_por_programa": 0.7206716092455299
         }
       ],
       "radar_valores_reais": [
@@ -2927,7 +3098,8 @@
           "taxa_evasao": 12.98,
           "pct_estrangeiro_discente": 0.38,
           "media_meses_titulacao_mestrado": 31.84,
-          "media_meses_titulacao_doutorado": 0
+          "media_meses_titulacao_doutorado": 0,
+          "publicacoes_por_programa": 20.44
         },
         {
           "CD_CONCEITO_PROGRAMA": 4,
@@ -2948,7 +3120,8 @@
           "taxa_evasao": 7.53,
           "pct_estrangeiro_discente": 1.06,
           "media_meses_titulacao_mestrado": 31.65,
-          "media_meses_titulacao_doutorado": 57.76
+          "media_meses_titulacao_doutorado": 57.76,
+          "publicacoes_por_programa": 38.21
         },
         {
           "CD_CONCEITO_PROGRAMA": 5,
@@ -2969,7 +3142,8 @@
           "taxa_evasao": 9.89,
           "pct_estrangeiro_discente": 2.07,
           "media_meses_titulacao_mestrado": 33.24,
-          "media_meses_titulacao_doutorado": 59.17
+          "media_meses_titulacao_doutorado": 59.17,
+          "publicacoes_por_programa": 44.69
         },
         {
           "CD_CONCEITO_PROGRAMA": 6,
@@ -2990,7 +3164,8 @@
           "taxa_evasao": 9.44,
           "pct_estrangeiro_discente": 2.87,
           "media_meses_titulacao_mestrado": 39.27,
-          "media_meses_titulacao_doutorado": 64.0
+          "media_meses_titulacao_doutorado": 64.0,
+          "publicacoes_por_programa": 66.25
         },
         {
           "CD_CONCEITO_PROGRAMA": 7,
@@ -3011,7 +3186,8 @@
           "taxa_evasao": 4.51,
           "pct_estrangeiro_discente": 2.5,
           "media_meses_titulacao_mestrado": 32.98,
-          "media_meses_titulacao_doutorado": 64.22
+          "media_meses_titulacao_doutorado": 64.22,
+          "publicacoes_por_programa": 83.38
         }
       ]
     }

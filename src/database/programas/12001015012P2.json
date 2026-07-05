@@ -1,1 +1,1983 @@
-{"metadata": {"cd_programa": "12001015012P2", "nm_programa": "INFORMÁTICA", "sg_ies": "UFAM", "conceito_recente": 6}, "radar": {"valores_reais": {"total_docentes_permanentes": 183.0, "docentes_permanentes_por_programa": 183.0, "pct_docentes_permanentes": 100.0, "pct_pq": 24.043715846994534, "pct_titulado_no_exterior": 21.311475409836063, "pct_docente_estrangeiro": 2.185792349726776, "pct_endogamia": 4.918032786885246, "pct_dedicacao_exclusiva": 20.21857923497268, "pct_instituicao_publica": 100.0, "media_anos_doutorado": 13.721311475409836, "discentes_por_programa": 1644.0, "pct_mestrado": 54.68369829683698, "pct_doutorado": 45.31630170316301, "pct_titulado": 13.321167883211679, "taxa_evasao": 4.866180048661801, "pct_estrangeiro_discente": 100.0, "media_meses_titulacao_mestrado": 32.33112582781457, "media_meses_titulacao_doutorado": 62.970588235294116}, "normalizado": {"total_docentes_permanentes": 0.1601423487544484, "docentes_permanentes_por_programa": 1.0, "pct_docentes_permanentes": 1.0, "pct_pq": 0.32671548866792083, "pct_titulado_no_exterior": 0.3440177628232716, "pct_docente_estrangeiro": 0.12015966299913104, "pct_endogamia": 0.0, "pct_dedicacao_exclusiva": 0.0, "pct_instituicao_publica": 1.0, "media_anos_doutorado": 0.42750647109577217, "discentes_por_programa": 1.0, "pct_mestrado": 0.11560691445817683, "pct_doutorado": 0.884393085541823, "pct_titulado": 0.06739079073353318, "taxa_evasao": 0.12848335646206238, "pct_estrangeiro_discente": 1.0, "media_meses_titulacao_mestrado": 0.3487842815428364, "media_meses_titulacao_doutorado": 0.8256837766953916}}, "discentes": {"geral": {"distribuicao_grau_academico": [{"DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO", "TOTAL": 745, "PERCENTUAL": 45.32}, {"DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO", "TOTAL": 899, "PERCENTUAL": 54.68}], "situacao_academica": [{"NM_SITUACAO_DISCENTE": "ABANDONOU", "TOTAL": 24, "PERCENTUAL": 1.46}, {"NM_SITUACAO_DISCENTE": "DESLIGADO", "TOTAL": 56, "PERCENTUAL": 3.41}, {"NM_SITUACAO_DISCENTE": "MATRICULADO", "TOTAL": 1344, "PERCENTUAL": 81.75}, {"NM_SITUACAO_DISCENTE": "MUDANÇA DE NÍVEL SEM DEFESA", "TOTAL": 1, "PERCENTUAL": 0.06}, {"NM_SITUACAO_DISCENTE": "TITULADO", "TOTAL": 219, "PERCENTUAL": 13.32}], "internacionalizacao_nacionalidade": [{"DS_TIPO_NACIONALIDADE_DISCENTE": "BRASILEIRO", "TOTAL": 1628, "PERCENTUAL": 99.03}, {"DS_TIPO_NACIONALIDADE_DISCENTE": "ESTRANGEIRO", "TOTAL": 16, "PERCENTUAL": 0.97}], "tempo_medio_titulacao": [{"DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO", "MEDIA_MESES_TITULACAO": 63.0}, {"DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO", "MEDIA_MESES_TITULACAO": 32.3}], "tamanho_total_alunos_periodo": 1644, "media_alunos_por_ano": 205.5, "faixa_etaria": [{"DS_FAIXA_ETARIA": "20 A 24 ANOS", "TOTAL": 178, "PERCENTUAL": 10.83}, {"DS_FAIXA_ETARIA": "25 A 29 ANOS", "TOTAL": 538, "PERCENTUAL": 32.73}, {"DS_FAIXA_ETARIA": "30 A 34 ANOS", "TOTAL": 398, "PERCENTUAL": 24.21}, {"DS_FAIXA_ETARIA": "35 A 39 ANOS", "TOTAL": 247, "PERCENTUAL": 15.02}, {"DS_FAIXA_ETARIA": "40 A 44 ANOS", "TOTAL": 136, "PERCENTUAL": 8.27}, {"DS_FAIXA_ETARIA": "45 A 49 ANOS", "TOTAL": 82, "PERCENTUAL": 4.99}, {"DS_FAIXA_ETARIA": "50 A 54 ANOS", "TOTAL": 46, "PERCENTUAL": 2.8}, {"DS_FAIXA_ETARIA": "55 A 59 ANOS", "TOTAL": 17, "PERCENTUAL": 1.03}, {"DS_FAIXA_ETARIA": "60 A 64 ANOS", "TOTAL": 2, "PERCENTUAL": 0.12}]}, "por_ano": {"2017": {"distribuicao_grau_academico": [{"DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO", "TOTAL": 92, "PERCENTUAL": 45.32}, {"DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO", "TOTAL": 111, "PERCENTUAL": 54.68}], "situacao_academica": [{"NM_SITUACAO_DISCENTE": "ABANDONOU", "TOTAL": 4, "PERCENTUAL": 1.97}, {"NM_SITUACAO_DISCENTE": "DESLIGADO", "TOTAL": 5, "PERCENTUAL": 2.46}, {"NM_SITUACAO_DISCENTE": "MATRICULADO", "TOTAL": 157, "PERCENTUAL": 77.34}, {"NM_SITUACAO_DISCENTE": "TITULADO", "TOTAL": 37, "PERCENTUAL": 18.23}], "internacionalizacao_nacionalidade": [{"DS_TIPO_NACIONALIDADE_DISCENTE": "BRASILEIRO", "TOTAL": 199, "PERCENTUAL": 98.03}, {"DS_TIPO_NACIONALIDADE_DISCENTE": "ESTRANGEIRO", "TOTAL": 4, "PERCENTUAL": 1.97}], "tempo_medio_titulacao": [{"DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO", "MEDIA_MESES_TITULACAO": 57.9}, {"DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO", "MEDIA_MESES_TITULACAO": 29.4}], "tamanho_total_alunos_periodo": 203, "media_alunos_por_ano": 203.0, "faixa_etaria": [{"DS_FAIXA_ETARIA": "20 A 24 ANOS", "TOTAL": 24, "PERCENTUAL": 11.82}, {"DS_FAIXA_ETARIA": "25 A 29 ANOS", "TOTAL": 68, "PERCENTUAL": 33.5}, {"DS_FAIXA_ETARIA": "30 A 34 ANOS", "TOTAL": 44, "PERCENTUAL": 21.67}, {"DS_FAIXA_ETARIA": "35 A 39 ANOS", "TOTAL": 32, "PERCENTUAL": 15.76}, {"DS_FAIXA_ETARIA": "40 A 44 ANOS", "TOTAL": 23, "PERCENTUAL": 11.33}, {"DS_FAIXA_ETARIA": "45 A 49 ANOS", "TOTAL": 9, "PERCENTUAL": 4.43}, {"DS_FAIXA_ETARIA": "50 A 54 ANOS", "TOTAL": 2, "PERCENTUAL": 0.99}, {"DS_FAIXA_ETARIA": "55 A 59 ANOS", "TOTAL": 1, "PERCENTUAL": 0.49}]}, "2018": {"distribuicao_grau_academico": [{"DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO", "TOTAL": 96, "PERCENTUAL": 45.71}, {"DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO", "TOTAL": 114, "PERCENTUAL": 54.29}], "situacao_academica": [{"NM_SITUACAO_DISCENTE": "ABANDONOU", "TOTAL": 2, "PERCENTUAL": 0.95}, {"NM_SITUACAO_DISCENTE": "DESLIGADO", "TOTAL": 10, "PERCENTUAL": 4.76}, {"NM_SITUACAO_DISCENTE": "MATRICULADO", "TOTAL": 164, "PERCENTUAL": 78.1}, {"NM_SITUACAO_DISCENTE": "TITULADO", "TOTAL": 34, "PERCENTUAL": 16.19}], "internacionalizacao_nacionalidade": [{"DS_TIPO_NACIONALIDADE_DISCENTE": "BRASILEIRO", "TOTAL": 207, "PERCENTUAL": 98.57}, {"DS_TIPO_NACIONALIDADE_DISCENTE": "ESTRANGEIRO", "TOTAL": 3, "PERCENTUAL": 1.43}], "tempo_medio_titulacao": [{"DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO", "MEDIA_MESES_TITULACAO": 70.9}, {"DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO", "MEDIA_MESES_TITULACAO": 33.5}], "tamanho_total_alunos_periodo": 210, "media_alunos_por_ano": 210.0, "faixa_etaria": [{"DS_FAIXA_ETARIA": "20 A 24 ANOS", "TOTAL": 29, "PERCENTUAL": 13.81}, {"DS_FAIXA_ETARIA": "25 A 29 ANOS", "TOTAL": 60, "PERCENTUAL": 28.57}, {"DS_FAIXA_ETARIA": "30 A 34 ANOS", "TOTAL": 49, "PERCENTUAL": 23.33}, {"DS_FAIXA_ETARIA": "35 A 39 ANOS", "TOTAL": 37, "PERCENTUAL": 17.62}, {"DS_FAIXA_ETARIA": "40 A 44 ANOS", "TOTAL": 19, "PERCENTUAL": 9.05}, {"DS_FAIXA_ETARIA": "45 A 49 ANOS", "TOTAL": 11, "PERCENTUAL": 5.24}, {"DS_FAIXA_ETARIA": "50 A 54 ANOS", "TOTAL": 4, "PERCENTUAL": 1.9}, {"DS_FAIXA_ETARIA": "55 A 59 ANOS", "TOTAL": 1, "PERCENTUAL": 0.48}]}, "2019": {"distribuicao_grau_academico": [{"DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO", "TOTAL": 105, "PERCENTUAL": 49.53}, {"DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO", "TOTAL": 107, "PERCENTUAL": 50.47}], "situacao_academica": [{"NM_SITUACAO_DISCENTE": "ABANDONOU", "TOTAL": 5, "PERCENTUAL": 2.36}, {"NM_SITUACAO_DISCENTE": "DESLIGADO", "TOTAL": 18, "PERCENTUAL": 8.49}, {"NM_SITUACAO_DISCENTE": "MATRICULADO", "TOTAL": 150, "PERCENTUAL": 70.75}, {"NM_SITUACAO_DISCENTE": "TITULADO", "TOTAL": 39, "PERCENTUAL": 18.4}], "internacionalizacao_nacionalidade": [{"DS_TIPO_NACIONALIDADE_DISCENTE": "BRASILEIRO", "TOTAL": 210, "PERCENTUAL": 99.06}, {"DS_TIPO_NACIONALIDADE_DISCENTE": "ESTRANGEIRO", "TOTAL": 2, "PERCENTUAL": 0.94}], "tempo_medio_titulacao": [{"DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO", "MEDIA_MESES_TITULACAO": 59.9}, {"DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO", "MEDIA_MESES_TITULACAO": 30.5}], "tamanho_total_alunos_periodo": 212, "media_alunos_por_ano": 212.0, "faixa_etaria": [{"DS_FAIXA_ETARIA": "20 A 24 ANOS", "TOTAL": 31, "PERCENTUAL": 14.62}, {"DS_FAIXA_ETARIA": "25 A 29 ANOS", "TOTAL": 64, "PERCENTUAL": 30.19}, {"DS_FAIXA_ETARIA": "30 A 34 ANOS", "TOTAL": 49, "PERCENTUAL": 23.11}, {"DS_FAIXA_ETARIA": "35 A 39 ANOS", "TOTAL": 32, "PERCENTUAL": 15.09}, {"DS_FAIXA_ETARIA": "40 A 44 ANOS", "TOTAL": 17, "PERCENTUAL": 8.02}, {"DS_FAIXA_ETARIA": "45 A 49 ANOS", "TOTAL": 13, "PERCENTUAL": 6.13}, {"DS_FAIXA_ETARIA": "50 A 54 ANOS", "TOTAL": 5, "PERCENTUAL": 2.36}, {"DS_FAIXA_ETARIA": "55 A 59 ANOS", "TOTAL": 1, "PERCENTUAL": 0.47}]}, "2020": {"distribuicao_grau_academico": [{"DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO", "TOTAL": 90, "PERCENTUAL": 46.88}, {"DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO", "TOTAL": 102, "PERCENTUAL": 53.12}], "situacao_academica": [{"NM_SITUACAO_DISCENTE": "ABANDONOU", "TOTAL": 13, "PERCENTUAL": 6.77}, {"NM_SITUACAO_DISCENTE": "DESLIGADO", "TOTAL": 4, "PERCENTUAL": 2.08}, {"NM_SITUACAO_DISCENTE": "MATRICULADO", "TOTAL": 150, "PERCENTUAL": 78.12}, {"NM_SITUACAO_DISCENTE": "TITULADO", "TOTAL": 25, "PERCENTUAL": 13.02}], "internacionalizacao_nacionalidade": [{"DS_TIPO_NACIONALIDADE_DISCENTE": "BRASILEIRO", "TOTAL": 191, "PERCENTUAL": 99.48}, {"DS_TIPO_NACIONALIDADE_DISCENTE": "ESTRANGEIRO", "TOTAL": 1, "PERCENTUAL": 0.52}], "tempo_medio_titulacao": [{"DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO", "MEDIA_MESES_TITULACAO": 66.9}, {"DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO", "MEDIA_MESES_TITULACAO": 28.9}], "tamanho_total_alunos_periodo": 192, "media_alunos_por_ano": 192.0, "faixa_etaria": [{"DS_FAIXA_ETARIA": "20 A 24 ANOS", "TOTAL": 30, "PERCENTUAL": 15.62}, {"DS_FAIXA_ETARIA": "25 A 29 ANOS", "TOTAL": 59, "PERCENTUAL": 30.73}, {"DS_FAIXA_ETARIA": "30 A 34 ANOS", "TOTAL": 44, "PERCENTUAL": 22.92}, {"DS_FAIXA_ETARIA": "35 A 39 ANOS", "TOTAL": 27, "PERCENTUAL": 14.06}, {"DS_FAIXA_ETARIA": "40 A 44 ANOS", "TOTAL": 13, "PERCENTUAL": 6.77}, {"DS_FAIXA_ETARIA": "45 A 49 ANOS", "TOTAL": 13, "PERCENTUAL": 6.77}, {"DS_FAIXA_ETARIA": "50 A 54 ANOS", "TOTAL": 5, "PERCENTUAL": 2.6}, {"DS_FAIXA_ETARIA": "55 A 59 ANOS", "TOTAL": 1, "PERCENTUAL": 0.52}]}, "2021": {"distribuicao_grau_academico": [{"DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO", "TOTAL": 84, "PERCENTUAL": 42.86}, {"DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO", "TOTAL": 112, "PERCENTUAL": 57.14}], "situacao_academica": [{"NM_SITUACAO_DISCENTE": "DESLIGADO", "TOTAL": 3, "PERCENTUAL": 1.53}, {"NM_SITUACAO_DISCENTE": "MATRICULADO", "TOTAL": 170, "PERCENTUAL": 86.73}, {"NM_SITUACAO_DISCENTE": "TITULADO", "TOTAL": 23, "PERCENTUAL": 11.73}], "internacionalizacao_nacionalidade": [{"DS_TIPO_NACIONALIDADE_DISCENTE": "BRASILEIRO", "TOTAL": 196, "PERCENTUAL": 100.0}], "tempo_medio_titulacao": [{"DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO", "MEDIA_MESES_TITULACAO": 65.7}, {"DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO", "MEDIA_MESES_TITULACAO": 33.6}], "tamanho_total_alunos_periodo": 196, "media_alunos_por_ano": 196.0, "faixa_etaria": [{"DS_FAIXA_ETARIA": "20 A 24 ANOS", "TOTAL": 22, "PERCENTUAL": 11.22}, {"DS_FAIXA_ETARIA": "25 A 29 ANOS", "TOTAL": 68, "PERCENTUAL": 34.69}, {"DS_FAIXA_ETARIA": "30 A 34 ANOS", "TOTAL": 46, "PERCENTUAL": 23.47}, {"DS_FAIXA_ETARIA": "35 A 39 ANOS", "TOTAL": 26, "PERCENTUAL": 13.27}, {"DS_FAIXA_ETARIA": "40 A 44 ANOS", "TOTAL": 15, "PERCENTUAL": 7.65}, {"DS_FAIXA_ETARIA": "45 A 49 ANOS", "TOTAL": 12, "PERCENTUAL": 6.12}, {"DS_FAIXA_ETARIA": "50 A 54 ANOS", "TOTAL": 4, "PERCENTUAL": 2.04}, {"DS_FAIXA_ETARIA": "55 A 59 ANOS", "TOTAL": 3, "PERCENTUAL": 1.53}]}, "2022": {"distribuicao_grau_academico": [{"DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO", "TOTAL": 98, "PERCENTUAL": 45.37}, {"DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO", "TOTAL": 118, "PERCENTUAL": 54.63}], "situacao_academica": [{"NM_SITUACAO_DISCENTE": "DESLIGADO", "TOTAL": 5, "PERCENTUAL": 2.31}, {"NM_SITUACAO_DISCENTE": "MATRICULADO", "TOTAL": 185, "PERCENTUAL": 85.65}, {"NM_SITUACAO_DISCENTE": "TITULADO", "TOTAL": 26, "PERCENTUAL": 12.04}], "internacionalizacao_nacionalidade": [{"DS_TIPO_NACIONALIDADE_DISCENTE": "BRASILEIRO", "TOTAL": 214, "PERCENTUAL": 99.07}, {"DS_TIPO_NACIONALIDADE_DISCENTE": "ESTRANGEIRO", "TOTAL": 2, "PERCENTUAL": 0.93}], "tempo_medio_titulacao": [{"DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO", "MEDIA_MESES_TITULACAO": 57.5}, {"DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO", "MEDIA_MESES_TITULACAO": 34.4}], "tamanho_total_alunos_periodo": 216, "media_alunos_por_ano": 216.0, "faixa_etaria": [{"DS_FAIXA_ETARIA": "20 A 24 ANOS", "TOTAL": 14, "PERCENTUAL": 6.48}, {"DS_FAIXA_ETARIA": "25 A 29 ANOS", "TOTAL": 77, "PERCENTUAL": 35.65}, {"DS_FAIXA_ETARIA": "30 A 34 ANOS", "TOTAL": 55, "PERCENTUAL": 25.46}, {"DS_FAIXA_ETARIA": "35 A 39 ANOS", "TOTAL": 35, "PERCENTUAL": 16.2}, {"DS_FAIXA_ETARIA": "40 A 44 ANOS", "TOTAL": 14, "PERCENTUAL": 6.48}, {"DS_FAIXA_ETARIA": "45 A 49 ANOS", "TOTAL": 7, "PERCENTUAL": 3.24}, {"DS_FAIXA_ETARIA": "50 A 54 ANOS", "TOTAL": 10, "PERCENTUAL": 4.63}, {"DS_FAIXA_ETARIA": "55 A 59 ANOS", "TOTAL": 3, "PERCENTUAL": 1.39}, {"DS_FAIXA_ETARIA": "60 A 64 ANOS", "TOTAL": 1, "PERCENTUAL": 0.46}]}, "2023": {"distribuicao_grau_academico": [{"DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO", "TOTAL": 93, "PERCENTUAL": 44.71}, {"DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO", "TOTAL": 115, "PERCENTUAL": 55.29}], "situacao_academica": [{"NM_SITUACAO_DISCENTE": "DESLIGADO", "TOTAL": 2, "PERCENTUAL": 0.96}, {"NM_SITUACAO_DISCENTE": "MATRICULADO", "TOTAL": 189, "PERCENTUAL": 90.87}, {"NM_SITUACAO_DISCENTE": "TITULADO", "TOTAL": 17, "PERCENTUAL": 8.17}], "internacionalizacao_nacionalidade": [{"DS_TIPO_NACIONALIDADE_DISCENTE": "BRASILEIRO", "TOTAL": 206, "PERCENTUAL": 99.04}, {"DS_TIPO_NACIONALIDADE_DISCENTE": "ESTRANGEIRO", "TOTAL": 2, "PERCENTUAL": 0.96}], "tempo_medio_titulacao": [{"DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO", "MEDIA_MESES_TITULACAO": 65.2}, {"DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO", "MEDIA_MESES_TITULACAO": 36.9}], "tamanho_total_alunos_periodo": 208, "media_alunos_por_ano": 208.0, "faixa_etaria": [{"DS_FAIXA_ETARIA": "20 A 24 ANOS", "TOTAL": 10, "PERCENTUAL": 4.81}, {"DS_FAIXA_ETARIA": "25 A 29 ANOS", "TOTAL": 68, "PERCENTUAL": 32.69}, {"DS_FAIXA_ETARIA": "30 A 34 ANOS", "TOTAL": 61, "PERCENTUAL": 29.33}, {"DS_FAIXA_ETARIA": "35 A 39 ANOS", "TOTAL": 31, "PERCENTUAL": 14.9}, {"DS_FAIXA_ETARIA": "40 A 44 ANOS", "TOTAL": 16, "PERCENTUAL": 7.69}, {"DS_FAIXA_ETARIA": "45 A 49 ANOS", "TOTAL": 10, "PERCENTUAL": 4.81}, {"DS_FAIXA_ETARIA": "50 A 54 ANOS", "TOTAL": 8, "PERCENTUAL": 3.85}, {"DS_FAIXA_ETARIA": "55 A 59 ANOS", "TOTAL": 3, "PERCENTUAL": 1.44}, {"DS_FAIXA_ETARIA": "60 A 64 ANOS", "TOTAL": 1, "PERCENTUAL": 0.48}]}, "2024": {"distribuicao_grau_academico": [{"DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO", "TOTAL": 87, "PERCENTUAL": 42.03}, {"DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO", "TOTAL": 120, "PERCENTUAL": 57.97}], "situacao_academica": [{"NM_SITUACAO_DISCENTE": "DESLIGADO", "TOTAL": 9, "PERCENTUAL": 4.35}, {"NM_SITUACAO_DISCENTE": "MATRICULADO", "TOTAL": 179, "PERCENTUAL": 86.47}, {"NM_SITUACAO_DISCENTE": "MUDANÇA DE NÍVEL SEM DEFESA", "TOTAL": 1, "PERCENTUAL": 0.48}, {"NM_SITUACAO_DISCENTE": "TITULADO", "TOTAL": 18, "PERCENTUAL": 8.7}], "internacionalizacao_nacionalidade": [{"DS_TIPO_NACIONALIDADE_DISCENTE": "BRASILEIRO", "TOTAL": 205, "PERCENTUAL": 99.03}, {"DS_TIPO_NACIONALIDADE_DISCENTE": "ESTRANGEIRO", "TOTAL": 2, "PERCENTUAL": 0.97}], "tempo_medio_titulacao": [{"DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO", "MEDIA_MESES_TITULACAO": 69.5}, {"DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO", "MEDIA_MESES_TITULACAO": 34.2}], "tamanho_total_alunos_periodo": 207, "media_alunos_por_ano": 207.0, "faixa_etaria": [{"DS_FAIXA_ETARIA": "20 A 24 ANOS", "TOTAL": 18, "PERCENTUAL": 8.7}, {"DS_FAIXA_ETARIA": "25 A 29 ANOS", "TOTAL": 74, "PERCENTUAL": 35.75}, {"DS_FAIXA_ETARIA": "30 A 34 ANOS", "TOTAL": 50, "PERCENTUAL": 24.15}, {"DS_FAIXA_ETARIA": "35 A 39 ANOS", "TOTAL": 27, "PERCENTUAL": 13.04}, {"DS_FAIXA_ETARIA": "40 A 44 ANOS", "TOTAL": 19, "PERCENTUAL": 9.18}, {"DS_FAIXA_ETARIA": "45 A 49 ANOS", "TOTAL": 7, "PERCENTUAL": 3.38}, {"DS_FAIXA_ETARIA": "50 A 54 ANOS", "TOTAL": 8, "PERCENTUAL": 3.86}, {"DS_FAIXA_ETARIA": "55 A 59 ANOS", "TOTAL": 4, "PERCENTUAL": 1.93}]}}}, "docentes": {"geral": {"lideranca_bolsas_pq": [{"TEM_BOLSA_PQ": "NÃO", "TOTAL": 139, "PERCENTUAL": 75.96}, {"TEM_BOLSA_PQ": "SIM", "TOTAL": 44, "PERCENTUAL": 24.04}], "internacionalizacao_titulacao_exterior": [{"TITULADO_NO_EXTERIOR": "NÃO", "TOTAL": 144, "PERCENTUAL": 78.69}, {"TITULADO_NO_EXTERIOR": "SIM", "TOTAL": 39, "PERCENTUAL": 21.31}], "internacionalizacao_nacionalidade": [{"DOCENTE_ESTRANGEIRO": "BRASILEIRO", "TOTAL": 179, "PERCENTUAL": 97.81}, {"DOCENTE_ESTRANGEIRO": "ESTRANGEIRO", "TOTAL": 4, "PERCENTUAL": 2.19}], "endogamia_academica": [{"ENDOGAMIA": "NÃO", "TOTAL": 174, "PERCENTUAL": 95.08}, {"ENDOGAMIA": "SIM", "TOTAL": 9, "PERCENTUAL": 4.92}], "maturidade_media_anos_doutorado": 13.7, "categoria_docente": [{"DS_CATEGORIA_DOCENTE": "COLABORADOR", "TOTAL": 26, "PERCENTUAL": 12.44}, {"DS_CATEGORIA_DOCENTE": "PERMANENTE", "TOTAL": 183, "PERCENTUAL": 87.56}], "regime_trabalho": [{"DS_REGIME_TRABALHO": "DEDICAÇÃO EXCLUSIVA", "TOTAL": 37, "PERCENTUAL": 20.22}, {"DS_REGIME_TRABALHO": "INTEGRAL", "TOTAL": 143, "PERCENTUAL": 78.14}, {"DS_REGIME_TRABALHO": "PARCIAL", "TOTAL": 3, "PERCENTUAL": 1.64}]}, "por_ano": {"2017": {"lideranca_bolsas_pq": [{"TEM_BOLSA_PQ": "NÃO", "TOTAL": 19, "PERCENTUAL": 79.17}, {"TEM_BOLSA_PQ": "SIM", "TOTAL": 5, "PERCENTUAL": 20.83}], "internacionalizacao_titulacao_exterior": [{"TITULADO_NO_EXTERIOR": "NÃO", "TOTAL": 18, "PERCENTUAL": 75.0}, {"TITULADO_NO_EXTERIOR": "SIM", "TOTAL": 6, "PERCENTUAL": 25.0}], "internacionalizacao_nacionalidade": [{"DOCENTE_ESTRANGEIRO": "BRASILEIRO", "TOTAL": 24, "PERCENTUAL": 100.0}], "endogamia_academica": [{"ENDOGAMIA": "NÃO", "TOTAL": 24, "PERCENTUAL": 100.0}], "maturidade_media_anos_doutorado": 11.2, "categoria_docente": [{"DS_CATEGORIA_DOCENTE": "PERMANENTE", "TOTAL": 24, "PERCENTUAL": 100.0}], "regime_trabalho": [{"DS_REGIME_TRABALHO": "DEDICAÇÃO EXCLUSIVA", "TOTAL": 3, "PERCENTUAL": 12.5}, {"DS_REGIME_TRABALHO": "INTEGRAL", "TOTAL": 20, "PERCENTUAL": 83.33}, {"DS_REGIME_TRABALHO": "PARCIAL", "TOTAL": 1, "PERCENTUAL": 4.17}]}, "2018": {"lideranca_bolsas_pq": [{"TEM_BOLSA_PQ": "NÃO", "TOTAL": 20, "PERCENTUAL": 80.0}, {"TEM_BOLSA_PQ": "SIM", "TOTAL": 5, "PERCENTUAL": 20.0}], "internacionalizacao_titulacao_exterior": [{"TITULADO_NO_EXTERIOR": "NÃO", "TOTAL": 19, "PERCENTUAL": 76.0}, {"TITULADO_NO_EXTERIOR": "SIM", "TOTAL": 6, "PERCENTUAL": 24.0}], "internacionalizacao_nacionalidade": [{"DOCENTE_ESTRANGEIRO": "BRASILEIRO", "TOTAL": 25, "PERCENTUAL": 100.0}], "endogamia_academica": [{"ENDOGAMIA": "NÃO", "TOTAL": 24, "PERCENTUAL": 96.0}, {"ENDOGAMIA": "SIM", "TOTAL": 1, "PERCENTUAL": 4.0}], "maturidade_media_anos_doutorado": 11.8, "categoria_docente": [{"DS_CATEGORIA_DOCENTE": "COLABORADOR", "TOTAL": 1, "PERCENTUAL": 3.85}, {"DS_CATEGORIA_DOCENTE": "PERMANENTE", "TOTAL": 25, "PERCENTUAL": 96.15}], "regime_trabalho": [{"DS_REGIME_TRABALHO": "DEDICAÇÃO EXCLUSIVA", "TOTAL": 3, "PERCENTUAL": 12.0}, {"DS_REGIME_TRABALHO": "INTEGRAL", "TOTAL": 21, "PERCENTUAL": 84.0}, {"DS_REGIME_TRABALHO": "PARCIAL", "TOTAL": 1, "PERCENTUAL": 4.0}]}, "2019": {"lideranca_bolsas_pq": [{"TEM_BOLSA_PQ": "NÃO", "TOTAL": 21, "PERCENTUAL": 80.77}, {"TEM_BOLSA_PQ": "SIM", "TOTAL": 5, "PERCENTUAL": 19.23}], "internacionalizacao_titulacao_exterior": [{"TITULADO_NO_EXTERIOR": "NÃO", "TOTAL": 20, "PERCENTUAL": 76.92}, {"TITULADO_NO_EXTERIOR": "SIM", "TOTAL": 6, "PERCENTUAL": 23.08}], "internacionalizacao_nacionalidade": [{"DOCENTE_ESTRANGEIRO": "BRASILEIRO", "TOTAL": 26, "PERCENTUAL": 100.0}], "endogamia_academica": [{"ENDOGAMIA": "NÃO", "TOTAL": 25, "PERCENTUAL": 96.15}, {"ENDOGAMIA": "SIM", "TOTAL": 1, "PERCENTUAL": 3.85}], "maturidade_media_anos_doutorado": 12.4, "categoria_docente": [{"DS_CATEGORIA_DOCENTE": "COLABORADOR", "TOTAL": 2, "PERCENTUAL": 7.14}, {"DS_CATEGORIA_DOCENTE": "PERMANENTE", "TOTAL": 26, "PERCENTUAL": 92.86}], "regime_trabalho": [{"DS_REGIME_TRABALHO": "DEDICAÇÃO EXCLUSIVA", "TOTAL": 4, "PERCENTUAL": 15.38}, {"DS_REGIME_TRABALHO": "INTEGRAL", "TOTAL": 21, "PERCENTUAL": 80.77}, {"DS_REGIME_TRABALHO": "PARCIAL", "TOTAL": 1, "PERCENTUAL": 3.85}]}, "2020": {"lideranca_bolsas_pq": [{"TEM_BOLSA_PQ": "NÃO", "TOTAL": 18, "PERCENTUAL": 78.26}, {"TEM_BOLSA_PQ": "SIM", "TOTAL": 5, "PERCENTUAL": 21.74}], "internacionalizacao_titulacao_exterior": [{"TITULADO_NO_EXTERIOR": "NÃO", "TOTAL": 18, "PERCENTUAL": 78.26}, {"TITULADO_NO_EXTERIOR": "SIM", "TOTAL": 5, "PERCENTUAL": 21.74}], "internacionalizacao_nacionalidade": [{"DOCENTE_ESTRANGEIRO": "BRASILEIRO", "TOTAL": 23, "PERCENTUAL": 100.0}], "endogamia_academica": [{"ENDOGAMIA": "NÃO", "TOTAL": 22, "PERCENTUAL": 95.65}, {"ENDOGAMIA": "SIM", "TOTAL": 1, "PERCENTUAL": 4.35}], "maturidade_media_anos_doutorado": 13.5, "categoria_docente": [{"DS_CATEGORIA_DOCENTE": "COLABORADOR", "TOTAL": 5, "PERCENTUAL": 17.86}, {"DS_CATEGORIA_DOCENTE": "PERMANENTE", "TOTAL": 23, "PERCENTUAL": 82.14}], "regime_trabalho": [{"DS_REGIME_TRABALHO": "DEDICAÇÃO EXCLUSIVA", "TOTAL": 5, "PERCENTUAL": 21.74}, {"DS_REGIME_TRABALHO": "INTEGRAL", "TOTAL": 18, "PERCENTUAL": 78.26}]}, "2021": {"lideranca_bolsas_pq": [{"TEM_BOLSA_PQ": "NÃO", "TOTAL": 15, "PERCENTUAL": 71.43}, {"TEM_BOLSA_PQ": "SIM", "TOTAL": 6, "PERCENTUAL": 28.57}], "internacionalizacao_titulacao_exterior": [{"TITULADO_NO_EXTERIOR": "NÃO", "TOTAL": 17, "PERCENTUAL": 80.95}, {"TITULADO_NO_EXTERIOR": "SIM", "TOTAL": 4, "PERCENTUAL": 19.05}], "internacionalizacao_nacionalidade": [{"DOCENTE_ESTRANGEIRO": "BRASILEIRO", "TOTAL": 20, "PERCENTUAL": 95.24}, {"DOCENTE_ESTRANGEIRO": "ESTRANGEIRO", "TOTAL": 1, "PERCENTUAL": 4.76}], "endogamia_academica": [{"ENDOGAMIA": "NÃO", "TOTAL": 20, "PERCENTUAL": 95.24}, {"ENDOGAMIA": "SIM", "TOTAL": 1, "PERCENTUAL": 4.76}], "maturidade_media_anos_doutorado": 14.3, "categoria_docente": [{"DS_CATEGORIA_DOCENTE": "COLABORADOR", "TOTAL": 4, "PERCENTUAL": 16.0}, {"DS_CATEGORIA_DOCENTE": "PERMANENTE", "TOTAL": 21, "PERCENTUAL": 84.0}], "regime_trabalho": [{"DS_REGIME_TRABALHO": "DEDICAÇÃO EXCLUSIVA", "TOTAL": 5, "PERCENTUAL": 23.81}, {"DS_REGIME_TRABALHO": "INTEGRAL", "TOTAL": 16, "PERCENTUAL": 76.19}]}, "2022": {"lideranca_bolsas_pq": [{"TEM_BOLSA_PQ": "NÃO", "TOTAL": 14, "PERCENTUAL": 70.0}, {"TEM_BOLSA_PQ": "SIM", "TOTAL": 6, "PERCENTUAL": 30.0}], "internacionalizacao_titulacao_exterior": [{"TITULADO_NO_EXTERIOR": "NÃO", "TOTAL": 16, "PERCENTUAL": 80.0}, {"TITULADO_NO_EXTERIOR": "SIM", "TOTAL": 4, "PERCENTUAL": 20.0}], "internacionalizacao_nacionalidade": [{"DOCENTE_ESTRANGEIRO": "BRASILEIRO", "TOTAL": 19, "PERCENTUAL": 95.0}, {"DOCENTE_ESTRANGEIRO": "ESTRANGEIRO", "TOTAL": 1, "PERCENTUAL": 5.0}], "endogamia_academica": [{"ENDOGAMIA": "NÃO", "TOTAL": 19, "PERCENTUAL": 95.0}, {"ENDOGAMIA": "SIM", "TOTAL": 1, "PERCENTUAL": 5.0}], "maturidade_media_anos_doutorado": 15.3, "categoria_docente": [{"DS_CATEGORIA_DOCENTE": "COLABORADOR", "TOTAL": 4, "PERCENTUAL": 16.67}, {"DS_CATEGORIA_DOCENTE": "PERMANENTE", "TOTAL": 20, "PERCENTUAL": 83.33}], "regime_trabalho": [{"DS_REGIME_TRABALHO": "DEDICAÇÃO EXCLUSIVA", "TOTAL": 5, "PERCENTUAL": 25.0}, {"DS_REGIME_TRABALHO": "INTEGRAL", "TOTAL": 15, "PERCENTUAL": 75.0}]}, "2023": {"lideranca_bolsas_pq": [{"TEM_BOLSA_PQ": "NÃO", "TOTAL": 16, "PERCENTUAL": 72.73}, {"TEM_BOLSA_PQ": "SIM", "TOTAL": 6, "PERCENTUAL": 27.27}], "internacionalizacao_titulacao_exterior": [{"TITULADO_NO_EXTERIOR": "NÃO", "TOTAL": 18, "PERCENTUAL": 81.82}, {"TITULADO_NO_EXTERIOR": "SIM", "TOTAL": 4, "PERCENTUAL": 18.18}], "internacionalizacao_nacionalidade": [{"DOCENTE_ESTRANGEIRO": "BRASILEIRO", "TOTAL": 21, "PERCENTUAL": 95.45}, {"DOCENTE_ESTRANGEIRO": "ESTRANGEIRO", "TOTAL": 1, "PERCENTUAL": 4.55}], "endogamia_academica": [{"ENDOGAMIA": "NÃO", "TOTAL": 20, "PERCENTUAL": 90.91}, {"ENDOGAMIA": "SIM", "TOTAL": 2, "PERCENTUAL": 9.09}], "maturidade_media_anos_doutorado": 15.5, "categoria_docente": [{"DS_CATEGORIA_DOCENTE": "COLABORADOR", "TOTAL": 5, "PERCENTUAL": 18.52}, {"DS_CATEGORIA_DOCENTE": "PERMANENTE", "TOTAL": 22, "PERCENTUAL": 81.48}], "regime_trabalho": [{"DS_REGIME_TRABALHO": "DEDICAÇÃO EXCLUSIVA", "TOTAL": 6, "PERCENTUAL": 27.27}, {"DS_REGIME_TRABALHO": "INTEGRAL", "TOTAL": 16, "PERCENTUAL": 72.73}]}, "2024": {"lideranca_bolsas_pq": [{"TEM_BOLSA_PQ": "NÃO", "TOTAL": 16, "PERCENTUAL": 72.73}, {"TEM_BOLSA_PQ": "SIM", "TOTAL": 6, "PERCENTUAL": 27.27}], "internacionalizacao_titulacao_exterior": [{"TITULADO_NO_EXTERIOR": "NÃO", "TOTAL": 18, "PERCENTUAL": 81.82}, {"TITULADO_NO_EXTERIOR": "SIM", "TOTAL": 4, "PERCENTUAL": 18.18}], "internacionalizacao_nacionalidade": [{"DOCENTE_ESTRANGEIRO": "BRASILEIRO", "TOTAL": 21, "PERCENTUAL": 95.45}, {"DOCENTE_ESTRANGEIRO": "ESTRANGEIRO", "TOTAL": 1, "PERCENTUAL": 4.55}], "endogamia_academica": [{"ENDOGAMIA": "NÃO", "TOTAL": 20, "PERCENTUAL": 90.91}, {"ENDOGAMIA": "SIM", "TOTAL": 2, "PERCENTUAL": 9.09}], "maturidade_media_anos_doutorado": 16.5, "categoria_docente": [{"DS_CATEGORIA_DOCENTE": "COLABORADOR", "TOTAL": 5, "PERCENTUAL": 18.52}, {"DS_CATEGORIA_DOCENTE": "PERMANENTE", "TOTAL": 22, "PERCENTUAL": 81.48}], "regime_trabalho": [{"DS_REGIME_TRABALHO": "DEDICAÇÃO EXCLUSIVA", "TOTAL": 6, "PERCENTUAL": 27.27}, {"DS_REGIME_TRABALHO": "INTEGRAL", "TOTAL": 16, "PERCENTUAL": 72.73}]}}}}
+{
+  "metadata": {
+    "cd_programa": "12001015012P2",
+    "nm_programa": "INFORMÁTICA",
+    "sg_ies": "UFAM",
+    "conceito_recente": 6
+  },
+  "radar": {
+    "geral": {
+      "valores_reais": {
+        "total_docentes_permanentes": 183.0,
+        "docentes_permanentes_por_programa": 183.0,
+        "pct_docentes_permanentes": 100.0,
+        "pct_pq": 24.043715846994534,
+        "pct_titulado_no_exterior": 21.311475409836063,
+        "pct_docente_estrangeiro": 2.185792349726776,
+        "pct_endogamia": 4.918032786885246,
+        "pct_dedicacao_exclusiva": 20.21857923497268,
+        "pct_instituicao_publica": 100.0,
+        "media_anos_doutorado": 13.721311475409836,
+        "discentes_por_programa": 1644.0,
+        "pct_mestrado": 54.68369829683698,
+        "pct_doutorado": 45.31630170316301,
+        "pct_titulado": 13.321167883211679,
+        "taxa_evasao": 4.866180048661801,
+        "pct_estrangeiro_discente": 100.0,
+        "media_meses_titulacao_mestrado": 32.33112582781457,
+        "media_meses_titulacao_doutorado": 62.970588235294116,
+        "publicacoes_por_programa": 300.0
+      },
+      "normalizado": {
+        "total_docentes_permanentes": 0.1601423487544484,
+        "docentes_permanentes_por_programa": 1.0,
+        "pct_docentes_permanentes": 1.0,
+        "pct_pq": 0.32671548866792083,
+        "pct_titulado_no_exterior": 0.3440177628232716,
+        "pct_docente_estrangeiro": 0.12015966299913104,
+        "pct_endogamia": 0.0,
+        "pct_dedicacao_exclusiva": 0.0,
+        "pct_instituicao_publica": 1.0,
+        "media_anos_doutorado": 0.42750647109577217,
+        "discentes_por_programa": 1.0,
+        "pct_mestrado": 0.11560691445817683,
+        "pct_doutorado": 0.884393085541823,
+        "pct_titulado": 0.06739079073353318,
+        "taxa_evasao": 0.12848335646206238,
+        "pct_estrangeiro_discente": 1.0,
+        "media_meses_titulacao_mestrado": 0.3487842815428364,
+        "media_meses_titulacao_doutorado": 0.8256837766953916,
+        "publicacoes_por_programa": 1.0
+      }
+    },
+    "por_ano": {
+      "2017": {
+        "valores_reais": {
+          "total_docentes_permanentes": 24.0,
+          "docentes_permanentes_por_programa": 24.0,
+          "pct_docentes_permanentes": 100.0,
+          "pct_pq": 20.833333333333336,
+          "pct_titulado_no_exterior": 25.0,
+          "pct_docente_estrangeiro": 0.0,
+          "pct_endogamia": 0.0,
+          "pct_dedicacao_exclusiva": 12.5,
+          "pct_instituicao_publica": 100.0,
+          "media_anos_doutorado": 11.25,
+          "discentes_por_programa": 203.0,
+          "pct_mestrado": 54.679802955665025,
+          "pct_doutorado": 45.320197044334975,
+          "pct_titulado": 18.226600985221676,
+          "taxa_evasao": 4.433497536945813,
+          "pct_estrangeiro_discente": 100.0,
+          "media_meses_titulacao_mestrado": 29.44,
+          "media_meses_titulacao_doutorado": 57.916666666666664,
+          "publicacoes_por_programa": 23.0
+        },
+        "normalizado": {
+          "total_docentes_permanentes": 0.0,
+          "docentes_permanentes_por_programa": 0.27368713531536537,
+          "pct_docentes_permanentes": 1.0,
+          "pct_pq": 0.26092896174863395,
+          "pct_titulado_no_exterior": 0.4540572792362769,
+          "pct_docente_estrangeiro": 0.0,
+          "pct_endogamia": 0.0,
+          "pct_dedicacao_exclusiva": 0.0,
+          "pct_instituicao_publica": 1.0,
+          "media_anos_doutorado": 0.16736842105263156,
+          "discentes_por_programa": 0.42390907815350076,
+          "pct_mestrado": 0.11553089296770154,
+          "pct_doutorado": 0.8844691070322984,
+          "pct_titulado": 0.48523006688429954,
+          "taxa_evasao": 0.08200832835078552,
+          "pct_estrangeiro_discente": 1.0,
+          "media_meses_titulacao_mestrado": 0.1404899135446688,
+          "media_meses_titulacao_doutorado": 0.42330148619957525,
+          "publicacoes_por_programa": 0.06236371565634539
+        }
+      },
+      "2018": {
+        "valores_reais": {
+          "total_docentes_permanentes": 25.0,
+          "docentes_permanentes_por_programa": 25.0,
+          "pct_docentes_permanentes": 100.0,
+          "pct_pq": 20.0,
+          "pct_titulado_no_exterior": 24.0,
+          "pct_docente_estrangeiro": 0.0,
+          "pct_endogamia": 4.0,
+          "pct_dedicacao_exclusiva": 12.0,
+          "pct_instituicao_publica": 100.0,
+          "media_anos_doutorado": 11.8,
+          "discentes_por_programa": 210.0,
+          "pct_mestrado": 54.285714285714285,
+          "pct_doutorado": 45.714285714285715,
+          "pct_titulado": 16.19047619047619,
+          "taxa_evasao": 5.714285714285714,
+          "pct_estrangeiro_discente": 100.0,
+          "media_meses_titulacao_mestrado": 33.53846153846154,
+          "media_meses_titulacao_doutorado": 70.875,
+          "publicacoes_por_programa": 30.0
+        },
+        "normalizado": {
+          "total_docentes_permanentes": 0.0,
+          "docentes_permanentes_por_programa": 0.30147263128646845,
+          "pct_docentes_permanentes": 1.0,
+          "pct_pq": 0.24385245901639346,
+          "pct_titulado_no_exterior": 0.4242243436754177,
+          "pct_docente_estrangeiro": 0.0,
+          "pct_endogamia": 0.0,
+          "pct_dedicacao_exclusiva": 0.0,
+          "pct_instituicao_publica": 1.0,
+          "media_anos_doutorado": 0.22526315789473692,
+          "discentes_por_programa": 0.4435526869650624,
+          "pct_mestrado": 0.10783985725437717,
+          "pct_doutorado": 0.8921601427456228,
+          "pct_titulado": 0.311795246207512,
+          "taxa_evasao": 0.2195795611477674,
+          "pct_estrangeiro_discente": 1.0,
+          "media_meses_titulacao_mestrado": 0.43576812236754625,
+          "media_meses_titulacao_doutorado": 1.0,
+          "publicacoes_por_programa": 0.13868294810292192
+        }
+      },
+      "2019": {
+        "valores_reais": {
+          "total_docentes_permanentes": 26.0,
+          "docentes_permanentes_por_programa": 26.0,
+          "pct_docentes_permanentes": 100.0,
+          "pct_pq": 19.230769230769234,
+          "pct_titulado_no_exterior": 23.076923076923077,
+          "pct_docente_estrangeiro": 0.0,
+          "pct_endogamia": 3.8461538461538463,
+          "pct_dedicacao_exclusiva": 15.384615384615385,
+          "pct_instituicao_publica": 100.0,
+          "media_anos_doutorado": 12.384615384615385,
+          "discentes_por_programa": 212.0,
+          "pct_mestrado": 50.47169811320755,
+          "pct_doutorado": 49.528301886792455,
+          "pct_titulado": 18.39622641509434,
+          "taxa_evasao": 10.849056603773585,
+          "pct_estrangeiro_discente": 100.0,
+          "media_meses_titulacao_mestrado": 30.51851851851852,
+          "media_meses_titulacao_doutorado": 59.916666666666664,
+          "publicacoes_por_programa": 29.0
+        },
+        "normalizado": {
+          "total_docentes_permanentes": 0.0,
+          "docentes_permanentes_por_programa": 0.32925812725757153,
+          "pct_docentes_permanentes": 1.0,
+          "pct_pq": 0.22808953341740235,
+          "pct_titulado_no_exterior": 0.3966862493115477,
+          "pct_docente_estrangeiro": 0.0,
+          "pct_endogamia": 0.0,
+          "pct_dedicacao_exclusiva": 0.0,
+          "pct_instituicao_publica": 1.0,
+          "media_anos_doutorado": 0.28680161943319843,
+          "discentes_por_programa": 0.4491651466255086,
+          "pct_mestrado": 0.033405505722239534,
+          "pct_doutorado": 0.9665944942777606,
+          "pct_titulado": 0.4996785702806082,
+          "taxa_evasao": 0.7711124171615021,
+          "pct_estrangeiro_discente": 1.0,
+          "media_meses_titulacao_mestrado": 0.21819297683851013,
+          "media_meses_titulacao_doutorado": 0.5825371549893842,
+          "publicacoes_por_programa": 0.12778020061055384
+        }
+      },
+      "2020": {
+        "valores_reais": {
+          "total_docentes_permanentes": 23.0,
+          "docentes_permanentes_por_programa": 23.0,
+          "pct_docentes_permanentes": 100.0,
+          "pct_pq": 21.73913043478261,
+          "pct_titulado_no_exterior": 21.73913043478261,
+          "pct_docente_estrangeiro": 0.0,
+          "pct_endogamia": 4.3478260869565215,
+          "pct_dedicacao_exclusiva": 21.73913043478261,
+          "pct_instituicao_publica": 100.0,
+          "media_anos_doutorado": 13.521739130434783,
+          "discentes_por_programa": 192.0,
+          "pct_mestrado": 53.125,
+          "pct_doutorado": 46.875,
+          "pct_titulado": 13.020833333333334,
+          "taxa_evasao": 8.854166666666668,
+          "pct_estrangeiro_discente": 100.0,
+          "media_meses_titulacao_mestrado": 28.923076923076923,
+          "media_meses_titulacao_doutorado": 66.91666666666667,
+          "publicacoes_por_programa": 45.0
+        },
+        "normalizado": {
+          "total_docentes_permanentes": 0.0,
+          "docentes_permanentes_por_programa": 0.24590163934426226,
+          "pct_docentes_permanentes": 1.0,
+          "pct_pq": 0.27949037776193875,
+          "pct_titulado_no_exterior": 0.3567759676247796,
+          "pct_docente_estrangeiro": 0.0,
+          "pct_endogamia": 0.0,
+          "pct_dedicacao_exclusiva": 0.019673889521372234,
+          "pct_instituicao_publica": 1.0,
+          "media_anos_doutorado": 0.4064988558352403,
+          "discentes_por_programa": 0.3930405500210467,
+          "pct_mestrado": 0.08518735362997662,
+          "pct_doutorado": 0.9148126463700234,
+          "pct_titulado": 0.04180863145939817,
+          "taxa_evasao": 0.5568385248836377,
+          "pct_estrangeiro_discente": 1.0,
+          "media_meses_titulacao_mestrado": 0.10324761693637788,
+          "media_meses_titulacao_doutorado": 1.0,
+          "publicacoes_por_programa": 0.3022241604884431
+        }
+      },
+      "2021": {
+        "valores_reais": {
+          "total_docentes_permanentes": 21.0,
+          "docentes_permanentes_por_programa": 21.0,
+          "pct_docentes_permanentes": 100.0,
+          "pct_pq": 28.57142857142857,
+          "pct_titulado_no_exterior": 19.047619047619047,
+          "pct_docente_estrangeiro": 4.761904761904762,
+          "pct_endogamia": 4.761904761904762,
+          "pct_dedicacao_exclusiva": 23.809523809523807,
+          "pct_instituicao_publica": 100.0,
+          "media_anos_doutorado": 14.333333333333334,
+          "discentes_por_programa": 196.0,
+          "pct_mestrado": 57.14285714285714,
+          "pct_doutorado": 42.857142857142854,
+          "pct_titulado": 11.73469387755102,
+          "taxa_evasao": 1.530612244897959,
+          "pct_estrangeiro_discente": 100.0,
+          "media_meses_titulacao_mestrado": 33.65,
+          "media_meses_titulacao_doutorado": 65.66666666666667,
+          "publicacoes_por_programa": 46.0
+        },
+        "normalizado": {
+          "total_docentes_permanentes": 0.0,
+          "docentes_permanentes_por_programa": 0.1903306474020561,
+          "pct_docentes_permanentes": 1.0,
+          "pct_pq": 0.4194964871194379,
+          "pct_titulado_no_exterior": 0.2764802818502103,
+          "pct_docente_estrangeiro": 0.8145295854190733,
+          "pct_endogamia": 0.0,
+          "pct_dedicacao_exclusiva": 0.06447790109335226,
+          "pct_instituicao_publica": 1.0,
+          "media_anos_doutorado": 0.49192982456140355,
+          "discentes_por_programa": 0.4042654693419391,
+          "pct_mestrado": 0.16359986617597855,
+          "pct_doutorado": 0.8364001338240213,
+          "pct_titulado": 0.0,
+          "taxa_evasao": 0.0,
+          "pct_estrangeiro_discente": 1.0,
+          "media_meses_titulacao_mestrado": 0.44380403458213263,
+          "media_meses_titulacao_doutorado": 1.0,
+          "publicacoes_por_programa": 0.31312690798081116
+        }
+      },
+      "2022": {
+        "valores_reais": {
+          "total_docentes_permanentes": 20.0,
+          "docentes_permanentes_por_programa": 20.0,
+          "pct_docentes_permanentes": 100.0,
+          "pct_pq": 30.0,
+          "pct_titulado_no_exterior": 20.0,
+          "pct_docente_estrangeiro": 5.0,
+          "pct_endogamia": 5.0,
+          "pct_dedicacao_exclusiva": 25.0,
+          "pct_instituicao_publica": 100.0,
+          "media_anos_doutorado": 15.3,
+          "discentes_por_programa": 216.0,
+          "pct_mestrado": 54.629629629629626,
+          "pct_doutorado": 45.370370370370374,
+          "pct_titulado": 12.037037037037036,
+          "taxa_evasao": 2.314814814814815,
+          "pct_estrangeiro_discente": 100.0,
+          "media_meses_titulacao_mestrado": 34.4,
+          "media_meses_titulacao_doutorado": 57.45454545454545,
+          "publicacoes_por_programa": 45.0
+        },
+        "normalizado": {
+          "total_docentes_permanentes": 0.0,
+          "docentes_permanentes_por_programa": 0.16254515143095302,
+          "pct_docentes_permanentes": 1.0,
+          "pct_pq": 0.44877049180327866,
+          "pct_titulado_no_exterior": 0.30489260143198094,
+          "pct_docente_estrangeiro": 0.8787061994609164,
+          "pct_endogamia": 0.0,
+          "pct_dedicacao_exclusiva": 0.09024020774724088,
+          "pct_instituicao_publica": 1.0,
+          "media_anos_doutorado": 0.5936842105263158,
+          "discentes_por_programa": 0.460390065946401,
+          "pct_mestrado": 0.11455171018012544,
+          "pct_doutorado": 0.8854482898198746,
+          "pct_titulado": 0.0,
+          "taxa_evasao": 0.0,
+          "pct_estrangeiro_discente": 1.0,
+          "media_meses_titulacao_mestrado": 0.4978386167146975,
+          "media_meses_titulacao_doutorado": 0.3865083960625361,
+          "publicacoes_por_programa": 0.3022241604884431
+        }
+      },
+      "2023": {
+        "valores_reais": {
+          "total_docentes_permanentes": 22.0,
+          "docentes_permanentes_por_programa": 22.0,
+          "pct_docentes_permanentes": 100.0,
+          "pct_pq": 27.27272727272727,
+          "pct_titulado_no_exterior": 18.181818181818183,
+          "pct_docente_estrangeiro": 4.545454545454546,
+          "pct_endogamia": 9.090909090909092,
+          "pct_dedicacao_exclusiva": 27.27272727272727,
+          "pct_instituicao_publica": 100.0,
+          "media_anos_doutorado": 15.545454545454545,
+          "discentes_por_programa": 208.0,
+          "pct_mestrado": 55.28846153846154,
+          "pct_doutorado": 44.71153846153847,
+          "pct_titulado": 8.173076923076923,
+          "taxa_evasao": 0.9615384615384616,
+          "pct_estrangeiro_discente": 100.0,
+          "media_meses_titulacao_mestrado": 36.90909090909091,
+          "media_meses_titulacao_doutorado": 65.16666666666667,
+          "publicacoes_por_programa": 33.0
+        },
+        "normalizado": {
+          "total_docentes_permanentes": 0.0,
+          "docentes_permanentes_por_programa": 0.21811614337315918,
+          "pct_docentes_permanentes": 1.0,
+          "pct_pq": 0.3928837555886736,
+          "pct_titulado_no_exterior": 0.25065090041223703,
+          "pct_docente_estrangeiro": 0.7561872090173978,
+          "pct_endogamia": 0.07075228561352111,
+          "pct_dedicacao_exclusiva": 0.1394227931773917,
+          "pct_instituicao_publica": 1.0,
+          "media_anos_doutorado": 0.6195215311004784,
+          "discentes_por_programa": 0.43794022730461624,
+          "pct_mestrado": 0.12740947577013156,
+          "pct_doutorado": 0.8725905242298686,
+          "pct_titulado": 0.0,
+          "taxa_evasao": 0.0,
+          "pct_estrangeiro_discente": 1.0,
+          "media_meses_titulacao_mestrado": 0.6786088551218235,
+          "media_meses_titulacao_doutorado": 1.0,
+          "publicacoes_por_programa": 0.17139119058002616
+        }
+      },
+      "2024": {
+        "valores_reais": {
+          "total_docentes_permanentes": 22.0,
+          "docentes_permanentes_por_programa": 22.0,
+          "pct_docentes_permanentes": 100.0,
+          "pct_pq": 27.27272727272727,
+          "pct_titulado_no_exterior": 18.181818181818183,
+          "pct_docente_estrangeiro": 4.545454545454546,
+          "pct_endogamia": 9.090909090909092,
+          "pct_dedicacao_exclusiva": 27.27272727272727,
+          "pct_instituicao_publica": 100.0,
+          "media_anos_doutorado": 16.545454545454547,
+          "discentes_por_programa": 207.0,
+          "pct_mestrado": 57.971014492753625,
+          "pct_doutorado": 42.028985507246375,
+          "pct_titulado": 8.695652173913043,
+          "taxa_evasao": 4.3478260869565215,
+          "pct_estrangeiro_discente": 100.0,
+          "media_meses_titulacao_mestrado": 34.214285714285715,
+          "media_meses_titulacao_doutorado": 69.5,
+          "publicacoes_por_programa": 49.0
+        },
+        "normalizado": {
+          "total_docentes_permanentes": 0.0,
+          "docentes_permanentes_por_programa": 0.21811614337315918,
+          "pct_docentes_permanentes": 1.0,
+          "pct_pq": 0.3928837555886736,
+          "pct_titulado_no_exterior": 0.25065090041223703,
+          "pct_docente_estrangeiro": 0.7561872090173978,
+          "pct_endogamia": 0.07075228561352111,
+          "pct_dedicacao_exclusiva": 0.1394227931773917,
+          "pct_instituicao_publica": 1.0,
+          "media_anos_doutorado": 0.7247846889952154,
+          "discentes_por_programa": 0.43513399747439313,
+          "pct_mestrado": 0.1797621876025298,
+          "pct_doutorado": 0.8202378123974702,
+          "pct_titulado": 0.0,
+          "taxa_evasao": 0.07280623920048566,
+          "pct_estrangeiro_discente": 1.0,
+          "media_meses_titulacao_mestrado": 0.4844586249485387,
+          "media_meses_titulacao_doutorado": 1.0,
+          "publicacoes_por_programa": 0.3458351504579154
+        }
+      }
+    }
+  },
+  "discentes": {
+    "geral": {
+      "distribuicao_grau_academico": [
+        {
+          "DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO",
+          "TOTAL": 745,
+          "PERCENTUAL": 45.32
+        },
+        {
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+          "TOTAL": 899,
+          "PERCENTUAL": 54.68
+        }
+      ],
+      "situacao_academica": [
+        {
+          "NM_SITUACAO_DISCENTE": "ABANDONOU",
+          "TOTAL": 24,
+          "PERCENTUAL": 1.46
+        },
+        {
+          "NM_SITUACAO_DISCENTE": "DESLIGADO",
+          "TOTAL": 56,
+          "PERCENTUAL": 3.41
+        },
+        {
+          "NM_SITUACAO_DISCENTE": "MATRICULADO",
+          "TOTAL": 1344,
+          "PERCENTUAL": 81.75
+        },
+        {
+          "NM_SITUACAO_DISCENTE": "MUDANÇA DE NÍVEL SEM DEFESA",
+          "TOTAL": 1,
+          "PERCENTUAL": 0.06
+        },
+        {
+          "NM_SITUACAO_DISCENTE": "TITULADO",
+          "TOTAL": 219,
+          "PERCENTUAL": 13.32
+        }
+      ],
+      "internacionalizacao_nacionalidade": [
+        {
+          "DS_TIPO_NACIONALIDADE_DISCENTE": "BRASILEIRO",
+          "TOTAL": 1628,
+          "PERCENTUAL": 99.03
+        },
+        {
+          "DS_TIPO_NACIONALIDADE_DISCENTE": "ESTRANGEIRO",
+          "TOTAL": 16,
+          "PERCENTUAL": 0.97
+        }
+      ],
+      "tempo_medio_titulacao": [
+        {
+          "DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO",
+          "MEDIA_MESES_TITULACAO": 63.0
+        },
+        {
+          "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+          "MEDIA_MESES_TITULACAO": 32.3
+        }
+      ],
+      "tamanho_total_alunos_periodo": 1644,
+      "media_alunos_por_ano": 205.5,
+      "faixa_etaria": [
+        {
+          "DS_FAIXA_ETARIA": "20 A 24 ANOS",
+          "TOTAL": 178,
+          "PERCENTUAL": 10.83
+        },
+        {
+          "DS_FAIXA_ETARIA": "25 A 29 ANOS",
+          "TOTAL": 538,
+          "PERCENTUAL": 32.73
+        },
+        {
+          "DS_FAIXA_ETARIA": "30 A 34 ANOS",
+          "TOTAL": 398,
+          "PERCENTUAL": 24.21
+        },
+        {
+          "DS_FAIXA_ETARIA": "35 A 39 ANOS",
+          "TOTAL": 247,
+          "PERCENTUAL": 15.02
+        },
+        { "DS_FAIXA_ETARIA": "40 A 44 ANOS", "TOTAL": 136, "PERCENTUAL": 8.27 },
+        { "DS_FAIXA_ETARIA": "45 A 49 ANOS", "TOTAL": 82, "PERCENTUAL": 4.99 },
+        { "DS_FAIXA_ETARIA": "50 A 54 ANOS", "TOTAL": 46, "PERCENTUAL": 2.8 },
+        { "DS_FAIXA_ETARIA": "55 A 59 ANOS", "TOTAL": 17, "PERCENTUAL": 1.03 },
+        { "DS_FAIXA_ETARIA": "60 A 64 ANOS", "TOTAL": 2, "PERCENTUAL": 0.12 }
+      ]
+    },
+    "por_ano": {
+      "2017": {
+        "distribuicao_grau_academico": [
+          {
+            "DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO",
+            "TOTAL": 92,
+            "PERCENTUAL": 45.32
+          },
+          {
+            "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+            "TOTAL": 111,
+            "PERCENTUAL": 54.68
+          }
+        ],
+        "situacao_academica": [
+          {
+            "NM_SITUACAO_DISCENTE": "ABANDONOU",
+            "TOTAL": 4,
+            "PERCENTUAL": 1.97
+          },
+          {
+            "NM_SITUACAO_DISCENTE": "DESLIGADO",
+            "TOTAL": 5,
+            "PERCENTUAL": 2.46
+          },
+          {
+            "NM_SITUACAO_DISCENTE": "MATRICULADO",
+            "TOTAL": 157,
+            "PERCENTUAL": 77.34
+          },
+          {
+            "NM_SITUACAO_DISCENTE": "TITULADO",
+            "TOTAL": 37,
+            "PERCENTUAL": 18.23
+          }
+        ],
+        "internacionalizacao_nacionalidade": [
+          {
+            "DS_TIPO_NACIONALIDADE_DISCENTE": "BRASILEIRO",
+            "TOTAL": 199,
+            "PERCENTUAL": 98.03
+          },
+          {
+            "DS_TIPO_NACIONALIDADE_DISCENTE": "ESTRANGEIRO",
+            "TOTAL": 4,
+            "PERCENTUAL": 1.97
+          }
+        ],
+        "tempo_medio_titulacao": [
+          {
+            "DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO",
+            "MEDIA_MESES_TITULACAO": 57.9
+          },
+          {
+            "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+            "MEDIA_MESES_TITULACAO": 29.4
+          }
+        ],
+        "tamanho_total_alunos_periodo": 203,
+        "media_alunos_por_ano": 203.0,
+        "faixa_etaria": [
+          {
+            "DS_FAIXA_ETARIA": "20 A 24 ANOS",
+            "TOTAL": 24,
+            "PERCENTUAL": 11.82
+          },
+          {
+            "DS_FAIXA_ETARIA": "25 A 29 ANOS",
+            "TOTAL": 68,
+            "PERCENTUAL": 33.5
+          },
+          {
+            "DS_FAIXA_ETARIA": "30 A 34 ANOS",
+            "TOTAL": 44,
+            "PERCENTUAL": 21.67
+          },
+          {
+            "DS_FAIXA_ETARIA": "35 A 39 ANOS",
+            "TOTAL": 32,
+            "PERCENTUAL": 15.76
+          },
+          {
+            "DS_FAIXA_ETARIA": "40 A 44 ANOS",
+            "TOTAL": 23,
+            "PERCENTUAL": 11.33
+          },
+          { "DS_FAIXA_ETARIA": "45 A 49 ANOS", "TOTAL": 9, "PERCENTUAL": 4.43 },
+          { "DS_FAIXA_ETARIA": "50 A 54 ANOS", "TOTAL": 2, "PERCENTUAL": 0.99 },
+          { "DS_FAIXA_ETARIA": "55 A 59 ANOS", "TOTAL": 1, "PERCENTUAL": 0.49 }
+        ]
+      },
+      "2018": {
+        "distribuicao_grau_academico": [
+          {
+            "DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO",
+            "TOTAL": 96,
+            "PERCENTUAL": 45.71
+          },
+          {
+            "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+            "TOTAL": 114,
+            "PERCENTUAL": 54.29
+          }
+        ],
+        "situacao_academica": [
+          {
+            "NM_SITUACAO_DISCENTE": "ABANDONOU",
+            "TOTAL": 2,
+            "PERCENTUAL": 0.95
+          },
+          {
+            "NM_SITUACAO_DISCENTE": "DESLIGADO",
+            "TOTAL": 10,
+            "PERCENTUAL": 4.76
+          },
+          {
+            "NM_SITUACAO_DISCENTE": "MATRICULADO",
+            "TOTAL": 164,
+            "PERCENTUAL": 78.1
+          },
+          {
+            "NM_SITUACAO_DISCENTE": "TITULADO",
+            "TOTAL": 34,
+            "PERCENTUAL": 16.19
+          }
+        ],
+        "internacionalizacao_nacionalidade": [
+          {
+            "DS_TIPO_NACIONALIDADE_DISCENTE": "BRASILEIRO",
+            "TOTAL": 207,
+            "PERCENTUAL": 98.57
+          },
+          {
+            "DS_TIPO_NACIONALIDADE_DISCENTE": "ESTRANGEIRO",
+            "TOTAL": 3,
+            "PERCENTUAL": 1.43
+          }
+        ],
+        "tempo_medio_titulacao": [
+          {
+            "DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO",
+            "MEDIA_MESES_TITULACAO": 70.9
+          },
+          {
+            "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+            "MEDIA_MESES_TITULACAO": 33.5
+          }
+        ],
+        "tamanho_total_alunos_periodo": 210,
+        "media_alunos_por_ano": 210.0,
+        "faixa_etaria": [
+          {
+            "DS_FAIXA_ETARIA": "20 A 24 ANOS",
+            "TOTAL": 29,
+            "PERCENTUAL": 13.81
+          },
+          {
+            "DS_FAIXA_ETARIA": "25 A 29 ANOS",
+            "TOTAL": 60,
+            "PERCENTUAL": 28.57
+          },
+          {
+            "DS_FAIXA_ETARIA": "30 A 34 ANOS",
+            "TOTAL": 49,
+            "PERCENTUAL": 23.33
+          },
+          {
+            "DS_FAIXA_ETARIA": "35 A 39 ANOS",
+            "TOTAL": 37,
+            "PERCENTUAL": 17.62
+          },
+          {
+            "DS_FAIXA_ETARIA": "40 A 44 ANOS",
+            "TOTAL": 19,
+            "PERCENTUAL": 9.05
+          },
+          {
+            "DS_FAIXA_ETARIA": "45 A 49 ANOS",
+            "TOTAL": 11,
+            "PERCENTUAL": 5.24
+          },
+          { "DS_FAIXA_ETARIA": "50 A 54 ANOS", "TOTAL": 4, "PERCENTUAL": 1.9 },
+          { "DS_FAIXA_ETARIA": "55 A 59 ANOS", "TOTAL": 1, "PERCENTUAL": 0.48 }
+        ]
+      },
+      "2019": {
+        "distribuicao_grau_academico": [
+          {
+            "DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO",
+            "TOTAL": 105,
+            "PERCENTUAL": 49.53
+          },
+          {
+            "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+            "TOTAL": 107,
+            "PERCENTUAL": 50.47
+          }
+        ],
+        "situacao_academica": [
+          {
+            "NM_SITUACAO_DISCENTE": "ABANDONOU",
+            "TOTAL": 5,
+            "PERCENTUAL": 2.36
+          },
+          {
+            "NM_SITUACAO_DISCENTE": "DESLIGADO",
+            "TOTAL": 18,
+            "PERCENTUAL": 8.49
+          },
+          {
+            "NM_SITUACAO_DISCENTE": "MATRICULADO",
+            "TOTAL": 150,
+            "PERCENTUAL": 70.75
+          },
+          {
+            "NM_SITUACAO_DISCENTE": "TITULADO",
+            "TOTAL": 39,
+            "PERCENTUAL": 18.4
+          }
+        ],
+        "internacionalizacao_nacionalidade": [
+          {
+            "DS_TIPO_NACIONALIDADE_DISCENTE": "BRASILEIRO",
+            "TOTAL": 210,
+            "PERCENTUAL": 99.06
+          },
+          {
+            "DS_TIPO_NACIONALIDADE_DISCENTE": "ESTRANGEIRO",
+            "TOTAL": 2,
+            "PERCENTUAL": 0.94
+          }
+        ],
+        "tempo_medio_titulacao": [
+          {
+            "DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO",
+            "MEDIA_MESES_TITULACAO": 59.9
+          },
+          {
+            "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+            "MEDIA_MESES_TITULACAO": 30.5
+          }
+        ],
+        "tamanho_total_alunos_periodo": 212,
+        "media_alunos_por_ano": 212.0,
+        "faixa_etaria": [
+          {
+            "DS_FAIXA_ETARIA": "20 A 24 ANOS",
+            "TOTAL": 31,
+            "PERCENTUAL": 14.62
+          },
+          {
+            "DS_FAIXA_ETARIA": "25 A 29 ANOS",
+            "TOTAL": 64,
+            "PERCENTUAL": 30.19
+          },
+          {
+            "DS_FAIXA_ETARIA": "30 A 34 ANOS",
+            "TOTAL": 49,
+            "PERCENTUAL": 23.11
+          },
+          {
+            "DS_FAIXA_ETARIA": "35 A 39 ANOS",
+            "TOTAL": 32,
+            "PERCENTUAL": 15.09
+          },
+          {
+            "DS_FAIXA_ETARIA": "40 A 44 ANOS",
+            "TOTAL": 17,
+            "PERCENTUAL": 8.02
+          },
+          {
+            "DS_FAIXA_ETARIA": "45 A 49 ANOS",
+            "TOTAL": 13,
+            "PERCENTUAL": 6.13
+          },
+          { "DS_FAIXA_ETARIA": "50 A 54 ANOS", "TOTAL": 5, "PERCENTUAL": 2.36 },
+          { "DS_FAIXA_ETARIA": "55 A 59 ANOS", "TOTAL": 1, "PERCENTUAL": 0.47 }
+        ]
+      },
+      "2020": {
+        "distribuicao_grau_academico": [
+          {
+            "DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO",
+            "TOTAL": 90,
+            "PERCENTUAL": 46.88
+          },
+          {
+            "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+            "TOTAL": 102,
+            "PERCENTUAL": 53.12
+          }
+        ],
+        "situacao_academica": [
+          {
+            "NM_SITUACAO_DISCENTE": "ABANDONOU",
+            "TOTAL": 13,
+            "PERCENTUAL": 6.77
+          },
+          {
+            "NM_SITUACAO_DISCENTE": "DESLIGADO",
+            "TOTAL": 4,
+            "PERCENTUAL": 2.08
+          },
+          {
+            "NM_SITUACAO_DISCENTE": "MATRICULADO",
+            "TOTAL": 150,
+            "PERCENTUAL": 78.12
+          },
+          {
+            "NM_SITUACAO_DISCENTE": "TITULADO",
+            "TOTAL": 25,
+            "PERCENTUAL": 13.02
+          }
+        ],
+        "internacionalizacao_nacionalidade": [
+          {
+            "DS_TIPO_NACIONALIDADE_DISCENTE": "BRASILEIRO",
+            "TOTAL": 191,
+            "PERCENTUAL": 99.48
+          },
+          {
+            "DS_TIPO_NACIONALIDADE_DISCENTE": "ESTRANGEIRO",
+            "TOTAL": 1,
+            "PERCENTUAL": 0.52
+          }
+        ],
+        "tempo_medio_titulacao": [
+          {
+            "DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO",
+            "MEDIA_MESES_TITULACAO": 66.9
+          },
+          {
+            "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+            "MEDIA_MESES_TITULACAO": 28.9
+          }
+        ],
+        "tamanho_total_alunos_periodo": 192,
+        "media_alunos_por_ano": 192.0,
+        "faixa_etaria": [
+          {
+            "DS_FAIXA_ETARIA": "20 A 24 ANOS",
+            "TOTAL": 30,
+            "PERCENTUAL": 15.62
+          },
+          {
+            "DS_FAIXA_ETARIA": "25 A 29 ANOS",
+            "TOTAL": 59,
+            "PERCENTUAL": 30.73
+          },
+          {
+            "DS_FAIXA_ETARIA": "30 A 34 ANOS",
+            "TOTAL": 44,
+            "PERCENTUAL": 22.92
+          },
+          {
+            "DS_FAIXA_ETARIA": "35 A 39 ANOS",
+            "TOTAL": 27,
+            "PERCENTUAL": 14.06
+          },
+          {
+            "DS_FAIXA_ETARIA": "40 A 44 ANOS",
+            "TOTAL": 13,
+            "PERCENTUAL": 6.77
+          },
+          {
+            "DS_FAIXA_ETARIA": "45 A 49 ANOS",
+            "TOTAL": 13,
+            "PERCENTUAL": 6.77
+          },
+          { "DS_FAIXA_ETARIA": "50 A 54 ANOS", "TOTAL": 5, "PERCENTUAL": 2.6 },
+          { "DS_FAIXA_ETARIA": "55 A 59 ANOS", "TOTAL": 1, "PERCENTUAL": 0.52 }
+        ]
+      },
+      "2021": {
+        "distribuicao_grau_academico": [
+          {
+            "DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO",
+            "TOTAL": 84,
+            "PERCENTUAL": 42.86
+          },
+          {
+            "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+            "TOTAL": 112,
+            "PERCENTUAL": 57.14
+          }
+        ],
+        "situacao_academica": [
+          {
+            "NM_SITUACAO_DISCENTE": "DESLIGADO",
+            "TOTAL": 3,
+            "PERCENTUAL": 1.53
+          },
+          {
+            "NM_SITUACAO_DISCENTE": "MATRICULADO",
+            "TOTAL": 170,
+            "PERCENTUAL": 86.73
+          },
+          {
+            "NM_SITUACAO_DISCENTE": "TITULADO",
+            "TOTAL": 23,
+            "PERCENTUAL": 11.73
+          }
+        ],
+        "internacionalizacao_nacionalidade": [
+          {
+            "DS_TIPO_NACIONALIDADE_DISCENTE": "BRASILEIRO",
+            "TOTAL": 196,
+            "PERCENTUAL": 100.0
+          }
+        ],
+        "tempo_medio_titulacao": [
+          {
+            "DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO",
+            "MEDIA_MESES_TITULACAO": 65.7
+          },
+          {
+            "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+            "MEDIA_MESES_TITULACAO": 33.6
+          }
+        ],
+        "tamanho_total_alunos_periodo": 196,
+        "media_alunos_por_ano": 196.0,
+        "faixa_etaria": [
+          {
+            "DS_FAIXA_ETARIA": "20 A 24 ANOS",
+            "TOTAL": 22,
+            "PERCENTUAL": 11.22
+          },
+          {
+            "DS_FAIXA_ETARIA": "25 A 29 ANOS",
+            "TOTAL": 68,
+            "PERCENTUAL": 34.69
+          },
+          {
+            "DS_FAIXA_ETARIA": "30 A 34 ANOS",
+            "TOTAL": 46,
+            "PERCENTUAL": 23.47
+          },
+          {
+            "DS_FAIXA_ETARIA": "35 A 39 ANOS",
+            "TOTAL": 26,
+            "PERCENTUAL": 13.27
+          },
+          {
+            "DS_FAIXA_ETARIA": "40 A 44 ANOS",
+            "TOTAL": 15,
+            "PERCENTUAL": 7.65
+          },
+          {
+            "DS_FAIXA_ETARIA": "45 A 49 ANOS",
+            "TOTAL": 12,
+            "PERCENTUAL": 6.12
+          },
+          { "DS_FAIXA_ETARIA": "50 A 54 ANOS", "TOTAL": 4, "PERCENTUAL": 2.04 },
+          { "DS_FAIXA_ETARIA": "55 A 59 ANOS", "TOTAL": 3, "PERCENTUAL": 1.53 }
+        ]
+      },
+      "2022": {
+        "distribuicao_grau_academico": [
+          {
+            "DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO",
+            "TOTAL": 98,
+            "PERCENTUAL": 45.37
+          },
+          {
+            "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+            "TOTAL": 118,
+            "PERCENTUAL": 54.63
+          }
+        ],
+        "situacao_academica": [
+          {
+            "NM_SITUACAO_DISCENTE": "DESLIGADO",
+            "TOTAL": 5,
+            "PERCENTUAL": 2.31
+          },
+          {
+            "NM_SITUACAO_DISCENTE": "MATRICULADO",
+            "TOTAL": 185,
+            "PERCENTUAL": 85.65
+          },
+          {
+            "NM_SITUACAO_DISCENTE": "TITULADO",
+            "TOTAL": 26,
+            "PERCENTUAL": 12.04
+          }
+        ],
+        "internacionalizacao_nacionalidade": [
+          {
+            "DS_TIPO_NACIONALIDADE_DISCENTE": "BRASILEIRO",
+            "TOTAL": 214,
+            "PERCENTUAL": 99.07
+          },
+          {
+            "DS_TIPO_NACIONALIDADE_DISCENTE": "ESTRANGEIRO",
+            "TOTAL": 2,
+            "PERCENTUAL": 0.93
+          }
+        ],
+        "tempo_medio_titulacao": [
+          {
+            "DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO",
+            "MEDIA_MESES_TITULACAO": 57.5
+          },
+          {
+            "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+            "MEDIA_MESES_TITULACAO": 34.4
+          }
+        ],
+        "tamanho_total_alunos_periodo": 216,
+        "media_alunos_por_ano": 216.0,
+        "faixa_etaria": [
+          {
+            "DS_FAIXA_ETARIA": "20 A 24 ANOS",
+            "TOTAL": 14,
+            "PERCENTUAL": 6.48
+          },
+          {
+            "DS_FAIXA_ETARIA": "25 A 29 ANOS",
+            "TOTAL": 77,
+            "PERCENTUAL": 35.65
+          },
+          {
+            "DS_FAIXA_ETARIA": "30 A 34 ANOS",
+            "TOTAL": 55,
+            "PERCENTUAL": 25.46
+          },
+          {
+            "DS_FAIXA_ETARIA": "35 A 39 ANOS",
+            "TOTAL": 35,
+            "PERCENTUAL": 16.2
+          },
+          {
+            "DS_FAIXA_ETARIA": "40 A 44 ANOS",
+            "TOTAL": 14,
+            "PERCENTUAL": 6.48
+          },
+          { "DS_FAIXA_ETARIA": "45 A 49 ANOS", "TOTAL": 7, "PERCENTUAL": 3.24 },
+          {
+            "DS_FAIXA_ETARIA": "50 A 54 ANOS",
+            "TOTAL": 10,
+            "PERCENTUAL": 4.63
+          },
+          { "DS_FAIXA_ETARIA": "55 A 59 ANOS", "TOTAL": 3, "PERCENTUAL": 1.39 },
+          { "DS_FAIXA_ETARIA": "60 A 64 ANOS", "TOTAL": 1, "PERCENTUAL": 0.46 }
+        ]
+      },
+      "2023": {
+        "distribuicao_grau_academico": [
+          {
+            "DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO",
+            "TOTAL": 93,
+            "PERCENTUAL": 44.71
+          },
+          {
+            "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+            "TOTAL": 115,
+            "PERCENTUAL": 55.29
+          }
+        ],
+        "situacao_academica": [
+          {
+            "NM_SITUACAO_DISCENTE": "DESLIGADO",
+            "TOTAL": 2,
+            "PERCENTUAL": 0.96
+          },
+          {
+            "NM_SITUACAO_DISCENTE": "MATRICULADO",
+            "TOTAL": 189,
+            "PERCENTUAL": 90.87
+          },
+          {
+            "NM_SITUACAO_DISCENTE": "TITULADO",
+            "TOTAL": 17,
+            "PERCENTUAL": 8.17
+          }
+        ],
+        "internacionalizacao_nacionalidade": [
+          {
+            "DS_TIPO_NACIONALIDADE_DISCENTE": "BRASILEIRO",
+            "TOTAL": 206,
+            "PERCENTUAL": 99.04
+          },
+          {
+            "DS_TIPO_NACIONALIDADE_DISCENTE": "ESTRANGEIRO",
+            "TOTAL": 2,
+            "PERCENTUAL": 0.96
+          }
+        ],
+        "tempo_medio_titulacao": [
+          {
+            "DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO",
+            "MEDIA_MESES_TITULACAO": 65.2
+          },
+          {
+            "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+            "MEDIA_MESES_TITULACAO": 36.9
+          }
+        ],
+        "tamanho_total_alunos_periodo": 208,
+        "media_alunos_por_ano": 208.0,
+        "faixa_etaria": [
+          {
+            "DS_FAIXA_ETARIA": "20 A 24 ANOS",
+            "TOTAL": 10,
+            "PERCENTUAL": 4.81
+          },
+          {
+            "DS_FAIXA_ETARIA": "25 A 29 ANOS",
+            "TOTAL": 68,
+            "PERCENTUAL": 32.69
+          },
+          {
+            "DS_FAIXA_ETARIA": "30 A 34 ANOS",
+            "TOTAL": 61,
+            "PERCENTUAL": 29.33
+          },
+          {
+            "DS_FAIXA_ETARIA": "35 A 39 ANOS",
+            "TOTAL": 31,
+            "PERCENTUAL": 14.9
+          },
+          {
+            "DS_FAIXA_ETARIA": "40 A 44 ANOS",
+            "TOTAL": 16,
+            "PERCENTUAL": 7.69
+          },
+          {
+            "DS_FAIXA_ETARIA": "45 A 49 ANOS",
+            "TOTAL": 10,
+            "PERCENTUAL": 4.81
+          },
+          { "DS_FAIXA_ETARIA": "50 A 54 ANOS", "TOTAL": 8, "PERCENTUAL": 3.85 },
+          { "DS_FAIXA_ETARIA": "55 A 59 ANOS", "TOTAL": 3, "PERCENTUAL": 1.44 },
+          { "DS_FAIXA_ETARIA": "60 A 64 ANOS", "TOTAL": 1, "PERCENTUAL": 0.48 }
+        ]
+      },
+      "2024": {
+        "distribuicao_grau_academico": [
+          {
+            "DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO",
+            "TOTAL": 87,
+            "PERCENTUAL": 42.03
+          },
+          {
+            "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+            "TOTAL": 120,
+            "PERCENTUAL": 57.97
+          }
+        ],
+        "situacao_academica": [
+          {
+            "NM_SITUACAO_DISCENTE": "DESLIGADO",
+            "TOTAL": 9,
+            "PERCENTUAL": 4.35
+          },
+          {
+            "NM_SITUACAO_DISCENTE": "MATRICULADO",
+            "TOTAL": 179,
+            "PERCENTUAL": 86.47
+          },
+          {
+            "NM_SITUACAO_DISCENTE": "MUDANÇA DE NÍVEL SEM DEFESA",
+            "TOTAL": 1,
+            "PERCENTUAL": 0.48
+          },
+          { "NM_SITUACAO_DISCENTE": "TITULADO", "TOTAL": 18, "PERCENTUAL": 8.7 }
+        ],
+        "internacionalizacao_nacionalidade": [
+          {
+            "DS_TIPO_NACIONALIDADE_DISCENTE": "BRASILEIRO",
+            "TOTAL": 205,
+            "PERCENTUAL": 99.03
+          },
+          {
+            "DS_TIPO_NACIONALIDADE_DISCENTE": "ESTRANGEIRO",
+            "TOTAL": 2,
+            "PERCENTUAL": 0.97
+          }
+        ],
+        "tempo_medio_titulacao": [
+          {
+            "DS_GRAU_ACADEMICO_DISCENTE": "DOUTORADO",
+            "MEDIA_MESES_TITULACAO": 69.5
+          },
+          {
+            "DS_GRAU_ACADEMICO_DISCENTE": "MESTRADO",
+            "MEDIA_MESES_TITULACAO": 34.2
+          }
+        ],
+        "tamanho_total_alunos_periodo": 207,
+        "media_alunos_por_ano": 207.0,
+        "faixa_etaria": [
+          { "DS_FAIXA_ETARIA": "20 A 24 ANOS", "TOTAL": 18, "PERCENTUAL": 8.7 },
+          {
+            "DS_FAIXA_ETARIA": "25 A 29 ANOS",
+            "TOTAL": 74,
+            "PERCENTUAL": 35.75
+          },
+          {
+            "DS_FAIXA_ETARIA": "30 A 34 ANOS",
+            "TOTAL": 50,
+            "PERCENTUAL": 24.15
+          },
+          {
+            "DS_FAIXA_ETARIA": "35 A 39 ANOS",
+            "TOTAL": 27,
+            "PERCENTUAL": 13.04
+          },
+          {
+            "DS_FAIXA_ETARIA": "40 A 44 ANOS",
+            "TOTAL": 19,
+            "PERCENTUAL": 9.18
+          },
+          { "DS_FAIXA_ETARIA": "45 A 49 ANOS", "TOTAL": 7, "PERCENTUAL": 3.38 },
+          { "DS_FAIXA_ETARIA": "50 A 54 ANOS", "TOTAL": 8, "PERCENTUAL": 3.86 },
+          { "DS_FAIXA_ETARIA": "55 A 59 ANOS", "TOTAL": 4, "PERCENTUAL": 1.93 }
+        ]
+      }
+    }
+  },
+  "docentes": {
+    "geral": {
+      "lideranca_bolsas_pq": [
+        { "TEM_BOLSA_PQ": "NÃO", "TOTAL": 139, "PERCENTUAL": 75.96 },
+        { "TEM_BOLSA_PQ": "SIM", "TOTAL": 44, "PERCENTUAL": 24.04 }
+      ],
+      "internacionalizacao_titulacao_exterior": [
+        { "TITULADO_NO_EXTERIOR": "NÃO", "TOTAL": 144, "PERCENTUAL": 78.69 },
+        { "TITULADO_NO_EXTERIOR": "SIM", "TOTAL": 39, "PERCENTUAL": 21.31 }
+      ],
+      "internacionalizacao_nacionalidade": [
+        {
+          "DOCENTE_ESTRANGEIRO": "BRASILEIRO",
+          "TOTAL": 179,
+          "PERCENTUAL": 97.81
+        },
+        { "DOCENTE_ESTRANGEIRO": "ESTRANGEIRO", "TOTAL": 4, "PERCENTUAL": 2.19 }
+      ],
+      "endogamia_academica": [
+        { "ENDOGAMIA": "NÃO", "TOTAL": 174, "PERCENTUAL": 95.08 },
+        { "ENDOGAMIA": "SIM", "TOTAL": 9, "PERCENTUAL": 4.92 }
+      ],
+      "maturidade_media_anos_doutorado": 13.7,
+      "categoria_docente": [
+        {
+          "DS_CATEGORIA_DOCENTE": "COLABORADOR",
+          "TOTAL": 26,
+          "PERCENTUAL": 12.44
+        },
+        {
+          "DS_CATEGORIA_DOCENTE": "PERMANENTE",
+          "TOTAL": 183,
+          "PERCENTUAL": 87.56
+        }
+      ],
+      "regime_trabalho": [
+        {
+          "DS_REGIME_TRABALHO": "DEDICAÇÃO EXCLUSIVA",
+          "TOTAL": 37,
+          "PERCENTUAL": 20.22
+        },
+        { "DS_REGIME_TRABALHO": "INTEGRAL", "TOTAL": 143, "PERCENTUAL": 78.14 },
+        { "DS_REGIME_TRABALHO": "PARCIAL", "TOTAL": 3, "PERCENTUAL": 1.64 }
+      ]
+    },
+    "por_ano": {
+      "2017": {
+        "lideranca_bolsas_pq": [
+          { "TEM_BOLSA_PQ": "NÃO", "TOTAL": 19, "PERCENTUAL": 79.17 },
+          { "TEM_BOLSA_PQ": "SIM", "TOTAL": 5, "PERCENTUAL": 20.83 }
+        ],
+        "internacionalizacao_titulacao_exterior": [
+          { "TITULADO_NO_EXTERIOR": "NÃO", "TOTAL": 18, "PERCENTUAL": 75.0 },
+          { "TITULADO_NO_EXTERIOR": "SIM", "TOTAL": 6, "PERCENTUAL": 25.0 }
+        ],
+        "internacionalizacao_nacionalidade": [
+          {
+            "DOCENTE_ESTRANGEIRO": "BRASILEIRO",
+            "TOTAL": 24,
+            "PERCENTUAL": 100.0
+          }
+        ],
+        "endogamia_academica": [
+          { "ENDOGAMIA": "NÃO", "TOTAL": 24, "PERCENTUAL": 100.0 }
+        ],
+        "maturidade_media_anos_doutorado": 11.2,
+        "categoria_docente": [
+          {
+            "DS_CATEGORIA_DOCENTE": "PERMANENTE",
+            "TOTAL": 24,
+            "PERCENTUAL": 100.0
+          }
+        ],
+        "regime_trabalho": [
+          {
+            "DS_REGIME_TRABALHO": "DEDICAÇÃO EXCLUSIVA",
+            "TOTAL": 3,
+            "PERCENTUAL": 12.5
+          },
+          {
+            "DS_REGIME_TRABALHO": "INTEGRAL",
+            "TOTAL": 20,
+            "PERCENTUAL": 83.33
+          },
+          { "DS_REGIME_TRABALHO": "PARCIAL", "TOTAL": 1, "PERCENTUAL": 4.17 }
+        ]
+      },
+      "2018": {
+        "lideranca_bolsas_pq": [
+          { "TEM_BOLSA_PQ": "NÃO", "TOTAL": 20, "PERCENTUAL": 80.0 },
+          { "TEM_BOLSA_PQ": "SIM", "TOTAL": 5, "PERCENTUAL": 20.0 }
+        ],
+        "internacionalizacao_titulacao_exterior": [
+          { "TITULADO_NO_EXTERIOR": "NÃO", "TOTAL": 19, "PERCENTUAL": 76.0 },
+          { "TITULADO_NO_EXTERIOR": "SIM", "TOTAL": 6, "PERCENTUAL": 24.0 }
+        ],
+        "internacionalizacao_nacionalidade": [
+          {
+            "DOCENTE_ESTRANGEIRO": "BRASILEIRO",
+            "TOTAL": 25,
+            "PERCENTUAL": 100.0
+          }
+        ],
+        "endogamia_academica": [
+          { "ENDOGAMIA": "NÃO", "TOTAL": 24, "PERCENTUAL": 96.0 },
+          { "ENDOGAMIA": "SIM", "TOTAL": 1, "PERCENTUAL": 4.0 }
+        ],
+        "maturidade_media_anos_doutorado": 11.8,
+        "categoria_docente": [
+          {
+            "DS_CATEGORIA_DOCENTE": "COLABORADOR",
+            "TOTAL": 1,
+            "PERCENTUAL": 3.85
+          },
+          {
+            "DS_CATEGORIA_DOCENTE": "PERMANENTE",
+            "TOTAL": 25,
+            "PERCENTUAL": 96.15
+          }
+        ],
+        "regime_trabalho": [
+          {
+            "DS_REGIME_TRABALHO": "DEDICAÇÃO EXCLUSIVA",
+            "TOTAL": 3,
+            "PERCENTUAL": 12.0
+          },
+          { "DS_REGIME_TRABALHO": "INTEGRAL", "TOTAL": 21, "PERCENTUAL": 84.0 },
+          { "DS_REGIME_TRABALHO": "PARCIAL", "TOTAL": 1, "PERCENTUAL": 4.0 }
+        ]
+      },
+      "2019": {
+        "lideranca_bolsas_pq": [
+          { "TEM_BOLSA_PQ": "NÃO", "TOTAL": 21, "PERCENTUAL": 80.77 },
+          { "TEM_BOLSA_PQ": "SIM", "TOTAL": 5, "PERCENTUAL": 19.23 }
+        ],
+        "internacionalizacao_titulacao_exterior": [
+          { "TITULADO_NO_EXTERIOR": "NÃO", "TOTAL": 20, "PERCENTUAL": 76.92 },
+          { "TITULADO_NO_EXTERIOR": "SIM", "TOTAL": 6, "PERCENTUAL": 23.08 }
+        ],
+        "internacionalizacao_nacionalidade": [
+          {
+            "DOCENTE_ESTRANGEIRO": "BRASILEIRO",
+            "TOTAL": 26,
+            "PERCENTUAL": 100.0
+          }
+        ],
+        "endogamia_academica": [
+          { "ENDOGAMIA": "NÃO", "TOTAL": 25, "PERCENTUAL": 96.15 },
+          { "ENDOGAMIA": "SIM", "TOTAL": 1, "PERCENTUAL": 3.85 }
+        ],
+        "maturidade_media_anos_doutorado": 12.4,
+        "categoria_docente": [
+          {
+            "DS_CATEGORIA_DOCENTE": "COLABORADOR",
+            "TOTAL": 2,
+            "PERCENTUAL": 7.14
+          },
+          {
+            "DS_CATEGORIA_DOCENTE": "PERMANENTE",
+            "TOTAL": 26,
+            "PERCENTUAL": 92.86
+          }
+        ],
+        "regime_trabalho": [
+          {
+            "DS_REGIME_TRABALHO": "DEDICAÇÃO EXCLUSIVA",
+            "TOTAL": 4,
+            "PERCENTUAL": 15.38
+          },
+          {
+            "DS_REGIME_TRABALHO": "INTEGRAL",
+            "TOTAL": 21,
+            "PERCENTUAL": 80.77
+          },
+          { "DS_REGIME_TRABALHO": "PARCIAL", "TOTAL": 1, "PERCENTUAL": 3.85 }
+        ]
+      },
+      "2020": {
+        "lideranca_bolsas_pq": [
+          { "TEM_BOLSA_PQ": "NÃO", "TOTAL": 18, "PERCENTUAL": 78.26 },
+          { "TEM_BOLSA_PQ": "SIM", "TOTAL": 5, "PERCENTUAL": 21.74 }
+        ],
+        "internacionalizacao_titulacao_exterior": [
+          { "TITULADO_NO_EXTERIOR": "NÃO", "TOTAL": 18, "PERCENTUAL": 78.26 },
+          { "TITULADO_NO_EXTERIOR": "SIM", "TOTAL": 5, "PERCENTUAL": 21.74 }
+        ],
+        "internacionalizacao_nacionalidade": [
+          {
+            "DOCENTE_ESTRANGEIRO": "BRASILEIRO",
+            "TOTAL": 23,
+            "PERCENTUAL": 100.0
+          }
+        ],
+        "endogamia_academica": [
+          { "ENDOGAMIA": "NÃO", "TOTAL": 22, "PERCENTUAL": 95.65 },
+          { "ENDOGAMIA": "SIM", "TOTAL": 1, "PERCENTUAL": 4.35 }
+        ],
+        "maturidade_media_anos_doutorado": 13.5,
+        "categoria_docente": [
+          {
+            "DS_CATEGORIA_DOCENTE": "COLABORADOR",
+            "TOTAL": 5,
+            "PERCENTUAL": 17.86
+          },
+          {
+            "DS_CATEGORIA_DOCENTE": "PERMANENTE",
+            "TOTAL": 23,
+            "PERCENTUAL": 82.14
+          }
+        ],
+        "regime_trabalho": [
+          {
+            "DS_REGIME_TRABALHO": "DEDICAÇÃO EXCLUSIVA",
+            "TOTAL": 5,
+            "PERCENTUAL": 21.74
+          },
+          { "DS_REGIME_TRABALHO": "INTEGRAL", "TOTAL": 18, "PERCENTUAL": 78.26 }
+        ]
+      },
+      "2021": {
+        "lideranca_bolsas_pq": [
+          { "TEM_BOLSA_PQ": "NÃO", "TOTAL": 15, "PERCENTUAL": 71.43 },
+          { "TEM_BOLSA_PQ": "SIM", "TOTAL": 6, "PERCENTUAL": 28.57 }
+        ],
+        "internacionalizacao_titulacao_exterior": [
+          { "TITULADO_NO_EXTERIOR": "NÃO", "TOTAL": 17, "PERCENTUAL": 80.95 },
+          { "TITULADO_NO_EXTERIOR": "SIM", "TOTAL": 4, "PERCENTUAL": 19.05 }
+        ],
+        "internacionalizacao_nacionalidade": [
+          {
+            "DOCENTE_ESTRANGEIRO": "BRASILEIRO",
+            "TOTAL": 20,
+            "PERCENTUAL": 95.24
+          },
+          {
+            "DOCENTE_ESTRANGEIRO": "ESTRANGEIRO",
+            "TOTAL": 1,
+            "PERCENTUAL": 4.76
+          }
+        ],
+        "endogamia_academica": [
+          { "ENDOGAMIA": "NÃO", "TOTAL": 20, "PERCENTUAL": 95.24 },
+          { "ENDOGAMIA": "SIM", "TOTAL": 1, "PERCENTUAL": 4.76 }
+        ],
+        "maturidade_media_anos_doutorado": 14.3,
+        "categoria_docente": [
+          {
+            "DS_CATEGORIA_DOCENTE": "COLABORADOR",
+            "TOTAL": 4,
+            "PERCENTUAL": 16.0
+          },
+          {
+            "DS_CATEGORIA_DOCENTE": "PERMANENTE",
+            "TOTAL": 21,
+            "PERCENTUAL": 84.0
+          }
+        ],
+        "regime_trabalho": [
+          {
+            "DS_REGIME_TRABALHO": "DEDICAÇÃO EXCLUSIVA",
+            "TOTAL": 5,
+            "PERCENTUAL": 23.81
+          },
+          { "DS_REGIME_TRABALHO": "INTEGRAL", "TOTAL": 16, "PERCENTUAL": 76.19 }
+        ]
+      },
+      "2022": {
+        "lideranca_bolsas_pq": [
+          { "TEM_BOLSA_PQ": "NÃO", "TOTAL": 14, "PERCENTUAL": 70.0 },
+          { "TEM_BOLSA_PQ": "SIM", "TOTAL": 6, "PERCENTUAL": 30.0 }
+        ],
+        "internacionalizacao_titulacao_exterior": [
+          { "TITULADO_NO_EXTERIOR": "NÃO", "TOTAL": 16, "PERCENTUAL": 80.0 },
+          { "TITULADO_NO_EXTERIOR": "SIM", "TOTAL": 4, "PERCENTUAL": 20.0 }
+        ],
+        "internacionalizacao_nacionalidade": [
+          {
+            "DOCENTE_ESTRANGEIRO": "BRASILEIRO",
+            "TOTAL": 19,
+            "PERCENTUAL": 95.0
+          },
+          {
+            "DOCENTE_ESTRANGEIRO": "ESTRANGEIRO",
+            "TOTAL": 1,
+            "PERCENTUAL": 5.0
+          }
+        ],
+        "endogamia_academica": [
+          { "ENDOGAMIA": "NÃO", "TOTAL": 19, "PERCENTUAL": 95.0 },
+          { "ENDOGAMIA": "SIM", "TOTAL": 1, "PERCENTUAL": 5.0 }
+        ],
+        "maturidade_media_anos_doutorado": 15.3,
+        "categoria_docente": [
+          {
+            "DS_CATEGORIA_DOCENTE": "COLABORADOR",
+            "TOTAL": 4,
+            "PERCENTUAL": 16.67
+          },
+          {
+            "DS_CATEGORIA_DOCENTE": "PERMANENTE",
+            "TOTAL": 20,
+            "PERCENTUAL": 83.33
+          }
+        ],
+        "regime_trabalho": [
+          {
+            "DS_REGIME_TRABALHO": "DEDICAÇÃO EXCLUSIVA",
+            "TOTAL": 5,
+            "PERCENTUAL": 25.0
+          },
+          { "DS_REGIME_TRABALHO": "INTEGRAL", "TOTAL": 15, "PERCENTUAL": 75.0 }
+        ]
+      },
+      "2023": {
+        "lideranca_bolsas_pq": [
+          { "TEM_BOLSA_PQ": "NÃO", "TOTAL": 16, "PERCENTUAL": 72.73 },
+          { "TEM_BOLSA_PQ": "SIM", "TOTAL": 6, "PERCENTUAL": 27.27 }
+        ],
+        "internacionalizacao_titulacao_exterior": [
+          { "TITULADO_NO_EXTERIOR": "NÃO", "TOTAL": 18, "PERCENTUAL": 81.82 },
+          { "TITULADO_NO_EXTERIOR": "SIM", "TOTAL": 4, "PERCENTUAL": 18.18 }
+        ],
+        "internacionalizacao_nacionalidade": [
+          {
+            "DOCENTE_ESTRANGEIRO": "BRASILEIRO",
+            "TOTAL": 21,
+            "PERCENTUAL": 95.45
+          },
+          {
+            "DOCENTE_ESTRANGEIRO": "ESTRANGEIRO",
+            "TOTAL": 1,
+            "PERCENTUAL": 4.55
+          }
+        ],
+        "endogamia_academica": [
+          { "ENDOGAMIA": "NÃO", "TOTAL": 20, "PERCENTUAL": 90.91 },
+          { "ENDOGAMIA": "SIM", "TOTAL": 2, "PERCENTUAL": 9.09 }
+        ],
+        "maturidade_media_anos_doutorado": 15.5,
+        "categoria_docente": [
+          {
+            "DS_CATEGORIA_DOCENTE": "COLABORADOR",
+            "TOTAL": 5,
+            "PERCENTUAL": 18.52
+          },
+          {
+            "DS_CATEGORIA_DOCENTE": "PERMANENTE",
+            "TOTAL": 22,
+            "PERCENTUAL": 81.48
+          }
+        ],
+        "regime_trabalho": [
+          {
+            "DS_REGIME_TRABALHO": "DEDICAÇÃO EXCLUSIVA",
+            "TOTAL": 6,
+            "PERCENTUAL": 27.27
+          },
+          { "DS_REGIME_TRABALHO": "INTEGRAL", "TOTAL": 16, "PERCENTUAL": 72.73 }
+        ]
+      },
+      "2024": {
+        "lideranca_bolsas_pq": [
+          { "TEM_BOLSA_PQ": "NÃO", "TOTAL": 16, "PERCENTUAL": 72.73 },
+          { "TEM_BOLSA_PQ": "SIM", "TOTAL": 6, "PERCENTUAL": 27.27 }
+        ],
+        "internacionalizacao_titulacao_exterior": [
+          { "TITULADO_NO_EXTERIOR": "NÃO", "TOTAL": 18, "PERCENTUAL": 81.82 },
+          { "TITULADO_NO_EXTERIOR": "SIM", "TOTAL": 4, "PERCENTUAL": 18.18 }
+        ],
+        "internacionalizacao_nacionalidade": [
+          {
+            "DOCENTE_ESTRANGEIRO": "BRASILEIRO",
+            "TOTAL": 21,
+            "PERCENTUAL": 95.45
+          },
+          {
+            "DOCENTE_ESTRANGEIRO": "ESTRANGEIRO",
+            "TOTAL": 1,
+            "PERCENTUAL": 4.55
+          }
+        ],
+        "endogamia_academica": [
+          { "ENDOGAMIA": "NÃO", "TOTAL": 20, "PERCENTUAL": 90.91 },
+          { "ENDOGAMIA": "SIM", "TOTAL": 2, "PERCENTUAL": 9.09 }
+        ],
+        "maturidade_media_anos_doutorado": 16.5,
+        "categoria_docente": [
+          {
+            "DS_CATEGORIA_DOCENTE": "COLABORADOR",
+            "TOTAL": 5,
+            "PERCENTUAL": 18.52
+          },
+          {
+            "DS_CATEGORIA_DOCENTE": "PERMANENTE",
+            "TOTAL": 22,
+            "PERCENTUAL": 81.48
+          }
+        ],
+        "regime_trabalho": [
+          {
+            "DS_REGIME_TRABALHO": "DEDICAÇÃO EXCLUSIVA",
+            "TOTAL": 6,
+            "PERCENTUAL": 27.27
+          },
+          { "DS_REGIME_TRABALHO": "INTEGRAL", "TOTAL": 16, "PERCENTUAL": 72.73 }
+        ]
+      }
+    }
+  },
+  "producao": {
+    "geral": {
+      "total_publicacoes": 300,
+      "media_publicacoes_por_ano": 37.5,
+      "distribuicao_subtipo": [
+        {
+          "NM_SUBTIPO_PRODUCAO": "ARTIGO EM PERIÓDICO",
+          "TOTAL": 300,
+          "PERCENTUAL": 100.0
+        }
+      ],
+      "top_veiculos": [
+        { "DS_TITULO_PADRONIZADO": "IEEE ACCESS", "TOTAL": 25 },
+        { "DS_TITULO_PADRONIZADO": "SENSORS (BASEL)", "TOTAL": 23 },
+        {
+          "DS_TITULO_PADRONIZADO": "THE JOURNAL OF SYSTEMS AND SOFTWARE",
+          "TOTAL": 7
+        },
+        {
+          "DS_TITULO_PADRONIZADO": "REVISTA BRASILEIRA DE INFORMÁTICA NA EDUCAÇÃO",
+          "TOTAL": 7
+        },
+        {
+          "DS_TITULO_PADRONIZADO": "RENOTE. REVISTA NOVAS TECNOLOGIAS NA EDUCAÇÃO",
+          "TOTAL": 6
+        },
+        {
+          "DS_TITULO_PADRONIZADO": "JOURNAL OF SOFTWARE ENGINEERING RESEARCH AND DEVELOPMENT",
+          "TOTAL": 6
+        },
+        { "DS_TITULO_PADRONIZADO": "MATEMATICA CONTEMPORANEA", "TOTAL": 5 },
+        {
+          "DS_TITULO_PADRONIZADO": "EXPERT SYSTEMS WITH APPLICATIONS",
+          "TOTAL": 5
+        },
+        {
+          "DS_TITULO_PADRONIZADO": "REVISTA ELETRÔNICA ARGENTINA-BRASIL DE TECNOLOGIAS DA INFORMAÇÃO E DA COMUNICAÇÃO",
+          "TOTAL": 5
+        },
+        { "DS_TITULO_PADRONIZADO": "APPLIED SCIENCES", "TOTAL": 4 }
+      ]
+    },
+    "por_ano": {
+      "2017": {
+        "total_publicacoes": 23,
+        "media_publicacoes_por_ano": 23.0,
+        "distribuicao_subtipo": [
+          {
+            "NM_SUBTIPO_PRODUCAO": "ARTIGO EM PERIÓDICO",
+            "TOTAL": 23,
+            "PERCENTUAL": 100.0
+          }
+        ],
+        "top_veiculos": [
+          {
+            "DS_TITULO_PADRONIZADO": "SCIENCE OF COMPUTER PROGRAMMING (PRINT)",
+            "TOTAL": 3
+          },
+          {
+            "DS_TITULO_PADRONIZADO": "IEEE COMMUNICATIONS SURVEYS AND TUTORIALS",
+            "TOTAL": 2
+          },
+          { "DS_TITULO_PADRONIZADO": "INFORMATION RETRIEVAL", "TOTAL": 2 },
+          { "DS_TITULO_PADRONIZADO": "T&C AMAZÔNIA", "TOTAL": 2 },
+          {
+            "DS_TITULO_PADRONIZADO": "THE JOURNAL OF SYSTEMS AND SOFTWARE",
+            "TOTAL": 1
+          },
+          {
+            "DS_TITULO_PADRONIZADO": "JOURNAL OF THE ASSOCIATION FOR INFORMATION SCIENCE AND TECHNOLOGY",
+            "TOTAL": 1
+          },
+          {
+            "DS_TITULO_PADRONIZADO": "SOFTWARE TESTING, VERIFICATION & RELIABILITY",
+            "TOTAL": 1
+          },
+          {
+            "DS_TITULO_PADRONIZADO": "MULTIMEDIA TOOLS AND APPLICATIONS",
+            "TOTAL": 1
+          },
+          { "DS_TITULO_PADRONIZADO": "SOFTWARE ENGINEERING NOTES", "TOTAL": 1 },
+          { "DS_TITULO_PADRONIZADO": "REVISTA IEEE AMÉRICA LATINA", "TOTAL": 1 }
+        ]
+      },
+      "2018": {
+        "total_publicacoes": 30,
+        "media_publicacoes_por_ano": 30.0,
+        "distribuicao_subtipo": [
+          {
+            "NM_SUBTIPO_PRODUCAO": "ARTIGO EM PERIÓDICO",
+            "TOTAL": 30,
+            "PERCENTUAL": 100.0
+          }
+        ],
+        "top_veiculos": [
+          { "DS_TITULO_PADRONIZADO": "MATEMATICA CONTEMPORANEA", "TOTAL": 4 },
+          {
+            "DS_TITULO_PADRONIZADO": "JOURNAL OF SOFTWARE ENGINEERING RESEARCH AND DEVELOPMENT",
+            "TOTAL": 2
+          },
+          { "DS_TITULO_PADRONIZADO": "IEEE ACCESS", "TOTAL": 2 },
+          { "DS_TITULO_PADRONIZADO": "SENSORS (BASEL)", "TOTAL": 2 },
+          {
+            "DS_TITULO_PADRONIZADO": "JOURNAL OF THE ASSOCIATION FOR INFORMATION SCIENCE AND TECHNOLOGY",
+            "TOTAL": 1
+          },
+          {
+            "DS_TITULO_PADRONIZADO": "JOURNAL OF THE BRAZILIAN COMPUTER SOCIETY (IMPRESSO)",
+            "TOTAL": 1
+          },
+          { "DS_TITULO_PADRONIZADO": "COMPUTER NETWORKS", "TOTAL": 1 },
+          { "DS_TITULO_PADRONIZADO": "MACHINE LEARNING", "TOTAL": 1 },
+          {
+            "DS_TITULO_PADRONIZADO": "IEEE TRANSACTIONS ON RELIABILITY",
+            "TOTAL": 1
+          },
+          { "DS_TITULO_PADRONIZADO": "SOFTWARE ENGINEERING NOTES", "TOTAL": 1 }
+        ]
+      },
+      "2019": {
+        "total_publicacoes": 29,
+        "media_publicacoes_por_ano": 29.0,
+        "distribuicao_subtipo": [
+          {
+            "NM_SUBTIPO_PRODUCAO": "ARTIGO EM PERIÓDICO",
+            "TOTAL": 29,
+            "PERCENTUAL": 100.0
+          }
+        ],
+        "top_veiculos": [
+          { "DS_TITULO_PADRONIZADO": "SENSORS (BASEL)", "TOTAL": 4 },
+          {
+            "DS_TITULO_PADRONIZADO": "DATA MINING AND KNOWLEDGE DISCOVERY",
+            "TOTAL": 1
+          },
+          {
+            "DS_TITULO_PADRONIZADO": "IET CYBER-PHYSICAL SYSTEMS: THEORY & APPLICATIONS",
+            "TOTAL": 1
+          },
+          { "DS_TITULO_PADRONIZADO": "COMPUTER JOURNAL (PRINT)", "TOTAL": 1 },
+          { "DS_TITULO_PADRONIZADO": "ACTA INFORMATICA", "TOTAL": 1 },
+          {
+            "DS_TITULO_PADRONIZADO": "REVISTA BRASILEIRA DE INFORMÁTICA NA EDUCAÇÃO",
+            "TOTAL": 1
+          },
+          { "DS_TITULO_PADRONIZADO": "SOLAR ENERGY", "TOTAL": 1 },
+          { "DS_TITULO_PADRONIZADO": "COMPUTER COMMUNICATIONS", "TOTAL": 1 },
+          {
+            "DS_TITULO_PADRONIZADO": "IEEE TRANSACTIONS ON MOBILE COMPUTING",
+            "TOTAL": 1
+          },
+          {
+            "DS_TITULO_PADRONIZADO": "SBC JOURNAL ON 3D INTERACTIVE SYSTEMS",
+            "TOTAL": 1
+          }
+        ]
+      },
+      "2020": {
+        "total_publicacoes": 45,
+        "media_publicacoes_por_ano": 45.0,
+        "distribuicao_subtipo": [
+          {
+            "NM_SUBTIPO_PRODUCAO": "ARTIGO EM PERIÓDICO",
+            "TOTAL": 45,
+            "PERCENTUAL": 100.0
+          }
+        ],
+        "top_veiculos": [
+          { "DS_TITULO_PADRONIZADO": "IEEE ACCESS", "TOTAL": 10 },
+          { "DS_TITULO_PADRONIZADO": "SENSORS (BASEL)", "TOTAL": 4 },
+          {
+            "DS_TITULO_PADRONIZADO": "REVISTA BRASILEIRA DE INFORMÁTICA NA EDUCAÇÃO",
+            "TOTAL": 2
+          },
+          {
+            "DS_TITULO_PADRONIZADO": "INTERNATIONAL JOURNAL ON SOFTWARE TOOLS FOR TECHNOLOGY TRANSFER (PRINT)",
+            "TOTAL": 2
+          },
+          {
+            "DS_TITULO_PADRONIZADO": "REVISTA DE INFORMÁTICA TEÓRICA E APLICADA: RITA",
+            "TOTAL": 1
+          },
+          {
+            "DS_TITULO_PADRONIZADO": "IET CYBER-PHYSICAL SYSTEMS: THEORY & APPLICATIONS",
+            "TOTAL": 1
+          },
+          {
+            "DS_TITULO_PADRONIZADO": "EURASIP JOURNAL ON IMAGE AND VIDEO PROCESSING",
+            "TOTAL": 1
+          },
+          {
+            "DS_TITULO_PADRONIZADO": "WILEY INTERDISCIPLINARY REVIEWS: DATA MINING AND KNOWLEDGE DISCOVERY",
+            "TOTAL": 1
+          },
+          {
+            "DS_TITULO_PADRONIZADO": "REVISTA CUBANA DE CIENCIAS INFORMÁTICAS",
+            "TOTAL": 1
+          },
+          { "DS_TITULO_PADRONIZADO": "IET SOFTWARE (PRINT)", "TOTAL": 1 }
+        ]
+      },
+      "2021": {
+        "total_publicacoes": 46,
+        "media_publicacoes_por_ano": 46.0,
+        "distribuicao_subtipo": [
+          {
+            "NM_SUBTIPO_PRODUCAO": "ARTIGO EM PERIÓDICO",
+            "TOTAL": 46,
+            "PERCENTUAL": 100.0
+          }
+        ],
+        "top_veiculos": [
+          { "DS_TITULO_PADRONIZADO": "SENSORS (BASEL)", "TOTAL": 5 },
+          { "DS_TITULO_PADRONIZADO": "IEEE ACCESS", "TOTAL": 4 },
+          {
+            "DS_TITULO_PADRONIZADO": "EXPERT SYSTEMS WITH APPLICATIONS",
+            "TOTAL": 3
+          },
+          {
+            "DS_TITULO_PADRONIZADO": "REVISTA BRASILEIRA DE INFORMÁTICA NA EDUCAÇÃO",
+            "TOTAL": 2
+          },
+          {
+            "DS_TITULO_PADRONIZADO": "IEEE AEROSPACE AND ELECTRONIC SYSTEMS MAGAZINE",
+            "TOTAL": 2
+          },
+          {
+            "DS_TITULO_PADRONIZADO": "JOURNAL OF SOFTWARE ENGINEERING RESEARCH AND DEVELOPMENT",
+            "TOTAL": 2
+          },
+          { "DS_TITULO_PADRONIZADO": "REQUIREMENTS ENGINEERING", "TOTAL": 1 },
+          {
+            "DS_TITULO_PADRONIZADO": "JOURNAL OF COMPUTER LANGUAGES",
+            "TOTAL": 1
+          },
+          {
+            "DS_TITULO_PADRONIZADO": "JOURNAL OF THE BRAZILIAN COMPUTER SOCIETY (ONLINE)",
+            "TOTAL": 1
+          },
+          {
+            "DS_TITULO_PADRONIZADO": "INTERNATIONAL JOURNAL OF DISTANCE EDUCATION TECHNOLOGIES",
+            "TOTAL": 1
+          }
+        ]
+      },
+      "2022": {
+        "total_publicacoes": 45,
+        "media_publicacoes_por_ano": 45.0,
+        "distribuicao_subtipo": [
+          {
+            "NM_SUBTIPO_PRODUCAO": "ARTIGO EM PERIÓDICO",
+            "TOTAL": 45,
+            "PERCENTUAL": 100.0
+          }
+        ],
+        "top_veiculos": [
+          {
+            "DS_TITULO_PADRONIZADO": "REVISTA ELETRÔNICA ARGENTINA-BRASIL DE TECNOLOGIAS DA INFORMAÇÃO E DA COMUNICAÇÃO",
+            "TOTAL": 5
+          },
+          { "DS_TITULO_PADRONIZADO": "SENSORS (BASEL)", "TOTAL": 4 },
+          {
+            "DS_TITULO_PADRONIZADO": "THE JOURNAL OF SYSTEMS AND SOFTWARE",
+            "TOTAL": 3
+          },
+          { "DS_TITULO_PADRONIZADO": "IEEE ACCESS", "TOTAL": 2 },
+          { "DS_TITULO_PADRONIZADO": "CLEI ELECTRONIC JOURNAL", "TOTAL": 2 },
+          { "DS_TITULO_PADRONIZADO": "FUTURE INTERNET", "TOTAL": 2 },
+          { "DS_TITULO_PADRONIZADO": "SCIENTIFIC REPORTS", "TOTAL": 2 },
+          {
+            "DS_TITULO_PADRONIZADO": "DATA & KNOWLEDGE ENGINEERING",
+            "TOTAL": 1
+          },
+          {
+            "DS_TITULO_PADRONIZADO": "MULTIMEDIA TOOLS AND APPLICATIONS",
+            "TOTAL": 1
+          },
+          { "DS_TITULO_PADRONIZADO": "INFORMATION RETRIEVAL", "TOTAL": 1 }
+        ]
+      },
+      "2023": {
+        "total_publicacoes": 33,
+        "media_publicacoes_por_ano": 33.0,
+        "distribuicao_subtipo": [
+          {
+            "NM_SUBTIPO_PRODUCAO": "ARTIGO EM PERIÓDICO",
+            "TOTAL": 33,
+            "PERCENTUAL": 100.0
+          }
+        ],
+        "top_veiculos": [
+          { "DS_TITULO_PADRONIZADO": "IEEE ACCESS", "TOTAL": 4 },
+          {
+            "DS_TITULO_PADRONIZADO": "ARTIFICIAL INTELLIGENCE AND LAW",
+            "TOTAL": 2
+          },
+          { "DS_TITULO_PADRONIZADO": "INFORMATICS IN EDUCATION", "TOTAL": 2 },
+          {
+            "DS_TITULO_PADRONIZADO": "EMPIRICAL SOFTWARE ENGINEERING",
+            "TOTAL": 2
+          },
+          { "DS_TITULO_PADRONIZADO": "APPLIED SCIENCES", "TOTAL": 2 },
+          { "DS_TITULO_PADRONIZADO": "SENSORS (BASEL)", "TOTAL": 2 },
+          {
+            "DS_TITULO_PADRONIZADO": "JOURNAL OF SENSOR AND ACTUATOR NETWORKS",
+            "TOTAL": 1
+          },
+          {
+            "DS_TITULO_PADRONIZADO": "IEEE INTERNET OF THINGS JOURNAL",
+            "TOTAL": 1
+          },
+          { "DS_TITULO_PADRONIZADO": "ENERGIES (BASEL)", "TOTAL": 1 },
+          { "DS_TITULO_PADRONIZADO": "DATA IN BRIEF", "TOTAL": 1 }
+        ]
+      },
+      "2024": {
+        "total_publicacoes": 49,
+        "media_publicacoes_por_ano": 49.0,
+        "distribuicao_subtipo": [
+          {
+            "NM_SUBTIPO_PRODUCAO": "ARTIGO EM PERIÓDICO",
+            "TOTAL": 49,
+            "PERCENTUAL": 100.0
+          }
+        ],
+        "top_veiculos": [
+          {
+            "DS_TITULO_PADRONIZADO": "JOURNAL OF THE BRAZILIAN COMPUTER SOCIETY (ONLINE)",
+            "TOTAL": 3
+          },
+          {
+            "DS_TITULO_PADRONIZADO": "JOURNAL OF INTERNET SERVICES AND APPLICATIONS",
+            "TOTAL": 2
+          },
+          { "DS_TITULO_PADRONIZADO": "DATA IN BRIEF", "TOTAL": 2 },
+          { "DS_TITULO_PADRONIZADO": "SENSORS (BASEL)", "TOTAL": 2 },
+          { "DS_TITULO_PADRONIZADO": "IEEE ACCESS", "TOTAL": 2 },
+          { "DS_TITULO_PADRONIZADO": "COMPUTING (WIEN. INTERNET)", "TOTAL": 2 },
+          {
+            "DS_TITULO_PADRONIZADO": "IEEE TRANSACTIONS ON LEARNING TECHNOLOGIES",
+            "TOTAL": 1
+          },
+          {
+            "DS_TITULO_PADRONIZADO": "APPLIED INTELLIGENCE (BOSTON)",
+            "TOTAL": 1
+          },
+          { "DS_TITULO_PADRONIZADO": "IEEE SENSORS JOURNAL", "TOTAL": 1 },
+          { "DS_TITULO_PADRONIZADO": "ACM COMPUTING SURVEYS", "TOTAL": 1 }
+        ]
+      }
+    }
+  }
+}

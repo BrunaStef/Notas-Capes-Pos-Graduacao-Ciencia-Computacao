@@ -1,4 +1,3 @@
-// App.tsx
 import React, { useEffect, useMemo, useRef, useState } from "react";
 import * as d3 from "d3";
 import {
@@ -38,8 +37,10 @@ import {
 
 import rawJsonTeachersData from "./database/indicadores_computacao_docentes.json";
 import rawJsonStudentsData from "./database/indicadores_computacao_discentes.json";
+import rawJsonPeriodicosData from "./database/indicadores_computacao_bibliografica_periodicos.json";
 import rawRadarData from "./database/capes_radar_chart_docentes_discentes.json";
 import { CapesRadarChart, type CapesRadarData } from "./components/radarGraph";
+import type { IndicadoresBase, Metadata } from "./types";
 
 const PALETTE = [
   "#42001A",
@@ -119,32 +120,6 @@ const theme = createTheme({
   },
 });
 
-interface Metadata {
-  total_registros_computacao: number;
-  anos_analisados: number[];
-  anos_disponiveis_esperados?: number[];
-  conceitos: number[];
-  escopo?: {
-    areas: string[];
-    conceitos_filtro: number[];
-    periodo: [number, number];
-  };
-}
-
-interface IndicadoresBase {
-  lideranca_bolsas_pq: any[];
-  internacionalizacao_titulacao_exterior: any[];
-  internacionalizacao_nacionalidade: any[];
-  endogamia_academica: any[];
-  maturidade_tempo_doutorado: any[];
-  tamanho_medio_programa: any[];
-  categoria_docente: any[];
-  regime_trabalho: any[];
-  desigualdade_regional: any[];
-  natureza_instituicao: any[];
-  top_20_instituicoes: any[];
-}
-
 interface IndicadoresComputacaoDocentes {
   metadata: Metadata;
   geral: IndicadoresBase;
@@ -166,13 +141,59 @@ interface IndicadoresComputacaoDiscentes {
   por_ano: Record<string, IndicadoresBaseDiscentes>;
 }
 
+export interface IndicadoresBasePeriodicos {
+  total_publicacoes_por_conceito: any[];
+  evolucao_anual_por_conceito: any[];
+  media_publicacoes_por_programa: any[];
+  programas_por_conceito: any[];
+  tipo_producao: any[];
+  subtipo_producao: any[];
+  formulario: any[];
+  producao_com_vinculo_tcc: any[];
+  glosa: any[];
+  veiculos_mais_frequentes: any[];
+  producoes_mais_frequentes: any[];
+  areas_concentracao_mais_frequentes: any[];
+  linhas_pesquisa_mais_frequentes: any[];
+  projetos_mais_frequentes: any[];
+  instituicoes_mais_frequentes: any[];
+  presenca_identificador_veiculo: any[];
+}
+
+interface IndicadoresComputacaoPeriodicos {
+  metadata: Metadata;
+  geral: IndicadoresBasePeriodicos;
+  por_ano: Record<string, IndicadoresBasePeriodicos>;
+}
+
 const jsonTeachersData =
   rawJsonTeachersData as unknown as IndicadoresComputacaoDocentes;
 const jsonStudentsData =
   rawJsonStudentsData as unknown as IndicadoresComputacaoDiscentes;
+const jsonPeriodicosData =
+  rawJsonPeriodicosData as unknown as IndicadoresComputacaoPeriodicos;
 const jsonRadarData = rawRadarData as any;
 
 type Row = Record<string, any>;
+
+const EMPTY_PERIODICOS_DATA: IndicadoresBasePeriodicos = {
+  total_publicacoes_por_conceito: [],
+  evolucao_anual_por_conceito: [],
+  media_publicacoes_por_programa: [],
+  programas_por_conceito: [],
+  tipo_producao: [],
+  subtipo_producao: [],
+  formulario: [],
+  producao_com_vinculo_tcc: [],
+  glosa: [],
+  veiculos_mais_frequentes: [],
+  producoes_mais_frequentes: [],
+  areas_concentracao_mais_frequentes: [],
+  linhas_pesquisa_mais_frequentes: [],
+  projetos_mais_frequentes: [],
+  instituicoes_mais_frequentes: [],
+  presenca_identificador_veiculo: [],
+};
 
 function useWidth<T extends HTMLElement>() {
   const ref = useRef<T | null>(null);
@@ -384,9 +405,10 @@ function StackedBarChart({
   const ref = useRef<SVGSVGElement | null>(null);
 
   useEffect(() => {
-    if (!ref.current || !width || !rows.length) return;
+    if (!ref.current || !width) return;
     const svg = d3.select(ref.current);
     svg.selectAll("*").remove();
+    if (!rows.length) return;
 
     const tooltip = createDarkTooltip();
     const margin = { top: 16, right: 28, bottom: 40, left: 56 };
@@ -556,10 +578,11 @@ function BarChart({
   const ref = useRef<SVGSVGElement | null>(null);
 
   useEffect(() => {
-    if (!ref.current || !width || !rows.length) return;
+    if (!ref.current || !width) return;
 
     const svg = d3.select(ref.current);
     svg.selectAll("*").remove();
+    if (!rows.length) return;
 
     const tooltip = createDarkTooltip();
 
@@ -648,9 +671,10 @@ function LollipopChart({
   const ref = useRef<SVGSVGElement | null>(null);
 
   useEffect(() => {
-    if (!ref.current || !width || !rows.length) return;
+    if (!ref.current || !width) return;
     const svg = d3.select(ref.current);
     svg.selectAll("*").remove();
+    if (!rows.length) return;
 
     const tooltip = createDarkTooltip();
     const margin = { top: 16, right: 56, bottom: 32, left: 56 };
@@ -773,9 +797,10 @@ function HeatmapChart({
   const ref = useRef<SVGSVGElement | null>(null);
 
   useEffect(() => {
-    if (!ref.current || !width || !rows.length) return;
+    if (!ref.current || !width) return;
     const svg = d3.select(ref.current);
     svg.selectAll("*").remove();
+    if (!rows.length) return;
 
     const tooltip = createDarkTooltip();
     const margin = { top: 28, right: 24, bottom: 40, left: 180 };
@@ -951,7 +976,7 @@ export function StudentsPanel({
     fullEvasao.forEach((item) => {
       if (
         item.NM_SITUACAO_DISCENTE === "ABANDONOU" ||
-        item.NMSITUACAO_DISCENTE === "DESLIGADO"
+        item.NM_SITUACAO_DISCENTE === "DESLIGADO"
       ) {
         grouped.set(
           item.CD_CONCEITO_PROGRAMA,
@@ -1187,6 +1212,359 @@ export function StudentsPanel({
   );
 }
 
+function RankingList({
+  rows,
+  labelKey,
+  valueKey,
+  topN = 10,
+}: {
+  rows: Row[];
+  labelKey: string | string[];
+  valueKey: string;
+  topN?: number;
+}) {
+  const data = useMemo(() => {
+    const labelKeys = Array.isArray(labelKey) ? labelKey : [labelKey];
+    const fallbackLabelKeys = [
+      ...labelKeys,
+      "DS_TITULO_PADRONIZADO",
+      "NM_REVISTA",
+      "NM_PERIODICO",
+      "NM_PERIÓDICO",
+      "NM_VEICULO",
+      "NM_TITULO_PERIODICO",
+      "DS_NOME_PERIODICO",
+      "NM_TITULO",
+      "DS_TITULO_PERIODICO",
+      "NM_AREA_CONCENTRACAO",
+      "NM_PRODUCAO",
+      "NM_LINHA_PESQUISA",
+      "NM_PROJETO",
+      "NM_ENTIDADE_ENSINO",
+    ];
+
+    const getLabel = (row: Row) => {
+      for (const key of fallbackLabelKeys) {
+        const value = row[key];
+        if (value !== undefined && value !== null && String(value).trim()) {
+          return String(value).trim().toUpperCase();
+        }
+      }
+      return "NÃO INFORMADO";
+    };
+
+    const grouped = d3.rollups(
+      rows || [],
+      (values) => d3.sum(values, (d) => toNumber(d[valueKey]) ?? 0),
+      (d) => getLabel(d),
+    );
+
+    return grouped
+      .map(([label, value]) => ({ label, value }))
+      .filter(
+        (item) =>
+          item.label &&
+          item.label !== "NAN" &&
+          item.label !== "NÃO INFORMADO" &&
+          item.value > 0,
+      )
+      .sort((a, b) => b.value - a.value)
+      .slice(0, topN);
+  }, [rows, labelKey, valueKey, topN]);
+
+  const maxValue = d3.max(data, (d) => d.value) || 1;
+
+  if (!data.length) {
+    return (
+      <Typography variant="body2" color="text.secondary">
+        Sem dados disponíveis para este recorte.
+      </Typography>
+    );
+  }
+
+  return (
+    <Stack spacing={1.4}>
+      {data.map((item, index) => (
+        <Box key={`${item.label}-${index}`}>
+          <Stack
+            spacing={2}
+            sx={{
+              marginBottom: 1.25,
+              display: "flex",
+              direction: "row",
+              alignItems: "flex-start",
+            }}
+          >
+            <Typography
+              variant="body2"
+              sx={{
+                color: "#E2E8F0",
+                fontWeight: 600,
+                overflow: "hidden",
+                textOverflow: "ellipsis",
+                whiteSpace: "nowrap",
+              }}
+              title={item.label}
+            >
+              {index + 1}. {item.label}
+            </Typography>
+            <Typography
+              variant="body2"
+              sx={{ color: PALETTE[5], fontWeight: 800, flexShrink: 0 }}
+            >
+              {d3.format(",")(item.value).replace(/,/g, ".")}
+            </Typography>
+          </Stack>
+
+          <Box
+            sx={{
+              height: 7,
+              bgcolor: "rgba(148,163,184,0.08)",
+              border: "1px solid rgba(148,163,184,0.06)",
+            }}
+          >
+            <Box
+              sx={{
+                height: "100%",
+                width: `${Math.max(4, (item.value / maxValue) * 100)}%`,
+                bgcolor: PALETTE[index % PALETTE.length],
+              }}
+            />
+          </Box>
+        </Box>
+      ))}
+    </Stack>
+  );
+}
+
+export function PeriodicosPanel({
+  activeData,
+  progPeriodicos,
+  pLabel = "Programa",
+  viewMode = "COMPARATIVE",
+}: {
+  activeData: IndicadoresBasePeriodicos;
+  progPeriodicos?: any;
+  pLabel?: string;
+  viewMode?: "COMPARATIVE" | "PROGRAM_ONLY";
+}) {
+  const { ref: totalRef, width: totalWidth } = useWidth<HTMLDivElement>();
+  const { ref: mediaRef, width: mediaWidth } = useWidth<HTMLDivElement>();
+  const { ref: vinculoRef, width: vinculoWidth } = useWidth<HTMLDivElement>();
+
+  const lollipopHeight = 260;
+  const stackedHeight = 270;
+
+  const inject = (base: any[], prog: any[] | undefined, label: string) => {
+    const baseData = viewMode === "PROGRAM_ONLY" && prog ? [] : base;
+    if (!prog) return [...baseData];
+    return [
+      ...baseData,
+      ...prog.map((item) => ({ ...item, CD_CONCEITO_PROGRAMA: label })),
+    ];
+  };
+
+  const gerarMapaDeCores = (
+    rows: Record<string, any>[],
+    chaveCategoria: string,
+  ) => {
+    const categoriasUnicas = [
+      ...new Set(rows.map((r) => String(r[chaveCategoria]).toUpperCase())),
+    ]
+      .filter((cat) => cat && cat !== "NAN")
+      .sort();
+
+    const mapa: Record<string, string> = {};
+
+    categoriasUnicas.forEach((cat, index) => {
+      mapa[cat] = PALETTE[index % PALETTE.length];
+    });
+
+    return mapa;
+  };
+
+  const totalData = useMemo(() => {
+    const base =
+      viewMode === "PROGRAM_ONLY" && progPeriodicos
+        ? []
+        : [...(activeData.total_publicacoes_por_conceito || [])];
+    if (progPeriodicos?.total_publicacoes !== undefined) {
+      base.push({
+        CD_CONCEITO_PROGRAMA: pLabel,
+        TOTAL_PUBLICACOES: progPeriodicos.total_publicacoes,
+      });
+    }
+    return base;
+  }, [
+    activeData.total_publicacoes_por_conceito,
+    progPeriodicos,
+    pLabel,
+    viewMode,
+  ]);
+
+  const mediaData = useMemo(() => {
+    const base =
+      viewMode === "PROGRAM_ONLY" && progPeriodicos
+        ? []
+        : [...(activeData.media_publicacoes_por_programa || [])];
+
+    return base;
+  }, [
+    activeData.media_publicacoes_por_programa,
+    progPeriodicos,
+    pLabel,
+    viewMode,
+  ]);
+
+  const vinculoData = useMemo(() => {
+    return inject(
+      activeData.producao_com_vinculo_tcc || [],
+      progPeriodicos?.producao_com_vinculo_tcc,
+      pLabel,
+    );
+  }, [activeData.producao_com_vinculo_tcc, progPeriodicos, pLabel, viewMode]);
+
+  const mapaVinculoTcc = useMemo(
+    () => gerarMapaDeCores(vinculoData, "IN_PRODUCAO_COM_VINCULO_TCC"),
+    [vinculoData],
+  );
+
+  const veiculosData = useMemo(() => {
+    if (viewMode === "PROGRAM_ONLY" && progPeriodicos?.top_veiculos) {
+      return progPeriodicos.top_veiculos;
+    }
+    return activeData.veiculos_mais_frequentes || [];
+  }, [activeData.veiculos_mais_frequentes, progPeriodicos, viewMode]);
+
+  const areasData = useMemo(() => {
+    if (
+      viewMode === "PROGRAM_ONLY" &&
+      progPeriodicos?.areas_concentracao_mais_frequentes
+    ) {
+      return progPeriodicos.areas_concentracao_mais_frequentes;
+    }
+    return activeData.areas_concentracao_mais_frequentes || [];
+  }, [activeData.areas_concentracao_mais_frequentes, progPeriodicos, viewMode]);
+
+  return (
+    <Box
+      sx={{
+        display: "grid",
+        gridTemplateColumns: { xs: "1fr", xl: "repeat(2, minmax(0, 1fr))" },
+        gap: 2,
+        mb: 5,
+      }}
+    >
+      <Box ref={totalRef}>
+        <ChartShell
+          title="Total de Publicações"
+          subtitle="Volume por conceito CAPES"
+          description="Quantidade total de produções bibliográficas em periódicos associadas aos programas de Computação em cada conceito."
+          icon={QueryStatsRounded}
+          accent={PALETTE[4]}
+        >
+          {totalWidth > 0 && (
+            <LollipopChart
+              rows={totalData}
+              valueKey="TOTAL_PUBLICACOES"
+              width={totalWidth}
+              height={lollipopHeight}
+              accent={PALETTE[4]}
+            />
+          )}
+        </ChartShell>
+      </Box>
+
+      <Box ref={mediaRef}>
+        <ChartShell
+          title="Média de Publicações por Programa"
+          subtitle="Produtividade média"
+          description="Média de publicações em periódicos por programa, permitindo comparar a intensidade de produção acadêmica entre os conceitos."
+          icon={ApartmentRounded}
+          accent={PALETTE[2]}
+        >
+          {mediaWidth > 0 && (
+            <LollipopChart
+              rows={mediaData}
+              valueKey="MEDIA_PUBLICACOES_POR_PROGRAMA"
+              width={mediaWidth}
+              height={lollipopHeight}
+              accent={PALETTE[2]}
+            />
+          )}
+        </ChartShell>
+      </Box>
+
+      <Box ref={vinculoRef}>
+        <ChartShell
+          title="Produção com Vínculo a TCC"
+          subtitle="Relação com trabalhos de conclusão"
+          description="Proporção de publicações em periódicos que possuem vínculo registrado com trabalhos de conclusão."
+          icon={GroupsRounded}
+          accent={PALETTE[1]}
+        >
+          {vinculoWidth > 0 && (
+            <StackedBarChart
+              rows={vinculoData}
+              categoryKey="IN_PRODUCAO_COM_VINCULO_TCC"
+              valueKey="PERCENTUAL"
+              width={vinculoWidth}
+              height={stackedHeight}
+              colorMap={mapaVinculoTcc}
+            />
+          )}
+        </ChartShell>
+      </Box>
+
+      <Box sx={{ gridColumn: { xs: "auto", xl: "1 / -1" } }}>
+        <ChartShell
+          title="Periódicos mais Frequentes"
+          subtitle="Veículos de publicação"
+          description="Ranking dos periódicos que mais aparecem nos registros, somando as ocorrências dos conceitos CAPES no recorte selecionado."
+          icon={PublicRounded}
+          accent={PALETTE[4]}
+          fullWidth
+        >
+          <RankingList
+            rows={veiculosData}
+            labelKey={[
+              "DS_TITULO_PADRONIZADO",
+              "NM_REVISTA",
+              "NM_PERIODICO",
+              "NM_PERIÓDICO",
+              "NM_VEICULO",
+              "NM_TITULO_PERIODICO",
+              "DS_NOME_PERIODICO",
+              "NM_TITULO",
+              "DS_TITULO_PERIODICO",
+            ]}
+            valueKey="TOTAL_PUBLICACOES"
+            topN={10}
+          />
+        </ChartShell>
+      </Box>
+
+      <Box sx={{ gridColumn: { xs: "auto", xl: "1 / -1" } }}>
+        <ChartShell
+          title="Áreas de Concentração mais Frequentes"
+          subtitle="Temas associados às publicações"
+          description="Áreas de concentração que mais aparecem associadas às produções em periódicos dos programas de Computação."
+          icon={MapRounded}
+          accent={PALETTE[2]}
+          fullWidth
+        >
+          <RankingList
+            rows={areasData}
+            labelKey="NM_AREA_CONCENTRACAO"
+            valueKey="TOTAL_PUBLICACOES"
+            topN={10}
+          />
+        </ChartShell>
+      </Box>
+    </Box>
+  );
+}
+
 export default function App() {
   const anos = useMemo(() => {
     const expected =
@@ -1219,7 +1597,6 @@ export default function App() {
       fetch(`src/database/programas/${selectedProgram}.json`)
         .then((res) => res.json())
         .then((data) => {
-          console.log("Dados do programa carregados:", data);
           setProgramData(data);
         })
         .catch(() => setProgramData(null));
@@ -1236,6 +1613,22 @@ export default function App() {
   const activeStudentsData = useMemo<IndicadoresBaseDiscentes>(() => {
     if (selectedPeriod === "GERAL") return jsonStudentsData.geral;
     return jsonStudentsData.por_ano?.[selectedPeriod] ?? jsonStudentsData.geral;
+  }, [selectedPeriod]);
+
+  const activePeriodicosData = useMemo<IndicadoresBasePeriodicos>(() => {
+    if (selectedPeriod === "GERAL") {
+      return jsonPeriodicosData.geral ?? EMPTY_PERIODICOS_DATA;
+    }
+
+    const porAno = jsonPeriodicosData.por_ano ?? {};
+    const chaveAno = String(selectedPeriod);
+
+    return (
+      porAno[chaveAno] ??
+      porAno[String(Number(chaveAno))] ??
+      porAno[`${chaveAno}.0`] ??
+      EMPTY_PERIODICOS_DATA
+    );
   }, [selectedPeriod]);
 
   const radarData = useMemo<CapesRadarData>(() => {
@@ -1261,11 +1654,26 @@ export default function App() {
     );
   }, [programData, selectedPeriod]);
 
+  const progPeriodicos = useMemo(() => {
+    if (!programData?.producao) return undefined;
+    if (selectedPeriod === "GERAL") return programData.producao.geral;
+    return (
+      programData.producao.por_ano?.[selectedPeriod] ||
+      programData.producao.geral
+    );
+  }, [programData, selectedPeriod]);
+
   const programRadarMetrics = useMemo(() => {
     if (!programData?.radar) return undefined;
 
-    return programData.radar;
-  }, [programData]);
+    if (selectedPeriod === "GERAL") {
+      return programData.radar.geral;
+    }
+
+    return (
+      programData.radar.por_ano?.[selectedPeriod] || programData.radar.geral
+    );
+  }, [programData, selectedPeriod]);
 
   const { charts, selectedLabel, programName } = useMemo(() => {
     const pLabel = programData?.metadata?.sg_ies || "Programa";
@@ -1337,99 +1745,131 @@ export default function App() {
       leadershipRows.map((d) => d.CD_CONCEITO_PROGRAMA),
     );
 
-    const heatRows = concepts.flatMap((concept) => [
-      {
-        metric: "Bolsas PQ (% Sim)",
-        concept,
-        value: getSpecificCategoryPercent(
-          leadershipRows,
+    const heatRows = concepts.flatMap((concept) => {
+      const isProg = concept === pLabel;
+      const progReal = programRadarMetrics?.valores_reais || {};
+
+      return [
+        {
+          metric: "Bolsas PQ (% Sim)",
           concept,
-          "TEM_BOLSA_PQ",
-          "SIM",
-          "PERCENTUAL",
-        ),
-      },
-      {
-        metric: "Titulação Ext. (% Sim)",
-        concept,
-        value: getSpecificCategoryPercent(
-          internationalRows,
+          value:
+            isProg && progReal.pct_pq !== undefined
+              ? progReal.pct_pq
+              : getSpecificCategoryPercent(
+                  leadershipRows,
+                  concept,
+                  "TEM_BOLSA_PQ",
+                  "SIM",
+                  "PERCENTUAL",
+                ),
+        },
+        {
+          metric: "Titulação Ext. (% Sim)",
           concept,
-          "TITULADO_NO_EXTERIOR",
-          "SIM",
-          "PERCENTUAL",
-        ),
-      },
-      {
-        metric: "Docentes Estrangeiros (%)",
-        concept,
-        value: getSpecificCategoryPercent(
-          nationalityRows,
+          value:
+            isProg && progReal.pct_titulado_no_exterior !== undefined
+              ? progReal.pct_titulado_no_exterior
+              : getSpecificCategoryPercent(
+                  internationalRows,
+                  concept,
+                  "TITULADO_NO_EXTERIOR",
+                  "SIM",
+                  "PERCENTUAL",
+                ),
+        },
+        {
+          metric: "Docentes Estrangeiros (%)",
           concept,
-          "DOCENTE_ESTRANGEIRO",
-          "ESTRANGEIRO",
-          "PERCENTUAL",
-        ),
-      },
-      {
-        metric: "Endogamia Acadêmica (%)",
-        concept,
-        value: getSpecificCategoryPercent(
-          endogamyRows,
+          value:
+            isProg && progReal.pct_docente_estrangeiro !== undefined
+              ? progReal.pct_docente_estrangeiro
+              : getSpecificCategoryPercent(
+                  nationalityRows,
+                  concept,
+                  "DOCENTE_ESTRANGEIRO",
+                  "ESTRANGEIRO",
+                  "PERCENTUAL",
+                ),
+        },
+        {
+          metric: "Endogamia Acadêmica (%)",
           concept,
-          "ENDOGAMIA",
-          "SIM",
-          "PERCENTUAL",
-        ),
-      },
-      {
-        metric: "Dedicação Exclusiva (%)",
-        concept,
-        value: getSpecificCategoryPercent(
-          regimeRows,
+          value:
+            isProg && progReal.pct_endogamia !== undefined
+              ? progReal.pct_endogamia
+              : getSpecificCategoryPercent(
+                  endogamyRows,
+                  concept,
+                  "ENDOGAMIA",
+                  "SIM",
+                  "PERCENTUAL",
+                ),
+        },
+        {
+          metric: "Dedicação Exclusiva (%)",
           concept,
-          "DS_REGIME_TRABALHO",
-          "DEDICAÇÃO EXCLUSIVA",
-          "PERCENTUAL",
-        ),
-      },
-      {
-        metric: "Docentes Permanentes (%)",
-        concept,
-        value: getSpecificCategoryPercent(
-          categoryRows,
+          value:
+            isProg && progReal.pct_dedicacao_exclusiva !== undefined
+              ? progReal.pct_dedicacao_exclusiva
+              : getSpecificCategoryPercent(
+                  regimeRows,
+                  concept,
+                  "DS_REGIME_TRABALHO",
+                  "DEDICAÇÃO EXCLUSIVA",
+                  "PERCENTUAL",
+                ),
+        },
+        {
+          metric: "Docentes Permanentes (%)",
           concept,
-          "DS_CATEGORIA_DOCENTE",
-          "PERMANENTE",
-          "PERCENTUAL",
-        ),
-      },
-      {
-        metric: "Inst. Públicas (%)",
-        concept,
-        value: getSpecificCategoryPercent(
-          institutionRows,
+          value:
+            isProg && progReal.pct_docentes_permanentes !== undefined
+              ? progReal.pct_docentes_permanentes
+              : getSpecificCategoryPercent(
+                  categoryRows,
+                  concept,
+                  "DS_CATEGORIA_DOCENTE",
+                  "PERMANENTE",
+                  "PERCENTUAL",
+                ),
+        },
+        {
+          metric: "Inst. Públicas (%)",
           concept,
-          "DS_DEPENDENCIA_ADMINISTRATIVA",
-          "PÚBLICA",
-          "PERCENTUAL",
-        ),
-      },
-      {
-        metric: "Tamanho do Prog. (Média)",
-        concept,
-        value: getConceptValue(
-          sizeRows,
+          value:
+            isProg && progReal.pct_instituicao_publica !== undefined
+              ? progReal.pct_instituicao_publica
+              : getSpecificCategoryPercent(
+                  institutionRows,
+                  concept,
+                  "DS_DEPENDENCIA_ADMINISTRATIVA",
+                  "PÚBLICA",
+                  "PERCENTUAL",
+                ),
+        },
+        {
+          metric: "Tamanho do Prog. (Média)",
           concept,
-          "MEDIA_DOCENTES_PERMANENTES_POR_PROGRAMA",
-        ),
-      },
-      {
-        metric: "Tempo Doutorado (Anos)",
-        concept,
-        value: getConceptValue(maturityRows, concept, "MEDIA_ANOS_DOUTORADO"),
-      },
-    ]);
+          value:
+            isProg && progReal.docentes_permanentes_por_programa !== undefined
+              ? progReal.docentes_permanentes_por_programa
+              : getConceptValue(
+                  sizeRows,
+                  concept,
+                  "MEDIA_DOCENTES_PERMANENTES_POR_PROGRAMA",
+                ),
+        },
+        {
+          metric: "Tempo Doutorado (Anos)",
+          concept,
+          value:
+            isProg && progReal.media_anos_doutorado !== undefined
+              ? progReal.media_anos_doutorado
+              : getConceptValue(maturityRows, concept, "MEDIA_ANOS_DOUTORADO"),
+        },
+      ];
+    });
 
     return {
       charts: {
@@ -1450,7 +1890,14 @@ export default function App() {
         selectedPeriod === "GERAL" ? "Geral (2017–2024)" : selectedPeriod,
       programName: pLabel,
     };
-  }, [activeTeachersData, progDocentes, selectedPeriod, programData, viewMode]);
+  }, [
+    activeTeachersData,
+    progDocentes,
+    selectedPeriod,
+    programData,
+    viewMode,
+    programRadarMetrics,
+  ]);
 
   const { ref: heatmapRef, width: heatmapWidth } = useWidth<HTMLDivElement>();
   const { ref: leadershipRef, width: leadershipWidth } =
@@ -2019,6 +2466,26 @@ export default function App() {
             <StudentsPanel
               activeData={activeStudentsData}
               progDiscentes={progDiscentes}
+              pLabel={programName}
+              viewMode={viewMode}
+            />
+          </Box>
+
+          <Divider sx={{ mb: 4, borderColor: "rgba(148,163,184,0.15)" }} />
+
+          <Box sx={{ mb: 4 }}>
+            <Typography variant="h3" sx={{ mb: 1, color: "#F8FAFC" }}>
+              3. Produção Bibliográfica em Periódicos
+            </Typography>
+            <Typography variant="body2" color="text.secondary" sx={{ mb: 3 }}>
+              Métricas relativas às produções acadêmicas publicadas em
+              periódicos, acompanhando volume, distribuição e veículos de
+              publicação no período de <strong>{selectedLabel}</strong>.
+            </Typography>
+
+            <PeriodicosPanel
+              activeData={activePeriodicosData}
+              progPeriodicos={progPeriodicos}
               pLabel={programName}
               viewMode={viewMode}
             />

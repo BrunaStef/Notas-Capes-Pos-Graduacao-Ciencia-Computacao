@@ -1,9 +1,9 @@
 export interface Metadata {
   total_registros_computacao: number;
   anos_analisados: number[];
-  anos_disponiveis_esperados: number[];
+  anos_disponiveis_esperados?: number[];
   conceitos: number[];
-  escopo: {
+  escopo?: {
     areas: string[];
     conceitos_filtro: number[];
     periodo: [number, number];

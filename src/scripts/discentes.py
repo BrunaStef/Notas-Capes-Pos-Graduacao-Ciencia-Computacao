@@ -5,23 +5,12 @@ from pathlib import Path
 
 import pandas as pd
 
-# =====================================
-# 0. CONFIGURAÇÃO DE CAMINHOS
-# =====================================
-
-# Pasta onde está este script
 BASE_DIR = Path(__file__).resolve().parent
 
-# Arquivos Excel ficam na mesma pasta do script
 PADRAO_ARQUIVOS = str(BASE_DIR / "br-capes-colsucup-discentes-*.xlsx")
 
-# Pasta de saída também fica dentro da pasta do script
 SAIDA_DIR = BASE_DIR / "indicadores"
 SAIDA_DIR.mkdir(parents=True, exist_ok=True)
-
-# =====================================
-# 1. CARREGAMENTO ROBUSTO DOS ARQUIVOS
-# =====================================
 
 arquivos = glob.glob(PADRAO_ARQUIVOS)
 
@@ -60,10 +49,6 @@ if not dfs:
 
 df = pd.concat(dfs, ignore_index=True)
 
-# =====================================
-# 2. FILTRO COMPUTAÇÃO E LIMPEZA
-# =====================================
-
 areas_validas = [
     "CIÊNCIA DA COMPUTAÇÃO",
     "COMPUTAÇÃO",
@@ -74,23 +59,17 @@ df["NM_AREA_AVALIACAO"] = df["NM_AREA_AVALIACAO"].astype(str).str.strip().str.up
 
 computacao = df[df["NM_AREA_AVALIACAO"].isin(areas_validas)].copy()
 
-# Tratamento do Conceito
 computacao["CD_CONCEITO_PROGRAMA"] = pd.to_numeric(
     computacao["CD_CONCEITO_PROGRAMA"], errors="coerce"
 )
 computacao = computacao[computacao["CD_CONCEITO_PROGRAMA"].isin([3, 4, 5, 6, 7])].copy()
 computacao["CD_CONCEITO_PROGRAMA"] = computacao["CD_CONCEITO_PROGRAMA"].astype(int)
 
-# Tratamento do Ano Base
 computacao["AN_BASE"] = pd.to_numeric(computacao["AN_BASE"], errors="coerce")
 computacao = computacao.dropna(subset=["AN_BASE"]).copy()
 computacao["AN_BASE"] = computacao["AN_BASE"].astype(int)
 
 print(f"\nRegistros válidos de Computação (Discentes - Notas 3 a 7): {len(computacao):,}")
-
-# =====================================
-# 3. FUNÇÕES AUXILIARES E INDICADORES
-# =====================================
 
 def calcular_proporcao(df_dados, coluna_analise):
     df_aux = df_dados.dropna(subset=["CD_CONCEITO_PROGRAMA", coluna_analise]).copy()
@@ -122,16 +101,12 @@ def gerar_indicadores_discentes(df_base):
             "faixa_etaria": [],
         }
 
-    # 1. Distribuição de Grau (Mestrado vs Doutorado)
     grau = calcular_proporcao(df_base, "DS_GRAU_ACADEMICO_DISCENTE")
 
-    # 2. Situação Acadêmica
     situacao = calcular_proporcao(df_base, "NM_SITUACAO_DISCENTE")
 
-    # 3. Internacionalização
     nacionalidade = calcular_proporcao(df_base, "DS_TIPO_NACIONALIDADE_DISCENTE")
 
-    # 4. Tempo Médio de Titulação (Apenas Titulados)
     titulados = df_base[
         df_base["NM_SITUACAO_DISCENTE"].astype(str).str.strip().str.upper() == "TITULADO"
     ].copy()
@@ -147,7 +122,6 @@ def gerar_indicadores_discentes(df_base):
         .reset_index(name="MEDIA_MESES_TITULACAO")
     )
 
-    # 5. Tamanho Médio do Programa
     tamanho_programa = (
         df_base.groupby(["AN_BASE", "CD_PROGRAMA_IES", "CD_CONCEITO_PROGRAMA"])
         .size()
@@ -161,7 +135,6 @@ def gerar_indicadores_discentes(df_base):
         .reset_index(name="MEDIA_DISCENTES_POR_PROGRAMA")
     )
 
-    # 6. Faixa Etária
     faixa_etaria = calcular_proporcao(df_base, "DS_FAIXA_ETARIA")
 
     return {
@@ -173,9 +146,6 @@ def gerar_indicadores_discentes(df_base):
         "faixa_etaria": faixa_etaria.to_dict("records"),
     }
 
-# =====================================
-# 4. PREPARAÇÃO PARA ANÁLISE POR ANO E EXPORTAÇÃO
-# =====================================
 
 anos_desejados = list(range(2017, 2025))
 anos_presentes = sorted(computacao["AN_BASE"].dropna().unique().astype(int).tolist())
@@ -183,9 +153,6 @@ anos_presentes = sorted(computacao["AN_BASE"].dropna().unique().astype(int).toli
 csv_saida = SAIDA_DIR / "computacao_discentes_2017_2024.csv"
 computacao.to_csv(csv_saida, index=False, encoding="utf-8-sig")
 
-# =====================================
-# 5. CONSTRUÇÃO DO JSON E SALVAMENTO
-# =====================================
 
 indicadores_discentes = {
     "metadata": {

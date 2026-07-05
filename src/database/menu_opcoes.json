@@ -79,10 +79,6 @@
     {
       "cd_programa": "33011010015P6",
       "nm_programa": "COMPUTAÇÃO AERONÁUTICA"
-    },
-    {
-      "cd_programa": "33011010015P6",
-      "nm_programa": "COMPUTAÇÃO DE MISSÃO CRÍTICA"
     }
   ],
   "MACKENZIE": [
@@ -157,6 +153,10 @@
   ],
   "UEFS": [
     {
+      "cd_programa": "28001010061P1",
+      "nm_programa": "CIÊNCIA DA COMPUTAÇÃO - UFBA - UNIFACS - UEFS"
+    },
+    {
       "cd_programa": "28002016020P6",
       "nm_programa": "CIÊNCIA DA COMPUTAÇÃO"
     }
@@ -213,10 +213,6 @@
     {
       "cd_programa": "28001010061P1",
       "nm_programa": "CIÊNCIA DA COMPUTAÇÃO"
-    },
-    {
-      "cd_programa": "28001010061P1",
-      "nm_programa": "CIÊNCIA DA COMPUTAÇÃO - UFBA - UNIFACS - UEFS"
     },
     {
       "cd_programa": "28001010090P1",
@@ -403,10 +399,6 @@
     {
       "cd_programa": "23001011071P0",
       "nm_programa": "ENGENHARIA DE SOFTWARE"
-    },
-    {
-      "cd_programa": "23001011071P0",
-      "nm_programa": "TECNOLOGIA DA INFORMAÇÃO"
     }
   ],
   "UFRPE": [
@@ -496,6 +488,10 @@
     }
   ],
   "UNIFACS": [
+    {
+      "cd_programa": "28001010061P1",
+      "nm_programa": "CIÊNCIA DA COMPUTAÇÃO"
+    },
     {
       "cd_programa": "28013018005P5",
       "nm_programa": "SISTEMAS E COMPUTAÇÃO"
